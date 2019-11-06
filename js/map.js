@@ -24,10 +24,10 @@ class infoBox {
 
 // Class for creating map
 class Map {
-    constructor(data) {
-        
-        this.data = data;
+    constructor(data, mapData) {  
 
+        this.data = data;
+        this.mapData = mapData;
         this.projection = d3.geoAlbersUsa().scale(1280).translate([480, 300]);
 
     }
@@ -35,7 +35,7 @@ class Map {
     // Create map of the US
     drawMap() {
 
-        let us = this.data;
+        let us = this.mapData;
         let map = d3.select("#map-view").append('svg').attr('id', 'map');
         let path = d3.geoPath();
 
@@ -60,24 +60,36 @@ class Map {
     
         map.select('g').attr('transform', 'scale(1.2, 1.2)');     
 
-        console.log(us);
-
-    }
-
-
-    // Draw marker on the map
-    drawPlace(coords) {
-
-        // Convert coordinates to pixel location
-        let pixelCoords = this.projection([coords[1], coords[0]]);
- 
-        let place = d3.select('.states').append('circle')
-            .attr('r', '6')
-            .attr('cx', pixelCoords[0].toString())
-            .attr('cy', pixelCoords[1].toString())
+        // Draw companies from coordinates in partial_company_coords.csv
+        let that = this;
+        d3.select('.states').selectAll('circle')
+            .data(this.data['company-coordinates'])
+            .enter()
+            .append('circle')
+            .attr('r', '3')
+            .attr('cx', d => that.projection([d.lng, d.lat])[0].toString())
+            .attr('cy', d => that.projection([d.lng, d.lat])[1].toString())
             .attr('style', 'fill: green');
 
     }
+
+
+    // // Draw marker on the map
+    // drawPlace(coords) {'circle'
+
+    //     // Convert coordinates to pixel location
+    //     let pixelCoords = this.projection([coords[1], coords[0]]);
+
+    //     let testCoords = this.projection([coords[1]]);
+    //     console.log(this.projection)
+ 
+    //     let place = d3.select('.states').append('circle')
+    //         .attr('r', '6')
+    //         .attr('cx', pixelCoords[0].toString())
+    //         .attr('cy', pixelCoords[1].toString())
+    //         .attr('style', 'fill: green');
+
+    // }
 
     // Draw links between places
     drawLink(coords1, coords2) {
