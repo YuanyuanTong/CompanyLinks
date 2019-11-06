@@ -12,8 +12,8 @@ loadData().then(data => {
         let chord = new Chord;
         chord.drawChord();
 
-        // let portland = [45.6, -123]
-        // map.drawPlace(portland)
+        // Find all unique sectors
+        map.findSectors();
     });
 });
 
@@ -35,9 +35,12 @@ async function loadFile(file) {
 }
 
 async function loadData() {
-    let company_coords = await loadFile('data/partial_company_coordinates.csv');
+    let company_data = await loadFile('data/partial_company_coordinates.csv');
+    // let company_info = await loadFile('data/f_firm_prop.csv')
+
 
     return {
-        'company-coordinates': company_coords
+        'company-data': company_data,
+        // 'company-info': company_info
     };
 }

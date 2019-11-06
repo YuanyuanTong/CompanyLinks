@@ -2,9 +2,7 @@
 // Class for building markers
 class Marker {
     constructor(data) {
-
         this.data = data;
-
     }
 }
 
@@ -25,11 +23,9 @@ class infoBox {
 // Class for creating map
 class Map {
     constructor(data, mapData) {  
-
         this.data = data;
         this.mapData = mapData;
         this.projection = d3.geoAlbersUsa().scale(1280).translate([480, 300]);
-
     }
 
     // Create map of the US
@@ -63,7 +59,7 @@ class Map {
         // Draw companies from coordinates in partial_company_coords.csv
         let that = this;
         d3.select('.states').selectAll('circle')
-            .data(this.data['company-coordinates'])
+            .data(this.data['company-data'])
             .enter()
             .append('circle')
             .attr('r', '3')
@@ -73,23 +69,18 @@ class Map {
 
     }
 
-
-    // // Draw marker on the map
-    // drawPlace(coords) {'circle'
-
-    //     // Convert coordinates to pixel location
-    //     let pixelCoords = this.projection([coords[1], coords[0]]);
-
-    //     let testCoords = this.projection([coords[1]]);
-    //     console.log(this.projection)
- 
-    //     let place = d3.select('.states').append('circle')
-    //         .attr('r', '6')
-    //         .attr('cx', pixelCoords[0].toString())
-    //         .attr('cy', pixelCoords[1].toString())
-    //         .attr('style', 'fill: green');
-
-    // }
+    // Figure out all the sectors
+    findSectors() {
+        let sectorArray = []
+        let datArray = this.data['company-data'];
+        for (let company of datArray) {
+            let sector = company['sector'];
+            if (!sectorArray.includes(sector)) {
+                sectorArray.push(sector);
+            }
+        }
+        console.log(sectorArray);
+    }
 
     // Draw links between places
     drawLink(coords1, coords2) {
@@ -103,6 +94,16 @@ class Map {
 
     // Resize map objects on zoom 
     zoomResize(mapObject) {
+
+    }
+
+    // Display by sector
+    displaySector() {
+
+    }
+
+    // Collapse sectors
+    collapseSector() {
 
     }
 
