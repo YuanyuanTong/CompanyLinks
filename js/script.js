@@ -9,8 +9,8 @@ loadData().then(data => {
         let map = new Map(data, usData);
         map.drawMap();
 
-        let chord = new Chord;
-        chord.drawChord();
+        // let chord = new Chord;
+        // chord.drawChord();
 
         // Find all unique sectors
         map.findSectors();

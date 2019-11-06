@@ -20,12 +20,29 @@ class infoBox {
     }
 }
 
+// Class for various map filters and options
+class MapOptions {
+    constructor(options) {
+        this.options = options;
+    }
+    addDropdownItem(text) {
+        let dropdown = document.getElementById('dropdown');
+        dropdown.options[dropdown.options.length] = new Option(text);
+    }
+    populateDropdown() {
+        for (let i = 0; i < this.options.length; i++) {
+            this.addDropdownItem(this.options[i]);
+        }      
+    }
+}
+
 // Class for creating map
 class Map {
     constructor(data, mapData) {  
         this.data = data;
         this.mapData = mapData;
         this.projection = d3.geoAlbersUsa().scale(1280).translate([480, 300]);
+        this.mapOptions;
     }
 
     // Create map of the US
@@ -65,7 +82,7 @@ class Map {
             .attr('r', '3')
             .attr('cx', d => that.projection([d.lng, d.lat])[0].toString())
             .attr('cy', d => that.projection([d.lng, d.lat])[1].toString())
-            .attr('style', 'fill: green');
+            .attr('class', 'markers');
 
     }
 
@@ -79,7 +96,9 @@ class Map {
                 sectorArray.push(sector);
             }
         }
-        console.log(sectorArray);
+        
+        this.mapOptions = new MapOptions(sectorArray);
+        this.mapOptions.populateDropdown();
     }
 
     // Draw links between places
