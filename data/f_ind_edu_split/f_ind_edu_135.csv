@@ -1,0 +1,1585 @@
+name,name_id,edu_type,university,university_id,qualification,award_date
+Brad Kilbey,2211545,Education,Marymount University,94922,MBA,2003-01-01
+Brad Kilbey,2211545,Education,University of Denver Daniels College of Business,753221,Leadership Program,2014-01-01
+David Simantob,2211547,Education,Brown University,60224,BA,1988-01-01
+David Simantob,2211547,Education,University of California Los Angeles (UCLA),62218,JD,1991-01-01
+Brian Daniels,2211548,Education,University of Louisville,62424,MBA,2014-01-01
+Brian Daniels,2211548,Education,Leeds School of Business University of Colorado,1250402,BS,2007-01-01
+Katie Tucker,2211554,Education,Vanderbilt University,62843,BS,1993-01-01
+Katie Tucker,2211554,Education,Harvard Graduate School of Education,92832,Masters Degree,1994-01-01
+Tommy Spitaletto,2211555,Education,Baylor University,60138,BA (Cum Laude),1992-01-01
+Tommy Spitaletto,2211555,Education,University of Texas School of Law Austin,533430,JD,1995-01-01
+Ben Taylor,2211561,Education,University of Utah,62764,MS,2010-01-01
+Ben Taylor,2211561,Education,University of Nevada Las Vegas (UNLV),854067,BS,2007-01-01
+Randy Brudzinski,2211562,Education,Virginia Polytechnic Institute and State University (Virginia Tech),110197,Graduated,1990-01-01
+Jeff Friedman,2211563,Education,Dartmouth College,60488,AB,2010-01-01
+Scott Ponder,2211565,Education,State University of New York at New Paltz,250472,BS,2000-01-01
+Scott Ponder,2211565,Professional Qualifications,Association of Certified Anti-Money Laundering Specialists (ACAMS),1106457,Certified Anti Money Laundering Specialist,2017-05-01
+Dan Shulman,2211567,Education,Northwestern University,61494,BA,1996-01-01
+Dan Shulman,2211567,Education,Loyola University Chicago School of Law,2937645,JD,1999-01-01
+Aviva Stein,2211570,Education,Goucher College,81458,BA (Cum Laude),2002-01-01
+Aviva Stein,2211570,Education,Maurice A Deane School of Law Hofstra University,2295973,JD,2005-01-01
+Eric Bruesewitz,2211575,Education,University of Texas at Austin,62742,MS,2001-01-01
+Eric Bruesewitz,2211575,Education,Michigan Technological University,80851,BS,1999-01-01
+Betsy Corbin,2211579,Education,Wheaton College,78445,BA,2011-01-01
+Lori Hogan,2211582,Education,University of Nebraska at Omaha,108137,Graduated,
+Tracey Keenan,2211584,Education,Sawyer Business School Suffolk University,2683251,MBA,
+Tracey Keenan,2211584,Education,Stonehill College,79010,BA,
+Mike Takacs,2211585,Education,DeSales University (Formerly known as Allentown College),97587,BA (Cum Laude),1989-01-01
+Mike Takacs,2211585,Education,Widener University School of Law,795634,JD (Cum Laude),1996-01-01
+Sheila Tarabour,2211586,Education,Ithaca College,60992,BA (Cum Laude),1974-01-01
+Sheila Tarabour,2211586,Education,Brooklyn Law School,63628,JD (magna Cum Laude),1982-01-01
+Wendy Testa,2211588,Education,Pennsylvania State University (Penn State University),61582,BA,1992-01-01
+Wendy Testa,2211588,Education,Widener University School of Law,795634,JD,1997-01-01
+John Below,2211589,Education,Oakland University,61514,BA (Hons),1990-01-01
+John Below,2211589,Education,University of Detroit Mercy School of Law,482478,JD (magna Cum Laude),1993-01-01
+Jim Thurston,2211592,Education,University of Pennsylvania,62579,BA,1984-01-01
+Jim Thurston,2211592,Education,Marquette University Law School,1204220,JD (magna Cum Laude),1989-01-01
+Jim Thurston,2211592,Education,Yale Law School,63066,Studied,1989-01-01
+Tony Martin,2211596,Education,Villanova University,62858,MBA,2012-01-01
+Tony Martin,2211596,Education,Wichita State University,62949,BA,
+Ethan Deas,2211598,Education,University of Nebraska at Omaha,108137,MA,2008-01-01
+Jackie Froendt,2211601,Professional Qualifications,Society for Human Resource Management (SHRM),116531,Certified,2019-06-01
+Jackie Froendt,2211601,Education,International Foundation of Employee Benefits Plans (IFEBP),129207,Certified Employee Benefit Specialist,
+Jackie Froendt,2211601,Professional Qualifications,Human Resource Certification Institute Inc (HRCI) (HR Certification Institute),129257,Professional in Human Resources (PHR),2016-12-01
+Tanya Morrison,2211602,Education,Creighton University,79030,BS,
+Tanya Morrison,2211602,Education,Creighton University School of Law,484478,JD (summa Cum Laude),2003-01-01
+Tanya Morrison,2211602,Professional Qualifications,International Association of Privacy Professionals (IAPP),795636,Certified,
+David Yehle,2211606,Education,State University of New Jersey Rutgers (Rutgers University),100431,BS,1987-01-01
+Rahul Kar,2211608,Education,Texas A&M University,62040,MS,2005-01-01
+Rahul Kar,2211608,Education,Massachusetts Institute of Technology (MIT),40436,MS,2010-01-01
+Tae Um,2211609,Education,Oberlin College,82618,BA,1992-01-01
+Tae Um,2211609,Education,Albany Law School Union University,661893,JD,1998-01-01
+Anemona Turcu,2211610,Education,Harvard Business School,63013,Executive Education Program,2014-01-01
+Anemona Turcu,2211610,Education,Richard Ivey School of Business University of Western Ontario (Ivey Business School),485046,Completed,2012-01-01
+Anemona Turcu,2211610,Education,London Metropolitan University,790871,Bachelor's Degree,2002-01-01
+Anemona Turcu,2211610,Education,McGill University (Canada),61248,Studied,2013-01-01
+Gavin White,2211611,Education,University of South Florida (USF),62670,BA,1997-01-01
+Gavin White,2211611,Education,Fordham University School of Law,106197,JD,2001-01-01
+Paul White,2211612,Education,Brigham Young University,60212,BA,1985-01-01
+Paul White,2211612,Education,SJ Quinney College of Law University of Utah,1550287,JD,1989-01-01
+Brian Whiteman,2211614,Education,Fordham University,60696,BS (magna Cum Laude),1984-01-01
+Brian Whiteman,2211614,Education,St. John's University School of Law,735642,JD,1993-01-01
+Kathleen Wilkinson,2211617,Education,Charles Widger School of Law Villanova University (Villanova University School of Law prior to 01/2016),466232,JD,1981-01-01
+Kathleen Wilkinson,2211617,Education,Kean University,488144,BS (summa Cum Laude),1978-01-01
+Jeff Martino,2211618,Education,Oklahoma City University,94362,BA,1996-01-01
+Jeff Martino,2211618,Education,City University of New York School of Law (The),1680058,JD,2002-01-01
+Jeff Martino,2211618,Education,University of Nebraska,62511,MPA,1999-01-01
+Lisa Wilson,2211623,Education,Trinity University San Antonio Texas,109566,BA,1996-01-01
+Lisa Wilson,2211623,Education,University of Kentucky College of Law,537423,JD,1999-05-01
+Lisa Wilson,2211623,Professional Qualifications,Legal Project Management Institute (LPMI),2431012,Certified,
+Saleem Cheeks,2211624,Education,State University of New York Oswego,61946,BA,2001-01-01
+Steven Young,2211626,Education,Binghamton University,61944,BA,1975-01-01
+Steven Young,2211626,Education,St. John's University School of Law,735642,JD,1978-01-01
+Jon Roiter,2211628,Education,Columbia University,60434,BA,
+Doctor Mark Nitzberg,2211629,Education,University of Oregon,62552,BA,1983-01-01
+Doctor Mark Nitzberg,2211629,Education,Harvard University,63830,PhD,1991-01-01
+Doctor Mark Nitzberg,2211629,Education,Massachusetts Institute of Technology (MIT),40436,Bachelor's Degree,1982-01-01
+Prab Chawla,2211636,Education,Northwestern University,61494,BA (Hons),
+Prab Chawla,2211636,Education,Harvard Business School,63013,MBA,
+Amanda Peters,2211644,Education,Southern Alberta Institute of Technology,662442,Bachelor's Degree,
+Amanda Peters,2211644,Professional Qualifications,Canadian Institute of Chartered Accountants (CICA),56019,Certified General Accountant,
+Amanda Peters,2211644,Professional Qualifications,Canadian Institute of Chartered Accountants (CICA),56019,CPA,
+Tom Zajkowski,2211651,Professional Qualifications,Ohio Society of Certified Public Accountants (OSCPA),46786,CPA,
+Tom Zajkowski,2211651,Education,University of Toledo,62751,MBA,2001-01-01
+Tom Zajkowski,2211651,Education,Kent State University,61063,BBA,1991-01-01
+Abbey Runner,2211659,Education,Union College,62108,BS,2010-01-01
+Nora Turek,2211667,Education,University of Pennsylvania,62579,Jerome Fisher Program,
+Nora Turek,2211667,Education,Wharton School University of Pennsylvania,64966,BS,2013-01-01
+Nora Turek,2211667,Education,University of Pennsylvania School of Engineering and Applied Science,1234863,BS,2013-01-01
+Bryan Bednarczyk,2211683,Education,York College of Pennsylvania,1054427,BS,2007-01-01
+Bryan Bednarczyk,2211683,Education,York College of Pennsylvania,1054427,MBA,2009-01-01
+Bryan Bednarczyk,2211683,Professional Qualifications,Procore Technologies Inc,2173056,Certified,2018-05-01
+Caroline Mackey,2211688,Professional Qualifications,Society for Human Resource Management (SHRM),116531,SHRM Certified Professional (SHRM-CP),
+Caroline Mackey,2211688,Education,Towson University,743199,Graduated,
+Glenn Leonard,2211700,Education,Unknown Organisation,0,Airline Transport Pilot Certificate (ATP),
+Glenn Leonard,2211700,Education,University of Delaware,79387,Degree,
+Bruce Kimble,2211727,Education,University of Southern California (USC),62673,MSEE,
+Bruce Kimble,2211727,Education,California Polytechnic State University San Luis Obispo (Cal Poly San Luis Obispo),60249,BS,
+Kelly Kay,2211728,Education,University of San Francisco,62648,Bachelor's Degree,1982-01-01
+Kelly Kay,2211728,Education,University of Southern California Marshall School of Business,1260970,MBA,1989-01-01
+Loran Kaminsky,2211729,Education,Menlo College,131122,Graduated,
+Loran Kaminsky,2211729,Education,Golden Gate University,60763,MBA,
+Alexis Hennessy,2211730,Education,UCLA Anderson School of Management,2460934,MBA,2014-01-01
+Alexis Hennessy,2211730,Education,University of California,63186,BA,2005-01-01
+Hiro Higuma,2211731,Education,Carnegie Mellon University,41519,BS,1991-01-01
+Hiro Higuma,2211731,Education,Carnegie Mellon University,41519,MS,1994-01-01
+Amy Gupta,2211732,Education,University of Texas at Austin,62742,Masters Degree,
+Amy Gupta,2211732,Education,University of Florida,62323,BS,
+Michael Flagg,2211733,Education,University of Virginia,62777,Graduated,
+Nicholas DeMagistris,2211734,Education,Eugene M Isenberg School of Management University of Massachusetts,490877,BBA,2007-01-01
+Nicholas DeMagistris,2211734,Professional Qualifications,FW Olin Graduate School of Business Babson College,1334407,MBA,2014-01-01
+Chantal Clavier,2211735,Education,University of Leeds,62407,Bachelor's Degree,
+Chris Careccia,2211736,Education,University of Florida,62323,BS,1996-01-01
+Sam Burman,2211737,Education,Oxford Brookes University,61560,BA (Hons),2006-01-01
+Niels Bentzen,2211738,Education,Institut Europeen d'Administration des Affaires (INSEAD) (European Institute of Business Administration),60651,Certified,
+Niels Bentzen,2211738,Education,Institut Europeen d'Administration des Affaires (INSEAD) (European Institute of Business Administration),60651,Executive Program,
+Niels Bentzen,2211738,Education,Handelshjskolen i Kbenhavn (Copenhagen Business School),63304,Bachelor's Degree,
+Niels Bentzen,2211738,Education,Handelshjskolen i Kbenhavn (Copenhagen Business School),63304,Diploma,
+Niels Bentzen,2211738,Education,International Institute for Management Development (IMD),41177,Certified,
+Elmer Velasquez,2211740,Education,Ateneo de Manila University,60092,BS,
+Elmer Velasquez,2211740,Education,Ateneo de Manila University,60092,Studied,
+Elmer Velasquez,2211740,Education,Columbia Business School,63118,MBA,
+Jason Schmucker,2211741,Education,Wharton School University of Pennsylvania,64966,BS,
+Camilla Reventlow,2211743,Education,Danmarks Tekniske Universitet (Technical University of Denmark),62009,MS,
+Max Randria,2211744,Education,University of Tasmania,537968,Bachelor's Degree,2004-01-01
+Francis Nemia,2211745,Education,Boston College,60193,BS,1977-01-01
+Francis Nemia,2211745,Education,Kellogg School of Management Northwestern University,77878,Attended,
+Francis Nemia,2211745,Education,Information Systems Audit and Control Association Inc (ISACA),622969,Certified in Risk and Information Systems Control (CRISC),2019-01-01
+Francis Nemia,2211745,Education,Information Systems Audit and Control Association Inc (ISACA),622969,Certified Information Systems Auditor (CISA),2019-01-01
+Francis Nemia,2211745,Education,Gabelli School of Business Fordham University,2478128,MBA,1979-01-01
+Jerry Bolduc,2211746,Education,Merrimack College,81850,BS,1977-01-01
+Jerry Bolduc,2211746,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,Certified Public Accountant,
+Julia Penrose,2211747,Education,Hamilton College,60814,Bachelor's Degree,2009-01-01
+Bob Cowan,2211748,Education,Bentley University (Bentley College prior to 10/2008),60157,BS,1980-01-01
+Bob Cowan,2211748,Education,Bentley University (Bentley College prior to 10/2008),60157,Master of Science (MOS),1985-01-01
+Bob Cowan,2211748,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,Certified Public Accountant,
+Henrik Ottosson,2211749,Education,Chalmers Tekniska Hgskola (Chalmers University of Technology),60326,MSc,1998-01-01
+Melissa Edwards,2211750,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,Certified Public Accountant,
+Melissa Edwards,2211750,Education,Merrimack College,81850,BS,2002-01-01
+Josh Pfeil,2211751,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,Certified Public Accountant,
+Josh Pfeil,2211751,Education,Western New England University (Formerly known as Western New England College),1822031,BS,1999-01-01
+Stephanie Mansfield,2211752,Education,University of Nottingham,625151,Bachelor's Degree (Hons),
+Vishal Shah,2211755,Education,Institut Europeen d'Administration des Affaires (INSEAD) (European Institute of Business Administration),60651,MBA,2002-01-01
+Vishal Shah,2211755,Education,Indian Institute of Technology (IIT) Bombay,567548,BTech,1998-01-01
+Jason Kranz,2211757,Education,Washington State University (WSU),62894,Bachelor's Degree,1994-01-01
+Darren Cinti,2211759,Education,University of Connecticut,62265,Bachelor's Degree,1997-01-01
+Sam Bell,2211760,Education,University of Edinburgh,60610,Masters Degree,
+Tom Thackeray,2211762,Education,Judge Business School (Judge Institute of Management Studies prior to 09/2005) Cambridge University,44051,General Management Program,2016-01-01
+Tom Thackeray,2211762,Education,University of Bristol,64921,BS,2005-01-01
+Mark Zorbas,2211763,Education,Unknown Organisation,0,Post Graduate Diploma,1997-01-01
+Mark Zorbas,2211763,Education,Murdoch University,638345,Bachelor's Degree,1994-01-01
+Mark Zorbas,2211763,Education,Stephen M Ross School of Business University of Michigan (University of Michigan Business School prior to 09/2004),747221,Executive Program,2016-01-01
+Mark Zorbas,2211763,Education,University of Western Australia,62793,Masters Degree,2004-01-01
+Mark Watt,2211764,Education,Stellenbosch University,62685,Degree,1998-01-01
+Scott Tempel,2211765,Education,University of Colorado,63056,Masters Degree,
+Scott Tempel,2211765,Education,Kalamazoo College (K College),82887,BA,1974-01-01
+Alistair Reily,2211767,Professional Qualifications,British Psychological Society,550798,Chartered Psychologist,
+Alistair Reily,2211767,Education,University of Manchester,62441,MSc,2002-01-01
+Alistair Reily,2211767,Education,Manchester Metropolitan University,61217,BSc (Hons),1999-01-01
+Anna Minto,2211768,Education,McMaster University,61250,BSc (summa cum laude),1988-01-01
+Anna Minto,2211768,Education,University of Western Ontario,62795,BCom,1987-01-01
+Anna Minto,2211768,Education,Harvard Business School,63013,MBA (Distinction),1993-01-01
+Holly McLeod,2211770,Education,College of Charleston (CofC),112417,BS,1997-01-01
+Holly McLeod,2211770,Professional Qualifications,International Coaching Federation (ICF),2556284,Associate Certified Coach (ACC),
+Brian Lowenthal,2211772,Education,Roosevelt University,63519,MBA,1983-01-01
+Brian Lowenthal,2211772,Professional Qualifications,Human Resource Certification Institute Inc (HRCI) (HR Certification Institute),129257,Senior Professional Human Resources Certification (SPHR),
+Brian Lowenthal,2211772,Education,Illinois State University,60905,BS,1977-01-01
+Adam Howe,2211773,Education,University of Exeter,62301,BA,2005-01-01
+Adam Howe,2211773,Education,University of Exeter,62301,MSc (Hons),2006-01-01
+Nik Khetarpal,2211774,Education,Leonard N Stern School of Business New York University,42226,BS (cum laude),2007-01-01
+Henrik Andersen,2211775,Education,Kbenhavns Universitet (University of Copenhagen),62266,MSc,1999-01-01
+Sherry Duda,2211776,Education,Ohio State University (OSU),61523,BA,
+Sherry Duda,2211776,Education,Ohio State University Fisher College of Business,466838,Masters Degree,
+Scott Duhamel,2211777,Education,Unknown Organisation,0,Certified,
+Scott Duhamel,2211777,Education,Worcester Polytechnic Institute (WPI),62969,Certified,
+Scott Duhamel,2211777,Education,Wentworth Institute of Technology,90142,Degree,
+Scott Duhamel,2211777,Education,Northern Essex Community College (NECC),1609767,Degree,
+Priya Vyas,2211779,Education,Imperial College London (The Imperial College of Science Technology and Medicine),63104,MBA,1999-01-01
+Priya Vyas,2211779,Education,Gokhale Institute of Politics & Economics,1268018,MA,1992-01-01
+Michael Costas,2211780,Education,Pepperdine University,61585,BS,1989-01-01
+Michael Costas,2211780,Professional Qualifications,Bechtel Group Inc,67106,Certified,
+David Clary,2211781,Education,University of North Carolina Kenan Flagler Business School,82925,BS,
+David Clary,2211781,Education,Rotterdam School of Management Erasmus University (RSM),88586,MBA (Hons),
+Herv Borensztejn,2211782,Education,cole Nationale Superieure des Mines de Paris (ENSMP) (Mines ParisTech),63071,Masters Degree,1985-01-01
+Herv Borensztejn,2211782,Education,cole Nationale Superieure des Mines de Paris (ENSMP) (Mines ParisTech),63071,PhD,1992-01-01
+Dennis Alimena,2211784,Education,Temple University,62035,PhD,1991-01-01
+Dennis Alimena,2211784,Education,University of Pennsylvania,62579,MA,1981-01-01
+Dennis Alimena,2211784,Education,Grove City College,82705,BA,1976-01-01
+Brian Bogen,2211786,Education,University of Washington,62785,BA,1985-01-01
+Brian Bogen,2211786,Education,Albers School of Business and Economics Seattle University,864026,Attended,1988-01-01
+Brian Bogen,2211786,Education,Stanford University,61935,Stanford Executive Program,2005-01-01
+Allison Fulenwider,2211787,Education,Oxford University,61561,Degree,
+Allison Fulenwider,2211787,Education,McDonough School of Business Georgetown University,664335,BS (magna Cum Laude),
+Natalie Gibralter,2211788,Education,University College Oxford University,63222,BA,
+Craig Cortright,2211789,Education,University of Denver,62276,BS,1999-01-01
+Craig Cortright,2211789,Education,Goizueta Business School Emory University,104642,MBA,2005-01-01
+Ankur Patel,2211790,Education,University of Pennsylvania,62579,BBA,1998-01-01
+Ankur Patel,2211790,Professional Qualifications,CFA Institute (Formerly known as Association of Investment Management and Research (AIMR) (USA)),260936,CFA,2006-01-01
+Ankur Patel,2211790,Education,Darden School of Business University of Virginia (Formerly known as Colgate Darden School of Business University of Virginia),53191,MBA,2003-01-01
+Kate Thorneloe,2211791,Education,University of Virginia,62777,BA,
+Kate Thorneloe,2211791,Education,UCLA Anderson School of Management,2460934,MBA,2007-01-01
+Ralph Zhang,2211792,Education,Richard Ivey School of Business University of Western Ontario (Ivey Business School),485046,BA (Hons),2012-01-01
+Mark Kratz,2211800,Education,Villanova University,62858,Certified Six Sigma Black Belt (CSSBB),2008-01-01
+Mark Kratz,2211800,Education,University of Central Florida (UCF),80620,MBA,2009-01-01
+Mark Kratz,2211800,Education,Slippery Rock University,82943,Bachelor's Degree,2006-01-01
+Ben Chowaniec,2211805,Professional Qualifications,UNITED TECHNOLOGIES CORP (UTC),32161,Certified,
+Ben Chowaniec,2211805,Education,Central Connecticut State University (CCSU),79778,BS,
+Ben Chowaniec,2211805,Education,Central Connecticut State University (CCSU),79778,MS,
+Ben Chowaniec,2211805,Professional Qualifications,Greater New Haven State Technical College,1379268,Associate Degree,
+Jason Osborn,2211808,Education,Hamilton College,60814,BA (summa cum laude),1998-01-01
+Jason Osborn,2211808,Education,Notre Dame Law School University of Notre Dame,642321,JD (magna Cum Laude),2001-01-01
+Jim Oulton,2211810,Professional Qualifications,Chartered Institute of Internal Auditors,2034631,Continuing Professional Education (CPE),
+Jim Oulton,2211810,Education,University of Leeds,62407,BA (Hons),
+Peter Price,2211812,Education,University of St Thomas,80829,BA (Cum Laude),1997-01-01
+Peter Price,2211812,Education,Northwestern University Pritzker School of Law,638744,JD (Cum Laude),2009-01-01
+Kevin Ranlett,2211813,Education,University of Texas at Austin,62742,BA (Hons),2001-01-01
+Kevin Ranlett,2211813,Education,University of Chicago Law School,1283365,JD (Hons),2004-01-01
+Michael Regan,2211814,Education,Pembroke College Oxford University,770174,Studied,1977-01-01
+Melissa Richards,2211815,Education,University of California Davis,62216,Graduated,1984-01-01
+Melissa Richards,2211815,Education,University of San Francisco,62648,JD,1988-01-01
+Melissa Richards,2211815,Professional Qualifications,Mortgage Bankers Association of America (MBA),78592,Certified Mortgage Banker,2009-01-01
+Tidiane Barry,2211817,Education,Pittsburg State University,61595,MBA,2002-01-01
+Tidiane Barry,2211817,Education,Universit du Qubec  Montral (UQAM),592717,Bachelor's Degree,1999-01-01
+Thais Rodrigues,2211818,Education,Pontifcia Universidade Catlica do Rio de Janeiro (Pontifical Catholic University of Rio de Janeiro),1040434,Studied,
+Thais Rodrigues,2211818,Education,Universidade do Estado do Rio de Janeiro,1044642,Certified,2004-01-01
+Thais Rodrigues,2211818,Education,Universidade do Estado do Rio de Janeiro,1044642,LLB,2004-01-01
+Thais Rodrigues,2211818,Education,Brazilian Institute of Financial Executives (IBEF),1044906,Studied,
+Thais Rodrigues,2211818,Education,Pontifcia Universidade Catlica de Minas Gerais (PUC Minas),1140814,Studied,
+Thais Rodrigues,2211818,Professional Qualifications,Deloitte Touche Tohmatsu (Brazil),1750574,Studied,
+Thais Rodrigues,2211818,Education,New York University (NYU),61424,Studied,2017-01-01
+Alessandra Abate,2211819,Education,Libera Universit Internazionale degli Studi Sociali (Luiss Guido Carli University),38791,MBA (Hons),1999-01-01
+Alessandra Abate,2211819,Education,Universit degli Studi di Roma La Sapienza (La Sapienza University of Rome),62703,Degree (Hons),1997-01-01
+Alessandra Abate,2211819,Professional Qualifications,MMS Worldwide Institute BV (The),2912802,Certified,
+Mina Ames,2211822,Education,University of Portsmouth,62605,BA (Hons),1994-01-01
+Mina Ames,2211822,Education,Macquarie Graduate School of Management,638969,MBA,2006-01-01
+Keith Anderson,2211825,Education,Bucknell University,60229,BA,1974-01-01
+Keith Anderson,2211825,Education,Haas School of Business University of California Berkeley,757832,MBA,1978-01-01
+Mrio Saadi Lima,2211827,Education,Pontifcia Universidade Catlica de So Paulo (PUC-SP),1012649,MA,2014-01-01
+Mrio Saadi Lima,2211827,Education,Fundacao Getulio Vargas (Getulio Vargas Foundation),1045554,Bachelor's Degree,2010-01-01
+Mrio Saadi Lima,2211827,Education,Universidade de So Paulo (University of Sao Paulo),1048086,PhD,2018-01-01
+Anthony Armstrong,2211832,Education,University of New South Wales,62524,MComm,1982-01-01
+Anthony Armstrong,2211832,Education,University of Sydney,62715,BEc,1980-01-01
+Jay Shah,2211833,Education,Institute of Chartered Accountants of India (ICAI),125427,Chartered Accountant,
+Jay Shah,2211833,Professional Qualifications,CFA Institute (India),2714400,CFA,
+Jay Shah,2211833,Education,Weatherhead School of Management Case Western Reserve University,85307,MBA,2001-01-01
+Jay Shah,2211833,Education,Sydenham College of Commerce & Economics,875065,BCom,
+Pankaj Arora,2211836,Education,Institute of Chartered Accountants of India (ICAI),125427,Chartered Accountant,1999-01-01
+Pankaj Arora,2211836,Education,Shri Ram College of Commerce University of Delhi,921305,BCom (Hons),1996-01-01
+Pam Attinger,2211838,Education,Kellogg School of Management Northwestern University,77878,MBA,1999-01-01
+Pam Attinger,2211838,Education,Miami University Ohio,61276,BS,1993-01-01
+Beatrice Ballini,2211840,Education,Massachusetts Institute of Technology (MIT) Sloan School of Management,63283,MBA,1986-01-01
+Beatrice Ballini,2211840,Education,Massachusetts Institute of Technology (MIT),40436,Masters Degree,1984-01-01
+Beatrice Ballini,2211840,Education,Politecnico di Milano (Milan Polytechnic),80461,Laurea (summa cum laude),1983-01-01
+Antony Beaumont,2211848,Education,Royal Military Academy Sandhurst (RMAS),730229,Graduated,
+Antony Beaumont,2211848,Education,Durham University,45641,BA (Hons),
+Thomas Becker,2211852,Education,Unknown Organisation,0,Studied,
+Josh Feldman,2211855,Education,Stanford University Graduate School of Business,67360,MBA,
+Josh Feldman,2211855,Education,University of California Berkeley,62215,BA,
+Stuart Mercier,2211858,Education,Bishop's University,60180,BA,
+Stuart Mercier,2211858,Education,University of Hong Kong,62359,MBA,2011-01-01
+Stuart Mercier,2211858,Education,London Business School,61171,MBA,2011-01-01
+John LaDien,2211862,Education,Harvard Business School,63013,MBA,2019-01-01
+John LaDien,2211862,Education,Wharton School University of Pennsylvania,64966,BS,2012-01-01
+Bruno Bolzan,2211863,Education,Kellogg School of Management Northwestern University,77878,MBA,1993-01-01
+Bruno Bolzan,2211863,Education,Institut Suprieur du Commerce (ISC),585920,BA,1987-01-01
+Hannah Brazier,2211865,Education,Durham University,45641,BA,2001-01-01
+Ernie Brittingham,2211866,Education,Loyola University Maryland,1714053,BA,1994-01-01
+Ernie Brittingham,2211866,Education,Loyola University Maryland,1714053,MBA,2000-01-01
+Antoinette Switzer,2211868,Education,Dublin City University,60544,BBS (Bachelor of Business Studies),1998-01-01
+Gordon Mattingly,2211870,Professional Qualifications,Institute of Chartered Accountants in England and Wales (ICAEW),36362,Chartered Accountant,
+Gordon Mattingly,2211870,Professional Qualifications,Chartered Institute of Taxation (CIOT) (UK),37889,Chartered Tax Advisor,2013-01-01
+Gordon Mattingly,2211870,Education,University of Southampton,62672,BSc,1992-01-01
+Vinay Trivedi,2211871,Education,Stanford University Graduate School of Business,67360,MBA,
+Vinay Trivedi,2211871,Education,Harvard University,63830,AB (Hons),
+T Jimenez,2211873,Education,University of Utah,62764,BS (Hons),1995-01-01
+T Jimenez,2211873,Education,SJ Quinney College of Law University of Utah,1550287,JD,1999-01-01
+Ed Tang,2211874,Education,University of California Davis,62216,BA,1993-01-01
+Eduardo Telles,2211885,Education,Universidade Federal do Rio de Janeiro UFRJ (Federal University of Rio de Janeiro),62320,Bachelor's Degree,
+Eduardo Telles,2211885,Education,Universidade do Estado do Rio de Janeiro,1044642,Bachelor's Degree,
+Eduardo Telles,2211885,Education,Universidade Candido Mendes,1571726,Masters Degree,
+Nick Chia,2211888,Education,Syracuse University,61983,BS,1986-01-01
+Nick Chia,2211888,Education,Syracuse University,61983,MBA,1988-01-01
+Jeff Krantz,2211889,Education,Concordia University Texas,2339607,BA,1996-01-01
+Minor Huffman,2211890,Education,Massachusetts Institute of Technology (MIT),40436,BS,1988-01-01
+Minor Huffman,2211890,Education,Leonard N Stern School of Business New York University,42226,MBA,1997-01-01
+Garland Carr,2211892,Education,University of Virginia,62777,BA (Distinction),1995-01-01
+Garland Carr,2211892,Education,University of Richmond School of Law (Formerly known as T C Williams School of Law),1376684,JD (magna Cum Laude),2011-05-01
+Millie Chou,2211893,Education,University of California San Diego (UCSD),79941,BA (magna cum laude),1996-01-01
+Millie Chou,2211893,Education,Boalt Hall School of Law University of California,77693,Degree,1999-01-01
+Stuart Bolland,2211894,Education,University of Bath,62185,BEng,1994-01-01
+Doctor Alex Triantis,2211898,Education,University of Toronto,62752,BASc,1984-01-01
+Doctor Alex Triantis,2211898,Education,University of Toronto,62752,MEng,1984-01-01
+Doctor Alex Triantis,2211898,Education,Stanford University,61935,PhD,1988-01-01
+Chris Davis,2211905,Education,Kellogg School of Management Northwestern University,77878,MBA,
+Chris Davis,2211905,Education,Queen's University,63329,BCom (Hons),
+Chris Davis,2211905,Education,University College Oxford University,63222,Graduated,
+Jay Bart,2211909,Education,San Diego State University (SDSU),61775,MSc,2011-01-01
+Jay Bart,2211909,Education,Florida International University (FIU),82197,BS,
+Jay Bart,2211909,Professional Qualifications,American Board for Certification in Homeland Security (ABCHS),1510750,Certified Homeland Security Professional,2007-01-01
+Jay Bart,2211909,Professional Qualifications,California Department of Public Health (CDPH),1519276,Certified,2010-02-01
+Jay Bart,2211909,Professional Qualifications,International Board for Certification of Safety Managers (BCHCM),2475158,Certified Hazard Control Manager (CHCM),2008-07-01
+Jay Zhang,2211910,Education,Northwestern University,61494,MS,1991-01-01
+Jay Zhang,2211910,Education,Fudan University Shanghai,91057,BS,1987-01-01
+Jay Zhang,2211910,Education,University of North Carolina School of Law,834019,JD,1997-01-01
+Ren de Zwaan,2211912,Education,Erasmus Universiteit Rotterdam (Erasmus University Rotterdam),78416,MSc,
+Ren de Zwaan,2211912,Education,Georgetown University,60750,Studied,
+Filiep Deforche,2211915,Education,Solvay Brussels School of Economics & Management (Ecole de Commerce Solvay),63751,MBA,1993-01-01
+Filiep Deforche,2211915,Education,Universiteit Gent (University of Ghent),48939,MSc,1992-01-01
+Filiep Deforche,2211915,Education,Universiteit Gent (University of Ghent),48939,BSc,
+Jason Friske,2211917,Education,Montclair State University,269327,BS,2003-01-01
+Abby Schwarz,2211918,Education,Western Michigan University (WMU),62925,BBA,1999-01-01
+Katrien Demeester,2211922,Education,Katholieke Universiteit Leuven (KUL) (Catholic University of Leuven),69305,Completed,1994-01-01
+Katrien Demeester,2211922,Education,University of Chicago Booth School of Business (University of Chicago Graduate School of Business prior to 2008),1342262,MBA,1995-01-01
+Kim Leone,2211925,Education,Rowan University,79044,Bachelor's Degree,2006-01-01
+Chris Pappas,2211928,Education,Southern Illinois University Carbondale,1471729,BS,2009-01-01
+Rob DeSalvo,2211929,Education,University of Rhode Island (URI),62631,BS,1995-01-01
+Brendan Baker,2211931,Education,University of British Columbia (UBC),62203,BASc,2004-01-01
+Brendan Baker,2211931,Education,Said Business School Oxford University,550360,MBA (Distinction),2010-01-01
+Brendan Baker,2211931,Education,University of Cambridge,60268,MPhil,2008-01-01
+Nick Jankovsky,2211932,Education,Stanford University Graduate School of Business,67360,MBA,
+Nick Jankovsky,2211932,Education,McCombs School of Business University of Texas at Austin,466303,BBA (Hons),
+Nick Jankovsky,2211932,Education,McCombs School of Business University of Texas at Austin,466303,MPA,
+Dan Passananti,2211933,Education,Colorado State University,60431,BS,
+Alberto Silveira,2211935,Education,Kaplan University,1234727,MBA,2013-01-01
+Alberto Silveira,2211935,Education,Universidade do Vale do Itaja (UNIVALI) (University of Vale do Itaja),1340554,BS (Hons),2004-01-01
+Debbi Incopero,2211936,Education,Western Governors University (WGU),262412,Attended,
+Debbi Incopero,2211936,Education,International Risk Management Institute,483967,Construction Risk and Insurance Specialist (CRIS),
+Debbi Incopero,2211936,Education,Harper College,742698,Attended,
+James Diggines,2211938,Education,University of Bristol,64921,BSc,
+Mike Jarus,2211941,Education,Georgia State University (GSU),60755,BS,1994-01-01
+Sean Dineen,2211943,Education,University of Baltimore,99817,Masters Degree,
+Sean Dineen,2211943,Education,Loyola College in Maryland,736426,BS,
+Bruno Werneck,2211944,Education,Columbia Law School,64891,LLM,2003-01-01
+Bruno Werneck,2211944,Education,Universidade de So Paulo (University of Sao Paulo),1048086,LLB,1998-01-01
+Michael Quigley,2211945,Professional Qualifications,CFA Institute (Association for Investment Management and Research prior to 2004),594747,Chartered Financial Analyst,
+Michael Quigley,2211945,Professional Qualifications,Chartered Alternative Investment Analyst Association,946760,Chartered Alternative Investment Analyst (CAIA),
+Ted Purcell,2211950,Education,University of Arizona (UOA),62155,BS,1991-01-01
+David Caruso,2211952,Education,George Washington University,60749,BA,1991-01-01
+Jean-Philippe Demers,2211954,Education,cole Polytechnique de Montral,60600,BS,1997-01-01
+Jean-Philippe Demers,2211954,Education,McGill University (Canada),61248,MBA,2005-01-01
+Angela Yim,2211955,Education,University of Melbourne,62463,LLB,
+Jill Ram,2211957,Education,McGill University (Canada),61248,BA,
+Jill Ram,2211957,Education,McGill University (Canada),61248,Diploma,
+Mariana Donangelo,2211961,Education,COPPEAD Graduate School of Business Federal University of Rio de Janeiro,1092035,MBA,2008-01-01
+Mariana Donangelo,2211961,Education,Universidade Federal do Rio de Janeiro UFRJ (Federal University of Rio de Janeiro),62320,BSc,2006-01-01
+Mike LeClair,2211962,Education,Rotman School of Management University of Toronto (Joseph L Rotman School of Management),1931003,Certified,2007-01-01
+Mike LeClair,2211962,Education,University of Toronto,62752,Certified Corporate Director,
+Mike LeClair,2211962,Education,University of Western Ontario,62795,BS,1979-01-01
+Seb Urban,2211963,Education,Charles Sturt University,745793,Bachelor's Degree,2008-01-01
+Hays Falconburg,2211964,Education,University of Northern Colorado,82118,BS,1995-01-01
+Hays Falconburg,2211964,Education,International Foundation of Employee Benefits Plans (IFEBP),129207,Group Benefits Associate (GBA),
+Tony Mulvany,2211965,Education,Nottingham Trent University,61503,BA (Hons),2003-01-01
+Tony Mulvany,2211965,Education,Unknown Organisation,0,Diploma (Distinction),1999-01-01
+Keegan Morgan,2211968,Education,Northern Illinois University,61475,MS,2015-01-01
+Keegan Morgan,2211968,Education,Rock Valley College,2001176,AS Degree (Associate of Science),2011-01-01
+Keegan Morgan,2211968,Education,Illinois State University,60905,BS,2013-01-01
+Diana Ourthiague,2211980,Education,University of California San Diego (UCSD),79941,MS,2010-01-01
+Diana Ourthiague,2211980,Education,University of California San Diego (UCSD),79941,PhD,2014-01-01
+Diana Ourthiague,2211980,Education,California Polytechnic State University San Luis Obispo (Cal Poly San Luis Obispo),60249,BS,2008-01-01
+Jane Possell,2211981,Education,University of Wisconsin Whitewater,79034,Bachelor's Degree,1994-01-01
+Matt Hodulik,2211982,Education,Pennsylvania State University (Penn State University),61582,BS,
+Matt Hodulik,2211982,Education,Seton Hall University School of Law,464664,JD,
+Simon Rose,2212001,Education,University of Exeter,62301,LLB,1989-01-01
+Simon Rose,2212001,Education,Queen Mary University of London (Formerly known as Queen Mary and Westfield College),37254,LLM,1998-01-01
+Simon Rose,2212001,Professional Qualifications,Institute of Indirect Taxation (The),1285977,Chartered Tax Advisor,
+Bruno Salzano,2212004,Education,Pontifcia Universidade Catlica de So Paulo (PUC-SP),1012649,Bachelor's Degree,2007-01-01
+Bruno Salzano,2212004,Education,Fundacao Getulio Vargas (Getulio Vargas Foundation),1045554,Postgraduate Degree,2011-01-01
+Bruno Salzano,2212004,Education,King's College London University of London,40903,LLM,2013-01-01
+Melissa Grady,2212005,Education,Northwestern University,61494,Masters Degree,1998-01-01
+Melissa Grady,2212005,Education,DePaul University,60499,BA,1996-01-01
+Peter Seeley,2212008,Education,University of Oregon,62552,BS,
+Peter Heuman,2212010,Education,Stanford University,61935,Studied,2013-01-01
+Peter Heuman,2212010,Education,Chalmers Tekniska Hgskola (Chalmers University of Technology),60326,MSc,2001-01-01
+Kelly Doheny,2212015,Education,McIntire School of Commerce University of Virginia,667050,BA,2011-01-01
+Kelly Doheny,2212015,Education,McIntire School of Commerce University of Virginia,667050,BS,
+Alex Sanzone,2212016,Education,Allegheny College,60035,BA (Cum Laude),2013-01-01
+Alex Sanzone,2212016,Professional Qualifications,Certified Financial Planner Board of Standards Inc (USA) (CFP),105591,Certified Financial Planner,2016-11-01
+Matt King,2212025,Education,Saint Michael's College,784959,Bachelor's Degree,1993-01-01
+James Pickel Jr,2212028,Education,St John's University,61913,BA,2010-01-01
+James Pickel Jr,2212028,Education,University of Pennsylvania Law School,74077,JD,2013-01-01
+Max Rappaport,2212029,Education,University of Pennsylvania,62579,BA,2013-01-01
+Max Rappaport,2212029,Education,Kellogg School of Management Northwestern University,77878,MBA,2019-01-01
+Carl Rogberg,2212032,Education,Handelshgskolan i Stockholm (Stockholm School of Economics),76943,MBA,
+Graeme Carter,2212035,Education,University of Birmingham,62192,BSc,1987-01-01
+Graeme Carter,2212035,Education,University College Oxford University,63222,Postgraduate Degree,2005-01-01
+Ian Pilarski,2212036,Education,Cornell University,60457,Studied,2004-01-01
+Jennifer McLemore,2212037,Education,Miami University Ohio,61276,BA (Cum Laude),1998-01-01
+Jennifer McLemore,2212037,Education,University of Richmond School of Law (Formerly known as T C Williams School of Law),1376684,JD,2001-01-01
+Hugo Bondi,2212050,Education,British Columbia Institute of Technology,593626,Studied,1988-01-01
+August Seibel,2212074,Education,Allegheny College,60035,BS (cum laude),2004-01-01
+Doctor Alison Pilgrim,2212075,Education,Oxford University,61561,BCh (Bachelor of Surgery),
+Doctor Alison Pilgrim,2212075,Education,Oxford University,61561,BM,
+Doctor Alison Pilgrim,2212075,Education,Oxford University,61561,DPhil,
+Elisa Cavalier,2212076,Education,Northeastern University School of Law,262967,JD,1989-01-01
+Elisa Cavalier,2212076,Education,Tufts University,62097,Bachelor's Degree (magna cum laude),1981-01-01
+Meg Mason,2212078,Education,California Polytechnic State University San Luis Obispo (Cal Poly San Luis Obispo),60249,BS,
+Grant Fleming,2212083,Education,Allegheny College,60035,BA,
+Grant Fleming,2212083,Professional Qualifications,Certified Financial Planner Board of Standards Inc (USA) (CFP),105591,Certified Financial Planner,
+Garth Overmyer,2212165,Education,Krannet School of Management Purdue University,3069663,BS,1998-01-01
+Grant Fleming,2212083,Professional Qualifications,Financial Industry Regulatory Authority (FINRA),955132,Investment Adviser Representative (IAR),
+Grant Fleming,2212083,Professional Qualifications,Financial Industry Regulatory Authority (FINRA),955132,Registered Representative,
+Lauren Nowlin,2212085,Education,University of Virginia,62777,BS (Distinction),2004-01-01
+Lauren Nowlin,2212085,Education,University of Richmond School of Law (Formerly known as T C Williams School of Law),1376684,JD (summa Cum Laude),2007-01-01
+Tim Hunkele,2212087,Education,University of Pittsburgh,62593,BA,2001-01-01
+Elizabeth Rafferty,2212089,Education,American University Washington,60049,MS,2004-01-01
+Elizabeth Rafferty,2212089,Education,Richard Bland College of the College of William and Mary,1603171,BA,2002-01-01
+Patty Sager,2212090,Education,State University of New York Geneseo,819119,BS,1987-01-01
+Alice Tan,2212098,Education,Smith College,61849,BA (magna cum laude),
+Bennett Geist,2212106,Education,Wharton School University of Pennsylvania,64966,MBA,2003-01-01
+Bennett Geist,2212106,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,Certified Global Management Accountant (CGMA),
+Bennett Geist,2212106,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,CPA,
+Bennett Geist,2212106,Education,Fairfield University,39472,BS,1996-01-01
+Enrico De Angelis,2212111,Professional Qualifications,World Trade Institute,127157,MA,
+Enrico De Angelis,2212111,Education,University of Plymouth,62595,Certificate,1999-01-01
+Enrico De Angelis,2212111,Education,University of Bern,63183,Master of Advanced Studies (MAS),2007-01-01
+Enrico De Angelis,2212111,Education,IMT School for Advanced Studies Lucca,2466895,PhD,
+Enrico De Angelis,2212111,Education,Libera Universit Internazionale degli Studi Sociali (Luiss Guido Carli University),38791,BA,2001-01-01
+Enrico De Angelis,2212111,Education,Libera Universit Internazionale degli Studi Sociali (Luiss Guido Carli University),38791,MA,2001-01-01
+Gabriel Ferstendig,2212112,Education,Brooklyn Law School,63628,JD,2009-01-01
+Gabriel Ferstendig,2212112,Education,Yeshiva University,79331,BA (summa cum laude),2006-01-01
+Tim Strawn,2212113,Education,Unknown Organisation,0,Certified,
+Tim Strawn,2212113,Education,University of California Santa Barbara (UCSB) Extension,2416911,BS,1985-01-01
+Robert Wenig,2212114,Education,Masagung Graduate School of Management University of San Francisco,2721608,Executive MBA,1992-01-01
+Robert Wenig,2212114,Education,Case Western Reserve University (CWRU),60290,BS,1982-01-01
+Scott Sanders,2212124,Education,McCombs School of Business University of Texas at Austin,466303,BBA,1991-01-01
+Coco Tang,2212127,Education,University of Waterloo,62786,Masters Degree,2013-01-01
+Mara Nez,2212133,Education,Universidad de Alcal de Henares (University of Alcal de Henares),532594,Degree (Hons),
+Mara Nez,2212133,Professional Qualifications,Centro de Estudios Garrigues,592876,Master of Taxation,
+Mara Nez,2212133,Professional Qualifications,Professional Association of Small Business Accountants (PASBA),2390273,Certified,
+Tylor Tourville,2212135,Education,University of Maine,62432,BA (summa cum laude),2012-01-01
+Doctor Preetam Shah,2212137,Education,Wharton School University of Pennsylvania,64966,MBA,
+Doctor Preetam Shah,2212137,Education,Stanford University School of Medicine,79154,Postdoctoral Fellow,
+Doctor Preetam Shah,2212137,Education,University of Mississippi Medical Center,420228,PhD,
+Paul Martin,2212145,Education,Northumbria University,440174,BSc (Hons),1991-01-01
+Paul Martin,2212145,Professional Qualifications,Institute of Chartered Accountants in England and Wales (ICAEW),36362,Chartered Accountant,
+Rebeckah Long,2212146,Education,Illinois State University,60905,BS,1995-01-01
+Rory Edwards,2212151,Education,Massachusetts Institute of Technology (MIT),40436,BS,2004-01-01
+Rory Edwards,2212151,Education,Massachusetts Institute of Technology (MIT),40436,MBA,2010-08-01
+Navtej Dhillon,2212154,Education,London School of Economics (LSE) (London School of Economics and Political Science),38522,MA,
+Navtej Dhillon,2212154,Education,King's College London University of London,40903,BSc,
+Charles Senatore,2212155,Education,University of Chicago Law School,1283365,JD,1980-01-01
+Charles Senatore,2212155,Education,George Williams College,821246,BA,1976-01-01
+Inderbir Dhingra,2212156,Education,Indian Institute of Management Ahmedabad (IIMA),83228,MBA,1997-01-01
+Inderbir Dhingra,2212156,Education,Shri Ram College of Commerce University of Delhi,921305,BCom (Hons),1995-01-01
+Inderbir Dhingra,2212156,Professional Qualifications,CFA Institute (India),2714400,Diploma,
+Roger Ximenez Jr,2212157,Education,Florida State University,60692,BA (Cum Laude),2011-01-01
+Andra Purkalitis,2212158,Education,University of Denver College of Law,77283,JD,1987-01-01
+Andra Purkalitis,2212158,Education,University of Nebraska,62511,BA,1983-01-01
+Joh Klein,2212160,Education,Harvard University,63830,AB,1998-01-01
+Joh Klein,2212160,Education,Peking University,78186,Studied,1997-01-01
+Joh Klein,2212160,Education,Massachusetts Institute of Technology (MIT) Sloan School of Management,63283,MBA,2005-01-01
+Joh Klein,2212160,Education,London School of Economics (LSE) (London School of Economics and Political Science),38522,MSc,1999-01-01
+Etleva Koka,2212162,Education,Unknown Organisation,0,BA,
+Etleva Koka,2212162,Education,Eastern Mediterranean University (EMU),1347960,MSc,
+Etleva Koka,2212162,Education,Case Western Reserve University (CWRU),60290,MBA,2000-01-01
+John Edson,2212163,Education,Harvard University,63830,MA,1995-01-01
+John Edson,2212163,Education,University of California Berkeley,62215,JD,1996-01-01
+John Edson,2212163,Education,University of California San Diego (UCSD),79941,BA,1992-01-01
+Arsham Memarzadeh,2212166,Education,Cornell University,60457,Degree,
+Doctor Bruce Swartz,2212167,Education,California State University Northridge (Formerly known as San Fernando Valley State College),60261,MHA,1976-01-01
+Doctor Bruce Swartz,2212167,Education,California State University Northridge (Formerly known as San Fernando Valley State College),60261,BA,
+Andrei Rotaru,2212168,Education,Bucharest Academy of Economic Studies,593207,BBA,2003-01-01
+Andrei Rotaru,2212168,Education,cole des Hautes tudes Commerciales de Paris (HEC Paris School of Management) (HEC Paris),60833,MBA,2005-01-01
+Adam Sack,2212170,Education,Oxford University,61561,BA,
+Adam Sack,2212170,Education,Oxford University,61561,MSc,
+P Ramesh,2212173,Professional Qualifications,General Electric Co (India) Ltd,1262553,Six Sigma Black Belt (SSBB),2003-11-01
+Miska Suves,2212181,Education,Stockholms Universitet (Stockholm University),61961,Bachelor's Degree,
+Miska Suves,2212181,Education,Stockholms Universitet (Stockholm University),61961,Degree,
+Olle Dring,2212183,Education,Lule Tekniska Universitet (Lule University of Technology),489178,MSc,1997-01-01
+Nicole Bailey,2212186,Education,Florida State University,60692,BS (cum laude),
+Scott Moberly,2212187,Education,US Army Command and General Staff College (CGSC),82996,Graduated,2000-01-01
+Scott Moberly,2212187,Education,Indiana University,60920,Graduated,1984-01-01
+Ryan Mason,2212192,Education,University of Ntre Dame,62544,Bachelor's Degree,
+Diego Perul,2212193,Education,IEDE Business School,1107051,MBA,2001-01-01
+Diego Perul,2212193,Education,IEDE Business School,1107051,Degree,
+Ashley Brasier,2212195,Education,Stanford University Graduate School of Business,67360,MBA,
+Ashley Brasier,2212195,Professional Qualifications,Durham Academy,645794,Graduated (cum laude),
+Ashley Brasier,2212195,Education,Duke University,60547,BA,
+Teddy Desloge,2212197,Education,Hobart and William Smith Colleges,60860,BA,2010-01-01
+Chris Ricciardi,2212198,Education,Kellstadt Graduate School of Business DePaul University,1192329,MBA,2013-01-01
+Chris Ricciardi,2212198,Education,Gies College of Business University of Illinois,2753236,BS,2009-01-01
+Min Ryu,2212202,Education,Inha University,1050668,BS,
+Jana Messerschmidt,2212205,Education,University of Illinois Urbana-Champaign (UIUC),77782,BS,
+Jay Madheswaran,2212209,Education,University of Illinois Urbana-Champaign (UIUC),77782,BS,
+Jerry Ye,2212215,Education,University of California Berkeley,62215,BS,2005-01-01
+Jerry Ye,2212215,Education,University of California Berkeley,62215,Graduated,2007-05-01
+Jerry Ye,2212215,Education,University of California Berkeley,62215,Masters Degree,2008-01-01
+Kathleen Forte,2212219,Education,State University of New Jersey Rutgers (Rutgers University),100431,BS,
+Merci Grace,2212221,Education,University of Southern California (USC),62673,Graduated,
+Anil Varghese,2212224,Education,Savitribai Phule Pune University (Formerly known as University of Pune),742759,Bachelor's Degree,1990-01-01
+Anil Varghese,2212224,Education,Symbiosis Institute of Business Management (SIBM),1074753,MBA,1992-01-01
+Neetzan Zimmerman,2212226,Education,University of Massachusetts Boston,62457,BA (summa cum laude),2007-01-01
+Freitas North,2212229,Education,Universiteit Maastricht (Maastricht University),63267,Studied,
+Freitas North,2212229,Education,Seattle University,61811,BA,
+Rachel Manson,2212230,Education,University of Pennsylvania,62579,BA,
+Vinay Barigidad,2212232,Education,University of Texas at Dallas,62743,Graduated,
+Vinay Barigidad,2212232,Professional Qualifications,Scrum Alliance Inc,1261854,Certified ScrumMaster (CSM),2016-02-01
+Vinay Barigidad,2212232,Professional Qualifications,International Association of Microsoft Certified Professionals (IAMCP),1489079,Microsoft Certified Professional,2003-06-01
+Vinay Barigidad,2212232,Education,Karnatak University,1297421,BE,1992-01-01
+Jamey Hubbs,2212236,Education,University of Waterloo,62786,BA,1981-01-01
+Jamey Hubbs,2212236,Education,Schulich School of Business York University,622327,Masters Certificate,2008-01-01
+Jason Gasper,2212237,Education,University of California Los Angeles (UCLA),62218,BA (Cum Laude),1993-01-01
+Jason Gasper,2212237,Education,Georgetown University Law Center (Georgetown Law School),79195,JD,1996-01-01
+John Scano,2212242,Education,University of Massachusetts Lowell (UMass Lowell),62459,BS,1986-01-01
+John Scano,2212242,Education,University of Massachusetts Lowell (UMass Lowell),62459,MBA,1993-01-01
+Leigh Farris,2212245,Education,University of Texas at Austin,62742,BJ,1998-01-01
+Ali Evans,2212247,Education,Harvard Business School,63013,MBA (Distinction),
+Ali Evans,2212247,Education,Harvard College,63125,AB (cum laude),
+Susan Bass,2212248,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,Certified Public Accountant,
+Susan Bass,2212248,Education,University of Maryland University College (UMUC),640826,BS,
+Brett Pinegar,2212251,Education,Brigham Young University,60212,BS,1990-01-01
+Todd Vermilyea,2212254,Education,University of South Carolina,62667,PhD,1998-01-01
+Todd Vermilyea,2212254,Education,University of South Carolina,62667,Bachelor's Degree,
+Brian Silver,2212258,Education,Lehigh University,61143,BSIE,1989-01-01
+John Chek,2212265,Education,University of North Carolina Chapel Hill,62533,MS,2005-01-01
+Obrin Mendez,2212267,Education,Mahatma Gandhi University,1103922,BTech,2007-01-01
+Obrin Mendez,2212267,Education,Cochin University of Science & Technology,1227799,MBA,2011-06-01
+Pooja Goyal,2212270,Education,University of Pennsylvania School of Engineering and Applied Science,1234863,BAS (Bachelor of Arts and Science),
+Pooja Goyal,2212270,Education,Wharton School University of Pennsylvania,64966,BS,2002-01-01
+Carly Gross,2212272,Education,Wharton School University of Pennsylvania,64966,BS,2011-01-01
+Jin Guo,2212274,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,Certified Public Accountant,
+Jin Guo,2212274,Education,Bernard M Baruch College City University of New York (CUNY),81866,BBA,2005-01-01
+Stacia Hatfield,2212278,Education,University of California Los Angeles (UCLA),62218,BA,1995-01-01
+Stacia Hatfield,2212278,Education,Fuqua School of Business Duke University,730113,MBA,2004-01-01
+Ian Maccubbin,2212280,Education,University of Connecticut,62265,BS,2006-01-01
+Ian Maccubbin,2212280,Education,Sawyer Business School Suffolk University,2683251,MBA,2011-01-01
+Zachary Marshall,2212282,Education,University of Michigan,63187,BA,2009-01-01
+Zachary Marshall,2212282,Education,Fordham University School of Law,106197,JD,2012-01-01
+Lauren Zion,2212284,Education,Pingree School,1514725,Diploma,2009-01-01
+Lauren Zion,2212284,Education,Colby College,60394,BA,2013-01-01
+Taylor Roach,2212285,Education,Vanderbilt University,62843,BA,2006-01-01
+Samantha Hardy,2212287,Education,University of Chicago Law School,1283365,JD (Hons),1998-01-01
+Samantha Hardy,2212287,Education,Columbia University,60434,BA,1995-01-01
+Nathan Urquhart,2212288,Education,Lee University,1064289,BS,2001-01-01
+Rick Wallace,2212289,Education,Colby College,60394,BA,1993-01-01
+Rick Wallace,2212289,Education,Wake Forest University School of Law,561491,JD,1996-01-01
+Nick Dujnic,2212293,Education,Syracuse University,61983,Bachelor of Fine Arts (BFA),2005-01-01
+Adam Boardman,2212296,Education,Dartmouth College,60488,BA,2011-01-01
+Michael Capelli,2212299,Education,Leonard N Stern School of Business New York University,42226,MBA,1994-01-01
+Michael Capelli,2212299,Education,New York University (NYU),61424,BS,1994-01-01
+Amit Philip,2212302,Education,Purdue University,61638,BSc,2000-01-01
+Amit Philip,2212302,Education,Fuqua School of Business Duke University,730113,MBA,2007-01-01
+Doctor Andy Williams,2212303,Education,Queen Mary University of London (Formerly known as Queen Mary and Westfield College),37254,PhD,
+Doctor Andy Williams,2212303,Education,King's College London University of London,40903,Degree,
+Amit Arya,2212307,Education,University of South Carolina,62667,Masters Degree,
+Jacqueline Siegel,2212308,Education,Albright College,81255,BA,2007-01-01
+Jacqueline Siegel,2212308,Education,Maurice A Deane School of Law Hofstra University,2295973,JD,2012-01-01
+Kelli Batianis-DiPietro,2212309,Professional Qualifications,North Carolina Association of Certified Public Accountants,603807,Certified Public Accountant,2008-03-01
+Kelli Batianis-DiPietro,2212309,Professional Qualifications,Chartered Global Management Accountant (CGMA),2066231,Chartered Global Management Accountant (CGMA),2016-07-01
+Kristen Broome,2212312,Education,St Edward's University,580854,BBA,2007-01-01
+Kristen Broome,2212312,Education,St Edward's University,580854,Masters Degree,2010-01-01
+Kara Bowen,2212315,Education,East Carolina University,78858,MS,2004-01-01
+Kara Bowen,2212315,Education,East Carolina University,78858,Bachelor's Degree,
+Kara Bowen,2212315,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,Certified Public Accountant,
+Brian Jenn,2212317,Education,Northwestern University,61494,BA (summa cum laude),1999-01-01
+Brian Jenn,2212317,Education,Northwestern University,61494,MA,2002-01-01
+Brian Jenn,2212317,Education,Yale Law School,63066,JD,2007-01-01
+Justin Hepworth,2212318,Education,Tulane University,62098,JD (magna Cum Laude),2010-01-01
+Justin Hepworth,2212318,Education,University of Idaho,62364,BS,2006-01-01
+Whitney Hodges,2212321,Education,University of Southern California (USC),62673,BA (Hons),2007-01-01
+Whitney Hodges,2212321,Education,LEAD San Diego Inc,914786,Graduated,2017-01-01
+Whitney Hodges,2212321,Education,USC Gould School of Law (Formerly known as University of Southern California Law School),1106974,JD,2010-01-01
+Doctor Mick Hurrey,2212322,Education,University of Central Florida (UCF),80620,BS,1998-01-01
+Doctor Mick Hurrey,2212322,Education,James M Johnston Center for Undergraduate Excellence University of North Carolina at Chapel Hill,2339191,PhD,2004-01-01
+Ingrid Manevitz,2212324,Education,Brandeis University,60203,BA,1999-01-01
+Ingrid Manevitz,2212324,Education,Brooklyn Law School,63628,JD,2002-01-01
+Prashanti Madhavapeddi,2212327,Education,Indian Institute of Technology (IIT) Delhi,87237,Masters Degree,
+Prashanti Madhavapeddi,2212327,Education,University of Michigan Ann Arbor,550078,PhD,
+Prashanti Madhavapeddi,2212327,Education,St Stephens College Delhi University,61928,Bachelor's Degree (Hons),
+Cynthia Paine,2212329,Education,Georgetown University Law Center (Georgetown Law School),79195,JD,1999-01-01
+Cynthia Paine,2212329,Education,Northeastern University,61472,BS,1985-01-01
+Meisa Propst,2212330,Education,California State University East Bay,860669,BS,1995-01-01
+Meisa Propst,2212330,Education,San Francisco State University,61777,Certified,2005-01-01
+Leo Santana,2212333,Education,De La Salle University,864879,Bachelor's Degree,
+Stani Fowler,2212336,Professional Qualifications,South Carolina Association of Certified Public Accountants (SCACPA),755282,Certified Public Accountant,
+Stani Fowler,2212336,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,Certified Public Accountant,
+Stani Fowler,2212336,Education,Columbia College Columbia University,60432,BS (Hons),2006-01-01
+Chris Grasher,2212342,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,Certified Public Accountant,
+Chris Grasher,2212342,Education,Texas Christian University (TCU),62043,BBA (Cum Laude),1976-01-01
+Hailun Liu,2213160,Education,Kaplan Singapore,2791935,Certified,
+Chris Grasher,2212342,Education,Texas Society of Certified Public Accountants (TSCPA),80658,Certified Public Accountant,
+Brian Green,2212348,Education,Raymond J Harbert College of Business Auburn University (Formerly known as Auburn University College of Business),811911,BS,2001-01-01
+Kristin Gutting,2212352,Education,Valparaiso University,62840,BS (cum laude),1997-01-01
+Kristin Gutting,2212352,Education,Saint Louis University School of Law,465791,JD (magna Cum Laude),2000-01-01
+Kristin Gutting,2212352,Education,University of Florida Levin College of Law,583366,LLM,2001-01-01
+Josh Scala,2212353,Education,Amherst College,60055,BA,1993-01-01
+Josh Scala,2212353,Education,University of Pennsylvania Law School,74077,JD (summa Cum Laude),2004-01-01
+Joi Bourgeois,2212358,Education,Northwestern University,61494,BA,1986-01-01
+Joi Bourgeois,2212358,Education,New York University School of Law,574794,JD,
+Ronda Jamgotchian,2212359,Education,University of California Hastings College of Law,60832,JD (magna Cum Laude),1998-01-01
+Ronda Jamgotchian,2212359,Education,California State University Fullerton (CSUF),485005,BA (Hons),1994-01-01
+Ty Kehrer,2212360,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,CPA,
+Ty Kehrer,2212360,Education,Radford University,641765,Bachelor's Degree,1994-01-01
+Ty Kehrer,2212360,Professional Qualifications,Rainmaker Academy (The),1548018,Graduated,
+Jeff Knapp,2212363,Education,Villanova University,62858,Bachelor's Degree,1992-01-01
+Bob Kunkle Jr,2212365,Education,Florida State University,60692,BS,1988-01-01
+Bob Kunkle Jr,2212365,Education,International Coach Federation (ICF),594996,Certified Professional Coach (CPC),
+Mathew Harrison,2212367,Education,Brigham Young University,60212,MBA,2010-01-01
+Mathew Harrison,2212367,Education,University of Oklahoma,62549,BA,2004-01-01
+Paul Mattson,2212368,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,Certified Public Accountant,
+Paul Mattson,2212368,Education,University of Delaware,79387,BS,2009-01-01
+Suzanne Malo,2212369,Education,Furman University,78414,Bachelor's Degree,
+Brian Sorensen,2212381,Education,University of Washington,62785,BA,2004-01-01
+Brian Sorensen,2212381,Education,Center for Health & Pharmaceutical Law & Policy Seton Hall Law School,1850722,JD,2007-01-01
+Zack Buzzatto,2212385,Education,United States Naval Academy (USNA),377927,BS,2008-01-01
+Zack Buzzatto,2212385,Education,Carnegie Mellon University Tepper School of Business,856478,MBA,2016-01-01
+Doctor Peter Agre,2212400,Education,Augsburg College,60103,BA,1970-01-01
+Doctor Peter Agre,2212400,Education,Johns Hopkins University School of Medicine,98942,MD,1974-01-01
+Adam Ante,2212406,Education,Carl H Lindner College of Business University of Cincinnati,2034461,BBA,2004-01-01
+Karthik Sridharan,2212410,Education,Harvard Business School,63013,Executive Program,
+Karthik Sridharan,2212410,Education,Fox School of Business (The) Temple University,1345947,Bachelor's Degree,1992-01-01
+Kurt Niederloh,2212435,Education,Carlson School of Management University of Minnesota,76622,BS,
+Stanislas Henry,2212438,Education,Institut Europeen d'Administration des Affaires (INSEAD) (European Institute of Business Administration),60651,MBA,1996-01-01
+Stanislas Henry,2212438,Education,Institut Suprieur de Gestion (ISG),941554,Degree,
+Larry Sparks,2212439,Education,University of California Santa Barbara (UCSB),62214,BA,1983-01-01
+Larry Sparks,2212439,Education,University of Southern California (USC),62673,MBA,1984-01-01
+Arnaud Malbos,2212444,Education,Universit de Paris (University of Paris),63318,Studied,
+Arnaud Malbos,2212444,Education,cole Franaise d'Administration de Biens (EFAB),3079299,Attended,
+Carole Burnell,2212453,Education,West Texas A&M University (Formerly known as West Texas State University),486966,BBA,1993-01-01
+Dave Upham,2212468,Education,University of California Davis,62216,Graduated,
+Brandon Beaudoin,2212479,Education,North Dakota State University (NDSU),61454,BS,2008-01-01
+LeAnne Berry-Gietzen,2212481,Education,Unknown Organisation,0,Bachelor's Degree,1999-01-01
+Hope Diaz,2212483,Education,University of Miami,62467,Bachelor's Degree,
+Hope Diaz,2212483,Education,University of Miami,62467,MBA,
+Julie Person,2212484,Education,Saint Mary's College of California,61758,BA,1995-01-01
+Jesse Euton,2212487,Education,University of Missouri-St Louis (UMSL),101427,BS,2005-01-01
+Thomas Fry,2212492,Education,Randolph-Macon College,61658,BA,2000-01-01
+Thomas Fry,2212492,Education,Antonin Scalia Law School George Mason University (George Mason University School of Law prior to 05/2016),464018,JD,2005-01-01
+Josh Biggs,2212494,Education,University of Colorado Boulder,62260,Graduated,2010-01-01
+Linda MacAskill,2212495,Education,McGill University (Canada),61248,Degree,
+Anaselia Galli,2212497,Education,University of California Irvine,383127,Studied,2012-01-01
+Keith Bae,2212499,Education,Northeastern University,61472,BS,2004-01-01
+Keith Bae,2212499,Education,New England Law Boston (Formerly known as New England School of Law),77626,JD,2009-01-01
+Scott Musselwhite,2212501,Education,Embry-Riddle Aeronautical University,60622,Associate of Science,2000-01-01
+Kevin Farrow,2212508,Education,University of Waterloo,62786,Bachelor of Applied Science (BAS),
+Kevin Farrow,2212508,Professional Qualifications,Professional Engineers Ontario (PEO) (Association of Professional Engineers of Ontario prior to 1993),487747,PEng,
+Kevin Farrow,2212508,Professional Qualifications,Leadership in Energy and Environmental Design (LEED),1568031,LEED Accredited Professional,
+Michael Barnicke,2212510,Education,King's University College,2718084,BA,2002-01-01
+Casey Richards,2212511,Education,University of Chicago Booth School of Business (University of Chicago Graduate School of Business prior to 2008),1342262,MBA,2004-01-01
+Casey Richards,2212511,Education,Brigham Young University,60212,BS,1999-01-01
+Pierre-Francois Allaire,2212516,Education,Northwestern University,61494,Certified,
+Pierre-Francois Allaire,2212516,Education,University of Sherbrooke,488889,MBA,2011-01-01
+Pierre-Francois Allaire,2212516,Education,Universit Laval (Laval University),605194,Baccalaureate,2003-01-01
+Elizabeth Harris,2212517,Education,Harvard Law School,63035,JD (magna Cum Laude),2008-01-01
+Elizabeth Harris,2212517,Education,Brown University,60224,AB (magna cum laude),2005-01-01
+Mike Meier,2212522,Education,Carlson School of Management University of Minnesota,76622,BS,1998-01-01
+Chris Trombetta,2212531,Education,Harvard Business School,63013,MBA,2010-01-01
+Chris Trombetta,2212531,Education,United States Military Academy (USMA) West Point,62117,BS,2003-01-01
+Brett Trauthen,2212534,Education,University of California Berkeley,62215,BS,
+Brett Trauthen,2212534,Education,University of California Irvine,383127,MS,
+Mike Chodzko,2212536,Education,University of Southern California (USC),62673,MBA (Hons),2000-01-01
+Mike Chodzko,2212536,Education,University of California,63186,BS,
+Ken Galt,2212538,Education,University of New Haven,62521,BS,
+Cherie Harris,2212539,Education,University of California Los Angeles (UCLA),62218,BA,
+Richard Hope,2212541,Education,Stanford University,61935,BA (Hons),1990-01-01
+Richard Hope,2212541,Education,University of California San Francisco (UCSF),62221,MD,1995-01-01
+Richard Hope,2212541,Education,Wharton School University of Pennsylvania,64966,MBA,2008-01-01
+Helene Spencer,2212543,Education,Regents of the University of California (The),1680367,BA,1969-01-01
+Umesh Malhotra,2212545,Professional Qualifications,Institute of Chartered Accountants in England and Wales (ICAEW),36362,Chartered Accountant,
+Umesh Malhotra,2212545,Professional Qualifications,Mayo College,104452,Degree (Hons),
+Leslie Follmer,2212551,Education,University of Ntre Dame,62544,BS (cum laude),2006-01-01
+Bret Griebenow,2212554,Education,University of Idaho,62364,Bachelor's Degree,
+Bret Griebenow,2212554,Education,University of Idaho,62364,Masters Degree,
+Steve Hinckley,2212567,Education,University of Maryland College Park,62449,BS,1987-01-01
+Ben Huffman,2212586,Education,DePauw University,60500,BA (Cum Laude),2007-01-01
+Ben Huffman,2212586,Education,Notre Dame Law School University of Notre Dame,642321,JD (summa Cum Laude),2010-01-01
+Stephanie Casto,2212592,Education,Texas Tech University,62046,JD,1999-01-01
+Dana Schulze,2212593,Education,State University of New York (SUNY),61939,MS,1998-01-01
+Dana Schulze,2212593,Education,Florida Institute of Technology,79758,BS,1989-01-01
+Ray Brousseau,2212594,Education,University of Massachusetts Amherst (UMA),62456,Masters Degree,
+Ray Brousseau,2212594,Education,University of Massachusetts Lowell (UMass Lowell),62459,Bachelor's Degree,
+Tom Kaufman,2212595,Education,University of Illinois (UIC),62367,Studied,1992-01-01
+Tom Kaufman,2212595,Education,UCLA School of Law,640561,JD,1995-01-01
+Josh Loftus,2212598,Education,Temple University,62035,BBA (magna cum laude),2009-01-01
+Josh Loftus,2212598,Education,University of Pennsylvania Law School,74077,JD (Cum Laude),2013-01-01
+Jeff Kern,2212600,Education,Boston College,60193,BA (magna cum laude),1984-01-01
+Jeff Kern,2212600,Education,Duke University School of Law,76040,JD,1987-01-01
+Sam Ryder,2212601,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,Certified Public Accountant,
+Sam Ryder,2212601,Education,Wake Forest University,62880,BS (magna Cum Laude),2011-01-01
+Sam Ryder,2212601,Education,Wake Forest University,62880,MS,2012-01-01
+Sam Ryder,2212601,Professional Qualifications,CFA Institute (Formerly known as Association of Investment Management and Research (AIMR) (USA)),260936,Attended,
+John Kiley,2212603,Education,Amherst College,60055,BA,1984-01-01
+John Kiley,2212603,Education,Fordham University School of Law,106197,JD,1989-01-01
+Eric Crainich,2212616,Education,Northeastern University,61472,BS,1991-01-01
+Peter Klee,2212618,Education,UC Berkeley School of Law,1344426,JD,1983-01-01
+Peter Klee,2212618,Education,University of California Berkeley,62215,AB,1979-01-01
+Bill Poad,2212619,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,CPA,
+Bill Poad,2212619,Education,Pennsylvania State University (Penn State University),61582,BS,1991-01-01
+Ann Gustafson,2212621,Education,Bucknell University,60229,BA,2008-01-01
+Micail Samiere,2212622,Education,Arizona State University,60074,MS,2017-01-01
+Micail Samiere,2212622,Education,California State University Long Beach,82585,MBA,1992-01-01
+Micail Samiere,2212622,Education,California State University Fullerton (CSUF),485005,BBA,
+Ken Abere Jr,2212623,Education,Willamette University,80427,JD,1994-01-01
+Ken Abere Jr,2212623,Education,Trinity College,103357,Bachelor's Degree,1986-01-01
+Brian Law,2212624,Education,Boston University,60195,MBA,1995-01-01
+Brian Law,2212624,Education,Northeastern University,61472,BA,1988-01-01
+Jeff Jenkins,2212625,Education,University of Virginia,62777,Degree,1999-01-01
+Jeff Jenkins,2212625,Education,Anderson Graduate School of Management University of California,66884,MBA,
+Tom Tollerton,2212627,Education,Florida State University,60692,BS,2006-01-01
+Tom Tollerton,2212627,Education,Florida State University,60692,MBA,2011-01-01
+Tom Tollerton,2212627,Education,Information Systems Audit and Control Association Inc (ISACA),622969,Certified Information Systems Auditor (CISA),
+Tom Tollerton,2212627,Professional Qualifications,PCI Security Standards Council LLC,1669441,Qualified Security Assessor (QSA),
+Tom Tollerton,2212627,Professional Qualifications,Inspiring a Safe and Secure Cyber World Austin Chapter (ISC),2316956,Certified Information Systems Security Professional (CISSP),
+Christine Wallace,2212630,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,CPA,
+Christine Wallace,2212630,Education,Kennesaw State University (KSU),1374096,Bachelor's Degree,2006-01-01
+Christine Wallace,2212630,Education,Kennesaw State University (KSU),1374096,Masters Degree,2009-01-01
+Greg Labate,2212632,Education,Dartmouth College,60488,BA (magna cum laude),1986-01-01
+Greg Labate,2212632,Education,UCLA School of Law,640561,JD,1990-01-01
+Sarah Adam,2212633,Education,George Mason University,78700,BA,2008-01-01
+Sarah Adam,2212633,Education,New York University School of Law,574794,JD,2011-01-01
+Sarah Adam,2212633,Education,Thomas Jefferson High School for Science and Technology,1250276,Advanced Diploma,2002-01-01
+Tricia Yount,2212636,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,Certified Public Accountant,
+Tricia Yount,2212636,Professional Qualifications,National Association of Certified Valuation and Analysts (NACVA),465653,Master Analyst In Financial Forensics (MAFF),
+Tricia Yount,2212636,Education,Clemson University,78370,BS,2000-01-01
+Lana Batts,2212638,Education,University of Miami,62467,MA (Hons),
+Lana Batts,2212638,Education,University of Montana,62488,Degree,
+Lana Batts,2212638,Professional Qualifications,University of Maryland BioPark,1883294,PhD,
+Jennifer Clark,2212639,Professional Qualifications,US Office of Personnel Management (OPM),832604,Certified,
+Jennifer Clark,2212639,Education,George Mason University School of Management,795371,BS,2001-01-01
+Jennifer Clark,2212639,Professional Qualifications,Center for Development of Security Excellence (CDSE),2946648,Certified Adjudicator,
+Alex Lazar,2212643,Education,Brown University,60224,BA (magna cum laude),2005-01-01
+Alex Lazar,2212643,Education,Boston College Law School (BCLS),82648,JD (magna Cum Laude),2008-01-01
+Carter Simpson,2212645,Education,Princeton University,61632,BA,
+Gary Haase,2212648,Education,University of Iowa,62375,Bachelor's Degree,
+Gary Haase,2212648,Education,Leonard N Stern School of Business New York University,42226,MBA,2010-01-01
+Fiona Laffan,2212650,Education,University College Oxford University,63222,Masters Degree,1996-01-01
+Angela Fannon,2212652,Education,Duke University,60547,AB (magna cum laude),1994-01-01
+Angela Fannon,2212652,Education,Harvard Law School,63035,JD (Cum Laude),1998-01-01
+Tom Taylor,2212653,Education,Southern New Hampshire University (New Hampshire College prior to 07/2001),492266,MBA,1992-01-01
+Tom Taylor,2212653,Education,Ferris State University,111922,Graduated,1988-01-01
+Gerri Vaughan,2212654,Education,University of New Hampshire,62520,BS,1990-01-01
+Gerri Vaughan,2212654,Education,Southern New Hampshire University (New Hampshire College prior to 07/2001),492266,MBA,
+Gerri Vaughan,2212654,Professional Qualifications,America's Health Insurance Plans (AHIP),576628,Executive Leadership Program,
+Carl Hobert,2212658,Education,Middlebury College,61284,BA,1983-01-01
+Carl Hobert,2212658,Education,Middlebury College,61284,MA,1991-01-01
+Carl Hobert,2212658,Education,Fletcher School of Law and Diplomacy Tufts University,117861,MA,1993-01-01
+Rocco DiPucchio,2212664,Education,Osgoode Hall Law School York University,64546,Degree,1994-01-01
+Jonathan Brayman,2212665,Education,University of Alabama (UA),62136,BS (summa Cum Laude),
+Harrison Claud,2212666,Education,Washington and Lee University,62891,BA,2013-01-01
+Ryan McCortney,2212667,Education,Occidental College,61516,AB (magna cum laude),1984-01-01
+Ryan McCortney,2212667,Education,University of Southern California (USC),62673,JD,1987-01-01
+Sam Alhadeff,2212668,Education,Claremont McKenna College,87047,BA,1967-01-01
+Sam Alhadeff,2212668,Education,University of San Diego School of Law,421175,JD,1970-01-01
+Amy McEvoy,2212669,Education,University of the Pacific McGeorge School of Law,1360270,JD (Distinction),2003-01-01
+Amy McEvoy,2212669,Professional Qualifications,State Bar of California (The),46897,Certified Specialist in Estate Planning (CSEP),
+Amy McEvoy,2212669,Education,University of Southern California (USC),62673,BA,1999-01-01
+The Hon. Ahmed Hussen,2212670,Education,Universit d'Ottawa (University of Ottawa),63569,Degree,
+The Hon. Ahmed Hussen,2212670,Education,York University (Canada),64608,BA,2002-01-01
+Carlos De Mello,2212671,Education,Trinity College Hartford Connecticut,79157,BA,2013-01-01
+Fatema Merchant,2212683,Education,Washington College of Law American University,597379,JD,2008-01-01
+Fatema Merchant,2212683,Professional Qualifications,AlJamea-tus-Saifiyah,3079682,BA,2003-01-01
+Cindy Novic,2212684,Education,Columbia Business School,63118,MBA,2019-01-01
+Cindy Novic,2212684,Education,Bernard M Baruch College City University of New York (CUNY),81866,BA,2014-01-01
+Will Kim,2212686,Education,Yale University,62981,BA,2012-01-01
+Will Kim,2212686,Education,Yale University,62981,BS,2012-01-01
+Jack Angaran,2212692,Education,University of California Santa Barbara (UCSB),62214,BA,1970-01-01
+Jack Angaran,2212692,Education,Mercer University Walter F George School of Law,741471,JD,1975-01-01
+Greg Givens,2212694,Education,Texas A&M University,62040,BS,1996-01-01
+Greg Givens,2212694,Education,Jesse H Jones Graduate School of Business Rice University,134857,MBA,2007-01-01
+Lane Ashley,2212695,Education,University of California Los Angeles (UCLA),62218,JD,1976-01-01
+Lane Ashley,2212695,Education,University of Illinois (UIC),62367,BA,1973-01-01
+Robert Ashley,2212698,Education,University of Arizona (UOA),62155,BA (summa cum laude),1993-01-01
+Robert Ashley,2212698,Education,James E Rogers College of Law University of Arizona,1102699,JD (magna Cum Laude),2003-01-01
+Katie Drucker,2212701,Education,Connecticut College,97616,BA,1991-01-01
+Julie Azevedo,2212702,Education,University of California Berkeley,62215,BA,1985-01-01
+Julie Azevedo,2212702,Education,Santa Clara University School of Law,741476,JD,1990-01-01
+Gina Bartoszek,2212705,Education,Illinois Wesleyan University,60906,BA,1989-01-01
+Gina Bartoszek,2212705,Education,National Institute for Trial Advocacy (NITA),422932,Attended,
+Gina Bartoszek,2212705,Education,Valparaiso University School of Law,641450,JD (magna Cum Laude),1992-01-01
+Eunice Beattie,2212708,Education,University of Michigan Ann Arbor,550078,BA,1999-01-01
+Eunice Beattie,2212708,Professional Qualifications,National Association of Counsel for Children,749638,Certified,
+Eunice Beattie,2212708,Education,William S Boyd School of Law University of Nevada (UNLV),1227457,JD (summa Cum Laude),2006-01-01
+Jessica Beckwith,2212710,Education,University of Ntre Dame,62544,BA (Cum Laude),2006-01-01
+Jessica Beckwith,2212710,Education,Loyola University Chicago School of Law,2937645,JD,2009-01-01
+Matt Begley,2212713,Education,Haverford College,60834,BA,2004-01-01
+Matt Begley,2212713,Education,Emory University School of Law,93777,JD,2007-01-01
+Russ Dancho,2212717,Education,Rensselaer Polytechnic Institute (RPI),61687,MS,1983-01-01
+Russ Dancho,2212717,Education,University of Bridgeport,62201,BS,1981-01-01
+Russ Dancho,2212717,Education,University of Connecticut,62265,MBA,1986-01-01
+Robert Belshaw,2212718,Education,University of California Hastings College of Law,60832,JD,1989-01-01
+Robert Belshaw,2212718,Education,San Francisco State University,61777,BA (summa cum laude),1986-01-01
+Jon Moss,2212719,Education,Cornell University,60457,BS,2004-01-01
+Jon Moss,2212719,Education,USC Gould School of Law (Formerly known as University of Southern California Law School),1106974,JD,2007-01-01
+Greg Biehler,2212722,Education,University of South Dakota,83247,BA,1978-01-01
+Greg Biehler,2212722,Education,Drake University Law School,1072905,JD,1981-01-01
+Jason Blackstone,2212724,Education,Texas A&M University,62040,BS (magna Cum Laude),1999-01-01
+Jason Blackstone,2212724,Education,Harvard Law School,63035,JD,2002-01-01
+Jason Blackstone,2212724,Professional Qualifications,United States Patent and Trademark Office (USPTO),81039,Registered Patent Attorney,
+Bruce Bolger,2212732,Education,University of Southern California (USC),62673,BA (summa cum laude),1976-01-01
+Bruce Bolger,2212732,Education,Southwestern University School of Law,114921,JD,1981-01-01
+John Breen,2212734,Education,Santa Clara University,61782,BS,1985-01-01
+John Breen,2212734,Education,Loyola Law School Los Angeles,2331657,JD,1994-01-01
+Gary Bresee,2212737,Professional Qualifications,American National Standards Institute (ANSI),248752,Certified Information Privacy Professional,
+Gary Bresee,2212737,Education,Davis School of Law University of California,747619,JD,1987-01-01
+Gary Bresee,2212737,Professional Qualifications,International Association of Privacy Professionals (IAPP),795636,Certified Information Privacy Professional,
+Justine Phillips,2212738,Education,University of San Diego (USD),62647,BA (Cum Laude),1999-01-01
+Justine Phillips,2212738,Education,University of San Diego School of Law,421175,JD (magna Cum Laude),2005-01-01
+Shannon Burr,2212745,Education,Tulane University,62098,BA,1995-01-01
+Shannon Burr,2212745,Education,Tulane University,62098,JD,2003-01-01
+Shannon Burr,2212745,Education,Tulane University,62098,Certified,
+Shannon Burr,2212745,Education,Tulane University Law School,129192,Certified,
+Adam Quattlebaum,2212752,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,Certified Public Accountant,
+Adam Quattlebaum,2212752,Education,Darla Moore School of Business University of South Carolina (USC),113782,BS,2008-01-01
+Adam Quattlebaum,2212752,Education,Darla Moore School of Business University of South Carolina (USC),113782,Master of Accountancy (MAcc),2008-01-01
+Kendall Canfield,2212753,Education,University of Missouri-St Louis (UMSL),101427,BA (magna cum laude),2008-01-01
+Kendall Canfield,2212753,Education,Saint Louis University School of Law,465791,JD,2011-01-01
+Alex Caraveo Jr,2212756,Education,Southern Methodist University,61882,BS,2006-01-01
+Alex Caraveo Jr,2212756,Education,Southern Methodist University Dedman School of Law,1584273,JD,2006-01-01
+Nancy Reimann,2212758,Education,UCLA School of Law,640561,JD,1983-01-01
+Nancy Reimann,2212758,Education,Leavey School of Business Santa Clara University,735329,BS (magna Cum Laude),1980-01-01
+Zacarias Chacon Jr,2212773,Education,University of Texas at Austin,62742,BA,1978-01-01
+Zacarias Chacon Jr,2212773,Education,University of Texas at Austin,62742,JD,1981-01-01
+John Seymour Jr,2212774,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,Certified Public Accountant,
+John Seymour Jr,2212774,Education,University of Georgia (UGA),62333,Master of Accountancy (MAcc),2007-01-01
+John Seymour Jr,2212774,Education,University of Georgia (UGA),62333,BBA,
+John Seymour Jr,2212774,Professional Qualifications,Information System Audit and Control Association Inc (ISACA),3059152,Certified Information Systems Auditor (CISA),
+Jill Collins,2212777,Education,Thomas Jefferson School of Law,584170,JD,
+Jill Collins,2212777,Education,University of California Santa Cruz (UCSC),2361289,BA,
+KC Kanoff,2212778,Education,Amherst College,60055,BA,
+KC Kanoff,2212778,Education,Harvard Business School,63013,MBA,2019-01-01
+Juanita Williams,2212779,Education,University of North Alabama,533240,BS,1985-01-01
+Michael Connally,2212781,Education,Loyola Marymount University (LMU),61187,BA (magna cum laude),1978-01-01
+Michael Connally,2212781,Education,Loyola Law School Los Angeles,2331657,JD,1981-01-01
+Rodger Heaton,2212783,Education,University of Illinois Urbana-Champaign (UIUC),77782,BS,1981-01-01
+Rodger Heaton,2212783,Education,Maurer School of Law Indiana University,1798832,JD (magna Cum Laude),1985-01-01
+Adam Shipley,2212784,Education,Vanderbilt University,62843,BA (Cum Laude),2003-01-01
+Adam Shipley,2212784,Education,Notre Dame Law School University of Notre Dame,642321,JD (Cum Laude),2006-01-01
+Nancy Brechtel,2212788,Education,University of Southern Mississippi (USM),93392,BS (Hons),1998-01-01
+Nancy Brechtel,2212788,Education,Loyola University School of Law in Chicago,587271,JD (Cum Laude),2002-01-01
+Matt Sonne,2212791,Education,University of Virginia School of Law,77982,JD,2005-01-01
+Matt Sonne,2212791,Education,Claremont McKenna College,87047,BA (magna cum laude),2000-01-01
+Dennis Theodossis,2212794,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,Certified Public Accountant,
+Dennis Theodossis,2212794,Education,North Carolina State University (NCSU),61450,Bachelor's Degree,2001-01-01
+Dennis Theodossis,2212794,Education,University of North Carolina Chapel Hill,62533,Masters Degree,2010-01-01
+Brandon Ribar,2212796,Education,Santa Clara University,61782,BSc,2002-01-01
+Malise Dennard,2212800,Education,University of Virginia,62777,BA,1984-01-01
+Malise Dennard,2212800,Education,Tulane University Law School,129192,JD (Cum Laude),1987-01-01
+Jonathan Stoler,2212804,Education,Brooklyn Law School,63628,JD,1995-01-01
+Jonathan Stoler,2212804,Education,SUNY Buffalo School of Management,805651,BA,1991-01-01
+Chris Derrenbacher,2212806,Education,Norman Adrian Wiggins School of Law Campbell University Inc,1336876,JD,1998-01-01
+Chris Derrenbacher,2212806,Education,East Carolina University,78858,BA,1994-01-01
+Chris Derrenbacher,2212806,Professional Qualifications,North Carolina Department of Insurance (NCDOI),1879375,Certified,
+Russ Hubbard,2212811,Education,Wake Forest University,62880,BSBA,
+Russ Hubbard,2212811,Education,Thunderbird School of Global Management,923424,MBA,1997-01-01
+Keith Szeliga,2212818,Education,Wake Forest University,62880,BA (summa cum laude),1999-01-01
+Keith Szeliga,2212818,Education,Harvard Law School,63035,JD (Cum Laude),2002-01-01
+Mark Kimbell,2212819,Education,Baylor University,60138,BBA,1983-01-01
+Mark Kimbell,2212819,Education,University of Houston,62360,MBA,1991-01-01
+Greg Marconnet,2212820,Education,Milwaukee School of Engineering (MSOE),102037,AS Degree (Associate of Science),
+Greg Marconnet,2212820,Education,Milwaukee School of Engineering (MSOE),102037,BS,
+Brad Marchese,2212825,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,CPA,2012-09-01
+Brad Marchese,2212825,Education,Montclair State University,269327,BS,2002-01-01
+Brad Marchese,2212825,Education,Rutgers University New Brunswick,2419095,MBA,2015-01-01
+Jrme Foulon,2212832,Education,Ecole Des Hautes Etudes Commerciales (HEC) Montral,124351,MSc,1998-01-01
+Jrme Foulon,2212832,Education,Ecole Des Hautes Etudes Commerciales (HEC) Montral,124351,BBA,
+Jrme Foulon,2212832,Professional Qualifications,CFA Institute (Association for Investment Management and Research prior to 2004),594747,Chartered Financial Analyst,
+Roburt Waldow,2212852,Education,Duke University School of Law,76040,JD,1994-01-01
+Roburt Waldow,2212852,Education,New York University School of Law,574794,LLM,1995-01-01
+Roburt Waldow,2212852,Education,University of the Pacific Eberhardt School of Business,1240025,BS (magna Cum Laude),1991-01-01
+Jeff Jacob,2212864,Education,University of Wisconsin-Madison,751347,BBA,1990-01-01
+Jeff Jacob,2212864,Education,University of Wisconsin-Madison,751347,MS,1992-01-01
+Andrew Brady,2212865,Education,Wharton School University of Pennsylvania,64966,BS,1996-01-01
+Andrew Brady,2212865,Professional Qualifications,CFA Institute (Formerly known as Association of Investment Management and Research (AIMR) (USA)),260936,Chartered Financial Analyst,
+Babak Yousefzadeh,2212869,Education,University of California Davis,62216,BA,2000-01-01
+Babak Yousefzadeh,2212869,Education,New York University School of Law,574794,LLM,2010-01-01
+Babak Yousefzadeh,2212869,Education,University of San Francisco School of Law,730721,JD,2004-01-01
+Hilary Cheong,2212870,Education,Ohio State University (OSU),61523,BSc,
+Hilary Cheong,2212870,Education,cole Suprieure des Sciences conomiques et Commerciales (ESSEC Business School),64829,MSc,
+Samit Shah,2212871,Education,University of Florida,62323,BS,2000-01-01
+Samit Shah,2212871,Education,Moore School of Business University of South Carolina,533435,International MBA,2005-01-01
+Sarah Hase,2212872,Education,University of Minnesota,62475,BSc,2008-01-01
+Sarah Hase,2212872,Professional Qualifications,Association of Clinical Research Professionals (ACRP),625985,Certified Clinical Research Associate,2010-10-01
+Debra Alvarez,2212873,Education,University of Houston,62360,Attended,
+Debra Alvarez,2212873,Education,University of Texas-Pan American (Ceased Trading 08/2015),139482,Attended,
+Erin Leffler,2212878,Education,University of Colorado Boulder,62260,BA,2000-01-01
+Erin Leffler,2212878,Education,Temple University Beasley School of Law,1238000,JD,2006-01-01
+Alan Waldman,2212880,Education,University of California Santa Barbara (UCSB),62214,Bachelor's Degree,1996-01-01
+John Lyons,2212881,Education,Cornell University,60457,BS,2005-01-01
+John Lyons,2212881,Education,University of Michigan Law School,75652,JD,2008-01-01
+David Greene,2212895,Education,Pepperdine University,61585,LLB,
+David Greene,2212895,Professional Qualifications,Financial Industry Regulatory Authority (FINRA),955132,Certified Regulatory and Compliance Professional (CRCP),
+David Greene,2212895,Education,Southwestern Law School,1197534,JD,1998-01-01
+Bryan Moreno,2212898,Education,Texas A&M University,62040,BS,1984-01-01
+Max Yu-Lung,2212909,Education,National Tsing Hua University,481480,BS,
+Max Yu-Lung,2212909,Education,National Tsing Hua University,481480,MS,
+Adam Rusciolelli,2212910,Education,University of Chicago Booth School of Business (University of Chicago Graduate School of Business prior to 2008),1342262,MBA,2012-01-01
+Adam Rusciolelli,2212910,Education,Unknown Organisation,0,Degree,2003-01-01
+Viktoras Gurgzdys,2212911,Education,Kaunas University of Technology,833117,Bachelor's Degree,2007-01-01
+Viktoras Gurgzdys,2212911,Education,Kaunas University of Technology,833117,Masters Degree,2009-01-01
+Riley Mendoza,2212912,Education,Harvard Law School,63035,JD,2007-01-01
+Riley Mendoza,2212912,Education,Harvard College,63125,BA (magna cum laude),2004-01-01
+Crystal Bedier,2212914,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,Certified Public Accountant,
+Crystal Bedier,2212914,Education,Southern Alberta Institute of Technology,662442,BBA,
+Lindsay Duran,2212915,Education,University of Texas at Austin,62742,BS,2004-01-01
+Lindsay Duran,2212915,Education,McCombs School of Business University of Texas at Austin,466303,MBA,2009-01-01
+Gordon Ng,2212919,Education,University of Toronto,62752,BComm,
+Gordon Ng,2212919,Professional Qualifications,Society of Management Accountants of Ontario,1634969,Chartered Management Accountant,
+Greg Dimmock,2212923,Education,Dartmouth College,60488,Studied,1991-01-01
+Greg Dimmock,2212923,Education,McGill University (Canada),61248,BA (Hons),1992-01-01
+Greg Dimmock,2212923,Education,University of Toronto,62752,Certificate,2014-01-01
+Greg Dimmock,2212923,Education,Schulich School of Business York University,622327,MBA,1997-01-01
+Peggy McGillis,2212928,Education,Central Michigan University,60309,BA,
+Peggy McGillis,2212928,Education,University of Detroit,62278,Masters Degree,
+Bradley Piper,2212933,Education,Vanderbilt University,62843,BA (Cum Laude),
+Paul Myhre,2212937,Education,North Dakota State University (NDSU),61454,BSEE,1993-01-01
+Paul Myhre,2212937,Professional Qualifications,MTB Project Management Professionals Inc,798013,Project Management Professional,2007-11-01
+Paul Myhre,2212937,Professional Qualifications,Scaled Agile Inc,2177716,Certified,2016-08-01
+Paul Myhre,2212937,Professional Qualifications,Agile Scrum Alliance Inc,3073853,Certified Scrum Master,
+Brian Wilson,2212940,Education,Terry College of Business University of Georgia,100202,MBA,2001-01-01
+Brian Wilson,2212940,Education,University of Portland,378047,BBA,1992-01-01
+Melanie Dudek,2212946,Education,University of Western Ontario (Western University),880267,BA (Hons),2007-01-01
+Carl Brasek,2212947,Education,United States Naval Academy (USNA),377927,BSc,1992-01-01
+Lindsay Singer,2212948,Education,Wilfrid Laurier University,256587,BA,2008-01-01
+Lindsay Singer,2212948,Education,Humber College Institute of Technology and Advanced Learning,740610,Postgraduate Certificate (PGCert),2009-01-01
+Sandy Murti,2212951,Education,Lawrence University,61137,BA,1995-01-01
+Sandy Murti,2212951,Education,Stephen M Ross School of Business University of Michigan (University of Michigan Business School prior to 09/2004),747221,MBA,2000-01-01
+Steven Kohn,2212954,Education,University of Colorado Boulder,62260,BS,1987-01-01
+Steven Kohn,2212954,Education,Roosevelt University,63519,MBA,1991-01-01
+Steven Kohn,2212954,Professional Qualifications,Society of Industrial & Office REALTORS (SIOR),1495982,Certified,2005-01-01
+Drew Persson,2212962,Education,Rider University,82615,BSc,1991-01-01
+James Sherlow,2212965,Education,University of Manchester,62441,BSc,1996-01-01
+Antoine Desjardins,2212966,Education,Universite du Quebec en Outaouais (UQO) (University of Quebec Ottawa),1614077,BBA,1997-01-01
+Antoine Desjardins,2212966,Education,SKEMA Business School,1698478,Masters Degree,1995-01-01
+David Curran,2212968,Education,Worcester Polytechnic Institute (WPI),62969,MBA,
+David Curran,2212968,Education,University of Massachusetts,63512,BS,
+Gayle Heskiel,2212975,Professional Qualifications,INTERNATIONAL BUSINESS MACHINES (IBM) CORP,16506,Certified Application Developer (CAD),
+Gayle Heskiel,2212975,Professional Qualifications,MICROSOFT CORP,20601,Certified,
+Gayle Heskiel,2212975,Education,Heriot-Watt University,43366,MBA,2019-01-01
+Gayle Heskiel,2212975,Education,Wharton School University of Pennsylvania,64966,BS,1993-01-01
+Gayle Heskiel,2212975,Professional Qualifications,Project Management Institute Inc (PMI),489712,Project Management Professional,
+Raj Kapoor,2212981,Education,University of Toronto,62752,Graduated,1992-01-01
+Raj Kapoor,2212981,Professional Qualifications,American Institute of Certified Management Accountants (AICMA),90217,CMA,
+Raj Kapoor,2212981,Professional Qualifications,Chartered Professional Accountants of Canada (CPA Canada),2017359,CPA,
+Pooja Aniker,2212987,Professional Qualifications,CISCO SYSTEMS INC,6908,Certified,
+Pooja Aniker,2212987,Education,Louisiana State University (LSU),61181,Masters Degree,2005-01-01
+Pooja Aniker,2212987,Education,M S Ramaiah Institute Of Technology,1101794,Bachelor's Degree,2001-01-01
+Mike Hotra,2212994,Education,Syracuse University,61983,Graduated,
+Liz Sidoti,2212998,Education,EW Scripps School of Journalism,1713169,Bachelor's Degree,
+John Tyson,2213001,Education,Harvard University,63830,Bachelor's Degree,
+John Tyson,2213001,Education,Stanford University Graduate School of Business,67360,MBA,
+Scott Nusz,2213004,Education,University of Colorado Boulder,62260,BS,1999-01-01
+Scott Nusz,2213004,Professional Qualifications,Scrum Alliance Inc,1261854,Certified Scrum Product Owner (CSPO),2010-08-01
+Scott Nusz,2213004,Professional Qualifications,ITIL Foundation,1552363,Certified,2008-10-01
+Gus Epps Epps Jr,2213006,Education,University of Virginia School of Law,77982,JD,1973-01-01
+Gus Epps Epps Jr,2213006,Education,Yale University,62981,BA,1970-01-01
+Kim Wachtel,2213007,Professional Qualifications,CA INC (CA Technologies) (De-listed 11/2018),7569,Certified,2012-11-01
+Kim Wachtel,2213007,Professional Qualifications,GENERAL ELECTRIC CO,12986,Six Sigma Green Belt (SSGB),2002-06-01
+Kim Wachtel,2213007,Education,Rensselaer Polytechnic Institute (RPI),61687,MS,1999-01-01
+Kim Wachtel,2213007,Education,Trinity University San Antonio Texas,109566,BS,1996-01-01
+Kim Wachtel,2213007,Professional Qualifications,Cooper Software Inc,420437,Certified,2003-10-01
+Kim Wachtel,2213007,Professional Qualifications,Pragmatic Marketing Inc,734697,Certified,2012-06-01
+Kim Wachtel,2213007,Education,University of Denver Daniels College of Business,753221,MBA,2005-01-01
+Kim Wachtel,2213007,Professional Qualifications,Value Innovations Inc,3079869,Certified,2012-01-01
+Kim Wachtel,2213007,Professional Qualifications,Mountain Goat Software LLC (MGS),3079872,Certified,2009-08-01
+Nick Albu,2213014,Education,Appalachian State University,84867,BA,2005-01-01
+Nick Albu,2213014,Education,Washington and Lee University School of Law,564260,JD,2009-01-01
+Lori Rodden,2213017,Education,Binghamton University,61944,BS,1992-01-01
+Eric Alexander,2213020,Education,Kenyon College,44795,BA (magna cum laude),1992-01-01
+Eric Alexander,2213020,Education,Duke University School of Law,76040,JD (Cum Laude),1995-01-01
+Matt Wolfe,2213027,Education,Washington College,98701,BA (summa cum laude),2003-01-01
+Matt Wolfe,2213027,Education,University of Chicago Law School,1283365,JD (Hons),2011-01-01
+Leonid Lukyanov,2213031,Education,New York University (NYU),61424,BA (Hons),2013-01-01
+Kamal Arulvel,2213045,Education,University of Essex,62296,LLB,2004-01-01
+Beth Rose,2213053,Education,University of Michigan,63187,BA,1992-01-01
+Beth Rose,2213053,Education,Wayne State University Law School,103157,JD (Cum Laude),1995-01-01
+Rear Admiral Brian LaRoche,2213061,Education,New Jersey Institute of Technology (NJIT),61413,MS,
+Rear Admiral Brian LaRoche,2213061,Education,United States Naval Academy (USNA),377927,BS,1983-01-01
+Grace Lee,2213063,Education,University of Illinois College of Law,660932,JD (magna Cum Laude),2006-01-01
+Grace Lee,2213063,Education,College of Business University of Illinois at Urbana-Champaign (College of Commerce and Business Administration prior to 2003),1542737,BA,2003-01-01
+Colin Dougherty,2213065,Education,University of Ntre Dame,62544,BA,
+Colin Dougherty,2213065,Education,Yale School of Management,63607,MBA,
+Nikki Bechtold,2213070,Education,Institut Catholique de Paris (ICP) (Catholic University of Paris),41435,Studied,
+Nikki Bechtold,2213070,Education,Pennsylvania State University (Penn State University),61582,BA,2007-01-01
+Nikki Bechtold,2213070,Education,Pennsylvania State University (Penn State University),61582,BS,2007-01-01
+Nikki Bechtold,2213070,Education,Case Western Reserve University School of Law,1221943,JD (Cum Laude),2010-01-01
+Laura Theilmann,2213088,Education,University of Kentucky,62389,JD,1994-01-01
+Laura Theilmann,2213088,Education,Western Kentucky University,83922,BS (summa Cum Laude),1991-01-01
+Steve Blazick,2213119,Education,Charles Widger School of Law Villanova University (Villanova University School of Law prior to 01/2016),466232,LLM,2003-01-01
+Steve Blazick,2213119,Education,Kutztown University of Pennsylvania,662903,BA (summa cum laude),1991-01-01
+Steve Blazick,2213119,Education,Kutztown University of Pennsylvania,662903,BS (summa Cum Laude),1991-01-01
+Steve Blazick,2213119,Education,Temple University Beasley School of Law,1238000,JD,1998-01-01
+Steve Blazick,2213119,Professional Qualifications,Philadelphia Institute of Certified Public Accountants,1512643,CPA,
+Paul Bogdanski,2213122,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,Certified Public Accountant,
+Paul Bogdanski,2213122,Education,DePaul University,60499,BS (Hons),1989-01-01
+Paul Bogdanski,2213122,Education,John Marshall Law School,78808,JD,1992-01-01
+John Bovich,2213128,Education,University of Michigan Ann Arbor,550078,BA,1987-01-01
+John Bovich,2213128,Education,University of Wisconsin-Madison,751347,JD,1990-01-01
+Robert Smith Jr,2213137,Education,University of Tulsa College of Law,1015072,JD,1992-01-01
+Robert Smith Jr,2213137,Education,Baylor University,60138,BBA,1989-01-01
+Baofeng Pan,2213144,Education,Hangzhou Normal University,2145111,Bachelor's Degree,2006-07-01
+Haotian Wu,2213147,Professional Qualifications,Cheung Kong Graduate School of Business,640926,Executive MBA,
+Professor Xianhai Huang,2213149,Education,Fudan University Shanghai,91057,PhD,
+Weixiang Jiang,2213152,Education,Unknown Organisation,0,Certified Internal Auditor,
+Weixiang Jiang,2213152,Education,Peking University,78186,Masters Degree,
+Weixiang Jiang,2213152,Education,China Securities Industry Institute,1280569,Certified,
+Weixiang Jiang,2213152,Education,School of Economics Renmin University of China (RUC),2642891,Bachelor's Degree,
+Weixiang Jiang,2213152,Professional Qualifications,CFA Institute (China),2775739,Chartered Financial Analyst,
+Fan Guo,2213159,Education,Renmin University of China School of Business,1875985,Postgraduate Degree,2010-04-01
+Fan Guo,2213159,Education,Chongqing University of Posts & Telecommunications (CUPT),2244430,Bachelor's Degree,2005-07-01
+Fan Guo,2213159,Education,Chongqing Communication College,3079666,Masters Degree,2009-06-01
+Hailun Liu,2213160,Education,Zhongnan University of Economics and Law,877368,Bachelor's Degree,1999-07-01
+Hailun Liu,2213160,Professional Qualifications,Association of Chartered Certified Accountants (ACCA) (Singapore),1737260,CA,2007-01-01
+Stephanie Fried,2213161,Education,Columbia Business School,63118,MBA,
+Stephanie Fried,2213161,Education,University of Michigan,63187,BA (Hons),
+Jonathan Williford,2213167,Education,Wake Forest University,62880,BS,2012-01-01
+Stephen Chan,2213171,Education,University of Auckland,62165,LLB,2006-01-01
+Stephen Chan,2213171,Education,University of Auckland,62165,BA,
+Eleanor Chapman,2213173,Education,University of Law Guildford (Formerly known as College of Law Guildford),64136,Legal Practice Course (LPC),
+Eleanor Chapman,2213173,Education,College of Law Birmingham,1706448,Advanced Leadership Program,
+Eleanor Chapman,2213173,Education,University of Birmingham,62192,BA,
+Pete Chassman,2213174,Education,Georgia Institute of Technology (GIT),60751,BE (Hons),1989-01-01
+Pete Chassman,2213174,Education,Emory University School of Law,93777,JD (Distinction),1993-01-01
+Paul Connell,2213178,Education,University of Wisconsin Parkside,740631,BA (Cum Laude),1994-01-01
+Paul Connell,2213178,Education,Marquette University Law School,1204220,JD (magna Cum Laude),1998-01-01
+Doctor Paul Taheri,2213180,Education,New York University (NYU),61424,MD,1988-01-01
+Doctor Paul Taheri,2213180,Education,St Lawrence University,78719,BS,1984-01-01
+Doctor Paul Taheri,2213180,Education,Stephen M Ross School of Business University of Michigan (University of Michigan Business School prior to 09/2004),747221,MBA,1999-01-01
+Jim Cooper,2213185,Education,Wabash College,62874,BA (Cum Laude),1981-01-01
+Jim Cooper,2213185,Education,Tulane University Law School,129192,JD (Cum Laude),1984-05-01
+Kasey Curtis,2213187,Education,Pepperdine University School of Law,465814,JD (magna Cum Laude),2009-01-01
+Kasey Curtis,2213187,Education,University of California Davis,62216,BS,2004-01-01
+Luke Debevec,2213188,Education,Georgetown University,60750,BA (Cum Laude),2001-01-01
+Luke Debevec,2213188,Education,Notre Dame Law School University of Notre Dame,642321,JD (Cum Laude),2004-01-01
+Elizabeth Dill,2213189,Education,Virginia Polytechnic Institute and State University (Virginia Tech),110197,BS (cum laude),2003-01-01
+Elizabeth Dill,2213189,Education,Charles Widger School of Law Villanova University (Villanova University School of Law prior to 01/2016),466232,JD (magna Cum Laude),2008-01-01
+Elizabeth Dill,2213189,Professional Qualifications,International Association of Privacy Professionals (IAPP),795636,Certified Information Privacy Professional,2019-04-17
+Joel Martin,2213190,Education,State University of New York College at Old Westbury,860062,Graduated,2003-01-01
+Simone Dupr,2213191,Education,Louisiana State University (LSU),61181,BA,1989-01-01
+Simone Dupr,2213191,Education,Paul M Hebert Law Center Louisiana State University,1351133,JD,1992-01-01
+Tabitha Durbin,2213193,Education,Louisiana State University (LSU),61181,BS (magna Cum Laude),2000-01-01
+Tabitha Durbin,2213193,Education,Paul M Hebert Law Center Louisiana State University,1351133,JD,2004-01-01
+Holly Cafiero,2213194,Education,Northeastern University,61472,BS,1992-01-01
+Cory Eichelberger,2213195,Education,Utah State University,80596,BS,
+Cory Eichelberger,2213195,Education,University of Louisville Louis D Brandeis School of Law,1376874,JD,
+Katie Ender,2213197,Education,Ohio State University (OSU),61523,BA,2003-01-01
+Katie Ender,2213197,Professional Qualifications,Florida Bar (The),423138,Certified,2016-01-01
+Katie Ender,2213197,Education,Washington College of Law American University,597379,JD,2007-01-01
+Katie Ender,2213197,Professional Qualifications,Law Students in Court (LSIC),2423349,Certified,
+Jason Macedonia,2213199,Education,Unknown Organisation,0,MBA,
+Bradley Fischer,2213209,Education,State University of New York (SUNY),61939,BA,1984-01-01
+Bradley Fischer,2213209,Education,Shepard Broad Law Center Nova Southeastern University,752979,JD (Cum Laude),1987-01-01
+Wm Floyd,2213211,Education,Cumberland School of Law Samford University,461071,JD,2003-01-01
+Wm Floyd,2213211,Education,Auburn University,1354261,BA,2000-01-01
+Jessica Forbes,2213212,Education,University of the District of Columbia David A Clarke School of Law (UDC DCSL),2288150,JD,1995-01-01
+Jessica Forbes,2213212,Education,State University of New Jersey Rutgers (Rutgers University),100431,BA,1992-01-01
+Ken Foreman,2213213,Professional Qualifications,New Jersey Supreme Court,602420,Certified,2010-01-01
+Ken Foreman,2213213,Education,Claude W Pettit College of Law Ohio Northern University,2358147,JD (Distinction),1994-01-01
+Ken Foreman,2213213,Education,Gettysburg College,78283,BA,1984-01-01
+Rob Freeman Jr,2213216,Education,University of Dallas,62273,BA,1982-01-01
+Rob Freeman Jr,2213216,Education,Texas Tech University School of Law,565400,JD (Hons),1985-01-01
+Seth Friedman,2213217,Education,Georgia State University Law School,95857,JD,2004-01-01
+Seth Friedman,2213217,Education,Emory University,60627,BA,2001-01-01
+Jerry Garcia,2213222,Education,California State University Long Beach,82585,BA,1980-01-01
+Jerry Garcia,2213222,Education,Davis School of Law University of California,747619,JD,1987-01-01
+Lynn Geerdes,2213223,Education,Drake University,60540,BSBA,1990-01-01
+Lynn Geerdes,2213223,Education,University of Iowa College of Law,246437,JD,1997-01-01
+Norman Giles,2213224,Education,University of Houston,62360,BS,1990-01-01
+Norman Giles,2213224,Education,Houston College of Law (Formerly known as South Texas College of Law),81426,JD,2000-05-01
+Norman Giles,2213224,Professional Qualifications,Texas Commission on Law Enforcement Officer Standards & Education,1483976,Certified,1979-07-01
+Ryan Gill,2213225,Education,University of Colorado,63056,BA,2000-01-01
+Ryan Gill,2213225,Education,University of Colorado School of Law Boulder,566546,JD,2003-01-01
+Jonathan Goken,2213226,Education,Illinois State University,60905,BS,1999-01-01
+Jonathan Goken,2213226,Education,John Marshall Law School,78808,JD,2002-01-01
+Nicole Banks,2213228,Education,Goizueta Business School Emory University,104642,BBA,2009-01-01
+Natasha Mann,2213233,Education,Indiana University Kelley School of Business,79674,BS,
+Wanda Briggs,2213240,Education,Unknown Organisation,0,Masters Program,
+Wanda Briggs,2213240,Education,Syracuse University,61983,MS,
+Wanda Briggs,2213240,Education,Kansas State University (KSU),62382,BS,
+Wanda Briggs,2213240,Professional Qualifications,Project Management Institute Inc (PMI),489712,Project Management Professional,
+Wanda Briggs,2213240,Education,Dwight D Eisenhower School for National Security and Resource Strategy (Eisenhower School),620784,MS,
+Laura Colona,2213256,Education,Old Dominion University,79828,BA,
+Giovanni D'Agostino,2213257,Education,Universidad Nacional Autonoma de Mexico (UNAM),62494,LLB,1995-01-01
+Giovanni D'Agostino,2213257,Education,Instituto Tecnologico Autonomo de Mexico (ITAM),89742,Postgraduate Degree,
+Giovanni D'Agostino,2213257,Education,Universidad Iberoamericana,1341986,Degree,
+Brian Dudley,2213258,Education,Stanford University,61935,MBA,2018-01-01
+Brian Dudley,2213258,Education,University of California Berkeley,62215,BS,2011-01-01
+Pat Langdon,2213260,Education,Wilfrid Laurier University,256587,Graduated,
+Colin Hackett,2213261,Education,Boston University,60195,BA,1988-01-01
+Colin Hackett,2213261,Education,Seton Hall University School of Law,464664,JD,1991-01-01
+Jim Hailey III,2213264,Education,Loyola University of New Orleans,585171,BS,1990-01-01
+Jim Hailey III,2213264,Education,Loyola University of New Orleans College of Law,2236321,JD,1994-01-01
+Jonathan Guarino,2213266,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,CPA,2019-06-01
+Jonathan Guarino,2213266,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,Chartered Global Management Accountant (CGMA),
+Jonathan Guarino,2213266,Education,Montclair State University,269327,BS,1997-01-01
+Christine Hall,2213268,Education,Indiana University School of Law,78801,JD,1993-01-01
+Christine Hall,2213268,Education,St Mary's College Notre Dame,793087,BA,1990-01-01
+Robert Deshaies,2213269,Education,Boston College,60193,Studied,1985-01-01
+Robert Deshaies,2213269,Education,Northwestern University,61494,MBA,1998-01-01
+Robert Deshaies,2213269,Education,Westfield State University (Formerly known as Westfield State College),1793574,BS,1987-01-01
+Emily Medine,2213270,Education,Woodrow Wilson School of Public and International Affairs Princeton University,79060,MPA,1978-01-01
+Emily Medine,2213270,Education,Clark University,106702,BA (magna cum laude),1976-01-01
+Jason Hall,2213271,Education,McCombs School of Business University of Texas at Austin,466303,BBA,2007-01-01
+Jason Hall,2213271,Education,Florida State University College of Law (Florida State Law),1194156,JD,2010-01-01
+Monica Kozy,2213273,Education,University of Wisconsin-Madison,751347,BA,2012-01-01
+Monica Kozy,2213273,Education,City University London (CUL),1378256,Studied,2011-01-01
+Ranieri Patern,2213274,Education,University of Exeter,62301,BS (Hons),2013-01-01
+Ranieri Patern,2213274,Education,Columbia Business School,63118,MBA,2019-01-01
+Azunna Anyanwu,2213277,Education,Johns Hopkins University,61026,MS,2004-05-01
+Azunna Anyanwu,2213277,Education,Harvard University,63830,AB,2001-06-01
+Azunna Anyanwu,2213277,Professional Qualifications,Project Management Institute Inc (PMI),489712,Project Management Professional,2008-04-01
+Azunna Anyanwu,2213277,Professional Qualifications,Project Management Institute Inc (PMI),489712,Certified,2011-10-01
+Azunna Anyanwu,2213277,Professional Qualifications,Scrum Alliance Inc,1261854,Certified Scrum Master,2012-11-01
+Azunna Anyanwu,2213277,Professional Qualifications,Scrum Alliance Inc,1261854,Certified Security Professional (CSP),2015-10-01
+Azunna Anyanwu,2213277,Professional Qualifications,Scaled Agile Inc,2177716,Certified,2016-02-01
+Kail Walker,2213278,Education,University of Ntre Dame,62544,BBA,2016-01-01
+Lauren Rich,2213280,Education,DePaul University,60499,BS,2009-01-01
+Lauren Rich,2213280,Professional Qualifications,CFA Institute (Formerly known as Association of Investment Management and Research (AIMR) (USA)),260936,Certificate in Investment Performance Measurement (CIPM),2017-05-01
+Lauren Rich,2213280,Education,Loyola University Chicago Quinlan School of Business,1940371,MBA,2011-01-01
+Lauren Rich,2213280,Education,Loyola University Chicago Quinlan School of Business,1940371,MS,2014-01-01
+Curtis Krumreich,2213282,Education,Indiana University Kelley School of Business,79674,BS,2010-01-01
+Alice Herbolsheimer,2213284,Education,University of Nevada Reno,1286731,BSBA,1994-01-01
+Alice Herbolsheimer,2213284,Education,University of the Pacific McGeorge School of Law,1360270,JD,1997-01-01
+Joe McDermott,2213285,Education,University of Colorado Boulder,62260,Graduated,2008-01-01
+Joe McDermott,2213285,Education,Marquette University,61231,BSBA,2011-01-01
+Tyler Mercer,2213286,Education,University of Illinois Urbana-Champaign (UIUC),77782,BS,2008-01-01
+Sara Holland,2213287,Education,University of Massachusetts Amherst (UMA),62456,BA (Cum Laude),1994-01-01
+Sara Holland,2213287,Education,Charles Widger School of Law Villanova University (Villanova University School of Law prior to 01/2016),466232,JD,1997-01-01
+Sara Holland,2213287,Education,Academy of Advocacy Temple University School of Law,858079,LLM,2015-01-01
+Rick Negrin,2213288,Education,School of Social Work University of Washington,1815570,BSc,1997-01-01
+Scott Huray,2213289,Education,Dartmouth College,60488,BA,1998-01-01
+Scott Huray,2213289,Education,Emory University,60627,JD,1991-01-01
+Dominic Storto,2213291,Professional Qualifications,Illinois Department of Financial and Professional Regulation (IDFPR),1191178,Certified Public Accountant,
+Dominic Storto,2213291,Education,College of Business University of Illinois at Urbana-Champaign (College of Commerce and Business Administration prior to 2003),1542737,BS,
+Rebecca Sekosky,2213292,Education,Northeastern Illinois University,80809,Bachelor's Degree,2014-01-01
+MaryEllen Hurtado,2213293,Education,DePaul University,60499,Studied,
+Jim Miller,2213294,Education,Florida State University,60692,BS,1993-01-01
+Nancy Lux,2213296,Education,Webster University,83128,Bachelor's Degree,
+Douglas Irvine,2213297,Education,Pomona College,61610,BA,1982-01-01
+Douglas Irvine,2213297,Education,Santa Clara University School of Law,741476,JD,1985-01-01
+Joel Boisselle,2213300,Education,Northeastern University,61472,BSEE,1987-01-01
+Nate Collins,2213302,Education,Furman University,78414,BA,2014-01-01
+Josh Lerner,2213304,Education,Reed College,61666,BA,1997-01-01
+Josh Lerner,2213304,Education,UC Berkeley School of Law,1344426,JD,2001-01-01
+Katarina Babic,2213305,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,Certified Public Accountant,
+Katarina Babic,2213305,Education,DePaul University,60499,BS,2005-01-01
+Katarina Babic,2213305,Education,Kellstadt Graduate School of Business DePaul University,1192329,MBA,2013-01-01
+Larry Jackson,2213306,Education,Villanova University,62858,BSBA,1984-01-01
+Larry Jackson,2213306,Education,Widener University School of Law,795634,JD (Cum Laude),1989-01-01
+Heather Doyle,2213307,Education,Bradley University,60202,BS,1999-01-01
+Heather Doyle,2213307,Education,Kellstadt Graduate School of Business DePaul University,1192329,MBA,2005-01-01
+Mick Jaeger,2213309,Education,University of Puget Sound,62612,JD,1993-01-01
+Mick Jaeger,2213309,Education,Central Washington University,247701,BS,1988-01-01
+Ankeet Patel,2213311,Education,University of Illinois Urbana-Champaign (UIUC),77782,Studied,2007-01-01
+Ankeet Patel,2213311,Education,University of Chicago Booth School of Business (University of Chicago Graduate School of Business prior to 2008),1342262,MBA (Hons),2015-01-01
+Addie Jones,2213317,Education,University of Houston,62360,BS (summa Cum Laude),2001-01-01
+Addie Jones,2213317,Education,Texas Tech University School of Law,565400,JD (magna Cum Laude),2004-01-01
+Gabe Judd,2213319,Education,Augustana College,60104,BA,2003-01-01
+Gabe Judd,2213319,Education,Chicago Kent College of Law Illinois Institute of Technology,421898,Studied,2007-01-01
+Gabe Judd,2213319,Professional Qualifications,Florida Coastal School of Law,100656,JD,2007-01-01
+Jeremy Deese,2213322,Education,University of North Carolina Chapel Hill,62533,BS (Distinction),2002-01-01
+Jeremy Deese,2213322,Education,University of Tennessee College of Law,666600,JD,2005-01-01
+Anthony Ma,2213326,Education,York University (Canada),64608,BA,
+Rob Geyer,2213327,Education,Pepperdine University,61585,MBA,1989-01-01
+Rob Geyer,2213327,Education,University of California Davis,62216,BA,1985-01-01
+Jackie Pfister,2213334,Education,Texas A&M University,62040,BA,
+Barry Kaiman,2213336,Education,Rutgers College,76909,BA (Cum Laude),1972-01-01
+Barry Kaiman,2213336,Education,University of Nebraska College of Law,488230,JD,1975-01-01
+Gregory Katz,2213337,Education,University of Michigan,63187,BA,1987-01-01
+Gregory Katz,2213337,Education,Brooklyn Law School,63628,JD,1990-01-01
+Kate Venne,2213338,Education,Winona State University,93372,Bachelor's Degree,1998-01-01
+Kate Kennedy,2213339,Education,University of Kentucky College of Law,537423,BA,2002-01-01
+Kate Kennedy,2213339,Education,University of Kentucky College of Law,537423,JD,2005-01-01
+Grubb Kilpatrick,2213340,Education,Ohio State University (OSU),61523,BA,2003-01-01
+Grubb Kilpatrick,2213340,Education,Capital University Law School,420824,JD,2007-01-01
+Matthew Kleifield,2213341,Education,University of Arizona (UOA),62155,BSc,1984-01-01
+Matthew Kleifield,2213341,Education,James E Rogers College of Law University of Arizona,1102699,JD,1987-01-01
+Lewis Baird,2213342,Education,University of Colorado at Colorado Springs (UCCS),1558956,BS,2008-01-01
+Andrew Myers,2213343,Education,Tuck School of Business at Dartmouth (Amos Tuck School of Business Administration),632975,MBA,2014-01-01
+Andrew Myers,2213343,Education,Eugene Lang College,942821,BA,2006-01-01
+Frank Perez,2213344,Education,State University of New Jersey Rutgers (Rutgers University),100431,BA,
+Jonathan Van Gorp,2213345,Education,University of Georgia (UGA),62333,BBA,2006-01-01
+Elise Klein,2213346,Education,Pomona College,61610,BA,1980-01-01
+Elise Klein,2213346,Education,University of California Hastings College of Law,60832,JD,1983-01-01
+Stephen Kovarik,2213347,Education,New York Law School,77963,JD (Cum Laude),1989-01-01
+Stephen Kovarik,2213347,Education,School of Visual Arts (SVA),1007013,Bachelor of Fine Arts (BFA),1976-01-01
+Scott Leger,2213351,Education,Plymouth State University (Plymouth State College prior to 2003),61597,BS,1993-01-01
+Scott Leger,2213351,Education,Plymouth State University (Plymouth State College prior to 2003),61597,MBA,2009-01-01
+Oscar Ibarra,2213356,Education,University of California Los Angeles (UCLA),62218,Bachelor's Degree,1994-01-01
+Oscar Ibarra,2213356,Education,Kellogg School of Management Northwestern University,77878,Masters Degree,1998-01-01
+Denis Godbout,2213360,Education,Universit d'Ottawa (University of Ottawa),63569,Bachelor's Degree,1987-01-01
+Denis Godbout,2213360,Education,Universit de Montral,591809,MBA,1996-01-01
+Tim Montgomery,2213364,Education,Pennsylvania State University (Penn State University),61582,BS,1984-01-01
+Tim Montgomery,2213364,Education,University of Houston,62360,MBA,1994-01-01
+JanCarlos Llach,2213366,Education,University of Miami,62467,BA,
+Brad Stitt,2213369,Education,Canisius College,60276,BSc,1985-01-01
+Brad Stitt,2213369,Education,University of New Hampshire,62520,Studied,1981-01-01
+Jeff Wilson,2213370,Education,University of Tennessee,64218,BS,1985-01-01
+Jeff Wilson,2213370,Education,US Naval Nuclear Power School,484709,MS,1987-01-01
+Jeff Wilson,2213370,Education,US Navy,732322,Certified,
+Ajay Sathyanath,2213384,Education,Loyola College University of Madras,257957,Bachelor's Degree,
+Ajay Sathyanath,2213384,Education,Indian Institute of Science (IISc),487271,Masters Degree,
+Angela Wilkins,2213401,Education,Lehigh University,61143,PhD,2007-01-01
+Angela Wilkins,2213401,Education,Lehigh University,61143,MS,
+Angela Wilkins,2213401,Education,University of Northern Colorado,82118,Graduated,2002-01-01
+Eric Hahm,2213468,Education,Dongguk University,793807,Bachelor's Degree,
+Eric Hahm,2213468,Education,Olin Business School Washington University (John M Olin School of Business),82506,MBA,2002-01-01
+Seong-Kook Shin,2213470,Education,Hongik University,1263242,Bachelor's Degree,
+Gerard Donovan,2213475,Education,Drexel University (Formerly known as Drexel Institute of Technology),60542,BS,2005-01-01
+Gerard Donovan,2213475,Education,Drexel University Thomas R Kline School of Law (Formerly known as Earle Mack School of Law Drexel University),1928997,JD (Hons),2009-01-01
+William Douglass,2213479,Education,Miami University Ohio,61276,BS (magna Cum Laude),1995-01-01
+William Douglass,2213479,Education,Saint Louis University School of Law,465791,JD (Cum Laude),2000-01-01
+John Ellison,2213483,Education,Ohio State University (OSU),61523,BA (Hons),1983-01-01
+John Ellison,2213483,Education,Dickinson School of Law Pennsylvania State University,749470,JD (Hons),1987-01-01
+Peter Emmi,2213485,Education,Rensselaer Polytechnic Institute (RPI),61687,BS,1988-01-01
+Peter Emmi,2213485,Education,Rensselaer Polytechnic Institute (RPI),61687,Certified,1990-01-01
+Peter Emmi,2213485,Education,Rensselaer Polytechnic Institute (RPI),61687,MS,1990-01-01
+Peter Emmi,2213485,Education,Elisabeth Haub School of Law Pace University (Pace Law School prior to 05/2016),635208,JD (Cum Laude),2004-01-01
+Mandip Englund,2213489,Education,University of Nottingham,625151,LLB,2001-01-01
+Mandip Englund,2213489,Education,Nottingham Law School Nottingham Trent University,2154547,Diploma,2002-01-01
+Shruti Engstrom,2213492,Education,University of Texas School of Law Austin,533430,JD,1998-01-01
+Shruti Engstrom,2213492,Education,American University Washington,60049,BA,1993-01-01
+Jim Eskilson,2213494,Education,California State University Northridge (Formerly known as San Fernando Valley State College),60261,BA (summa cum laude),1983-01-01
+Jim Eskilson,2213494,Education,UCLA School of Law,640561,JD,1985-01-01
+Jason Garcia,2213496,Education,University of California Los Angeles (UCLA),62218,BA,1994-01-01
+Jason Garcia,2213496,Education,Washington College of Law American University,597379,JD,1997-01-01
+Kim Gardner,2213499,Education,Michigan State University (MSU),61278,Bachelor's Degree,
+Kim Gardner,2213499,Education,Leonard N Stern School of Business New York University,42226,MBA,
+Emily Garrison,2213500,Education,Johns Hopkins University,61026,BA,2003-01-01
+Emily Garrison,2213500,Education,Northwestern University Pritzker School of Law,638744,JD (Cum Laude),2008-01-01
+David Gutowski,2213506,Education,Temple University Beasley School of Law,1238000,JD (Cum Laude),2000-01-01
+David Gutowski,2213506,Education,Franklin & Marshall College,60710,BA,1995-01-01
+Doctor Anette Grtner,2213510,Professional Qualifications,Frankfurt Bar Association,491509,Certified,2009-01-01
+Doctor Anette Grtner,2213510,Education,Rheinische Friedrich Wilhelms Universitt Bonn (University of Bonn),62194,PhD,2005-01-01
+Doctor Anette Grtner,2213510,Education,Deutsche Universitt fr Verwaltungswissenschaften Speyer (German University of Administrative Sciences Speyer),534744,Masters Degree,2005-01-01
+Doctor Anette Grtner,2213510,Education,University of Edinburgh,60610,LLM (Dist),2000-01-01
+Christine Hanhausen,2213512,Education,Temple University Beasley School of Law,1238000,JD (Cum Laude),2011-01-01
+Christine Hanhausen,2213512,Education,Franklin & Marshall College,60710,BA,2007-01-01
+Ron Hartman,2213533,Education,University of Pittsburgh Law School,63372,JD,1975-01-01
+Ron Hartman,2213533,Education,University of Pittsburgh,62593,BA (magna cum laude),1972-01-01
+Jayme McWidener,2213538,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,CPA,2007-01-01
+Jayme McWidener,2213538,Education,Drake University,60540,BA,2001-01-01
+Jayme McWidener,2213538,Education,Drake University,60540,MBA,2003-01-01
+David Hayes,2213539,Education,John Marshall Law School,78808,JD,2009-01-01
+David Hayes,2213539,Education,John Marshall Law School,78808,LLM,2009-01-01
+David Hayes,2213539,Education,St. Ambrose University,467190,BA (Cum Laude),2004-01-01
+George Hoare,2213543,Education,University of the West of England,62792,Graduate Diploma,2005-01-01
+George Hoare,2213543,Education,University of the West of England,62792,Legal Practice Course (LPC),2006-01-01
+George Hoare,2213543,Education,Durham University,45641,BA,2003-01-01
+Dana Schneider,2213545,Education,University of Virginia,62777,Graduated,1999-01-01
+Dana Schneider,2213545,Professional Qualifications,US Green Building Council New York Chapter (USGBC NY),2648811,Fellow,2016-01-01
+Courtney Horrigan,2213550,Education,Harvard Law School,63035,JD (Cum Laude),1993-01-01
+Courtney Horrigan,2213550,Education,Bryn Mawr College,60227,AB (magna cum laude),1988-01-01
+Karen Till,2213552,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,Certified Public Accountant,2014-08-01
+Karen Till,2213552,Education,Hofstra University,60871,BBA,1984-01-01
+Stphane Illouz,2213553,Education,Sciences Po (Institut d'Etudes Politiques de Paris) (IEP) (Paris Institute of Political Studies),63077,Graduated,1991-01-01
+Stphane Illouz,2213553,Education,cole Suprieure des Sciences conomiques et Commerciales (ESSEC Business School),64829,MBA,1989-01-01
+Stphane Illouz,2213553,Education,Universit Pantheon Assas Paris 2 (Pantheon Assas Paris 2 University) (University of Paris II),97531,Masters Degree,1990-01-01
+Michael Jacobs,2213555,Education,Harvard Law School,63035,JD (Cum Laude),1992-01-01
+Michael Jacobs,2213555,Education,Yale University,62981,BA (magna cum laude),1989-01-01
+Dusty Kirk,2213565,Education,Allegheny College,60035,BA,1975-01-01
+Dusty Kirk,2213565,Education,Dickinson School of Law Pennsylvania State University,749470,JD,1979-01-01
+Rissa Reddan,2213572,Education,Kellogg School of Management Northwestern University,77878,Womens Director Development Programs,2017-01-01
+Rissa Reddan,2213572,Education,Miami University Ohio,61276,BA,1992-01-01
+Rissa Reddan,2213572,Education,University of Chicago Booth School of Business (University of Chicago Graduate School of Business prior to 2008),1342262,MBA,2000-01-01
+Kenny Levine,2213574,Education,Temple University Beasley School of Law,1238000,JD (magna Cum Laude),2006-01-01
+Kenny Levine,2213574,Education,Pennsylvania State University (Penn State University),61582,BS,2002-01-01
+Ryan Drake Lee,2213576,Education,Morehouse College,61331,BA (magna cum laude),2004-01-01
+Ryan Drake Lee,2213576,Education,Haas School of Business University of California Berkeley,757832,MBA,2009-01-01
+Jean-Norbert Pontier,2213581,Education,Universit Pantheon Assas Paris 2 (Pantheon Assas Paris 2 University) (University of Paris II),97531,MA (Distinction),1991-01-01
+Jean-Norbert Pontier,2213581,Education,Universit Pantheon Assas Paris 2 (Pantheon Assas Paris 2 University) (University of Paris II),97531,Postgraduate Degree,1992-01-01
+Jean-Norbert Pontier,2213581,Education,Universit Pantheon Assas Paris 2 (Pantheon Assas Paris 2 University) (University of Paris II),97531,Graduated,1993-01-01
+Jean-Norbert Pontier,2213581,Education,UC Berkeley School of Law,1344426,Graduated,1989-01-01
+Felipe Gasparino,2213582,Education,Emily Carr University of Art + Design,1225173,Studied,2015-01-01
+Felipe Gasparino,2213582,Education,Fundao Instituto Tecnolgico de Osasco (FITO),3080290,Studied,2010-01-01
+Ramen Tegenfeldt,2213583,Education,Simon Fraser University,61839,BBA,
+Mano Koilpillai,2213598,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,Certified Public Accountant,2007-04-01
+Mano Koilpillai,2213598,Education,George Washington University School of Business and Public Management (SBPM),79050,MBA,1992-01-01
+Richard Lewis,2213599,Education,Oberlin College,82618,BA,1989-01-01
+Richard Lewis,2213599,Education,Cornell Law School,44710,JD (magna Cum Laude),1992-01-01
+Deidrie Stone,2213600,Education,New York University School of Law,574794,JD,2009-01-01
+Deidrie Stone,2213600,Education,Leonard N Stern School of Business New York University,42226,MBA,2009-01-01
+Sara Lima,2213620,Education,Temple University Beasley School of Law,1238000,JD (Cum Laude),2002-01-01
+Sara Lima,2213620,Education,Vassar College,62845,BA (Cum Laude),1999-01-01
+Kevin Lohman,2213624,Education,Notre Dame Law School University of Notre Dame,642321,JD,2002-01-01
+Kevin Lohman,2213624,Education,University of Ntre Dame,62544,BBA (Cum Laude),1999-01-01
+Rob LoPrete,2213627,Education,DePauw University,60500,BA (Cum Laude),1986-01-01
+Rob LoPrete,2213627,Education,University of Michigan Law School,75652,JD (Cum Laude),1989-01-01
+Gregory Elders,2213628,Education,London School of Economics (LSE) (London School of Economics and Political Science),38522,MSc,2006-01-01
+Gregory Elders,2213628,Education,Cornell University,60457,BA,2002-01-01
+Catherine Baecher-Scholz,2213631,Education,Hamilton College,60814,BA,
+Catherine Baecher-Scholz,2213631,Education,Brooklyn Law School,63628,JD,
+Mike LoVallo,2213633,Education,Georgetown University,60750,AB (Phi Beta Kappa),1977-01-01
+Mike LoVallo,2213633,Education,Columbia Law School,64891,JD,1980-01-01
+John Kibler,2213641,Education,HKUST Business School,1663090,Attended,
+John Kibler,2213641,Education,UCLA Anderson School of Management,2460934,MBA,
+John Kibler,2213641,Education,Stanford University,61935,AB,
+Richard Lumpkin,2213642,Education,Duke University,60547,AB,1977-01-01
+Richard Lumpkin,2213642,Education,University of Miami School of Law,460566,JD,1980-01-01
+Kara Brickman,2213646,Education,Denison University,60524,BA,2011-01-01
+Jack Kelleher,2213649,Education,Oxford Brookes University,61560,BA,2013-01-01
+Rose Temple,2213651,Education,George Washington University,60749,BS,2014-01-01
+Lucas Pers,2213653,Education,Carroll School of Management Boston College,117631,BS,2014-01-01
+Lucas Pers,2213653,Professional Qualifications,Morrissey College of Arts & Sciences (MCAS) Boston College,3080652,BA,2014-01-01
+Joe Mahady,2213654,Education,Providence College,61633,BS,2008-01-01
+Joe Mahady,2213654,Education,Charles Widger School of Law Villanova University (Villanova University School of Law prior to 01/2016),466232,JD (magna Cum Laude),2012-01-01
+Eliza Rothstein,2213656,Education,Washington University St Louis,82206,BA,2015-01-01
+Jacob Silber,2213657,Education,Lehigh University,61143,BA,2014-01-01
+Jacob Silber,2213657,Education,Lehigh University,61143,MA,2015-01-01
+Monat Sobel,2213660,Education,University of Connecticut,62265,BA,2011-01-01
+Monat Sobel,2213660,Education,Fordham University,60696,Masters Degree,2016-01-01
+Heidi Grange,2213670,Education,University of Wisconsin-Stout,1356299,BA,
+Heidi Grange,2213670,Education,University of Wisconsin-Stout,1356299,MS,
+Jason Fruge,2213675,Education,University of Phoenix,94081,BS,
+Raul Martinez,2213781,Education,Stanford University School of Law,77691,JD,1976-01-01
+Jason Fruge,2213675,Professional Qualifications,International Information System Security Certification Consortium (ISC) Inc,1241221,Certificate,
+Jason Fruge,2213675,Professional Qualifications,PCI Security Standards Council LLC,1669441,Certificate,2009-03-01
+Lynn Shintani,2213676,Education,Arizona State University,60074,Graduated,
+Lynn Shintani,2213676,Education,Georgetown University,60750,Certified,
+Stephen Liberatore,2213681,Education,Georgetown University Law Center (Georgetown Law School),79195,JD,1987-01-01
+Stephen Liberatore,2213681,Education,Brigham Young University,60212,BS,1983-01-01
+Pete Borchers,2213691,Education,Saint Xavier University,485120,MBA,2004-01-01
+Pete Borchers,2213691,Education,Saint Xavier University,485120,BS,
+Marianna Ballinger,2213695,Education,Royal Melbourne Institute of Technology (RMIT University),630239,BA,
+Marianna Ballinger,2213695,Education,Universitt Zrich (University of Zurich),1583883,Studied,
+Kazuki Seki,2213698,Education,Dokkyo University,535489,BBA,
+Jeff Liptrot,2213709,Education,State University of New Jersey Rutgers (Rutgers University),100431,BA,1987-01-01
+Jeff Liptrot,2213709,Education,University of New Hampshire School of Law (Formerly known as Franklin Pierce Law Center),487990,JD,1990-01-01
+Breck Swigart,2213713,Education,Oklahoma State University,61531,Studied,2008-01-01
+Breck Swigart,2213713,Professional Qualifications,State of Oklahoma,80747,Certificate,2010-02-01
+Breck Swigart,2213713,Professional Qualifications,Association of International Product Marketing and Management (AIPMM),1482185,Certified Product Manager (CPM),2019-05-01
+Breck Swigart,2213713,Education,Oklahoma State University - Oklahoma City,2728623,Studied,2008-01-01
+Jeff Nydegger,2213717,Education,University of Texas School of Law Austin,533430,JD,2011-01-01
+Jeff Nydegger,2213717,Education,Brigham Young University,60212,BA,2007-01-01
+Keeley Aleman,2213720,Education,Boston University School of Law,833517,JD (magna Cum Laude),2003-01-01
+Keeley Aleman,2213720,Education,University of California Davis,62216,BA (Hons),
+Jeroen Roffel,2213723,Education,City University of Hong Kong,60371,Studied,2012-01-01
+Jeroen Roffel,2213723,Education,Institut Europeen d'Administration des Affaires (INSEAD) (European Institute of Business Administration),60651,MBA (Distinction),2019-01-01
+Jeroen Roffel,2213723,Education,Erasmus Universiteit Rotterdam (Erasmus University Rotterdam),78416,BSc (Distinction),2013-01-01
+Jeroen Roffel,2213723,Education,Erasmus Universiteit Rotterdam (Erasmus University Rotterdam),78416,LLB,2014-01-01
+Heather Queiroz,2213727,Education,University of Colorado,63056,BS,1995-01-01
+Heather Queiroz,2213727,Professional Qualifications,NextBarre,3080388,Certified,
+Jake Downing,2213736,Education,University of Minnesota,62475,BA,2001-01-01
+Jake Downing,2213736,Education,Loyola University Chicago School of Law,2937645,Certified,2006-01-01
+Jake Downing,2213736,Education,Loyola University Chicago School of Law,2937645,JD (magna Cum Laude),2006-01-01
+Rob Griffin Jr,2213738,Education,Carroll School of Management Boston College,117631,BS,1980-01-01
+Richard Si,2213739,Education,Kellogg School of Management Northwestern University,77878,MBA (Distinction),2019-06-01
+Richard Si,2213739,Education,University of Ntre Dame,62544,BBA,2013-01-01
+Richard Si,2213739,Education,University of Ntre Dame,62544,BA,
+Amanda Kramer,2213741,Education,Fordham University School of Law,106197,JD,2003-01-01
+Amanda Kramer,2213741,Education,University of Maryland University College (UMUC),640826,BA,1997-01-01
+Rob Flanagan,2213743,Education,University of Illinois (UIC),62367,BA,1987-01-01
+Rob Flanagan,2213743,Education,Chicago Kent College of Law Illinois Institute of Technology,421898,JD (Hons),1990-01-01
+Ben Bloom,2213748,Education,University of Virginia,62777,BA,2013-01-01
+Ben Bloom,2213748,Education,University of Virginia,62777,BS,2013-01-01
+John Eppel,2213755,Education,Carroll School of Management Boston College,117631,BS (magna Cum Laude),2013-01-01
+Adam Greetis,2213757,Education,University of Illinois (UIC),62367,BA,1994-01-01
+Adam Greetis,2213757,Education,Chicago Kent College of Law Illinois Institute of Technology,421898,JD,1997-01-01
+Phil Joyner,2213758,Education,University of South Carolina,62667,BS,1992-01-01
+Lindsey Harrison,2213761,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,Certified Public Accountant,
+Lindsey Harrison,2213761,Education,Lehigh University,61143,BS,2009-01-01
+Todd Arritola,2213767,Education,University of Dallas,62273,MBA,2006-01-01
+Todd Arritola,2213767,Education,University of Arizona (UOA),62155,BS,1995-01-01
+Tom Mannion,2213772,Education,Bowling Green State University,60200,BS,1986-01-01
+Tom Mannion,2213772,Education,University of Akron,62134,Graduated,1989-01-01
+Tom Mannion,2213772,Education,University of Akron School of Law,126501,JD (summa Cum Laude),1993-01-01
+Tom Mannion,2213772,Education,Lorain County Community College (LCCC),734017,Associate of Science,1984-01-01
+Reid Parmelee,2213774,Education,University of Chicago,42092,BA,2004-01-01
+Reid Parmelee,2213774,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,CPA,
+Michael Marcello,2213776,Education,Colby College,60394,BA (summa cum laude),1990-01-01
+Michael Marcello,2213776,Education,Washington College of Law American University,597379,JD (Cum Laude),1994-01-01
+Russell Wininger,2213777,Education,New York University School of Law,574794,JD,2009-01-01
+Russell Wininger,2213777,Education,Stephen M Ross School of Business University of Michigan (University of Michigan Business School prior to 09/2004),747221,BBA,2003-01-01
+Eva Chung,2213779,Education,Johns Hopkins University,61026,MS,2005-01-01
+Eva Chung,2213779,Education,Eastern Nazarene College,782467,BA,
+Raul Martinez,2213781,Education,Massachusetts Institute of Technology (MIT),40436,BS,1973-01-01
+Meredith Mayberry,2213783,Education,Miami University Ohio,61276,BA,1997-01-01
+Meredith Mayberry,2213783,Education,Loyola University of New Orleans College of Law,2236321,JD,2001-01-01
+Ruth McCoy,2213784,Education,University of Illinois Urbana-Champaign (UIUC),77782,BA (Hons),1986-01-01
+Ruth McCoy,2213784,Education,Chicago Kent College of Law Illinois Institute of Technology,421898,JD,1989-01-01
+Pamela McGaha,2213788,Education,William S Boyd School of Law University of Nevada (UNLV),1227457,JD,2002-01-01
+Pamela McGaha,2213788,Education,University of Utah,62764,BS,1985-01-01
+Michael McLain,2213789,Education,Loyola Law School Loyola Marymount University (LMU),78771,BA (magna cum laude),1989-01-01
+Michael McLain,2213789,Education,Loyola Law School Los Angeles,2331657,JD,1992-01-01
+Chip Chambley,2213790,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,CPA,
+Chip Chambley,2213790,Education,Augusta University (Formerly known as Georgia Regents University),1975693,Bachelor's Degree,2007-01-01
+Christopher Meeks,2213794,Education,Georgia Institute of Technology (GIT),60751,BS (Hons),2005-01-01
+Christopher Meeks,2213794,Education,Emory University School of Law,93777,JD (Hons),2008-01-01
+Steven Lifson,2213797,Education,John Marshall Law School,78808,LLM (Hons),1993-01-01
+Steven Lifson,2213797,Education,Boston University,60195,BA (Cum Laude),1982-01-01
+Steven Lifson,2213797,Education,University of Illinois College of Law,660932,JD,1987-01-01
+Celia Moutes-Lee,2213798,Education,California State University Northridge (Formerly known as San Fernando Valley State College),60261,BA (summa cum laude),1981-01-01
+Celia Moutes-Lee,2213798,Education,California State University Northridge (Formerly known as San Fernando Valley State College),60261,BA,1982-01-01
+Celia Moutes-Lee,2213798,Education,Loyola Law School Los Angeles,2331657,JD,1992-01-01
+Thomas Mulvihill,2213799,Education,University of California Berkeley,62215,BA,1981-01-01
+Thomas Mulvihill,2213799,Education,University of San Francisco,62648,JD,1987-01-01
+Siobhn Murphy,2213801,Education,University of Cambridge,60268,LLM (Hons),1992-01-01
+Siobhn Murphy,2213801,Education,School of the Art Institute of Chicago,61801,BFA,1987-01-01
+Siobhn Murphy,2213801,Education,Chicago Kent College of Law Illinois Institute of Technology,421898,JD (Hons),1991-01-01
+Siobhn Murphy,2213801,Professional Qualifications,International Association of Defense Council Trial Academy,2379968,Graduated,
+James Murphy,2213802,Education,William S Boyd School of Law University of Nevada (UNLV),1227457,JD,2003-01-01
+James Murphy,2213802,Education,William S Boyd School of Law University of Nevada (UNLV),1227457,Certificate,
+James Murphy,2213802,Education,University of Illinois Urbana-Champaign (UIUC),77782,BA,1997-01-01
+James Murphy,2213802,Education,University of Nevada Las Vegas (UNLV),854067,MA,2000-01-01
+Daniel Nagler,2213804,Education,Martin J Whitman School of Management Syracuse University,1231051,BS,2005-01-01
+Daniel Nagler,2213804,Education,St Thomas University,119552,JD,2008-01-01
+Daniel Nagler,2213804,Education,St Thomas University,119552,MBA,2008-01-01
+Daniel Nagler,2213804,Education,SI Newhouse School of Public Communications Syracuse University,1473459,BS,2005-01-01
+Louis Audibert,2213805,Education,Sciences Po (Institut d'Etudes Politiques de Paris) (IEP) (Paris Institute of Political Studies),63077,Graduated,
+Louis Audibert,2213805,Education,Sciences Po Toulouse,3071488,Masters Degree,2005-01-01
+Dorothy Baker,2213808,Education,Columbia University,60434,BA,2012-01-01
+Liza Baron,2213809,Education,Washington University St Louis,82206,BA (magna cum laude),2007-01-01
+Liza Baron,2213809,Education,Institute of Social Studies Hague,595517,Master of Public Policy (MPP),2014-01-01
+Liza Baron,2213809,Education,Institut Barcelona d'Estudis Internacionals (IBEI),1063915,Master of Public Policy (MPP),2015-01-01
+Jean-Paul Marmoreo,2213812,Education,University of Toronto,62752,BCom (Hons),1999-01-01
+Jean-Paul Marmoreo,2213812,Education,University of Toronto,62752,MA,2000-01-01
+Jean-Paul Marmoreo,2213812,Education,Haskayne School of Business University of Calgary,576515,MBA,2007-01-01
+Jean-Paul Marmoreo,2213812,Professional Qualifications,CFA Institute (Association for Investment Management and Research prior to 2004),594747,CFA,
+Priscilla O'Briant,2213813,Education,Johns Hopkins University,61026,BA,1993-01-01
+Priscilla O'Briant,2213813,Education,William S Boyd School of Law University of Nevada (UNLV),1227457,JD,2006-01-01
+Irwin Chen,2213814,Education,Yale University,62981,BA,1994-01-01
+Jill Haberkern,2213816,Education,University of Iowa,62375,MFA,2006-01-01
+Jill Haberkern,2213816,Education,Yale University,62981,BA,2004-01-01
+Michael Karran,2213818,Education,Queens College,594394,Bachelor's Degree,
+Daniel Pea,2213819,Education,Nova Southeastern University,79815,MBA,2010-01-01
+Jeff Carlson,2213822,Education,Unknown Organisation,0,Master of Management (MM),2008-01-01
+Jeff Carlson,2213822,Education,Unknown Organisation,0,MBA,2015-01-01
+Jeff Carlson,2213822,Education,Northland Community & Technical College,1471650,Degree,2000-01-01
+Jeff Carlson,2213822,Education,Minnesota State University Moorhead,2063743,BS,2007-01-01
+Doctor Michael Thorner,2213830,Education,University of London,62421,DSc,1988-01-01
+Doctor Michael Thorner,2213830,Education,UCL Medical School,2325111,MBBS,1970-01-01
+Jen Cherner,2213833,Education,Northwestern University,61494,Degree,2005-01-01
+Clancy Nolan,2213839,Education,Columbia University Graduate School of Journalism,1292523,MS,
+Clancy Nolan,2213839,Education,Appalachian State University,84867,BS,
+Matias Bentel,2213840,Education,Pontificia Universidad Catlica Argentina (UCA),1283462,BBA,1997-01-01
+Kelly Nordquist,2213841,Education,John Marshall Law School,78808,JD,2008-01-01
+Kelly Nordquist,2213841,Education,Butler University,79061,BA (Cum Laude),2004-01-01
+Andy Perellis,2213842,Education,University of Michigan,63187,BA (Distinction),1977-01-01
+Andy Perellis,2213842,Education,George Washington University Law School,82827,JD (Hons),1981-01-01
+Will Richnow,2213844,Education,University of Texas at Austin,62742,Masters Degree,1991-01-01
+Will Richnow,2213844,Education,University of Houston,62360,Bachelor's Degree,
+Jeffrey Olster,2213846,Education,George Washington University,60749,JD,1995-01-01
+Jeffrey Olster,2213846,Education,University of California Los Angeles (UCLA),62218,BA (magna cum laude),1991-01-01
+Julian Pardini,2213852,Education,University of California Hastings College of Law,60832,JD,1986-01-01
+Julian Pardini,2213852,Education,University of California Berkeley,62215,BA,1982-01-01
+Nathan Cachila,2213855,Education,Robert R McCormick School of Engineering and Applied Science Northwestern University,462695,MS,2012-01-01
+Nathan Cachila,2213855,Education,Northwestern University,61494,BS,
+Nathan Cachila,2213855,Education,Northwestern University,61494,Certificate,
+Kristin Kentra,2213857,Education,Kellstadt Graduate School of Business DePaul University,1192329,MBA,2005-01-01
+Kristin Kentra,2213857,Education,Saint Mary's University of Minnesota,1066890,BA,1999-01-01
+Casey Swartz,2213860,Education,University of Connecticut,62265,BS,1996-01-01
+Casey Swartz,2213860,Education,DeVry University,272362,MBA,2003-01-01
+Casey Swartz,2213860,Education,University of Wollongong,593579,Studied,1994-01-01
+Casey Swartz,2213860,Education,Aveda Institute,1998567,Studied,2004-01-01
+Devera Petak,2213863,Professional Qualifications,American Council on Exercise (ACE),737428,Certified,
+Devera Petak,2213863,Education,California State University Stanislaus,810488,BA,1975-01-01
+Devera Petak,2213863,Education,Western State College of Law Argosy University,2570169,JD,1979-01-01
+Doctor Martin Menski,2213875,Education,Georgetown University Law Center (Georgetown Law School),79195,LLM,2016-01-01
+Doctor Martin Menski,2213875,Education,King's College London University of London,40903,PhD,2004-01-01
+Doctor Martin Menski,2213875,Education,School of Oriental and African Studies (SOAS) University of London,61800,BA (Hons),2001-01-01
+Ty Minnick,2213880,Education,Iowa State University,1246304,BBA,1992-01-01
+Ty Minnick,2213880,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,Certified Public Accountant,
+Mike Pullano,2213892,Education,Catholic University of America,60292,BA,1991-01-01
+Mike Pullano,2213892,Education,Chicago Kent College of Law Illinois Institute of Technology,421898,JD,1996-01-01
+Liz Raines,2213894,Education,Southern Methodist University,61882,BA,1990-01-01
+Liz Raines,2213894,Education,Southern Methodist University Dedman School of Law,1584273,JD,2000-01-01
+Paula Burlison,2213896,Education,University of South Carolina School of Law,660340,JD (Cum Laude),2008-01-01
+Paula Burlison,2213896,Education,Columbia College South Carolina,2705150,BA (summa cum laude),2000-01-01
+Tiffany Yuen,2213911,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,CA,
+Tiffany Yuen,2213911,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,CPA,
+Tiffany Yuen,2213911,Education,Sauder School of Business University of British Columbia,592334,Master of Management (MM),2009-01-01
+Tiffany Yuen,2213911,Education,Sauder School of Business University of British Columbia,592334,Diploma,2010-01-01
+David Ryan,2213913,Education,College of William & Mary,60420,BA,1991-01-01
+David Ryan,2213913,Education,Lewis & Clark Law School (Northwestern School of Law of Lewis & Clark College),743103,Certified,1995-01-01
+David Ryan,2213913,Education,Lewis & Clark Law School (Northwestern School of Law of Lewis & Clark College),743103,JD (Cum Laude),1995-01-01
+Tim Gilman,2213915,Education,Georgetown University Law Center (Georgetown Law School),79195,JD (magna Cum Laude),2003-01-01
+Tim Gilman,2213915,Education,Johns Hopkins Bloomberg School of Public Health,99087,MPH,2001-01-01
+Tim Gilman,2213915,Education,Princeton University,61632,AB (magna cum laude),1998-01-01
+Sbastien Richemont,2213923,Education,Universit du Qubec  Montral (UQAM),592717,Land Surveyor (LS),1994-01-01
+Sbastien Richemont,2213923,Education,Cgep Rgional De Lanaudire,2888821,Studied,1991-01-01
+Doctor Timothy Savas,2213924,Education,Massachusetts Institute of Technology (MIT),40436,PhD,2000-01-01
+Gareth Montague-Smith,2213926,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,CPA,
+Gareth Montague-Smith,2213926,Education,University of North Carolina Wilmington,83171,Degree,1996-01-01
+Gareth Montague-Smith,2213926,Education,University of North Carolina Wilmington,83171,Master of Science (MOS),1997-01-01
+Scott Grandt,2213930,Education,Cornell University,60457,BSc (magna cum laude),2008-01-01
+Craig Schneider,2213932,Education,Thomas Jefferson University,379877,BA (Cum Laude),2004-01-01
+Craig Schneider,2213932,Education,Thomas Jefferson University,379877,Graduated,2004-01-01
+Craig Schneider,2213932,Education,Salmon P Chase College of Law,1557557,JD,2007-01-01
+Athan Stephanopoulos,2213934,Education,Willamette University,80427,BA,1998-01-01
+Athan Stephanopoulos,2213934,Education,Fordham University,60696,MBA,2007-01-01
+Simona Agnolucci,2213936,Education,University of California Hastings College of Law,60832,JD (magna Cum Laude),2006-01-01
+Simona Agnolucci,2213936,Education,Stanford University,61935,BA (Hons),1998-01-01
+Robert Scott,2213938,Education,University of California Berkeley,62215,BA,1987-01-01
+Robert Scott,2213938,Education,Santa Clara University School of Law,741476,JD,1990-01-01
+Alex Arfaei,2213946,Education,University of Toronto,62752,BS,1999-01-01
+Alex Arfaei,2213946,Education,Fuqua School of Business Duke University,730113,MBA,2005-01-01
+Lance Selfridge,2213949,Education,University of California Los Angeles (UCLA),62218,BA (summa cum laude),1978-01-01
+Lance Selfridge,2213949,Education,UCLA School of Law,640561,JD,1981-01-01
+Scott Torrey,2213953,Education,Georgia State University (GSU),60755,MBA,1993-01-01
+Scott Torrey,2213953,Education,University of Florida,62323,BA,1987-01-01
+Marilyn Croghan,2213967,Education,Ryerson University (Ryerson Polytechnic University prior to 2002),590384,BSc,
+Bob McCann III,2213969,Education,DePaul University,60499,BS,2007-01-01
+Bob McCann III,2213969,Education,Chicago Kent College of Law Illinois Institute of Technology,421898,JD,2010-01-01
+Philip Williamson,2213971,Education,University of Texas at Austin,62742,MBA,
+Philip Williamson,2213971,Education,University of Denver,62276,BS,
+Jim McNair III,2213972,Education,Georgetown University Law Center (Georgetown Law School),79195,JD,1980-01-01
+Jim McNair III,2213972,Education,Georgetown University Law Center (Georgetown Law School),79195,LLM,1985-01-01
+Jim McNair III,2213972,Education,University of New Orleans,62523,BS,1977-01-01
+Paul Melniczak,2213974,Education,Duke University School of Law,76040,JD,2008-01-01
+Paul Melniczak,2213974,Education,Liberty University,731762,BS,2004-01-01
+Kelley Miller,2213984,Education,Georgetown University Law Center (Georgetown Law School),79195,LLM (Dist),2006-01-01
+Kelley Miller,2213984,Education,Mount Holyoke College,61339,BA (Cum Laude),1994-01-01
+Kelley Miller,2213984,Education,University of San Francisco School of Law,730721,Certified,2004-01-01
+Kelley Miller,2213984,Education,Western New England University (Formerly known as Western New England College),1822031,JD (Cum Laude),2005-01-01
+Andy Moss,2213986,Education,School of the Art Institute of Chicago,61801,BFA,1994-01-01
+Andy Moss,2213986,Education,Tufts University,62097,BA (Cum Laude),1989-01-01
+Andy Moss,2213986,Education,DePaul University College of Law,420322,JD (Hons),1999-01-01
+Michael Wanderer,2213996,Education,Cornell University,60457,Masters Degree,
+Michael Wanderer,2213996,Education,State University of New York Geneseo,819119,BA,
+Sunita Bali-Williams,2214002,Education,Occidental College,61516,BA,2004-01-01
+Sunita Bali-Williams,2214002,Education,USC Gould School of Law (Formerly known as University of Southern California Law School),1106974,JD,2010-01-01
+Dahesh Patel,2214008,Education,University of Texas School of Law Austin,533430,JD,1997-01-01
+Dahesh Patel,2214008,Education,Pennsylvania State University (Penn State University),61582,BS (Distinction),1992-01-01
+Dahesh Patel,2214008,Professional Qualifications,American Institute of Certified Public Accountants (AICPA),54373,Certified Public Accountant,
+Dahesh Patel,2214008,Education,New York University School of Law,574794,LLM,2000-01-01
+Doug Rawles,2214017,Education,Colorado College,82981,BA (Cum Laude),1986-01-01
+Doug Rawles,2214017,Education,University of San Francisco School of Law,730721,JD (Cum Laude),1991-01-01
+Danielle Derrico,2214027,Education,Salve Regina University,111107,BA,2014-01-01
+Danielle Derrico,2214027,Education,Salve Regina University,111107,MBA,2015-01-01
+Graham Reid,2214029,Education,University of London,62421,Studied,
+Graham Reid,2214029,Education,Lancaster Gate Law School,65561,Studied,
+Blake Cholost,2214031,Education,University of Connecticut,62265,BS,2014-01-01
+Blake Cholost,2214031,Professional Qualifications,Consortium Institute of Management and Business Analysis (CIMBA),1970044,Studied,2013-01-01
+Jared Roach,2214033,Education,University of Pittsburgh Law School,63372,JD (Cum Laude),2009-01-01
+Jared Roach,2214033,Education,London School of Economics (LSE) (London School of Economics and Political Science),38522,Studied,2003-01-01
+Jared Roach,2214033,Education,University of Michigan,63187,BA,2003-01-01
+Anne Rollins,2214035,Education,University of Pennsylvania Law School,74077,JD (Cum Laude),2012-01-01
+Anne Rollins,2214035,Education,Columbia University,60434,BS,2005-01-01
+Harry Rosenberg,2214037,Education,Harvard Law School,63035,LLB,1952-01-01
+Harry Rosenberg,2214037,Education,Oberlin College,82618,BA (Cum Laude),1949-01-01
+Matt Rosso,2214039,Education,University of Ntre Dame,62544,BBA,2002-01-01
+Matt Rosso,2214039,Education,State University of New Jersey Rutgers (Rutgers University),100431,JD (magna Cum Laude),2006-01-01
+Greg Rupert,2214042,Education,New York University (NYU),61424,BS,1979-01-01
+Greg Rupert,2214042,Education,Brooklyn Law School,63628,JD,1984-01-01
+Greg Rupert,2214042,Education,George Washington University Law School,82827,LLM,1991-01-01
+Shana Russo,2214048,Education,Cornell University,60457,BS,1997-01-01
+Shana Russo,2214048,Education,Seton Hall University School of Law,464664,JD (Cum Laude),2000-01-01
+Jon Gilbert,2214054,Education,University of Hartford,62350,BA,2003-01-01
+Jon Gilbert,2214054,Education,University of Hartford,62350,BS,2003-01-01
+Una Maslesa,2214055,Education,Mount St Mary's University,887190,BA,
+Tess DiPonio,2214059,Education,University of Toronto,62752,BA,
+Tess DiPonio,2214059,Education,University of Toronto,62752,LLB,
+Doctor Rahul Guha,2214068,Education,Indian Institute of Management Calcutta (IIMC),77753,MBA,1991-01-01
+Doctor Rahul Guha,2214068,Education,Cornell University,60457,PhD,1996-01-01
+Doctor Rahul Guha,2214068,Education,Jadavpur University,634988,BE,1989-01-01
+Andrea Roszell,2214098,Education,Queen's University,63329,MSc,2008-01-01
+Andrea Roszell,2214098,Education,University of Waterloo,62786,BS (Hons),2006-01-01
+Judy Simon,2214116,Education,McGill University (Canada),61248,BS (Distinction),1977-01-01
+Judy Simon,2214116,Education,University of Calgary,86931,Master of Environmental Design (MEDes),1980-01-01
+Chris Snyder,2214123,Education,University of Waterloo,62786,BASc,
+Chris Snyder,2214123,Education,University of Waterloo,62786,MASc,
+Chris Snyder,2214123,Education,Unknown Organisation,0,PEng,
+Chris Snyder,2214123,Education,Schulich School of Business York University,622327,MBA,
+Stuart Heavyside,2214136,Education,Cambridge Regional College,500502,Graduated,1999-01-01
+Dave Falkingham,2214140,Education,University of Huddersfield,51969,MBA,2006-01-01
+Dave Falkingham,2214140,Education,Institut Europeen d'Administration des Affaires (INSEAD) (European Institute of Business Administration),60651,Certified,2011-01-01
+Todd Mitchell,2214152,Education,Montana State University Billings,1494396,BA,1994-01-01
+Todd Mitchell,2214152,Education,Willamette University College of Law,1191810,JD,1997-01-01
+Ernie Bootsma,2214165,Education,Willamette University College of Law,1191810,JD (Cum Laude),1990-01-01
+Ernie Bootsma,2214165,Education,Oregon State University,61547,BS (Hons),1986-01-01
+Akana Ma,2214171,Education,Harvard Law School,63035,Studied,1984-01-01
+Akana Ma,2214171,Education,Tufts University,62097,BA (Cum Laude),1979-01-01
+Akana Ma,2214171,Education,Boston College Law School (BCLS),82648,JD,1984-01-01
+Michael Shackelford,2214175,Education,Willamette University College of Law,1191810,JD (magna Cum Laude),1981-01-01
+Michael Shackelford,2214175,Education,Willamette University,80427,BS (cum laude),1987-01-01
+David Gulli,2214180,Education,Florida Southern College,78945,Bachelor's Degree,1994-01-01
+David Gulli,2214180,Professional Qualifications,Scrum Alliance Inc,1261854,Certified Scrum Master,2016-03-01
+David Gulli,2214180,Professional Qualifications,Scrum Alliance Inc,1261854,Certified Scrum Product Owner (CSPO),2016-05-01
+Andrea Bartoloni,2214183,Education,Willamette University College of Law,1191810,JD,1982-01-01
+Andrea Bartoloni,2214183,Education,Western Washington University,62932,BA,1979-01-01
+Andrea Bartoloni,2214183,Education,Universit degli Studi di Firenze (University of Florence),62696,Studied,1976-01-01
+Nena Cook,2214187,Education,Willamette University College of Law,1191810,JD,1991-01-01
+Nena Cook,2214187,Education,Gonzaga University,96167,BA,1988-01-01
+Tom Karnes,2214196,Education,Willamette University,80427,BA,2005-01-01
+Tom Karnes,2214196,Education,Lewis & Clark Law School (Northwestern School of Law of Lewis & Clark College),743103,JD (Cum Laude),2008-01-01
+John Ramig,2214201,Education,University of Virginia School of Law,77982,JD,1984-01-01
+John Ramig,2214201,Education,Harvard College,63125,AB (magna cum laude),1980-01-01
+Haleigh Tebben,2214202,Education,Creighton University,79030,BSBA,2000-01-01
+Haleigh Tebben,2214202,Education,University of Nebraska at Omaha,108137,MBA,2006-01-01
+Amanda Corrigan,2214203,Education,Louisiana Tech University,256182,BS,
+Amanda Corrigan,2214203,Education,Tarrant County College,1216306,Licensed Nursing Home Administrator (LNHA),
+Doctor Swithin Munyantwali,2214353,Education,Georgetown University Law Center (Georgetown Law School),79195,LLM,1993-01-01
+Doctor Swithin Munyantwali,2214353,Education,Case Western Reserve University School of Law,1221943,JD,1992-01-01
+Doctor Swithin Munyantwali,2214353,Education,St Joseph's University,64795,BSc,1998-01-01
+Simon Clarkson,2214374,Education,Aston Business School Aston University,1295334,BSc (Hons),1993-01-01
+Chris Holley,2214393,Education,Texas Tech University,62046,BS,2005-01-01
