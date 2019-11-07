@@ -1,25 +1,27 @@
 
+h1 {
+  font-weight: normal;
+  padding-left: 80px;
+}
+
 #header {
     padding: 0.5em;
-    text-align: center;
-    height: 100px;
+    text-align: left;
 }
 
 #map {
-    width: 1150px;
-    height: 750px;
+    width: 1230px;
+    height: 780px;
 }
 
 #map-view {
   float: left;
-  width: 1150px;
-  height: 750px;
+  margin-right: 50px;
 }
 
 #second-view {
-  height: 750px;
-  overflow: hidden;
-  padding: 2em;
+  display: inline-block;
+  position: absolute;
 }
 
 #chord {
