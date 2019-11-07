@@ -25,15 +25,15 @@ class MapOptions {
     constructor(options) {
         this.options = options;
     }
-    addDropdownItem(text) {
-        let dropdown = document.getElementById('dropdown');
-        dropdown.options[dropdown.options.length] = new Option(text);
-    }
-    populateDropdown() {
-        for (let i = 0; i < this.options.length; i++) {
-            this.addDropdownItem(this.options[i]);
-        }      
-    }
+    // addDropdownItem(text) {
+    //     let dropdown = document.getElementById('dropdown');
+    //     dropdown.options[dropdown.options.length] = new Option(text);
+    // }
+    // populateDropdown() {
+    //     for (let i = 0; i < this.options.length; i++) {
+    //         this.addDropdownItem(this.options[i]);
+    //     }      
+    // }
     makeTable() {
         let that = this;
         d3.select('table').selectAll('tr')
@@ -41,7 +41,11 @@ class MapOptions {
             .enter().append('tr')
             .append('text')
             .text(d => d)
-            .on('mouseover', d => this.highlightItem(d))
+            .on('mouseover', function(d) {
+                d3.selectAll('tr').select('text').classed('bold', false);
+                d3.select(this).classed('bold', true);
+                that.highlightItem(d);
+            })
     }
     highlightItem(hoveredName) {
         d3.selectAll('circle')

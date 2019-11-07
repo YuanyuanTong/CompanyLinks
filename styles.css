@@ -70,3 +70,8 @@ table {
     fill: red;
     z-index: 5;
   }
+
+  .bold {
+    font-weight: bold;
+    background-color: rgba(158, 49, 49, 0.205);
+  }
