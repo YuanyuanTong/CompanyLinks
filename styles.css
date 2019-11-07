@@ -2,11 +2,17 @@
 h1 {
   font-weight: normal;
   padding-left: 80px;
+  width: 300px;
 }
 
-#header {
+table {
+  top: 0;
+}
+
+#title {
     padding: 0.5em;
     text-align: left;
+    width: 300px;
 }
 
 #map {
@@ -17,6 +23,7 @@ h1 {
 #map-view {
   float: left;
   margin-right: 50px;
+  width: 1240px;
 }
 
 #second-view {
@@ -56,5 +63,10 @@ h1 {
   }
 
   .markers {
-    fill: green;
+    fill: rgba(128, 128, 128, 0.329);
+  }
+
+  .selected {
+    fill: red;
+    z-index: 5;
   }

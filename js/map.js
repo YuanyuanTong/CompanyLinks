@@ -13,7 +13,7 @@ class Links {
     }
 }
 
-// Class for state information box
+// Class for information box
 class infoBox {
     constructor() {
 
@@ -33,6 +33,21 @@ class MapOptions {
         for (let i = 0; i < this.options.length; i++) {
             this.addDropdownItem(this.options[i]);
         }      
+    }
+    makeTable() {
+        let that = this;
+        d3.select('table').selectAll('tr')
+            .data(that.options)
+            .enter().append('tr')
+            .append('text')
+            .text(d => d)
+            .on('mouseover', d => this.highlightItem(d))
+    }
+    highlightItem(hoveredName) {
+        d3.selectAll('circle')
+            .classed('selected', false);
+        d3.selectAll('circle').filter(d => d.sector === hoveredName)
+            .classed('selected', true);        
     }
 }
 
@@ -71,7 +86,7 @@ class Map {
             .attr("class", "state-borders")
             .attr("d", path(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; })));
     
-        map.select('g').attr('transform', 'scale(1.2, 1.2)');     
+        map.select('g').attr('transform', 'scale(1.3, 1.3)');     
 
         // Draw companies from coordinates in partial_company_coords.csv
         let that = this;
@@ -86,7 +101,7 @@ class Map {
 
     }
 
-    // Figure out all the sectors
+    // Figure out all the sectors, create dropdown options
     findSectors() {
         let sectorArray = []
         let datArray = this.data['company-data'];
@@ -96,9 +111,10 @@ class Map {
                 sectorArray.push(sector);
             }
         }
-        
+        sectorArray.sort();
         this.mapOptions = new MapOptions(sectorArray);
-        this.mapOptions.populateDropdown();
+        // this.mapOptions.populateDropdown();
+        this.mapOptions.makeTable();
     }
 
     // Draw links between places
