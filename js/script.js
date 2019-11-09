@@ -36,11 +36,13 @@ async function loadFile(file) {
 
 async function loadData() {
     let company_data = await loadFile('data/partial_company_coordinates.csv');
+    let state_data = await loadFile('data/states.csv')
     // let company_info = await loadFile('data/f_firm_prop.csv')
 
 
     return {
         'company-data': company_data,
+        'state-data': state_data
         // 'company-info': company_info
     };
 }
