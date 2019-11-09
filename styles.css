@@ -45,6 +45,12 @@ table {
   stroke-width: 10;
 }
 
+#state-info {
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
 .country {
   stroke: black;
 }

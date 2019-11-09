@@ -58,7 +58,8 @@ class MapOptions {
 // Class for creating map
 class Map {
     constructor(data, mapData) {  
-        this.data = data;
+        this.companyData = data['company-data']
+        this.stateData = data['state-data']
         this.mapData = mapData;
         this.projection = d3.geoAlbersUsa().scale(1280).translate([480, 300]);
         this.mapOptions;
@@ -66,7 +67,6 @@ class Map {
 
     // Create map of the US
     drawMap() {
-
         let us = this.mapData;
         let map = d3.select("#map-view").append('svg').attr('id', 'map');
         let path = d3.geoPath();
@@ -79,11 +79,14 @@ class Map {
             .attr("class", "states");
     
         // Draw US map
+        let that = this;
         mapGroup.selectAll("path")
             .data(topojson.feature(us, us.objects.states).features)
             .enter().append("path")
             .attr('class', 'country')
-            .attr("d", path);
+            .attr("d", path)
+            .on('mouseover', function(d,i) {
+                that.stateInfo(that.stateData[i])});
     
         // Draw all interior state borders
         mapGroup.append("path")
@@ -93,9 +96,8 @@ class Map {
         map.select('g').attr('transform', 'scale(1.3, 1.3)');     
 
         // Draw companies from coordinates in partial_company_coords.csv
-        let that = this;
         d3.select('.states').selectAll('circle')
-            .data(this.data['company-data'])
+            .data(this.companyData)
             .enter()
             .append('circle')
             .attr('r', '3')
@@ -103,12 +105,14 @@ class Map {
             .attr('cy', d => that.projection([d.lng, d.lat])[1].toString())
             .attr('class', 'markers');
 
+        // Initialize state info text
+        d3.select('#map').append('text').attr('id', 'state-info').attr('x', '130').attr('y', '700');
     }
 
     // Figure out all the sectors, create dropdown options
     findSectors() {
         let sectorArray = []
-        let datArray = this.data['company-data'];
+        let datArray = this.companyData;
         for (let company of datArray) {
             let sector = company['sector'];
             if (!sectorArray.includes(sector)) {
@@ -127,8 +131,8 @@ class Map {
     }
 
     // Display info about a state
-    stateInfo() {
-
+    stateInfo(state) {
+        d3.select('#state-info').text(state.state);
     }
 
     // Resize map objects on zoom 
