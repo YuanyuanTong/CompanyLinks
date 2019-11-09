@@ -85,8 +85,7 @@ class Map {
             .enter().append("path")
             .attr('class', 'country')
             .attr("d", path)
-            .on('mouseover', function(d,i) {
-                that.stateInfo(that.stateData[i])});
+            .on('mouseover', (d,i) => that.stateInfo(that.stateData[i]));
     
         // Draw all interior state borders
         mapGroup.append("path")
@@ -103,10 +102,20 @@ class Map {
             .attr('r', '3')
             .attr('cx', d => that.projection([d.lng, d.lat])[0].toString())
             .attr('cy', d => that.projection([d.lng, d.lat])[1].toString())
-            .attr('class', 'markers');
+            .attr('class', 'markers')
+            .on('mouseover', (d) => that.companyInfo(d.company));
 
-        // Initialize state info text
-        d3.select('#map').append('text').attr('id', 'state-info').attr('x', '130').attr('y', '700');
+        // Initialize state info text 
+        d3.select('#map').append('text')
+            .attr('id', 'state-info')
+            .attr('x', '120')
+            .attr('y', '700');
+
+        // Initialize company info text
+        d3.select('#map').append('text')
+            .attr('id', 'company-info')
+            .attr('x', '120')
+            .attr('y', '740');
     }
 
     // Figure out all the sectors, create dropdown options
@@ -133,6 +142,11 @@ class Map {
     // Display info about a state
     stateInfo(state) {
         d3.select('#state-info').text(state.state);
+    }
+
+    // Display info about a company
+    companyInfo(company) {
+        d3.select('#company-info').text(company);
     }
 
     // Resize map objects on zoom 

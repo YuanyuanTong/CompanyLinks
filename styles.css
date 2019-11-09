@@ -48,7 +48,11 @@ table {
 #state-info {
     font-weight: bold;
     font-size: 30px;
+}
 
+#company-info {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .country {
