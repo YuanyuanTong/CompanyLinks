@@ -50,9 +50,13 @@ table {
     font-size: 30px;
 }
 
-#company-info {
+#company-name {
   font-weight: bold;
   font-size: 20px;
+}
+
+#market-cap {
+  font-size: 15px;
 }
 
 .country {

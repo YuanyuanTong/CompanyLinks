@@ -110,7 +110,7 @@ class Map {
             .attr('cx', d => that.projection([d.lng, d.lat])[0].toString())
             .attr('cy', d => that.projection([d.lng, d.lat])[1].toString())
             .attr('class', 'markers')
-            .on('mouseover', (d) => that.companyInfo(d.company));
+            .on('mouseover', (d) => that.companyInfo(d));
         
         // Initialize state info text 
         d3.select('#map').append('text')
@@ -120,9 +120,17 @@ class Map {
 
         // Initialize company info text
         d3.select('#map').append('text')
-            .attr('id', 'company-info')
+            .attr('id', 'company-name')
             .attr('x', '120')
             .attr('y', '740');
+        d3.select('#map').append('text')
+            .attr('id', 'market-cap')
+            .attr('x', '120')
+            .attr('y', '760');
+        d3.select('#map').append('text')
+            .attr('id', 'employees')
+            .attr('x', '120')
+            .attr('y', '780')
     }
 
     // Figure out all the sectors, create dropdown options
@@ -153,7 +161,9 @@ class Map {
 
     // Display info about a company
     companyInfo(company) {
-        d3.select('#company-info').text(company);
+        d3.select('#company-name').text(company.company);
+        d3.select('#market-cap').text('Market Cap (millions): ' + company.market_cap);
+        d3.select('#employees').text('Number of employees: ' + company.n_employee)
     }
 
     // Resize map objects on zoom 
