@@ -45,14 +45,14 @@ function sleep(ms) {
 }
 
 // get the tmp data for university
-d3.csv("data/tmp_university.csv").then(data => {
+d3.csv("data/top500_uni_1.csv").then(data => {
     for (let d of data) {
         tmpUniversityList.push(d.id);
     }
 })
 
 // get a full non-repeating list of university ids
-d3.csv("data/edu.csv").then(async function(data) {
+d3.csv("data/top500_uni.csv").then(async function(data) {
     for (let d of data) {
         if (!tmpUniversityList.includes(d.university_id)) {
             universityList.push(d);
@@ -71,7 +71,7 @@ d3.csv("data/edu.csv").then(async function(data) {
                 universityCoordinates.push(datum);
             }
         });
-        await sleep(500);
+        await sleep(1000);
     }
 })
 
