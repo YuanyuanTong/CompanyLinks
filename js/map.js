@@ -94,17 +94,24 @@ class Map {
     
         map.select('g').attr('transform', 'scale(1.3, 1.3)');     
 
+        // Scale companies by market cap
+        var minMcap = d3.min(this.companyData, function(d) { return parseInt(d.market_cap)});
+        var maxMcap= d3.max(this.companyData, function(d) { return parseInt(d.market_cap)});
+        let scaleCompany = d3.scaleLinear()
+            .domain([minMcap, maxMcap])
+            .range([2, 10]);
+
         // Draw companies from coordinates in partial_company_coords.csv
         d3.select('.states').selectAll('circle')
             .data(this.companyData)
             .enter()
             .append('circle')
-            .attr('r', '3')
+            .attr('r', d => scaleCompany(d.market_cap))
             .attr('cx', d => that.projection([d.lng, d.lat])[0].toString())
             .attr('cy', d => that.projection([d.lng, d.lat])[1].toString())
             .attr('class', 'markers')
             .on('mouseover', (d) => that.companyInfo(d.company));
-
+        
         // Initialize state info text 
         d3.select('#map').append('text')
             .attr('id', 'state-info')
