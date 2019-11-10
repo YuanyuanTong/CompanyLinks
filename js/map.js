@@ -51,7 +51,12 @@ class MapOptions {
         d3.selectAll('circle')
             .classed('selected', false);
         d3.selectAll('circle').filter(d => d.sector === hoveredName)
-            .classed('selected', true);        
+            .classed('selected', function() {
+                //Bring highlighted items to front
+                this.parentElement.appendChild(this);
+                return true;
+            })
+            
     }
 }
 
