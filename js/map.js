@@ -63,8 +63,9 @@ class MapOptions {
 // Class for creating map
 class Map {
     constructor(data, mapData) {  
-        this.companyData = data['company-data']
-        this.stateData = data['state-data']
+        this.companyData = data['company-data'];
+        this.stateData = data['state-data'];
+        this.univData = data['university-data'];
         this.mapData = mapData;
         this.projection = d3.geoAlbersUsa().scale(1280).translate([480, 300]);
         this.mapOptions;
@@ -96,26 +97,10 @@ class Map {
         mapGroup.append("path")
             .attr("class", "state-borders")
             .attr("d", path(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; })));
-    
         map.select('g').attr('transform', 'scale(1.3, 1.3)');     
 
-        // Scale companies by market cap
-        var minMcap = d3.min(this.companyData, function(d) { return parseInt(d.market_cap)});
-        var maxMcap= d3.max(this.companyData, function(d) { return parseInt(d.market_cap)});
-        let scaleCompany = d3.scaleLinear()
-            .domain([minMcap, maxMcap])
-            .range([2, 10]);
-
-        // Draw companies from coordinates in partial_company_coords.csv
-        d3.select('.states').selectAll('circle')
-            .data(this.companyData)
-            .enter()
-            .append('circle')
-            .attr('r', d => scaleCompany(d.market_cap))
-            .attr('cx', d => that.projection([d.lng, d.lat])[0].toString())
-            .attr('cy', d => that.projection([d.lng, d.lat])[1].toString())
-            .attr('class', 'markers')
-            .on('mouseover', (d) => that.companyInfo(d));
+        // Draw companies on the map
+        this.drawNodes(this.companyData)
         
         // Initialize state info text 
         d3.select('#map').append('text')
@@ -135,7 +120,35 @@ class Map {
         d3.select('#map').append('text')
             .attr('id', 'employees')
             .attr('x', '120')
-            .attr('y', '780')
+            .attr('y', '780');
+
+        // Give university and company toggle buttons functionality
+        d3.select('#univ-button').on('click', () => this.showUniversities());
+        d3.select('#comp-button').on('click', () => this.showCompanies());
+    }
+
+    // Scale companies by market cap
+    scaleCompany(d) {
+        let minMcap = d3.min(this.companyData, function(d) { return parseInt(d.market_cap)});
+        let maxMcap= d3.max(this.companyData, function(d) { return parseInt(d.market_cap)});
+        let scale =  d3.scaleLinear()
+            .domain([minMcap, maxMcap])
+            .range([2, 10]);
+        return scale(d.market_cap); 
+    }
+        
+    // Draw companies from coordinates in partial_company_coords.csv
+    drawNodes(data) {
+        d3.selectAll('circle').remove();
+        d3.select('.states').selectAll('circle')
+            .data(data)
+            .enter()
+            .append('circle')
+            .attr('r', d => this.scaleCompany(d))
+            .attr('cx', d => this.projection([d.lng, d.lat])[0].toString())
+            .attr('cy', d => this.projection([d.lng, d.lat])[1].toString())
+            .attr('class', 'markers')
+            .on('mouseover', (d) => this.companyInfo(d));
     }
 
     // Figure out all the sectors, create dropdown options
