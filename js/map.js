@@ -99,6 +99,14 @@ class Map {
             .attr("d", path(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; })));
         map.select('g').attr('transform', 'scale(1.3, 1.3)');     
 
+        // Remove universities with lat lng outside of our US bounding box
+        let i = this.univData.length;
+        while (i--) {
+            if (!this.projection([this.univData[i].lng, this.univData[i].lat])) { 
+                this.univData.splice(i, 1);
+            } 
+        }
+
         // Draw companies on the map
         this.drawNodes(this.companyData)
         
@@ -123,8 +131,8 @@ class Map {
             .attr('y', '780');
 
         // Give university and company toggle buttons functionality
-        d3.select('#univ-button').on('click', () => this.showUniversities());
-        d3.select('#comp-button').on('click', () => this.showCompanies());
+        d3.select('#univ-button').on('click', () => this.drawNodes(this.univData));
+        d3.select('#comp-button').on('click', () => this.drawNodes(this.companyData));
     }
 
     // Scale companies by market cap
@@ -136,19 +144,33 @@ class Map {
             .range([2, 10]);
         return scale(d.market_cap); 
     }
+
+    // Scale universities by number of grads
+    scaleUniversity(d) {
+        let minMcap = d3.min(this.univData, function(d) { return parseInt(d.n_grad)});
+        let maxMcap= d3.max(this.univData, function(d) { return parseInt(d.n_grad)});
+        let scale =  d3.scaleLinear()
+            .domain([minMcap, maxMcap])
+            .range([2, 10]);
+        return scale(d.n_grad); 
+    }
         
-    // Draw companies from coordinates in partial_company_coords.csv
+    // Draw companies or universities on map
     drawNodes(data) {
+        let company;
+        if (data[0].company_id) company = true;
+        else company = false;
+
         d3.selectAll('circle').remove();
         d3.select('.states').selectAll('circle')
             .data(data)
             .enter()
             .append('circle')
-            .attr('r', d => this.scaleCompany(d))
+            .attr('r', d => company ? this.scaleCompany(d) : this.scaleUniversity(d))
             .attr('cx', d => this.projection([d.lng, d.lat])[0].toString())
             .attr('cy', d => this.projection([d.lng, d.lat])[1].toString())
             .attr('class', 'markers')
-            .on('mouseover', (d) => this.companyInfo(d));
+            .on('mouseover', (d) => company ? this.companyInfo(d) : company);
     }
 
     // Figure out all the sectors, create dropdown options

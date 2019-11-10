@@ -1,7 +1,5 @@
 loadData().then(data => {
 
-    console.log(data)
-
     d3.json("https://d3js.org/us-10m.v1.json").then(function(usData) {
 
         // if (error) throw error;
