@@ -59,6 +59,11 @@ table {
   font-size: 15px;
 }
 
+#companyDropdown {
+  height:100px;
+  overflow:auto;
+}
+
 .country {
   stroke: black;
 }

@@ -22,41 +22,53 @@ class infoBox {
 
 // Class for various map filters and options
 class MapOptions {
-    constructor(options) {
+    constructor(options, table) {
         this.options = options;
+        this.table = table;
     }
     // addDropdownItem(text) {
-    //     let dropdown = document.getElementById('dropdown');
+    //     let dropdown = document.getElementById('companyDropdown');
     //     dropdown.options[dropdown.options.length] = new Option(text);
     // }
+
     // populateDropdown() {
     //     for (let i = 0; i < this.options.length; i++) {
     //         this.addDropdownItem(this.options[i]);
     //     }      
     // }
+
     makeTable() {
         let that = this;
-        d3.select('table').selectAll('tr')
+        d3.select(this.table).selectAll('tr')
             .data(that.options)
             .enter().append('tr')
             .append('text')
-            .text(d => d)
+            .text(d => this.table === '#sectors' ? d : d.company)
             .on('mouseover', function(d) {
                 d3.selectAll('tr').select('text').classed('bold', false);
                 d3.select(this).classed('bold', true);
-                that.highlightItem(d);
+                that.highlightItem(this.table === '#sectors' ? d : d.company);
             })
     }
     highlightItem(hoveredName) {
         d3.selectAll('circle')
             .classed('selected', false);
-        d3.selectAll('circle').filter(d => d.sector === hoveredName)
+        if (this.table === '#sectors') {
+            d3.selectAll('circle').filter(d => d.sector === hoveredName)
             .classed('selected', function() {
                 //Bring highlighted items to front
                 this.parentElement.appendChild(this);
                 return true;
             })
-            
+        }
+        else {
+            d3.selectAll('circle').filter(d => d.company === hoveredName)
+            .classed('selected', function() {
+                //Bring highlighted items to front
+                this.parentElement.appendChild(this);
+                return true;
+            })
+        }            
     }
 }
 
@@ -68,7 +80,10 @@ class Map {
         this.univData = data['university-data'];
         this.mapData = mapData;
         this.projection = d3.geoAlbersUsa().scale(1280).translate([480, 300]);
-        this.mapOptions;
+        this.sectorTable;
+        this.companyDropdown;
+
+        console.log(this.companyData)
     }
 
     // Create map of the US
@@ -91,7 +106,10 @@ class Map {
             .enter().append("path")
             .attr('class', 'country')
             .attr("d", path)
-            .on('mouseover', (d,i) => that.stateInfo(that.stateData[i]));
+            .on('mouseover', (d,i) => that.stateInfo(that.stateData[i]))
+            .on('click', function (d,i) {
+                that.findCompanies(that.stateData[i].abreviation);
+            });
     
         // Draw all interior state borders
         mapGroup.append("path")
@@ -184,9 +202,23 @@ class Map {
             }
         }
         sectorArray.sort();
-        this.mapOptions = new MapOptions(sectorArray);
-        // this.mapOptions.populateDropdown();
-        this.mapOptions.makeTable();
+        this.sectorTable = new MapOptions(sectorArray, "#sectors");
+        this.sectorTable.makeTable();
+    }
+
+    // Find companies based on filter criteria
+    findCompanies(filterCriteria) {
+        let companyArray = []
+        let datArray = this.companyData;
+        for (let company of datArray) {
+            let address = company.headoffice_address;
+            if (address.includes(filterCriteria)) {
+                companyArray.push(company);
+            }            
+        }
+        companyArray.sort();
+        this.companyDropdown = new MapOptions(companyArray, "#comp-dropdown");
+        this.companyDropdown.makeTable();
     }
 
     // Draw links between places
