@@ -47,7 +47,8 @@ class MapOptions {
             .on('mouseover', function(d) {
                 d3.selectAll('tr').select('text').classed('bold', false);
                 d3.select(this).classed('bold', true);
-                that.highlightItem(this.table === '#sectors' ? d : d.company);
+                if (that.table === '#sectors') that.highlightItem(d)
+                else that.highlightItem(d.company)
             })
     }
     highlightItem(hoveredName) {
