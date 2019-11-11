@@ -109,6 +109,8 @@ class Map {
             .attr("d", path)
             .on('mouseover', (d,i) => that.stateInfo(that.stateData[i]))
             .on('click', function (d,i) {
+                // that.stateInfo(that.stateData[i]);
+                d3.select
                 that.findCompanies(that.stateData[i].abreviation);
             });
     
@@ -218,6 +220,7 @@ class Map {
             }            
         }
         companyArray.sort();
+        let selection = d3.select('#comp-dropdown').selectAll('tr').remove();
         this.companyDropdown = new MapOptions(companyArray, "#comp-dropdown");
         this.companyDropdown.makeTable();
     }
