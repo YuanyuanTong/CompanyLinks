@@ -1,11 +1,4 @@
 
-// Class for building markers
-class Marker {
-    constructor(data) {
-        this.data = data;
-    }
-}
-
 // Class for building links
 class Links {
     constructor() {
@@ -20,27 +13,17 @@ class infoBox {
     }
 }
 
-// Class for various map filters and options
-class MapOptions {
-    constructor(options, table) {
-        this.options = options;
+// Class to create table
+class Table {
+    constructor(elements, table) {
+        this.elements = elements;
         this.table = table;
     }
-    // addDropdownItem(text) {
-    //     let dropdown = document.getElementById('companyDropdown');
-    //     dropdown.options[dropdown.options.length] = new Option(text);
-    // }
-
-    // populateDropdown() {
-    //     for (let i = 0; i < this.options.length; i++) {
-    //         this.addDropdownItem(this.options[i]);
-    //     }      
-    // }
-
+    // Populate given table with given options
     makeTable() {
         let that = this;
         d3.select(this.table).selectAll('tr')
-            .data(that.options)
+            .data(that.elements)
             .enter().append('tr')
             .append('text')
             .text(d => this.table === '#sectors' ? d : d.company)
@@ -51,6 +34,7 @@ class MapOptions {
                 else that.highlightItem(d.company)
             })
     }
+
     highlightItem(hoveredName) {
         d3.selectAll('circle')
             .classed('selected', false);
@@ -83,8 +67,6 @@ class Map {
         this.projection = d3.geoAlbersUsa().scale(1280).translate([480, 300]);
         this.sectorTable;
         this.companyDropdown;
-
-        console.log(this.companyData)
     }
 
     // Create map of the US
@@ -107,10 +89,9 @@ class Map {
             .enter().append("path")
             .attr('class', 'country')
             .attr("d", path)
-            .on('mouseover', (d,i) => that.stateInfo(that.stateData[i]))
+            //Display state name and companies in that state when clicked
             .on('click', function (d,i) {
-                // that.stateInfo(that.stateData[i]);
-                d3.select
+                that.stateInfo(that.stateData[i]);
                 that.findCompanies(that.stateData[i].abreviation);
             });
     
@@ -131,15 +112,11 @@ class Map {
         // Draw companies on the map
         this.drawNodes(this.companyData)
         
-
-        let info = d3.select('#text-elements').append('svg').attr('width', '500').attr('height', '100');
-
-        // Initialize state info text 
-        info.append('text')
-            .attr('id', 'state-info')
-            .attr('x', '10')
-            .attr('y', '20');
-
+        // Create svg for company info to get drawn on
+        let info = d3.select('#text-elements')
+            .append('svg')
+            .attr('width', '500')
+            .attr('height', '100');
         // Initialize company info text
         info.append('text')
             .attr('id', 'company-name')
@@ -208,7 +185,7 @@ class Map {
             }
         }
         sectorArray.sort();
-        this.sectorTable = new MapOptions(sectorArray, "#sectors");
+        this.sectorTable = new Table(sectorArray, "#sectors");
         this.sectorTable.makeTable();
     }
 
@@ -224,7 +201,7 @@ class Map {
         }
         companyArray.sort();
         let selection = d3.select('#comp-dropdown').selectAll('tr').remove();
-        this.companyDropdown = new MapOptions(companyArray, "#comp-dropdown");
+        this.companyDropdown = new Table(companyArray, "#comp-dropdown");
         this.companyDropdown.makeTable();
     }
 
@@ -235,7 +212,7 @@ class Map {
 
     // Display info about a state
     stateInfo(state) {
-        d3.select('#state-info').text(state.state);
+        d3.select('#company-in-state').text(state.state);
     }
 
     // Display info about a company

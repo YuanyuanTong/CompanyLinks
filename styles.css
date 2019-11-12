@@ -32,7 +32,7 @@ table {
   /* display: inline-block;
   position: absolute; */
   float: left;
-  margin-right: 10px;
+  background-color: rgba(0, 0, 0, 0.034);
 }
 
 #chord {
@@ -65,16 +65,23 @@ table {
 
 #companyDropdown {
   float: left;
+  width: 300px;
+  height: 500px;
+  overflow: auto;
+  margin-bottom: 20px;
 }
 
 #comp-dropdown {
-  width: 200px;
+
+}
+
+#company-in-state {
+  background-color: rgba(158, 49, 49, 0.205);
 }
 
 #infobox {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  float: left;
+  width: 300px;
 }
 
 .country {
