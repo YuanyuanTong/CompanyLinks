@@ -33,6 +33,11 @@ table {
   position: absolute; */
   float: left;
   height: 882px;
+  width: 235px;
+  /* background-color: rgba(0, 0, 0, 0.034); */
+}
+
+#sectors {
   background-color: rgba(0, 0, 0, 0.034);
 }
 

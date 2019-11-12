@@ -175,6 +175,10 @@ class Map {
             .append('svg')
             .attr('width', '300')
             .attr('height', '100');
+        info.append('rect')
+            .attr('width', '300')
+            .attr('height', '100')
+            .attr('style', 'fill: none; stroke: black; stroke-width: 5px;')
         // Initialize company info text
         info.append('text')
             .attr('id', 'company-name')
