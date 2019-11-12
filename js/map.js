@@ -131,25 +131,28 @@ class Map {
         // Draw companies on the map
         this.drawNodes(this.companyData)
         
+
+        let info = d3.select('#text-elements').append('svg').attr('width', '500').attr('height', '100');
+
         // Initialize state info text 
-        d3.select('#map').append('text')
+        info.append('text')
             .attr('id', 'state-info')
-            .attr('x', '120')
-            .attr('y', '700');
+            .attr('x', '10')
+            .attr('y', '20');
 
         // Initialize company info text
-        d3.select('#map').append('text')
+        info.append('text')
             .attr('id', 'company-name')
-            .attr('x', '120')
-            .attr('y', '740');
-        d3.select('#map').append('text')
+            .attr('x', '10')
+            .attr('y', '50');
+        info.append('text')
             .attr('id', 'market-cap')
-            .attr('x', '120')
-            .attr('y', '760');
-        d3.select('#map').append('text')
+            .attr('x', '10')
+            .attr('y', '70');
+        info.append('text')
             .attr('id', 'employees')
-            .attr('x', '120')
-            .attr('y', '780');
+            .attr('x', '10')
+            .attr('y', '90');
 
         // Give university and company toggle buttons functionality
         d3.select('#univ-button').on('click', () => this.drawNodes(this.univData));
