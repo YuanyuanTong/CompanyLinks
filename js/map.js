@@ -36,6 +36,7 @@ class Table {
                 else that.highlightItem(d.company)
             })
             .on('mouseout', function() {
+                d3.select('#comp-dropdown').selectAll('tr').classed('bold', false);
                 d3.select(this).classed('bold', false);
                 d3.selectAll('circle').classed('selected', false);
             })
@@ -47,7 +48,6 @@ class Table {
             .classed('selected', false);
         //if sector is highlighted...
         if (this.table === '#sectors') {
-
             let stateName = d3.select('#company-in-state').text();
             let abbr;
             for (let state of this.map.stateData) {
@@ -56,7 +56,11 @@ class Table {
                     break;
                 }
             }
-            //highlight all companies in US
+
+            //Highlight companies when state/sector selected
+            d3.select('#comp-dropdown').selectAll('tr').filter(d => d.sector === hoveredName).classed('bold', true);
+
+            //Highlight all companies in US
             if (stateName === 'United States') {
                 d3.selectAll('circle').filter(d => d.sector === hoveredName)
                 .classed('selected', function() {
@@ -65,7 +69,7 @@ class Table {
                     return true;
                 })
             }
-            //highlight only companies in selected state
+            //Highlight only companies in selected state
             else {
                 d3.selectAll('circle').filter(d => d.sector === hoveredName)
                 .filter(d => d.headoffice_address.includes(abbr))
