@@ -37,6 +37,7 @@ class Table {
             })
             .on('mouseout', function() {
                 d3.select(this).classed('bold', false);
+                d3.selectAll('circle').classed('selected', false);
             })
     }
 
@@ -44,7 +45,7 @@ class Table {
         let that = this;
         d3.selectAll('circle')
             .classed('selected', false);
-        //if sector is highlighted, do this
+        //if sector is highlighted...
         if (this.table === '#sectors') {
 
             let stateName = d3.select('#company-in-state').text();
@@ -55,6 +56,7 @@ class Table {
                     break;
                 }
             }
+            //highlight all companies in US
             if (stateName === 'United States') {
                 d3.selectAll('circle').filter(d => d.sector === hoveredName)
                 .classed('selected', function() {
@@ -63,6 +65,7 @@ class Table {
                     return true;
                 })
             }
+            //highlight only companies in selected state
             else {
                 d3.selectAll('circle').filter(d => d.sector === hoveredName)
                 .filter(d => d.headoffice_address.includes(abbr))
@@ -73,7 +76,7 @@ class Table {
                 })
             }
         }
-        //If company is highlighted, do this
+        //If company is highlighted...
         else {
             d3.selectAll('circle').filter(d => d.company === hoveredName)
             .classed('selected', function(d) {
@@ -113,6 +116,7 @@ class Map {
             .on('click', function() {
                 //If the map (but not a state) is clicked, clear company table/reset sector table
                 if (!that.stateClicked) {
+                    d3.selectAll('path').classed('outline-state', false);
                     that.stateInfo(null);
                     d3.select('#comp-dropdown').selectAll('tr').remove();
                     that.findSectors(that.companyData);
@@ -136,8 +140,10 @@ class Map {
             .attr("d", path)
             //Display state name and companies in that state when clicked
             .on('click', function (d,i) {
+                d3.selectAll('path').classed('outline-state', false);
+                d3.select(this).classed('outline-state', true);
                 that.stateClicked = true;
-                this.currentState = that.stateData[i];
+                that.currentState = that.stateData[i];
                 that.stateInfo(that.stateData[i]);
                 let companies = that.findCompanies(that.stateData[i].abreviation);
                 that.findSectors(companies);

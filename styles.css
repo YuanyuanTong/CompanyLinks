@@ -90,6 +90,11 @@ table {
   stroke: black;
 }
 
+.outline-state {
+  stroke: red;
+  stroke-width: 2px;
+}
+
 .states :hover {
     fill: rgb(31, 31, 31);
   }
