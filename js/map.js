@@ -15,25 +15,29 @@ class infoBox {
 
 // Class to create table
 class Table {
-    constructor(elements, table) {
+    constructor(elements, table, map) {
         this.elements = elements;
         this.table = table;
+        this.map = map;
     }
     // Populate table with elements
     makeTable() {
         let that = this;
         let table = d3.select(this.table).selectAll('tr')
             .data(that.elements);
+        table.exit().remove();
         table.enter().append('tr')
-            .append('text')
-            .text(d => this.table === '#sectors' ? d : d.company)
+            .append('text');
+        table = d3.select(this.table).selectAll('tr');
+        table.text(d => this.table === '#sectors' ? d : d.company)
             .on('mouseover', function(d) {
-                d3.selectAll('tr').select('text').classed('bold', false);
                 d3.select(this).classed('bold', true);
                 if (that.table === '#sectors') that.highlightItem(d)
                 else that.highlightItem(d.company)
             })
-        table.exit().remove();
+            .on('mouseout', function() {
+                d3.select(this).classed('bold', false);
+            })
     }
 
     highlightItem(hoveredName) {
@@ -42,12 +46,32 @@ class Table {
             .classed('selected', false);
         //if sector is highlighted, do this
         if (this.table === '#sectors') {
-            d3.selectAll('circle').filter(d => d.sector === hoveredName)
-            .classed('selected', function() {
-                //Bring highlighted items to front (DOM reorder)
-                this.parentElement.appendChild(this);
-                return true;
-            })
+
+            let stateName = d3.select('#company-in-state').text();
+            let abbr;
+            for (let state of this.map.stateData) {
+                if (state.state === stateName){
+                    abbr = state.abreviation;
+                    break;
+                }
+            }
+            if (stateName === 'United States') {
+                d3.selectAll('circle').filter(d => d.sector === hoveredName)
+                .classed('selected', function() {
+                    //Bring highlighted items to front (DOM reorder)
+                    this.parentElement.appendChild(this);
+                    return true;
+                })
+            }
+            else {
+                d3.selectAll('circle').filter(d => d.sector === hoveredName)
+                .filter(d => d.headoffice_address.includes(abbr))
+                .classed('selected', function() {
+                    //Bring highlighted items to front (DOM reorder)
+                    this.parentElement.appendChild(this);
+                    return true;
+                })
+            }
         }
         //If company is highlighted, do this
         else {
@@ -92,6 +116,7 @@ class Map {
                     that.stateInfo(null);
                     d3.select('#comp-dropdown').selectAll('tr').remove();
                     that.findSectors(that.companyData);
+                    that.currentState = null;
                 }
                 that.stateClicked = false;
             })
@@ -112,6 +137,7 @@ class Map {
             //Display state name and companies in that state when clicked
             .on('click', function (d,i) {
                 that.stateClicked = true;
+                this.currentState = that.stateData[i];
                 that.stateInfo(that.stateData[i]);
                 let companies = that.findCompanies(that.stateData[i].abreviation);
                 that.findSectors(companies);
@@ -210,7 +236,7 @@ class Map {
         }
         sectorArray.sort();    
         if (!this.sectorTable) {
-            this.sectorTable = new Table(sectorArray, "#sectors");
+            this.sectorTable = new Table(sectorArray, "#sectors", this);
             this.sectorTable.makeTable();
         }
         else {
@@ -231,7 +257,7 @@ class Map {
         }
         companyArray.sort();
         let selection = d3.select('#comp-dropdown').selectAll('tr').remove();
-        this.companyDropdown = new Table(companyArray, "#comp-dropdown");
+        this.companyDropdown = new Table(companyArray, "#comp-dropdown", this);
         this.companyDropdown.makeTable();
 
         return companyArray;
