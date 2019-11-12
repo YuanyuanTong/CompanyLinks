@@ -27,8 +27,9 @@ table {
 }
 
 #second-view {
-  display: inline-block;
-  position: absolute;
+  /* display: inline-block;
+  position: absolute; */
+  float: left;
 }
 
 #chord {
@@ -60,9 +61,11 @@ table {
 }
 
 #companyDropdown {
-  height:100px;
-  width: 500px;
-  overflow:auto;
+  float: left;
+}
+
+#comp-dropdown {
+  width: 200px;
 }
 
 #infobox {
