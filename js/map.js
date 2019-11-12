@@ -19,7 +19,7 @@ class Table {
         this.elements = elements;
         this.table = table;
     }
-    // Populate given table with given options
+    // Populate table with elements
     makeTable() {
         let that = this;
         d3.select(this.table).selectAll('tr')
@@ -36,21 +36,28 @@ class Table {
     }
 
     highlightItem(hoveredName) {
+        let that = this;
         d3.selectAll('circle')
             .classed('selected', false);
+        //if sector is highlighted, do this
         if (this.table === '#sectors') {
             d3.selectAll('circle').filter(d => d.sector === hoveredName)
             .classed('selected', function() {
-                //Bring highlighted items to front
+                //Bring highlighted items to front (DOM reorder)
                 this.parentElement.appendChild(this);
                 return true;
             })
         }
+        //If company is highlighted, do this
         else {
             d3.selectAll('circle').filter(d => d.company === hoveredName)
-            .classed('selected', function() {
-                //Bring highlighted items to front
+            .classed('selected', function(d) {
+                //Bring highlighted items to front (DOM reorder)
                 this.parentElement.appendChild(this);
+                //Display company info
+                d3.select('#company-name').text(d.company);
+                d3.select('#market-cap').text('Market Cap (millions): ' + d.market_cap);
+                d3.select('#employees').text('Number of employees: ' + d.n_employee)
                 return true;
             })
         }            
@@ -174,7 +181,7 @@ class Map {
             .on('mouseover', (d) => company ? this.companyInfo(d) : company);
     }
 
-    // Figure out all the sectors, create dropdown options
+    // Figure out all the sectors, create sector table
     findSectors() {
         let sectorArray = []
         let datArray = this.companyData;
