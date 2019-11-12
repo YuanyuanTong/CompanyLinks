@@ -10,8 +10,6 @@ loadData().then(data => {
         // let chord = new Chord;
         // chord.drawChord();
 
-        // Find all unique sectors
-        map.findSectors();
     });
 });
 

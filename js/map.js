@@ -22,9 +22,9 @@ class Table {
     // Populate table with elements
     makeTable() {
         let that = this;
-        d3.select(this.table).selectAll('tr')
-            .data(that.elements)
-            .enter().append('tr')
+        let table = d3.select(this.table).selectAll('tr')
+            .data(that.elements);
+        table.enter().append('tr')
             .append('text')
             .text(d => this.table === '#sectors' ? d : d.company)
             .on('mouseover', function(d) {
@@ -33,6 +33,7 @@ class Table {
                 if (that.table === '#sectors') that.highlightItem(d)
                 else that.highlightItem(d.company)
             })
+        table.exit().remove();
     }
 
     highlightItem(hoveredName) {
@@ -86,9 +87,11 @@ class Map {
             .append('svg')
             .attr('id', 'map')
             .on('click', function() {
+                //If the map (but not a state) is clicked, clear company table/reset sector table
                 if (!that.stateClicked) {
                     that.stateInfo(null);
                     d3.select('#comp-dropdown').selectAll('tr').remove();
+                    that.findSectors(that.companyData);
                 }
                 that.stateClicked = false;
             })
@@ -110,7 +113,8 @@ class Map {
             .on('click', function (d,i) {
                 that.stateClicked = true;
                 that.stateInfo(that.stateData[i]);
-                that.findCompanies(that.stateData[i].abreviation);
+                let companies = that.findCompanies(that.stateData[i].abreviation);
+                that.findSectors(companies);
             });
     
         // Draw all interior state borders
@@ -133,25 +137,28 @@ class Map {
         // Create svg for company info to get drawn on
         let info = d3.select('#text-elements')
             .append('svg')
-            .attr('width', '500')
+            .attr('width', '300')
             .attr('height', '100');
         // Initialize company info text
         info.append('text')
             .attr('id', 'company-name')
             .attr('x', '10')
-            .attr('y', '50');
+            .attr('y', '40');
         info.append('text')
             .attr('id', 'market-cap')
             .attr('x', '10')
-            .attr('y', '70');
+            .attr('y', '60');
         info.append('text')
             .attr('id', 'employees')
             .attr('x', '10')
-            .attr('y', '90');
+            .attr('y', '80');
 
         // Give university and company toggle buttons functionality
         d3.select('#univ-button').on('click', () => this.drawNodes(this.univData));
         d3.select('#comp-button').on('click', () => this.drawNodes(this.companyData));
+
+        // Create sector table
+        this.findSectors(this.companyData);
     }
 
     // Scale companies by market cap
@@ -193,18 +200,23 @@ class Map {
     }
 
     // Figure out all the sectors, create sector table
-    findSectors() {
+    findSectors(companies) {
         let sectorArray = []
-        let datArray = this.companyData;
-        for (let company of datArray) {
+        for (let company of companies) {
             let sector = company['sector'];
             if (!sectorArray.includes(sector)) {
                 sectorArray.push(sector);
             }
         }
-        sectorArray.sort();
-        this.sectorTable = new Table(sectorArray, "#sectors");
-        this.sectorTable.makeTable();
+        sectorArray.sort();    
+        if (!this.sectorTable) {
+            this.sectorTable = new Table(sectorArray, "#sectors");
+            this.sectorTable.makeTable();
+        }
+        else {
+            this.sectorTable.elements = sectorArray;
+            this.sectorTable.makeTable();
+        }
     }
 
     // Find companies based on filter criteria
@@ -221,6 +233,8 @@ class Map {
         let selection = d3.select('#comp-dropdown').selectAll('tr').remove();
         this.companyDropdown = new Table(companyArray, "#comp-dropdown");
         this.companyDropdown.makeTable();
+
+        return companyArray;
     }
 
     // Draw links between places
@@ -230,7 +244,7 @@ class Map {
 
     // Display info about a state
     stateInfo(state) {
-        d3.select('#company-in-state').text(state ? state.state : '');
+        d3.select('#company-in-state').text(state ? state.state : 'United States');
     }
 
     // Display info about a company
