@@ -74,13 +74,24 @@ class Map {
         this.projection = d3.geoAlbersUsa().scale(1280).translate([480, 300]);
         this.sectorTable;
         this.companyDropdown;
+        this.stateClicked;
     }
 
     // Create map of the US
     drawMap() {
+        let that = this;
         let us = this.mapData;
-        let map = d3.select("#map-view").append('svg').attr('id', 'map');
         let path = d3.geoPath();
+        let map = d3.select("#map-view")
+            .append('svg')
+            .attr('id', 'map')
+            .on('click', function() {
+                if (!that.stateClicked) {
+                    that.stateInfo(null);
+                    d3.select('#comp-dropdown').selectAll('tr').remove();
+                }
+                that.stateClicked = false;
+            })
 
         // Remove Alaska and Hawaii
         us.objects.states.geometries.splice(44,1);
@@ -90,7 +101,6 @@ class Map {
             .attr("class", "states");
     
         // Draw US map
-        let that = this;
         mapGroup.selectAll("path")
             .data(topojson.feature(us, us.objects.states).features)
             .enter().append("path")
@@ -98,6 +108,7 @@ class Map {
             .attr("d", path)
             //Display state name and companies in that state when clicked
             .on('click', function (d,i) {
+                that.stateClicked = true;
                 that.stateInfo(that.stateData[i]);
                 that.findCompanies(that.stateData[i].abreviation);
             });
@@ -219,7 +230,7 @@ class Map {
 
     // Display info about a state
     stateInfo(state) {
-        d3.select('#company-in-state').text(state.state);
+        d3.select('#company-in-state').text(state ? state.state : '');
     }
 
     // Display info about a company
