@@ -6,10 +6,41 @@ class Links {
     }
 }
 
-// Class for information box
-class infoBox {
+// Class for company information box
+class companyInfoBox {
     constructor() {
+        this.company;
+    }
+    drawInfoBox() {
+    // Create svg for company info to get drawn on
+    let info = d3.select('#text-elements')
+        .append('svg')
+        .attr('width', '300')
+        .attr('height', '100');
+    info.append('rect')
+        .attr('width', '300')
+        .attr('height', '100')
+        .attr('style', 'fill: none; stroke: black; stroke-width: 5px;')
+    // Initialize company info text
+    info.append('text')
+        .attr('id', 'company-name')
+        .attr('x', '10')
+        .attr('y', '40');
+    info.append('text')
+        .attr('id', 'market-cap')
+        .attr('x', '10')
+        .attr('y', '60');
+    info.append('text')
+        .attr('id', 'employees')
+        .attr('x', '10')
+        .attr('y', '80');
+    }
 
+    // Display info about a company
+    updateInfo() {
+        d3.select('#company-name').text(this.company.company);
+        d3.select('#market-cap').text('Market Cap (millions): ' + this.company.market_cap);
+        d3.select('#employees').text('Number of employees: ' + this.company.n_employee)
     }
 }
 
@@ -87,9 +118,11 @@ class Table {
                 //Bring highlighted items to front (DOM reorder)
                 this.parentElement.appendChild(this);
                 //Display company info
-                d3.select('#company-name').text(d.company);
-                d3.select('#market-cap').text('Market Cap (millions): ' + d.market_cap);
-                d3.select('#employees').text('Number of employees: ' + d.n_employee)
+                that.map.infoBox.company = d;
+                that.map.infoBox.updateInfo();
+                // d3.select('#company-name').text(d.company);
+                // d3.select('#market-cap').text('Market Cap (millions): ' + d.market_cap);
+                // d3.select('#employees').text('Number of employees: ' + d.n_employee)
                 return true;
             })
         }            
@@ -107,6 +140,7 @@ class Map {
         this.sectorTable;
         this.companyDropdown;
         this.stateClicked;
+        this.infoBox;
     }
 
     // Create map of the US
@@ -170,28 +204,32 @@ class Map {
         // Draw companies on the map
         this.drawNodes(this.companyData)
         
-        // Create svg for company info to get drawn on
-        let info = d3.select('#text-elements')
-            .append('svg')
-            .attr('width', '300')
-            .attr('height', '100');
-        info.append('rect')
-            .attr('width', '300')
-            .attr('height', '100')
-            .attr('style', 'fill: none; stroke: black; stroke-width: 5px;')
-        // Initialize company info text
-        info.append('text')
-            .attr('id', 'company-name')
-            .attr('x', '10')
-            .attr('y', '40');
-        info.append('text')
-            .attr('id', 'market-cap')
-            .attr('x', '10')
-            .attr('y', '60');
-        info.append('text')
-            .attr('id', 'employees')
-            .attr('x', '10')
-            .attr('y', '80');
+        //Draw infoBox to display company information
+        this.infoBox = new companyInfoBox;
+        this.infoBox.drawInfoBox();
+
+        // // Create svg for company info to get drawn on
+        // let info = d3.select('#text-elements')
+        //     .append('svg')
+        //     .attr('width', '300')
+        //     .attr('height', '100');
+        // info.append('rect')
+        //     .attr('width', '300')
+        //     .attr('height', '100')
+        //     .attr('style', 'fill: none; stroke: black; stroke-width: 5px;')
+        // // Initialize company info text
+        // info.append('text')
+        //     .attr('id', 'company-name')
+        //     .attr('x', '10')
+        //     .attr('y', '40');
+        // info.append('text')
+        //     .attr('id', 'market-cap')
+        //     .attr('x', '10')
+        //     .attr('y', '60');
+        // info.append('text')
+        //     .attr('id', 'employees')
+        //     .attr('x', '10')
+        //     .attr('y', '80');
 
         // Give university and company toggle buttons functionality
         d3.select('#univ-button').on('click', () => this.drawNodes(this.univData));
@@ -223,6 +261,7 @@ class Map {
         
     // Draw companies or universities on map
     drawNodes(data) {
+        let that = this;
         let company;
         if (data[0].company_id) company = true;
         else company = false;
@@ -236,7 +275,12 @@ class Map {
             .attr('cx', d => this.projection([d.lng, d.lat])[0].toString())
             .attr('cy', d => this.projection([d.lng, d.lat])[1].toString())
             .attr('class', 'markers')
-            .on('mouseover', (d) => company ? this.companyInfo(d) : company);
+            .on('mouseover', function(d) {
+                if (company) {
+                    that.infoBox.company = d;
+                    that.infoBox.updateInfo();
+                }
+            });
     }
 
     // Figure out all the sectors, create sector table
@@ -287,12 +331,12 @@ class Map {
         d3.select('#company-in-state').text(state ? state.state : 'United States');
     }
 
-    // Display info about a company
-    companyInfo(company) {
-        d3.select('#company-name').text(company.company);
-        d3.select('#market-cap').text('Market Cap (millions): ' + company.market_cap);
-        d3.select('#employees').text('Number of employees: ' + company.n_employee)
-    }
+    // // Display info about a company
+    // companyInfo(company) {
+    //     d3.select('#company-name').text(company.company);
+    //     d3.select('#market-cap').text('Market Cap (millions): ' + company.market_cap);
+    //     d3.select('#employees').text('Number of employees: ' + company.n_employee)
+    // }
 
     // Resize map objects on zoom 
     zoomResize(mapObject) {
