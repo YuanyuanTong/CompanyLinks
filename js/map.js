@@ -151,6 +151,9 @@ class Map {
         let us = this.mapData;
         let path = d3.geoPath();
         let map = d3.select("#map-view");
+        map = map.append('svg')
+            .attr('id', 'map');
+
         // Bounding rect
         let map_width = map.node().getBoundingClientRect().width;
         let map_height = map.node().getBoundingClientRect().height;
@@ -161,9 +164,7 @@ class Map {
             .extent([[0, 0], [map_width, map_height]])
             .on("zoom", zoomed);
 
-        map = map.append('svg')
-            .attr('id', 'map')
-            .on('click', function () {
+        map.on('click', function () {
                 //If the map (but not a state) is clicked, clear company table/reset sector table
                 if (!that.stateClicked) {
                     d3.selectAll('path').classed('outline-state', false);
