@@ -89,13 +89,13 @@ class Table {
                 }
             }
 
-            //Highlight companies located in both selected state and sector
+            //Highlight companies when state/sector selected
             d3.select('#comp-dropdown')
                 .selectAll('tr')
                 .filter(d => d.sector === hoveredName)
                 .classed('bold', true);
 
-            //Highlight all US companies in selected sector
+            //Highlight all companies in US
             if (stateName === 'United States') {
                 d3.selectAll('circle').filter(d => d.sector === hoveredName)
                 .classed('selected', function() {
@@ -167,11 +167,10 @@ class Map {
         // Remove Alaska and Hawaii
         us.objects.states.geometries.splice(44,1);
         us.objects.states.geometries.splice(26,1);
-    
+
+        // Draw US map
         let mapGroup = map.append("g")
             .attr("class", "states");
-    
-        // Draw US map
         mapGroup.selectAll("path")
             .data(topojson.feature(us, us.objects.states).features)
             .enter().append("path")
@@ -258,7 +257,10 @@ class Map {
                     that.infoBox.company = d;
                     that.infoBox.updateInfo();
                 }
-            });
+            })
+            .on('click', function(d) {
+                console.log(d);
+            })
     }
 
     // Figure out all the sectors, create sector table
