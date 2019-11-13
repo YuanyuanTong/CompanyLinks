@@ -159,7 +159,7 @@ class Map {
         let map_height = map.node().getBoundingClientRect().height;
 
         const zoom = d3.zoom()
-            .scaleExtent([1, 40])
+            .scaleExtent([1.3, 40])
             .translateExtent([[0, 0], [map_width, map_height]])
             .extent([[0, 0], [map_width, map_height]])
             .on("zoom", zoomed);
@@ -182,7 +182,8 @@ class Map {
         us.objects.states.geometries.splice(26, 1);
 
         let mapGroup = map.append("g")
-            .attr("class", "states");
+            .attr("class", "states")
+            .attr('transform', 'scale(1.3, 1.3)');
 
         function zoomed() {
             mapGroup.attr("transform", d3.event.transform);
@@ -211,7 +212,6 @@ class Map {
             .attr("d", path(topojson.mesh(us, us.objects.states, function (a, b) {
                 return a !== b;
             })));
-        map.select('g').attr('transform', 'scale(1.3, 1.3)');
 
         // Remove universities with lat lng outside of our US bounding box
         let i = this.univData.length;
