@@ -1,0 +1,1146 @@
+sector,market_cap,revenue,company,company_id,n_employee,headoffice_address,lat,lng
+Wholesale Trade,6013,4547,WATSCO INC,33143,5200,2665 South Bayshore Drive Suite 901 Miami Florida FL 33133 United States,25.7303942,-80.236066
+Leisure & Hotels,24028,9494,ROYAL CARIBBEAN CRUISES LTD,26625,77000,1050 Caribbean Way Miami  Florida FL 33132 United States,25.7752306,-80.1783085
+Construction & Building Materials,15483,20572,LENNAR CORP,18703,11626,700 Northwest 107th Avenue Miami  Florida FL 33172 United States,25.7769431,-80.3703976
+Electronic & Electrical Equipment,1144,1383,KEMET CORP,1650173,14350,KEMET Tower One East Broward Boulevard Fort Lauderdale Florida FL 33301 United States,26.1227754,-80.143137
+Software & Computer Services,12406,2974,CITRIX SYSTEMS INC,6959,8200,851 West Cypress Creek Road Fort Lauderdale  Florida FL 33309 United States,26.2039173,-80.1539354
+Electronic & Electrical Equipment,28020,1866,SBA COMMUNICATIONS CORP,27160,1347,8051 Congress Avenue Boca Raton  Florida FL 33487 United States,26.4197491,-80.0960051
+Renewable Energy,107992,16727,NEXTERA ENERGY INC ,12407,9100,700 Universe Boulevard Juno Beach  Florida FL 33408 United States,26.8596034,-80.0593728
+Banks,1305,291,SEACOAST BANKING CORP OF FLORIDA,27403,902,815 Colorado Avenue Post Box 9012 Stuart Florida FL 34994 United States,27.1917645,-80.2516853
+Electronic & Electrical Equipment,37300,5191,ROPER TECHNOLOGIES INC ,26544,15611,6901 Professional Parkway East Suite 200 Sarasota Florida FL 34240 United States,27.3837107,-82.4317818
+Electronic & Electrical Equipment,46623,6182,L3HARRIS TECHNOLOGIES INC ,14355,17500,1025 West Nasa Boulevard Melbourne  Florida FL 32919 United States,28.0907781,-80.6385483
+Leisure & Hotels,14604,8510,DARDEN RESTAURANTS INC,8697,185000,1000 Darden Center Drive Orlando  Florida FL 32837 United States,28.418282,-81.4250584
+Construction & Building Materials,3010,2384,TOPBUILD CORP,2300956,10300,475 North Williamson Boulevard Daytona Beach  Florida FL 32114 United States,29.1978199,-81.0842615
+Oil & Gas,31400,117033,VALERO ENERGY CORP,32237,10261,One Valero Way San Antonio  Texas TX 78249 United States,29.5860851,-98.6054062
+Oil & Gas,40605,18934,OCCIDENTAL PETROLEUM CORP,22899,11000,5 Greenway Plaza Suite 110 Houston Texas TX 77046 United States,29.7306593,-95.431783
+Real Estate,10201,955,CAMDEN PROPERTY TRUST,5599,1600,11 Greenway Plaza Suite 2400 Houston Texas TX 77046 United States,29.7321329,-95.4354433
+Oil & Gas,6403,4108,BUCKEYE PARTNERS LP,5272,1600,One Greenway Plaza Suite 600 Houston Texas TX 77046 United States,29.7327747,-95.4325967
+Oil & Gas,45785,114217,PHILLIPS 66,1813482,14200,2331 CityWest Boulevard Houston  Texas TX 77042 United States,29.740913,-95.5609075
+Oil & Gas,8216,7348,APACHE CORP,2307,3420,One Post Oak Central 2000 Post Oak Boulevard Suite 100 Houston Texas TX 77056-4400 United States,29.744689,-95.4616265
+Oil & Gas,46600,32815,SCHLUMBERGER LIMITED,27242,1e+05,5599 San Felipe 17th Floor Houston Texas TX 77056 United States,29.749034,-95.473152
+Telecommunication Services,56116,5423,CROWN CASTLE INTERNATIONAL CORP,8304,5000,1220 Augusta Drive Suite 600 Houston Texas TX 77057 United States,29.7546993,-95.48327
+Utilities - Other,50465,14914,WASTE MANAGEMENT INC,33114,43700,1001 Fannin Street Houston  Texas TX 77002 United States,29.7557923,-95.3639415
+Electricity,13588,10589,CENTERPOINT ENERGY INC,6271,7977,1111 Louisiana Street Houston  Texas TX 77002 United States,29.7571169,-95.3679888
+Oil & Gas,62518,29242,ENTERPRISE PRODUCTS PARTNERS LP,10762,7000,1100 Louisiana Street 10th Floor Houston Texas TX 77002 United States,29.7575783,-95.3688473
+Oil & Gas,46674,14144,KINDER MORGAN INC ,1687673,11012,1001 Louisiana Street Suite 1000 Houston Texas TX 77002 United States,29.7578446,-95.3673942
+Oil & Gas,46269,17275,EOG RESOURCES INC ,10844,2800,1111 Bagby Street Sky Lobby 2 Houston Texas TX 77002 United States,29.7588117,-95.3706871
+Food Producers & Processors,37572,58727,SYSCO CORP,29837,67000,1390 Enclave Parkway Houston  Texas TX 77077-2099 United States,29.7589177,-95.6201065
+Oil & Gas,16072,7987,CHENIERE ENERGY INC,6592,1372,700 Milam Street Suite 1900 Houston Texas TX 77002 United States,29.7601109,-95.365608
+Oil & Gas,62589,38727,CONOCOPHILLIPS COMPANY,24355,10800,925 North Eldridge Parkway Houston  Texas TX 77079 United States,29.7827834,-95.6184554
+Chemicals,868,1577,US SILICA HOLDINGS INC,1795035,2812,24275 Katy Freeway Suite 600 Katy Texas TX 77494 United States,29.7845869,-95.7896594
+Oil & Gas,16813,23995,HALLIBURTON CO,14212,60000,3000 North Sam Houston Parkway East Houston  Texas TX 77032 United States,29.937706,-95.3404606
+Oil & Gas,10653,4986,NOBLE ENERGY INC ,22312,2330,1001 Noble Energy Way Houston  Texas TX 77070 United States,29.9948551,-95.5812153
+Oil & Gas,219,999,TETRA TECHNOLOGIES INC,30483,2900,24955 Interstate 45 North The Woodlands  Texas TX 77380 United States,30.1242079,-95.4436303
+Oil & Gas,11146,2248,WESTERN MIDSTREAM PARTNERS LP ,1912843,,1201 Lake Robbins Drive The Woodlands  Texas TX 77380-1046 United States,30.1604921,-95.4540554
+Software & Computer Services,5249,833,SOLARWINDS CORP,2932362,2738,7171 Southwest Parkway Building 400 Austin Texas TX 78735 United States,30.2508065,-97.861761
+Business Services,86227,8423,FIDELITY NATIONAL INFORMATION SERVICES INC ,6382,47000,601 Riverside Avenue Jacksonville  Florida FL 32204 United States,30.3184009,-81.6762696
+Transport,54099,12250,CSX CORP,8383,22500,500 Water Street 15th Floor Jacksonville  Florida FL 32202 United States,30.3245211,-81.6640579
+Information Technology Hardware,12813,90621,DELL TECHNOLOGIES INC,2519758,157000,One Dell Way Round Rock  Texas TX 78682 United States,30.4883856,-97.6704209
+Utilities - Other,2713,904,EL PASO ELECTRIC CO,10267,1100,Stanton Tower 100 North Stanton El Paso Texas TX 79901 United States,31.759098,-106.4854862
+Oil & Gas,15812,2176,DIAMONDBACK ENERGY INC,1895607,711,500 West Texas Suite 1200 Midland Texas TX 79701 United States,31.9988675,-102.0806785
+Oil & Gas,14113,4151,CONCHO RESOURCES INC,538004,1503,One Concho Center 600 West Illinois Avenue Midland Texas TX 79701 United States,31.9998809,-102.0809697
+Real Estate,4733,300,EASTGROUP PROPERTIES INC,9938,75,400 West Parkway Place Suite 100 Ridgeland Mississippi MS 39157 United States,32.4394936,-90.1491781
+Insurance,36727,21758,AFLAC INC,1017,11390,1932 Wynnton Road Columbus  Georgia GA 31999 United States,32.4672389,-84.9637973
+Software & Computer Services,23192,4028,TOTAL SYSTEM SERVICES INC (TSYS),30993,12820,One TSYS Way Columbus  Georgia GA 31901 United States,32.4749904,-84.9924032
+Telecommunication Services,14753,23443,CENTURYLINK INC,6353,45000,100 CenturyLink Drive Monroe  Louisiana LA 71203 United States,32.5895496,-92.0669497
+Utilities - Other,36249,11687,SEMPRA ENERGY CORP,27588,16823,488 8th Avenue San Diego  California CA 92101 United States,32.7099151,-117.1576582
+Construction & Building Materials,17404,16068,DR HORTON INC,9582,8437,1341HortonCircle  Arlington Texas TX 76011 United States,32.7608129,-97.090469
+Clothing & Personal Products,47935,18486,KIMBERLY-CLARK CORP,17913,41000,Post Box 619100 Dallas  Texas TX 75261-9100 United States,32.7766642,-96.7969879
+Telecommunication Services,263703,170756,AT&T INC ,27163,268000,208 South Akard Street Dallas  Texas TX 75202 United States,32.7795597,-96.7988939
+Real Estate,15015,1723,INVITATION HOMES INC,2607907,1231,1717 Main Street Suite 2000 Dallas Texas TX 75201 United States,32.7816486,-96.796842
+Oil & Gas,8402,17715,HOLLYFRONTIER CORP ,14955,3622,2828 North Harwood Suite 1300 Dallas Texas TX 75201-1507 United States,32.7944197,-96.8080977
+Oil & Gas,36619,40523,ENERGY TRANSFER LP ,820219,29486,8111 Westchester Drive Suite 600 Dallas Texas TX 75225 United States,32.8614286,-96.8070119
+Software & Computer Services,5878,1730,MATCH GROUP INC,2364266,1500,8750 North Central Expressway Suite 1400 Dallas Texas TX 75231 United States,32.867051,-96.7690409
+General Retailers,2547,11723,SUNOCO LP ,1889915,6513,8020 Park Lane Suite 200 Dallas Texas TX 75231 United States,32.8703348,-96.7693915
+Electronic & Electrical Equipment,44750,3333,ILLUMINA INC,15581,7300,5200 Illumina Way San Diego  California CA 92122 United States,32.8708716,-117.1990312
+Chemicals,13857,7155,CELANESE CORP,55772,7684,222 West Las Colinas Boulevard Suite 900 North Irving Texas TX 75039-5421 United States,32.8711019,-96.9434437
+Leisure & Hotels,29555,21965,SOUTHWEST AIRLINES CO,28696,58800,Post Box 36611 Dallas  Texas TX 75235-1611 United States,32.8715736,-96.760749
+Oil & Gas,306311,290212,EXXON MOBIL CORP,11430,71100,5959 Las Colinas Boulevard Irving  Texas TX 75039-2298 United States,32.8900057,-96.9499086
+Electronic & Electrical Equipment,95843,22732,QUALCOMM INC,25529,35400,5775 Morehouse Drive San Diego  California CA 92121-1714 United States,32.8954289,-117.1959779
+Electricity,10926,9144,VISTRA ENERGY CORP,2655941,5275,6555 Sierra Drive Irving  Texas TX 75039 United States,32.8984571,-96.9641197
+Electronic & Electrical Equipment,13122,1032,DEXCOM INC,373917,2800,6340 Sequence Drive San Diego  California CA 92121 United States,32.9070685,-117.1859372
+Electronic & Electrical Equipment,115269,15784,TEXAS INSTRUMENTS INC,30509,29888,12500 Texas Instruments Boulevard Dallas  Texas TX 75243 United States,32.9110152,-96.7523904
+Diversified Industrials,1047,350,CSW INDUSTRIALS INC,2344669,730,5420 Lyndon B Johnson Freeway Suite 500 Dallas Texas TX 75240 United States,32.9233133,-96.8172642
+Real Estate,23241,1328,REALTY INCOME CORP,25864,165,11995 El Camino Real San Diego  California CA 92130 United States,32.9375327,-117.2366546
+Automobiles & Parts,17473,1806,COPART INC,7852,6026,14185 Dallas Parkway Suite 300 Dallas Texas TX 75254 United States,32.9390113,-96.8226646
+Chemicals,5666,1372,VERSUM MATERIALS INC,2534641,2300,ASU Research Park 8555 South River Parkway Tempe Arizona AZ 85284 United States,33.336607,-111.897189
+Health,3484,1400,ICU MEDICAL INC,15462,8100,951 Calle Amanecer San Clemente  California CA 92673 United States,33.4513733,-117.602684
+Mining,14209,18628,FREEPORT-MCMORAN INC ,12493,26800,333 North Central Avenue Phoenix  Arizona AZ 85004-2189 United States,33.4517282,-112.073067
+Mining,18897,4383,VULCAN MATERIALS CO,32979,8782,1200 Urban Center Drive Birmingham  Alabama AL 35242 United States,33.482953,-86.704047
+Real Estate,7983,785,MEDICAL PROPERTIES TRUST INC,660184,77,1000 Urban Center Drive Suite 501 Birmingham Alabama AL 35242 United States,33.483098,-86.705593
+Mining,27308,7097,SOUTHERN COPPER CORP ,29256,13899,1440 East Missouri Avenue Suite 160 Phoenix Arizona AZ 85014 United States,33.5170845,-112.0504781
+Software & Computer Services,11315,2660,GODADDY INC,2232357,6821,14455 North Hayden Road Scottsdale  Arizona AZ 85260 United States,33.6172584,-111.9050735
+Leisure & Hotels,21549,4865,CHIPOTLE MEXICAN GRILL INC,82918,73000,610 Newport Center Drive Newport Beach  California CA 92660 United States,33.6183291,-117.8724881
+Insurance,3566,1788,CORELOGIC INC ,122367,5800,40 Pacifica Suite 900 Irvine California CA 92618-7471 United States,33.6506498,-117.7517227
+Utilities - Other,27554,10041,REPUBLIC SERVICES INC,26097,36000,18500 North Allied Way Phoenix  Arizona AZ 85054 United States,33.654396,-111.9301716
+Real Estate,17548,1847,HCP INC ,14483,201,1920 Main Street Suite 1200 Irvine California CA 92614 United States,33.6841151,-117.8526637
+Health,44615,3723,EDWARDS LIFESCIENCES CORP,10156,12800,One Edwards Way Irvine  California CA 92614 United States,33.6984047,-117.8517225
+Insurance,6301,5748,FIRST AMERICAN FINANCIAL CORP,1645838,18251,1 First American Way Santa Ana  California CA 92707-5913 United States,33.7019896,-117.8601399
+Leisure & Hotels,38124,44438,DELTA AIR LINES INC,8946,89000,Post Office Box 20706 Atlanta  Georgia GA 30320-6001 United States,33.7489954,-84.3879824
+Beverages,234245,31856,COCA-COLA CO,7204,62600,One Coca Cola Plaza Atlanta  Georgia GA 30313 United States,33.7542763,-84.3818443
+Banks,30426,10431,SUNTRUST BANKS INC,29586,22899,303 Peachtree Street North East Atlanta Georgia GA 30308 United States,33.7627649,-84.3864991
+Utilities - Other,61278,23495,SOUTHERN CO,28665,29192,30 Ivan Allen Jr Boulevard North West Atlanta  Georgia GA 30308 United States,33.764322,-84.3882896
+Business Services,17811,3412,EQUIFAX INC,10896,10900,1550 Peachtree Street North West Atlanta  Georgia GA 30309 United States,33.7966512,-84.3884949
+Speciality & Other Finance,9005,5314,INVESCO LTD ,2129,7030,1555 Peachtree Street North East Atlanta  Georgia GA 30309 United States,33.797492,-84.3895717
+Construction & Building Materials,8913,10188,PULTEGROUP INC ,25407,5086,3350 Peachtree Road NorthEast Suite 150 Atlanta Georgia GA 30326 United States,33.8476821,-84.3681861
+General Retailers,254818,108203,HOME DEPOT INC,14982,413000,2455 Paces Ferry Road Atlanta  Georgia GA 30339 United States,33.8488985,-84.432564
+Telecommunication Services,24943,3366,GLOBAL PAYMENTS INC,13417,11000,3550 Lenox Road Atlanta  Georgia GA 30326 United States,33.8517433,-84.3675947
+Clothing & Personal Products,4234,3462,CARTERS INC,493545,21000,Phipps Tower 3438 Peachtree Road North East Suite 1800 Atlanta Georgia GA 30326 United States,33.8528357,-84.3640196
+Business Services,6529,6047,HD SUPPLY HOLDINGS INC,1961459,11500,3400 Cumberland Boulevard South East  Atlanta Georgia GA 30339 United States,33.8784793,-84.4538673
+Beverages,30804,3807,MONSTER BEVERAGE CORP ,14301,2203,1 Monster Way Corona  California CA 92879 United States,33.8866879,-117.5132312
+Containers & Packaging,4457,6023,GRAPHIC PACKAGING HOLDING CO,1070384,18000,1500 Riveredge Parkway Suite 100 Atlanta Georgia GA 30328 United States,33.9081754,-84.4362621
+Speciality & Other Finance,49929,6276,INTERCONTINENTAL EXCHANGE INC ,815224,5161,5660 New Northside Drive North West Third Floor Atlanta Georgia GA 30328 United States,33.9093776,-84.4311343
+Diversified Industrials,3680,1896,AEROJET ROCKETDYNE HOLDINGS INC ,13020,5004,222 North Pacific Coast Highway Suite 500 El Segundo California CA 90245 United States,33.9190712,-118.3952696
+Transport,84635,71861,UNITED PARCEL SERVICE (UPS) INC,32137,481000,55 Glenlake Parkway North East Atlanta  Georgia GA 30328 United States,33.9431979,-84.3602082
+Software & Computer Services,17856,1180,SNAP INC,2625560,2884,2772 Donald Douglas Loop North Santa Monica  California CA 90405 United States,34.0163303,-118.4535089
+Software & Computer Services,38000,7500,ACTIVISION BLIZZARD INC ,725,9900,3100 Ocean Park Boulevard Santa Monica  California CA 90405 United States,34.0196137,-118.4525618
+Real Estate,4925,212,REXFORD INDUSTRIAL REALTY INC,1966849,108,11620 Wilshire Boulevard Suite 1000 Los Angeles California CA 90025 United States,34.0497525,-118.4593418
+Utilities - Other,26760,12657,EDISON INTERNATIONAL,10130,12574,2244 Walnut Grove Avenue Post Office Box 976 Rosemead California CA 91770 United States,34.0539466,-118.0808098
+Media & Entertainment,21797,,FOX CORP,3010375,7600,2121 Avenue of the Stars Los Angeles  California CA 90067 United States,34.0551746,-118.4132525
+Health,1745,652,AVANOS MEDICAL INC ,2163304,4700,5405 Windward Parkway Suite 100 South Alpharetta Georgia GA 30004 United States,34.086981,-84.272542
+Business Services,3201,3400,ASGN INC ,23131,4300,26745 Malibu Hills Road Calabasas  California CA 91301 United States,34.138352,-118.7061768
+Real Estate,16549,1327,ALEXANDRIA REAL ESTATE EQUITIES INC,1354,386,385 East Colorado Boulevard Suite 299 Pasadena California CA 91101 United States,34.1460377,-118.1419666
+Media & Entertainment,248509,59434,WALT DISNEY (HLDG) CO,33048,201000,500 South Buena Vista Street Burbank  California CA 91521 United States,34.1568097,-118.3250894
+Forestry & Paper,9344,7159,AVERY DENNISON CORP,3210,30000,207 Goode Avenue Glendale  California CA 91203 United States,34.1570641,-118.2563626
+Real Estate,43017,2754,PUBLIC STORAGE ,25380,5600,701 Western Avenue Glendale  California CA 91201-2349 United States,34.1664274,-118.2955073
+Pharmaceuticals and Biotechnology,124808,23747,AMGEN INC,2068,21500,One Amgen Center Drive Thousand Oaks  California CA 91320-1799 United States,34.192136,-118.919477
+Electronic & Electrical Equipment,10701,2902,TELEDYNE TECHNOLOGIES INC,30261,10850,1049 Camino Dos Rios Thousand Oaks  California CA 91360-2362 United States,34.1974847,-118.9054586
+Business Services,10253,477,THE TRADE DESK INC,2527967,944,42 North Chestnut Street Ventura  California CA 93001 United States,34.2814477,-119.2913175
+Clothing & Personal Products,4355,2020,DECKERS OUTDOOR CORP,8867,3500,250 Coromar Drive Goleta  California CA 93117 United States,34.4287369,-119.8629881
+Banks,2109,593,UNITED COMMUNITY BANKS INC,480535,2312,125 Highway 515 East Blairsville  Georgia GA 30512 United States,34.8798997,-83.9578058
+Transport,41699,69693,FEDEX CORP,11664,239000,942 South Shady Grove Road Memphis  Tennessee TN 38120 United States,35.10565,-89.8583139
+Banks,5014,2269,FIRST HORIZON NATIONAL CORP ,233,5577,165 Madison Avenue Memphis  Tennessee TN 38103 United States,35.1439702,-90.0509598
+Electricity,65276,24521,DUKE ENERGY CORP,867887,30083,550 South Tryon Street Charlotte  North Carolina NC 28202-1803 United States,35.2240674,-80.8485596
+Aerospace & Defence,121302,41802,HONEYWELL INTERNATIONAL INC ,15029,114000,300 South Tryon Street Charlotte  North Carolina NC 28202 United States,35.2256085,-80.8457662
+Banks,274356,110584,BANK OF AMERICA CORP,4504,204000,Bank of America Corporate Center 100 North Tryon Street Charlotte North Carolina NC 28255 United States,35.2273417,-80.8419168
+Utilities - Other,8625,2270,OGE ENERGY CORP,22981,2292,321 North Harvey Post Office Box 321 Oklahoma City Oklahoma OK 73101-0321 United States,35.4707055,-97.5180825
+Oil & Gas,2386,10231,CHESAPEAKE ENERGY CORP,6608,2350,6100 North Western Avenue Oklahoma City  Oklahoma OK 73118 United States,35.5346475,-97.5289018
+Construction & Building Materials,87545,71309,LOWE'S COS INC,19193,3e+05,1000 Lowe's Boulevard Mooresville  North Carolina NC 28117 United States,35.541958,-80.8539024
+Electronic & Electrical Equipment,5436,1080,CREE INC,8220,6796,4600 Silicon Drive Durham  North Carolina NC 27703 United States,35.8994783,-78.8423838
+Banks,37983,12996,BB&T CORP,3718,35852,200 West Second Street Winston-Salem  North Carolina NC 27101 United States,36.0956772,-80.245157
+Leisure & Hotels,7821,8391,CAESARS ENTERTAINMENT CORP,1796209,66000,One Caesars Palace Drive Las Vegas  Nevada NV 89109 United States,36.1165658,-115.1752403
+Clothing & Personal Products,33099,13849,VF CORP,32574,75000,105 Corporate Center Boulevard Greensboro  North Carolina NC 27408 United States,36.1221552,-79.7989009
+Leisure & Hotels,47604,13729,LAS VEGAS SANDS CORP,603630,51500,3355 Las Vegas Boulevard South Las Vegas  Nevada NV 89109 United States,36.1229174,-115.1685253
+Leisure & Hotels,11528,6718,WYNN RESORTS LTD,136226,26000,3131 Las Vegas Boulevard South Las Vegas  Nevada NV 89109 United States,36.1271069,-115.1648303
+Oil & Gas,30594,12593,ONEOK INC ,23165,2684,100 West Fifth Street Tulsa  Oklahoma OK 74103 United States,36.1505651,-95.9916855
+Health,42286,46677,HCA HEALTHCARE INC ,1692837,262000,One Park Plaza Nashville  Tennessee TN 37203 United States,36.1536774,-86.8138175
+Utilities - Other,30262,8686,WILLIAMS COMPANIES INC,33512,5322,One Williams Center Tulsa  Oklahoma OK 74172 United States,36.1549585,-95.9905196
+Banks,1111,370,FB FINANCIAL CORP,2524562,1356,211 Commerce Street Suite 300 Nashville Tennessee TN 37201 United States,36.1626255,-86.7762776
+Leisure & Hotels,3880,1275,RYMAN HOSPITALITY PROPERTIES INC ,12897,1113,One Gaylord Drive Nashville  Tennessee TN 37214 United States,36.1929452,-86.6881325
+General Retailers,40672,25625,DOLLAR GENERAL CORP,1605214,135000,100 Mission Ridge Goodlettsville  Tennessee TN 37072 United States,36.3090261,-86.699065
+General Retailers,330613,514405,WALMART INC ,33046,2200000,702 Southwest 8th Street Bentonville  Arkansas AR 72716-0215 United States,36.3652654,-94.2176381
+General Retailers,26040,22823,DOLLAR TREE INC ,9474,182100,500 Volvo Parkway Chesapeake  Virginia VA 23320 United States,36.7681471,-76.2426183
+Transport,44734,11458,NORFOLK SOUTHERN CORP,22412,26662,Three Commercial Place Norfolk  Virginia VA 23510-2191 United States,36.8456104,-76.2885781
+Automobiles & Parts,28402,9536,O'REILLY AUTOMOTIVE INC,23350,79174,233 South Patterson Springfield  Missouri MO 65802 United States,37.2076592,-93.2492485
+Media & Entertainment,134700,15794,NETFLIX INC,93427,7100,100 Winchester Circle Los Gatos  California CA 95032 United States,37.2593139,-121.9619835
+General Retailers,34524,10746,EBAY INC,9989,14000,2025 Hamilton Avenue San Jose  California CA 95125 United States,37.2951452,-121.9261113
+Electronic & Electrical Equipment,22233,4914,AGILENT TECHNOLOGIES INC,1060,14800,5301 Stevens Creek Boulevard Santa Clara  California CA 95051 United States,37.3248865,-121.9989378
+Software & Computer Services,149476,9030,ADOBE INC ,808,21357,345 Park Avenue San Jose  California CA 95110-2704 United States,37.3303074,-121.8941558
+Information Technology Hardware,888113,265595,APPLE INC ,2355,132000,One Apple Park Way Cupertino  California CA 95014 United States,37.3327177,-122.0053293
+Electronic & Electrical Equipment,94352,11716,NVIDIA CORP,22806,13277,2788 San Tomas Expressway Santa Clara  California CA 95051 United States,37.37035,-121.9672107
+Electronic & Electrical Equipment,57669,3724,INTUITIVE SURGICAL INC,16627,5527,1020 Kifer Road Sunnyvale  California CA 94086 United States,37.372939,-122.003967
+Software & Computer Services,47415,2609,SERVICENOW INC,1830138,8154,2225 Lawson Lane Santa Clara  California CA 95054 United States,37.3759167,-121.9626911
+Speciality & Other Finance,120959,15451,PAYPAL HOLDINGS INC,2308850,21800,2211 North First Street San Jose  California CA 95131 United States,37.3768507,-121.9227332
+Engineering & Machinery,41338,17253,APPLIED MATERIALS INC,2382,21000,3050 Bowers Avenue PO Box 58039 Santa Clara California CA 95054-3299 United States,37.3776247,-121.9787818
+Information Technology Hardware,32774,6475,ADVANCED MICRO DEVICES INC (AMD),881,10100,2485 Augustine Drive Santa Clara  California CA 95054 United States,37.3829254,-121.9703842
+Electronic & Electrical Equipment,114043,20848,BROADCOM INC ,817439,15000,1320 Ridder Park Drive San Jose  California CA 95131 United States,37.3861354,-121.9003283
+Software & Computer Services,7380,,ELASTIC NV,2924705,,800 West El Camino Real Suite 350 Mountain View California CA 94040 United States,37.3865645,-122.0841761
+Information Technology Hardware,214678,70848,INTEL CORP,16239,107400,2200 Mission College Boulevard Santa Clara  California CA 95054-1549 United States,37.3875909,-121.9637869
+Automobiles & Parts,41899,21461,TESLA INC ,1650150,48817,3500 Deer Creek Road Palo Alto  California CA 94304 United States,37.3948376,-122.1503889
+Software & Computer Services,19321,2138,CADENCE DESIGN SYSTEMS INC,5480,7500,2655 Seely Avenue Building 5 San Jose California CA 95134 United States,37.3960629,-121.9195328
+Software & Computer Services,14686,4834,SYMANTEC CORP,29774,11800,350 Ellis Street Mountain View  California CA 94043 United States,37.397614,-122.0539239
+Information Technology Hardware,206025,49330,CISCO SYSTEMS INC,6908,74200,170 West Tasman Drive San Jose  California CA 95134-1706 United States,37.4083615,-121.9541545
+Information Technology Hardware,27471,58472,HP INC ,14722,55000,1501 Page Mill Road Palo Alto  California CA 94304 United States,37.4120244,-122.1483485
+Software & Computer Services,776176,136819,ALPHABET INC ,116351,98771,1600 Amphitheatre Parkway Mountain View  California CA 94043 United States,37.4215785,-122.0837816
+Software & Computer Services,75418,5964,INTUIT INC,16626,8900,2700 Coast Avenue Mountain View  California CA 94043 United States,37.4306146,-122.0960646
+Software & Computer Services,457557,55838,FACEBOOK INC,1820060,35587,1601 Willow Road Menlo Park  California CA 94025 United States,37.482495,-122.147995
+Electronic & Electrical Equipment,30846,11077,LAM RESEARCH CORP,18384,10900,4650 Cushing Parkway Fremont  California CA 94538 United States,37.488472,-121.9574428
+Telecommunication Services,9922,674,RINGCENTRAL INC,1988598,1871,20 Davis Drive Belmont  California CA 94002 United States,37.5109,-122.306596
+Leisure Goods,26614,4950,ELECTRONIC ARTS INC,10364,9700,209 Redwood Shores Parkway Redwood City  California CA 94065-1175 United States,37.5232799,-122.2541417
+Telecommunication Services,44822,5072,EQUINIX INC,10899,7903,One Lagoon Drive Redwood City  California CA 94065 United States,37.527412,-122.26131
+Software & Computer Services,179617,39831,ORACLE CORP ,23295,137000,500 Oracle Parkway Redwood City  California CA 94065 United States,37.5307052,-122.26242
+Utilities - Other,63667,13366,DOMINION ENERGY INC ,9491,21300,120 Tredegar Street Richmond  Virginia VA 23219 United States,37.5339758,-77.4517422
+Software & Computer Services,1202,235,ZUORA INC,2804837,1221,3050 South Delaware Street Suite 301 San Mateo California CA 94403 United States,37.5404051,-122.2989933
+Pharmaceuticals and Biotechnology,79616,22127,GILEAD SCIENCES INC,13273,11000,333 Lakeside Drive Foster City  California CA 94404 United States,37.5670009,-122.281649
+Tobacco,87627,25364,ALTRIA GROUP INC ,24343,8300,6601 West Broad Street Richmond  Virginia VA 23230 United States,37.6006628,-77.5167315
+Insurance,15193,6841,MARKEL CORP,19677,17400,4521 Highwoods Parkway Glen Allen  Virginia VA 23060-6148 United States,37.6615941,-77.576847
+Software & Computer Services,18989,862,VEEVA SYSTEMS INC,1995404,2553,4280 Hacienda Drive Pleasanton  California CA 94588 United States,37.6901555,-121.8953044
+Health,15147,2533,COOPER COMPANIES INC,7836,12000,6140 Stoneridge Mall Road Suite 590 Pleasanton California CA 94588 United States,37.6977513,-121.9232221
+Software & Computer Services,29263,2822,WORKDAY INC,1895620,10500,6110 Stoneridge Mall Road Pleasanton  California CA 94588 United States,37.6984925,-121.9266266
+General Retailers,39555,14984,ROSS STORES INC,26560,88100,5130 Hacienda Drive Dublin  California CA 94568 United States,37.7103486,-121.8900734
+Speciality & Other Finance,571,1094,CURO GROUP HOLDINGS CORP,2740583,4300,3527 North Ridge Road Wichita  Kansas KS 67205 United States,37.74782,-97.4269314
+Oil & Gas,234018,166339,CHEVRON CORP ,6627,48600,6001 Bollinger Canyon Road San Ramon  California CA 94583 United States,37.7582505,-121.9580965
+Pharmaceuticals and Biotechnology,955,,TWIST BIOSCIENCE CORP,2937637,221,455 Mission Bay Boulevard South Suite 545 San Francisco California CA 94158 United States,37.7704274,-122.3887624
+Software & Computer Services,62102,,UBER TECHNOLOGIES INC,3030432,22263,1455 Market Street 4th Floor San Francisco California CA 94103 United States,37.775316,-122.4174374
+Software & Computer Services,33413,3042,TWITTER INC,2006706,3920,1355 Market Street Suite 900 San Francisco California CA 94103 United States,37.7768337,-122.4163755
+Software & Computer Services,135703,13282,SALESFORCE.COM INC,69444,35000,Salesforce Tower 415 Mission Street 3rd Floor San Francisco California CA 94105 United States,37.7897442,-122.3972337
+Speciality & Other Finance,53682,10132,CHARLES SCHWAB CORP,27292,19500,211 Main Street San Francisco  California CA 94105 United States,37.7905969,-122.3927897
+Speciality & Other Finance,302272,20609,VISA INC,937594,17000,One Market Plaza San Francisco  California CA 94105 United States,37.7932577,-122.3944272
+Banks,209602,101060,WELLS FARGO & CO,33264,258700,420 Montgomery Street San Francisco  California CA 94104 United States,37.7933827,-122.4026176
+Real Estate,24903,3046,DIGITAL REALTY TRUST INC,641924,1530,Four Embarcadero Center Suite 3200 San Francisco California CA 94111 United States,37.79539,-122.396107
+Real Estate,52074,2804,PROLOGIS INC ,1710,1617,Pier 1 Bay 1 San Francisco  California CA 94111 United States,37.7980305,-122.394973
+Chemicals,19983,6124,CLOROX COMPANY (THE),7089,8700,1221 Broadway Oakland  California CA 94612-1888 United States,37.8034631,-122.272345
+Software & Computer Services,35650,2570,AUTODESK INC,3118,9600,111 McInnis Parkway San Rafael  California CA 94903 United States,38.0054016,-122.530873
+Leisure & Hotels,35490,5688,YUM! BRANDS INC ,77014,34000,1441 Gardiner Lane Lousville  Kentucky KY 40213 United States,38.1981365,-85.695749
+Food Producers & Processors,27924,3857,BROWN FORMAN CORP,5210,4700,850 Dixie Highway Louisville  Kentucky KY 40210 United States,38.244955,-85.7837243
+Insurance,39091,56912,HUMANA INC,15207,41600,500 West Main Street Louisville  Kentucky KY 40202 United States,38.2563673,-85.7585738
+Utilities - Other,18388,6291,AMEREN CORP,1976,8838,1901 Chouteau Avenue St Louis  Missouri MO 63103 United States,38.6224792,-90.2093732
+Insurance,22165,60116,CENTENE CORP,6261,47300,7700 Forsyth Boulevard St. Louis  Missouri MO 63105 United States,38.6496633,-90.3343387
+Insurance,9682,12876,REINSURANCE GROUP OF AMERICA INC,25995,2767,16600 Swingley Ridge Road Chesterfield  Missouri MO 63017 United States,38.661306,-90.56653
+Aerospace & Defence,62794,30095,NORTHROP GRUMMAN CORP,22521,85000,2980 Fairview Park Drive Falls Church  Virginia VA 22042 United States,38.8677505,-77.2159054
+Aerospace & Defence,53427,36193,GENERAL DYNAMICS CORP,12984,105600,2941 Fairview Park Drive Suite 100 Falls Church Virginia VA 22042-4513 United States,38.8690333,-77.2150053
+Real Estate,28216,2285,AVALONBAY COMMUNITIES INC,3169,3087,Ballston Tower 671 North Glebe Road Suite 800 Arlington Virginia VA 22203 United States,38.8787988,-77.1106409
+Engineering & Machinery,101163,19893,DANAHER CORP,8663,71000,2200 Pennsylvania Avenue North West Suite 800 West Washington District Of Columbia DC 20037-1701 United States,38.9017929,-77.0493245
+Real Estate,22951,1192,COSTAR GROUP INC,8021,3705,1331 L Street Northwest Washington  District Of Columbia DC 20005 United States,38.9041034,-77.0311069
+Telecommunication Services,27991,32406,SPRINT CORP ,637487,30000,6200 Sprint Parkway Overland Park  Kansas KS 66251 United States,38.9156634,-94.6587588
+Speciality & Other Finance,41296,32377,CAPITAL ONE FINANCIAL CORP,5734,47600,1680 Capital One Drive McLean  Virginia VA 22102 United States,38.9245733,-77.2135063
+Leisure & Hotels,27190,8906,HILTON WORLDWIDE HOLDINGS INC,2022926,169000,7930 Jones Branch Drive Suite 1100 McLean Virginia VA 22102 United States,38.9280922,-77.2151232
+Software & Computer Services,1633,227,APPIAN CORP,2660908,1058,11955 Democracy Drive Suite 1700 Reston Virginia VA 20190 United States,38.9576016,-77.3601845
+Software & Computer Services,324,0,VIRNETX HOLDING CORP,1024834,21,308 Dorla Court Suite 206 Zephyr Cove Nevada NV 89448 United States,38.982518,-119.943165
+Leisure & Hotels,42092,20758,MARRIOTT INTERNATIONAL INC,19706,176000,10400 Fernwood Road Bethesda  Maryland MD 20817 United States,39.0247171,-77.1382699
+Aerospace & Defence,109162,53762,LOCKHEED MARTIN CORP,19048,105000,6801 Rockledge Drive Bethesda  Maryland MD 20817-1877 United States,39.03099,-77.138944
+Real Estate,9538,915,FEDERAL REALTY INVESTMENT TRUST,11649,303,1626 East Jefferson Street Rockville  Maryland MD 20852 United States,39.0611389,-77.1271556
+Household Products,303002,67684,PROCTER & GAMBLE CO,25150,97000,One Procter & Gamble Plaza Cincinnati  Ohio OH 45202 United States,39.1032195,-84.5052772
+Health,22855,5366,CERNER CORP,6375,29200,2800 Rockcreek Parkway North Kansas City  Missouri MO 64117 United States,39.1498641,-94.5459231
+Electronic & Electrical Equipment,6120,3094,CIENA CORP,6834,6013,7035 Ridge Road Hanover  Maryland MD 21076 United States,39.1921521,-76.6999634
+Engineering & Machinery,25796,23771,CUMMINS INC,8426,62610,500 Jackson Street Post Office Box 3005 Columbus Indiana IN 47202-3005 United States,39.2036161,-85.9228525
+Speciality & Other Finance,26836,5373,T ROWE PRICE GROUP INC,25020,7022,100 East Pratt Street Baltimore  Maryland MD 21202 United States,39.2871714,-76.6128397
+Investment Companies,466,17,ADAMS NATURAL RESOURCES FUND INC ,24265,,500 East Pratt Street Suite 1300 Baltimore Maryland MD 21202 United States,39.2871831,-76.6083641
+Insurance,18050,5407,CINCINNATI FINANCIAL CORP,6863,4999,6200 South Gilmore Road Fairfield  Ohio OH 45014-5141 United States,39.3077776,-84.5207443
+Business Services,26503,6477,CINTAS CORP,6877,41000,6800 Cintas Boulevard Post Office Box 625737 Cincinnati Ohio OH 45262-5737 United States,39.3411816,-84.282986
+Food Producers & Processors,20527,5409,MCCORMICK & CO INC,19939,11600,24 Schilling Road Suite 1 Hunt Valley Maryland MD 21031 United States,39.4925584,-76.652849
+Media & Entertainment,24508,8040,LIBERTY MEDIA CORP,1924862,4641,12300 Liberty Boulevard Englewood  Colorado CO 80112 United States,39.5531852,-104.8457211
+Mining,29914,7253,NEWMONT GOLDCORP CORP ,22069,12400,6363 South Fiddler's Green Circle Greenwood Village  Colorado CO 80111 United States,39.6006238,-104.8923492
+Mining,8503,459,ROYAL GOLD INC,26634,23,1660 Wynkoop Street Suite 1000 Denver Colorado CO 80202-1132 United States,39.7521134,-105.0000873
+Chemicals,52743,85977,DUPONT DE NEMOURS INC ,2696655,98000,974 Centre Road Wilmington  Delaware DE 19805 United States,39.7554433,-75.6051393
+Pharmaceuticals and Biotechnology,110514,24556,ELI LILLY & CO,18888,38680,Lilly Corporate Center Indianapolis  Indiana IN 46285 United States,39.7559112,-86.1530808
+Insurance,75208,92105,ANTHEM INC ,2273,63900,220 Virginia Avenue Indianapolis  Indiana IN 46204 United States,39.7633921,-86.1512792
+Real Estate,44608,5658,SIMON PROPERTY GROUP INC,28041,5000,225 West Washington Street Indianapolis  Indiana IN 46204 United States,39.7668367,-86.1623174
+Utilities - Other,21790,3440,AMERICAN WATER WORKS CO INC,1966,7100,1 Water Street Camden  New Jersey NJ 08102-1658 United States,39.9487969,-75.1307896
+Telecommunication Services,203266,94507,COMCAST CORP ,7387,184000,One Comcast Center Philadelphia  Pennsylvania PA 19103-2838 United States,39.9549688,-75.168451
+Banks,14857,5270,HUNTINGTON BANCSHARES INC,15235,15693,Huntington Center 41 South High Street Columbus Ohio OH 43287 United States,39.9610405,-83.0007547
+Blank Check / Shell Companies,5348,,CLARIVATE ANALYTICS PLC ,2911460,,1500 Spring Garden Street Philadelphia  Pennsylvania PA 19130 United States,39.9621155,-75.1640533
+Insurance,1400,1276,STATE AUTO FINANCIAL CORPORATION,29127,1854,518 East Broad Street Columbus  Ohio OH 43215-3976 United States,39.9640947,-82.9868629
+Utilities - Other,43857,16196,AMERICAN ELECTRIC POWER CO INC,1809,17582,1 Riverside Plaza Columbus  Ohio OH 43215 United States,39.9650383,-83.0064261
+Wholesale Trade,3305,3770,KAR AUCTION SERVICES INC,1612965,18400,13085 Hamilton Crossing Boulevard Carmel  Indiana IN 46032 United States,39.9769307,-86.1607893
+Electronic & Electrical Equipment,2244,3035,VISHAY INTERTECHNOLOGY INC,32774,24100,63 Lancaster Avenue Malvern  Pennsylvania PA 19355-2143 United States,40.0446615,-75.5280656
+Insurance,416,772,DONEGAL GROUP INC,9513,,1195 River Road Post Office Box 302 Marietta Pennsylvania PA 17547-0302 United States,40.061418,-76.5487328
+Health,12090,10772,UNIVERSAL HEALTH SERVICES INC,31865,78700,Universal Corporate Center 367 South Gulph Road King of Prussia Pennsylvania PA 19406 United States,40.078207,-75.36959
+Containers & Packaging,9188,11151,CROWN HOLDINGS INC ,461561,33000,770 Township Line Road Yardley  Pennsylvania PA 19067-4232 United States,40.2226805,-74.8833999
+Real Estate,1244,139,MONMOUTH REAL ESTATE INVESTMENT CORP,21017,15,Juniper Business Plaza 3499 Route 9 North Suite 3-D Freehold New Jersey NJ 07728 United States,40.2355799,-74.2721248
+Real Estate,8139,1056,GAMING AND LEISURE PROPERTIES INC (GLPI),2006042,644,845 Berkshire Boulevard Suite 200 Wyomissing Pennsylvania PA 19610 United States,40.3515257,-75.9703256
+Transport,14281,4364,WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORP,33000,18000,1001 Air Brake Avenue Wilmerding  Pennsylvania PA 15148 United States,40.3943886,-79.8094533
+Food Producers & Processors,31534,26268,KRAFT HEINZ CO ,2302079,38000,One PPG Place Pittsburgh  Pennsylvania PA 15222 United States,40.4398325,-80.0034907
+Chemicals,27580,15374,PPG INDUSTRIES INC,24887,47300,One PPG Place Pittsburgh  Pennsylvania PA 15272 United States,40.4398325,-80.0034907
+Banks,58192,19993,PNC FINANCIAL SERVICES GROUP INC,24669,53063,The Tower at PNC Plaza 300 Fifth Avenue Pittsburgh Pennsylvania PA 15222-2401 United States,40.4399686,-80.0002473
+Pharmaceuticals and Biotechnology,343247,81581,JOHNSON & JOHNSON,17478,135100,One Johnson & Johnson Plaza New Brunswick  New Jersey NJ 08933 United States,40.4979518,-74.4430559
+Pharmaceuticals and Biotechnology,7734,2463,CATALENT INC,2129696,10700,14 SchoolHouse Road Somerset  New Jersey NJ 08873 United States,40.5278363,-74.5475443
+Chemicals,48448,8930,AIR PRODUCTS & CHEMICALS INC,1173,16300,7201 Hamilton Boulevard Allentown  Pennsylvania PA 18195-1501 United States,40.5525025,-75.5987118
+General Retailers,746,1822,OVERSTOCK COM INC,101407,2060,799 West Coliseum Way Midvale  Utah UT 84047 United States,40.6181541,-111.9151897
+Pharmaceuticals and Biotechnology,222485,42294,MERCK & CO INC ,27219,69000,2000 Galloping Hill Road Kenilworth  New Jersey NJ 07033 United States,40.6774305,-74.2723554
+Publishing,62430,6258,S&P GLOBAL INC ,19953,21200,55 Water Street New York  New York NY 10041 United States,40.7033782,-74.009675
+Business Services,7161,6515,NIELSEN HOLDINGS PLC ,1684303,46000,85 Broad Street   New York NY 10004 United States,40.7040662,-74.0111456
+Insurance,45506,47398,AMERICAN INTERNATIONAL GROUP (AIG) INC,1856,49600,175 Water Street   New York NY 10038 United States,40.7063657,-74.0051548
+Insurance,2792,4608,NATIONAL GENERAL HOLDINGS CORP,2063087,8440,59 Maiden Lane 38th Floor  New York NY 10038 United States,40.7087357,-74.0081164
+Pharmaceuticals and Biotechnology,68525,15281,CELGENE CORP,6177,8852,86 Morris Avenue Summit  New Jersey NJ 07901 United States,40.7090186,-74.3452692
+Speciality & Other Finance,15921,4277,NASDAQ INC ,42640,4099,One Liberty Plaza 165 Broadway  New York NY 10006 United States,40.7098327,-74.0107394
+Business Services,41133,4443,MOODYS CORP ,21071,13000,7 World Trade Center 250 Greenwich Street  New York NY 10007 United States,40.7134166,-74.0119311
+Speciality & Other Finance,18603,1434,MSCI INC,1041062,3112,7 World Trade Center 250 Greenwich Street 49th Floor New York NY 10007 United States,40.7134166,-74.0119311
+Speciality & Other Finance,98540,43281,AMERICAN EXPRESS CO,1815,59000,200 Vesey Street   New York NY 10285 United States,40.7138829,-74.0146871
+Banks,40192,16392,BANK OF NEW YORK MELLON CORP (THE),945834,51300,240 Greenwich Street   New York NY 10286 United States,40.7142261,-74.011977
+Speciality & Other Finance,71572,36616,GOLDMAN SACHS GROUP INC,13564,36600,200 West Street   New York NY 10282 United States,40.7148544,-74.0144968
+Banks,155268,97120,CITIGROUP INC,6930,204000,388 Greenwich Street   New York NY 10013 United States,40.7206782,-74.0111516
+Business Services,25010,2395,VERISK ANALYTICS INC,1586724,8184,545 Washington Boulevard Jersey City  New Jersey NJ 07310-1686 United States,40.7277213,-74.0349363
+Utilities - Other,28376,12337,CONSOLIDATED EDISON INC,7705,15307,4 Irving Place   New York NY 10003 United States,40.7341443,-73.9883294
+Life Assurance,32930,62992,PRUDENTIAL FINANCIAL INC,25332,50492,751 Broad Street Newark  New Jersey NJ 07102 United States,40.7369358,-74.1720252
+Utilities - Other,30988,9696,PUBLIC SERVICE ENTERPRISE GROUP INC,25378,13145,80 Park Plaza Newark  New Jersey NJ 07102 United States,40.7370367,-74.1680642
+Pharmaceuticals and Biotechnology,79252,22561,BRISTOL-MYERS SQUIBB CO,5118,23300,430 East 29th Street 14th Floor New York New York NY 10016 United States,40.740191,-73.974859
+Real Estate,375,314,DRIVE SHACK INC ,422451,48,111 West 19th Street 8th Floor New York New York NY 10011 United States,40.7410521,-73.9952147
+Pharmaceuticals and Biotechnology,206336,53647,PFIZER INC,24296,92400,235 East 42nd Street   New York NY 10017 United States,40.7503024,-73.9726573
+Tobacco,120592,79823,PHILIP MORRIS INTERNATIONAL INC,1060044,77400,120 Park Avenue   New York NY 10017-5592 United States,40.7518892,-73.9782982
+Software & Computer Services,36002,333,ALTABA INC ,33915,,140 East 45th Street 15th Floor Suite 15A New York NY 10017 United States,40.752707,-73.9740497
+Insurance,43397,67941,METLIFE INC,20426,48000,200 Park Avenue   New York NY 10166-0188 United States,40.7533488,-73.9766668
+Insurance,37917,30282,THE TRAVELERS COMPANIES INC ,469152,30400,485 Lexington Avenue   New York NY 10017 United States,40.7542087,-73.9735521
+Speciality & Other Finance,803,274,WISDOMTREE INVESTMENTS INC,1714195,228,245 Park Avenue 35th Floor  New York NY 10167 United States,40.7545475,-73.9745088
+Telecommunication Services,228322,130863,VERIZON COMMUNICATIONS INC ,32507,144500,1095 Avenue of the Americas New York  New York NY 10036 United States,40.7547674,-73.9849149
+Banks,354223,109029,JPMORGAN CHASE & CO,17528,256105,383 Madison Avenue   New York NY 10179-0001 United States,40.7554702,-73.9766645
+Insurance,49347,14950,MARSH & MCLENNAN COMPANIES INC,19713,66000,1166 Avenue of the Americas   New York NY 10036 United States,40.7568582,-73.9820448
+Clothing & Personal Products,62270,15544,COLGATE-PALMOLIVE CO,7293,34500,300 Park Avenue   New York NY 10022 United States,40.7570209,-73.9746695
+Speciality & Other Finance,1983,,TRADEWEB MARKETS INC,3018035,919,1177 Avenue of the Americas   New York NY 10036 United States,40.7572802,-73.9829159
+Media & Entertainment,17173,15290,OMNICOM GROUP INC,23113,70400,437 Madison Avenue   New York NY 10022 United States,40.7573533,-73.9752435
+Speciality & Other Finance,33439,7119,BLACKSTONE GROUP INC ,55498,2360,345 Park Avenue   New York NY 10154 United States,40.7579332,-73.9722189
+Telecommunication Services,260,32,PARETEUM CORPORATION ,1739067,138,1185 Avenue of the Americas 37th Floor  New York NY 10036 United States,40.7579754,-73.9823192
+Real Estate,13700,1435,ANNALY CAPITAL MANAGEMENT INC ,2245,170,1211 Avenue of the Americas   New York NY 10036 United States,40.7586113,-73.9822089
+Speciality & Other Finance,65752,14198,BLACKROCK INC,4584,14900,55 East 52nd Street   New York NY 10055 United States,40.7592391,-73.9735483
+Speciality & Other Finance,6238,,OWL ROCK CAPITAL CORP (ORCC),3058459,,399 Park Avenue 38th Floor  New York NY 10022 United States,40.7592825,-73.9719906
+Speciality & Other Finance,73259,40107,MORGAN STANLEY ,21105,60348,1585 Broadway   New York NY 10036 United States,40.7600547,-73.9855324
+Telecommunication Services,26717,5771,SIRIUS XM HOLDINGS INC ,28130,2699,1290 Avenue of the Americas 11th Floor  New York NY 10104 United States,40.7604692,-73.9788795
+Speciality & Other Finance,10336,12078,AXA EQUITABLE HOLDINGS INC,2815062,7800,1290 Avenue of the Americas   New York NY 10104 United States,40.7604692,-73.9788795
+Media & Entertainment,16692,14514,CBS CORP,6098,12770,51 West 52nd Street 35th Floor  New York NY 10019 United States,40.7611804,-73.9788194
+Blank Check / Shell Companies,206,,FORUM MERGER II CORP,2894562,,1345 Avenue of the Americas 11th Floor  New York NY 10105 United States,40.7629384,-73.978958
+Clothing & Personal Products,44759,13683,ESTEE LAUDER COS INC,11074,46000,767 Fifth Avenue New York  New York NY 10153 United States,40.7636433,-73.9726971
+Chemicals,12972,3978,INTERNATIONAL FLAVORS & FRAGRANCES INC,16530,13000,521 West 57th Street   New York NY 10019 United States,40.7698438,-73.9895306
+Business Services,1498,5393,CONDUENT INC,2592200,82000,100 Campus Drive Suite 200 Florham Park New Jersey NJ 07932 United States,40.7824143,-74.4260905
+Business Services,75183,13326,AUTOMATIC DATA PROCESSING (ADP) INC,3101,57000,One ADP Boulevard Roseland  New Jersey NJ 07068 United States,40.8155809,-74.31007
+Food Producers & Processors,11727,7838,SMUCKER(J.M.)CO,28325,7400,One Strawberry Lane Orrville  Ohio OH 44667-0280 United States,40.8465718,-81.760753
+Pharmaceuticals and Biotechnology,59237,5825,ZOETIS INC,1929138,10000,10 Sylvan Way Parsippany  New Jersey NJ 07054 United States,40.8470715,-74.4447772
+Software & Computer Services,35808,16125,COGNIZANT TECHNOLOGY SOLUTIONS CORP,7256,281600,Glenpointe Centre West 500 Frank West Burr Boulevard Teaneck New Jersey NJ 07666 United States,40.8732679,-74.0060059
+Electronic & Electrical Equipment,66020,15983,BECTON DICKINSON & CO,3903,76032,1 Becton Drive Franklin Lakes  New Jersey NJ 07417-1880 United States,41.017009,-74.2106872
+Speciality & Other Finance,272911,14950,MASTERCARD INC,483173,14800,2000 Purchase Street Purchase  New York NY 10577 United States,41.0208168,-73.7096826
+Beverages,188523,64661,PEPSICO INC,24151,267000,700 Anderson Hill Road Purchase  New York NY 10577 United States,41.0344724,-73.6928681
+Oil & Gas,28744,3867,MPLX LP,1899665,4300,200 East Hardin Street Findlay  Ohio OH 45840 United States,41.0359703,-83.6478935
+Oil & Gas,33349,97102,MARATHON PETROLEUM CORP,1710040,60350,539 South Main Street Findlay  Ohio OH 45840 United States,41.0360917,-83.6494426
+Telecommunication Services,92728,43634,CHARTER COMMUNICATIONS INC (Spectrum),1661731,98000,400 Atlantic Street 10th Floor Stamford Connecticut CT 06901 United States,41.0504634,-73.5388563
+Pharmaceuticals and Biotechnology,30101,6711,REGENERON PHARMACEUTICALS INC,25954,7400,777 Old Saw Mill River Road Tarrytown  New York NY 10591-6707 United States,41.0785443,-73.8234767
+Utilities - Other,24799,11261,FIRSTENERGY CORP,11964,12494,76 South Main Street Akron  Ohio OH 44308 United States,41.083384,-81.5183258
+Leisure & Hotels,81965,14527,BOOKING HOLDINGS INC ,25022,24500,800 Connecticut Avenue Norwalk  Connecticut CT 06854 United States,41.0930242,-73.4539645
+Speciality & Other Finance,21479,18253,SYNCHRONY FINANCIAL,2129744,16500,777 Long Ridge Road Stamford  Connecticut CT 06902 United States,41.0973183,-73.5617133
+Software & Computer Services,121660,79591,INTERNATIONAL BUSINESS MACHINES (IBM) CORP,16506,350600,1 New Orchard Road Armonk  New York NY 10504 United States,41.1095709,-73.7228708
+Information Technology Hardware,6744,9830,XEROX HOLDINGS CORP ,33850,32400,201 Merritt 7 Po Box 4505 Norwalk Connecticut CT 06851-1056 United States,41.1502558,-73.4263023
+Insurance,4623,2586,SELECTIVE INSURANCE GROUP INC,27549,2290,40 Wantage Avenue Branchville  New Jersey NJ 07890-1000 United States,41.1521343,-74.7445325
+Health,27958,7933,ZIMMER BIOMET HOLDINGS INC ,34134,2000,345 East Main Street Warsaw  Indiana IN 46580 United States,41.2394428,-85.8543015
+Insurance,491060,247837,BERKSHIRE HATHAWAY INC,4080,389000,3555 Farnam Street Omaha  Nebraska NE 68131 United States,41.2571596,-95.965497
+Electricity,16221,6478,AVANGRID INC,2379226,6449,180 Marsh Hill Road Orange  Connecticut CT 06477 United States,41.2579459,-73.0015077
+Transport,122979,22832,UNION PACIFIC CORP,31786,41967,1400 Douglas Street Omaha  Nebraska NE 68179 United States,41.259172,-95.93518
+Speciality & Other Finance,23925,5452,TD AMERITRADE HOLDING CORP ,2048,9183,200 South 108th Avenue Omaha  Nebraska NE 68154 United States,41.2599735,-96.0834689
+Pharmaceuticals and Biotechnology,29600,10412,IQVIA HOLDINGS INC ,1951118,58000,83 Wooster Heights Road Danbury  Connecticut CT 06810 United States,41.377271,-73.4715071
+Chemicals,3380,644,BALCHEM CORP,3424,1135,52 Sunrise Park Road New Hampton  New York NY 10958 United States,41.4184432,-74.4242946
+Electronic & Electrical Equipment,28295,8202,AMPHENOL CORP,2100,73600,358 Hall Avenue Wallingford  Connecticut CT 06492 United States,41.4607747,-72.8330564
+Engineering & Machinery,49424,37358,DEERE & CO,8886,74000,One John Deere Place Moline  Illinois IL 61265-8098 United States,41.476481,-90.424668
+Construction & Building Materials,47377,17534,SHERWIN-WILLIAMS CO,27786,53368,101 West Prospect Avenue Cleveland  Ohio OH 44115-1075 United States,41.4972774,-81.6924983
+Transport,29363,3811,TRANSDIGM GROUP INC,818089,10100,The Tower at Erieview 1301 East 9th Street Suite 3000 Cleveland Ohio OH 44114 United States,41.5051402,-81.6895305
+Engineering & Machinery,20299,14302,PARKER-HANNIFIN CORP,23834,57170,6035 Parkland Boulevard Cleveland  Ohio OH 44124-4141 United States,41.5065902,-81.4611707
+Insurance,46675,31979,PROGRESSIVE CORP (OHIO),25199,37346,6300 Wilson Mills Road Mayfield Village  Ohio OH 44143 United States,41.5359019,-81.4510402
+Banks,4283,1338,WEBSTER FINANCIAL CORP,33221,3265,145 Bank Street Webster Plaza Waterbury Connecticut CT 06702 United States,41.553798,-73.0407194
+Real Estate,36522,4700,WELLTOWER INC ,14484,384,4500 Dorr Street Toledo  Ohio OH 43615 United States,41.6565317,-83.6459718
+Aerospace & Defence,117369,66501,UNITED TECHNOLOGIES CORP (UTC),32161,240000,10 Farm Springs Road Farmington  Connecticut CT 06032 United States,41.7084472,-72.8032238
+Banks,343,71,CITIZENS AND NORTHERN CORP,6935,299,90-92 Main Street Wellsboro  Pennsylvania PA 16901 United States,41.7482803,-77.3017561
+Insurance,22369,18955,HARTFORD FINANCIAL SERVICES GROUP INC,14372,18500,One Hartford Plaza Hartford  Connecticut CT 06155 United States,41.7699716,-72.6869713
+Insurance,59359,48650,CIGNA CORP,6837,73800,900 Cottage Grove Road Bloomfield  Connecticut CT 06002 United States,41.8128862,-72.7469102
+Transport,11690,13972,TEXTRON INC,30529,35000,40 Westminster Street Providence  Rhode Island RI 02903 United States,41.8249048,-71.4092955
+Engineering & Machinery,13981,6992,DOVER CORP,9555,24000,3005 Highland Parkway Downers Grove  Illinois IL 60515 United States,41.8333116,-88.0076416
+Leisure & Hotels,22144,41303,UNITED AIRLINES HOLDINGS INC ,31575,92000,233 South Wacker Drive Chicago  Illinois IL 60606 United States,41.8788792,-87.6358363
+Transport,2875,1361,GATX CORP,12886,2225,233 South Wacker Drive Chicago  Illinois IL 60606-7147 United States,41.8788792,-87.6358363
+Business Services,15293,2317,TRANSUNION,2300046,7100,555 West Adams Street Chicago  Illinois IL 60661 United States,41.8789685,-87.6415453
+Electronic & Electrical Equipment,29215,7343,MOTOROLA SOLUTIONS INC ,21174,16000,500 West Monroe Street Chicago  Illinois IL 60661 United States,41.8808419,-87.6407695
+Speciality & Other Finance,75592,4309,CME GROUP INC ,268946,4590,20 South Wacker Drive Chicago  Illinois IL 60606 United States,41.8812552,-87.6372287
+Utilities - Other,46944,35985,EXELON CORP,11376,33383,10 South Dearborn Street Post Box 805379 Chicago Illinois IL 60680-5379 United States,41.8815149,-87.6297872
+Business Services,6680,1020,MORNINGSTAR INC,376777,5416,22 West Washington Street Chicago  Illinois IL 60602 United States,41.8834388,-87.6285096
+Leisure & Hotels,166709,21025,MCDONALD'S CORP,19944,210000,110 North Carpenter Street Chicago  Illinois IL 60607 United States,41.8834871,-87.6535395
+Aerospace & Defence,202728,101127,BOEING CO,4730,153000,100 North Riverside Chicago  Illinois IL 60606-1596 United States,41.8838466,-87.6387642
+Leisure Goods,14295,4580,HASBRO INC,14399,5800,1027 Newport Avenue Pawtucket  Rhode Island RI 02861 United States,41.8841197,-71.3532113
+Real Estate,29274,2578,EQUITY RESIDENTIAL ,10928,2700,Two North Riverside Plaza Chicago  Illinois IL 60606 United States,41.8853017,-87.6385569
+Food Producers & Processors,21039,64341,ARCHER-DANIELS-MIDLAND CO,2490,31600,77 West Wacker Drive Suite 4600 Chicago Illinois IL 60601 United States,41.886474,-87.6306216
+Real Estate,24958,3746,VENTAS INC ,32450,500,353 North Clark Street Suite 3300 Chicago Illinois IL 60654 United States,41.8889439,-87.6304685
+Electronic & Electrical Equipment,4054,1718,LITTELFUSE INC,18993,12300,8755 West Higgins Road Suite 500 Chicago Illinois IL 60631 United States,41.9864821,-87.8452295
+General Retailers,83293,194579,CVS HEALTH CORP ,8468,295000,One CVS Drive Woonsocket  Rhode Island RI 02895 United States,41.9910645,-71.476792
+Insurance,16907,6934,ARTHUR J GALLAGHER & CO,12761,30400,2850 West Golf Road Rolling Meadows  Illinois IL 60008-4050 United States,42.0504323,-87.9692582
+Engineering & Machinery,48617,14768,ILLINOIS TOOL WORKS INC (ITW),15580,48000,155 Harlem Avenue Glenview  Illinois IL 60025 United States,42.0580019,-87.8041073
+Insurance,34443,39815,ALLSTATE CORP,1534,45700,2775 Sanders Road Northbrook  Illinois IL 60062 United States,42.1009833,-87.8704727
+Banks,232,88,WESTERN NEW ENGLAND BANCORP INC ,33367,320,141 Elm Street Westfield  Massachusetts MA 01086 United States,42.1235455,-72.7479049
+Food & Drug Retailers,47655,131537,WALGREENS BOOTS ALLIANCE INC ,33026,354000,108 Wilmot Road Deerfield  Illinois IL 60015 United States,42.1555253,-87.8688618
+Engineering & Machinery,69909,54722,CATERPILLAR INC,6052,104000,510 Lake Cook Road Suite 100 Deerfield Illinois IL 60015 United States,42.1557734,-87.8407778
+Speciality & Other Finance,26277,12848,DISCOVER FINANCIAL SERVICES INC,78171,16600,2500 Lake Cook Road Riverwoods  Illinois IL 60015 United States,42.1564396,-87.8883214
+Health,43425,11127,BAXTER INTERNATIONAL INC,3684,50000,One Baxter Parkway Deerfield  Illinois IL 60015 United States,42.1593374,-87.8793282
+Food Producers & Processors,78311,25938,MONDELEZ INTERNATIONAL INC ,18164,80000,Three Parkway North Deerfield  Illinois IL 60015 United States,42.1637696,-87.879201
+Information Technology Hardware,16342,16241,CDW CORP,1961452,9019,75 Tri-State International Lincolnshire  Illinois IL 60069 United States,42.1973796,-87.8886482
+Chemicals,900,284,CHASE CORP (MA),6535,769,295 University Avenue Westwood  Massachusetts MA 02090 United States,42.2016295,-71.1553419
+Electronic & Electrical Equipment,40127,6201,ANALOG DEVICES INC,2145,15800,One Technology Way Post Box 9106 Norwood Massachusetts MA 02062-9106 United States,42.21113,-71.18134
+Containers & Packaging,7543,2765,APTARGROUP INC,2411,14100,265 Exchange Drive Suite 100 Crystal Lake Illinois IL 60014 United States,42.2349115,-88.3006549
+Containers & Packaging,9422,7015,PACKAGING CORP OF AMERICA,23635,15000,1 North Field Court Lake Forest  Illinois IL 60045 United States,42.2412537,-87.8891281
+Health,80820,13601,STRYKER CORP,29405,36000,2825 Airview Boulevard Kalamazoo  Michigan MI 49002 United States,42.2428207,-85.5553397
+Pharmaceuticals and Biotechnology,146521,30578,ABBOTT LABORATORIES,428,103000,100 Abbott Park Road Abbott Park  Illinois IL 60064-6400 United States,42.3021137,-87.8915621
+Pharmaceuticals and Biotechnology,104728,32753,ABBVIE INC,1921326,30000,1 North Waukegan Road North Chicago  Illinois IL 60064-6400 United States,42.3021242,-87.8915726
+General Retailers,67953,38973,TJX COS INC,30801,270000,770 Cochituate Road Framingham  Massachusetts MA 01701 United States,42.3107584,-71.3823478
+Automobiles & Parts,35768,160338,FORD MOTOR CO,12262,199000,One American Road Dearborn  Michigan MI 48126 United States,42.3145851,-83.2101173
+Food Producers & Processors,21409,13547,KELLOGG CO,17777,34000,One Kellogg Square Post Box 3599 Battle Creek Michigan MI 49016-3599 United States,42.3208655,-85.1863367
+Electronic & Electrical Equipment,13375,3218,HOLOGIC INC,14967,6252,250 Campus Drive Marlborough  Massachusetts MA 01752 United States,42.3249512,-71.5832443
+Automobiles & Parts,55571,147049,GENERAL MOTORS CO,1673114,173000,300 Renaissance Center Detroit  Michigan MI 48265-3000 United States,42.3283747,-83.0407923
+Telecommunication Services,93604,7440,AMERICAN TOWER CORP,1954,5026,116 Huntington Avenue Boston  Massachusetts MA 02116 United States,42.3465172,-71.0797918
+Pharmaceuticals and Biotechnology,26470,4131,ALEXION PHARMACEUTICALS INC,1355,2656,121 Seaport Boulevard Boston  Massachusetts MA 02210 United States,42.3510789,-71.0444781
+Diversified Industrials,87925,121615,GENERAL ELECTRIC CO,12986,283000,41 Farnsworth Street Boston  Massachusetts MA 02210 United States,42.3518045,-71.0478268
+Banks,19539,11982,STATE STREET CORP,29131,40142,One Lincoln Street Boston  Massachusetts MA 02111 United States,42.3525825,-71.0581075
+Pharmaceuticals and Biotechnology,47264,3048,VERTEX PHARMACEUTICALS INC,32537,2500,50 Northern Avenue Boston  Massachusetts MA 02210 United States,42.3534302,-71.0462
+Real Estate,3768,351,STAG INDUSTRIAL INC,1698619,73,One Federal Street 23rd Floor Boston Massachusetts MA 02110 United States,42.3560074,-71.056796
+Real Estate,2482,1117,SENIOR HOUSING PROPERTY TRUST,27603,12,Two Newton Place 255 Washington Street Suite 300 Newton Massachusetts MA 02458-1634 United States,42.3578929,-71.1842589
+Speciality & Other Finance,6883,5188,LPL FINANCIAL HOLDINGS INC ,1673122,4229,75 State Street Boston  Massachusetts MA 02109 United States,42.3585849,-71.0549882
+Health,58952,9823,BOSTON SCIENTIFIC CORP,4865,32000,300 Boston Scientific Way Marlborough  Massachusetts MA 01752-1234 United States,42.3611381,-71.5614533
+Pharmaceuticals and Biotechnology,8782,75,ALNYLAM PHARMACEUTICALS INC,117536,1065,300 Third Street Cambridge  Massachusetts MA 02142 United States,42.3652128,-71.081997
+Pharmaceuticals and Biotechnology,42915,13453,BIOGEN INC ,440155,7800,225 Binney Street Cambridge  Massachusetts MA 02142 United States,42.3662897,-71.0857637
+Software & Computer Services,2923,454,CARGURUS INC,2714663,732,2 Canal Park 4th Floor Cambridge Massachusetts MA 02141 United States,42.3701391,-71.0762867
+Pharmaceuticals and Biotechnology,4848,194,REPLIGEN CORP,26081,548,41 Seyon Street Building 1 Suite 100 Waltham Massachusetts MA 02453 United States,42.3702822,-71.2160251
+Electronic & Electrical Equipment,116863,24358,THERMO FISHER SCIENTIFIC INC ,30616,70000,168 Third Avenue Waltham  Massachusetts MA 02451 United States,42.3929224,-71.2615943
+Aerospace & Defence,55019,27058,RAYTHEON CO,25815,67000,870 Winter Street Waltham  Massachusetts MA 02451-1449 United States,42.4057975,-71.282688
+Engineering & Machinery,642,1572,TOWER INTERNATIONAL INC,1667608,5700,17672 Laurel Park Drive North Suite 400 East Livonia Michigan MI 48152 United States,42.4141828,-83.4193702
+Automobiles & Parts,7002,21149,LEAR CORP,1603228,169000,21557 Telegraph Road Southfield  Michigan MI 48033 United States,42.452623,-83.2791994
+Beverages,38200,7442,KEURIG DR PEPPER INC ,1057037,25500,53 South Avenue Burlington  Massachusetts MA 01803 United States,42.4817587,-71.2211466
+Software & Computer Services,684,1145,ENDURANCE INTERNATIONAL GROUP HOLDINGS INC,2000830,3901,10 Corporate Drive Suite 300 Burlington Massachusetts MA 01803 United States,42.4958417,-71.1934016
+Banks,19658,6455,M&T BANK CORP,19327,17267,One M&T Plaza 8th Floor Buffalo New York NY 14203-2399 United States,42.8837738,-78.8742684
+Beverages,37118,8884,CONSTELLATION BRANDS INC ,7753,9800,207 High Point Drive Building 100 Victor New York NY 14564 United States,43.029708,-77.435198
+Software & Computer Services,70345,5823,FISERV INC,11985,24000,255 Fiserv Drive Brookfield  Wisconsin WI 53045 United States,43.0334751,-88.1407635
+Utilities - Other,27651,7680,WEC ENERGY GROUP INC ,33607,7878,231 West Michigan Street PO Box 1331 Milwaukee Wisconsin WI 53201 United States,43.0371135,-87.9137137
+Business Services,30451,3381,PAYCHEX INC,23945,14300,911 Panorama Trail South Rochester  New York NY 14625-0397 United States,43.1250668,-77.4923887
+Electronic & Electrical Equipment,46262,30391,MICRON TECHNOLOGY INC,20589,36000,8000 South Federal Way Boise  Idaho ID 83716-9632 United States,43.5300934,-116.1494251
+Chemicals,32922,,DOW INC,3016790,,2211 H H Dow Way Midland  Michigan MI 48674 United States,43.6123553,-84.1874157
+Pharmaceuticals and Biotechnology,23754,2213,IDEXX LABORATORIES INC,15486,8377,One IDEXX Drive Westbrook  Maine ME 04092 United States,43.6615036,-70.3735631
+Food Producers & Processors,23500,9546,HORMEL FOODS CORP,15070,20100,1 Hormel Place Austin  Minnesota MN 55912-3680 United States,43.6824203,-92.9684034
+Food Producers & Processors,9817,3757,LAMB WESTON HOLDINGS INC,2558653,7600,599 South Rivershore Lane Eagle  Idaho ID 83616 United States,43.6893284,-116.3561966
+Banks,191,73,NORTHEAST BANK ,22486,185,500 Canal Street Lewiston  Maine ME 04240 United States,44.0904437,-70.2142482
+General Retailers,18225,42879,BEST BUY CO INC,4118,125000,7601 Penn Avenue South Richfield  Minnesota MN 55423 United States,44.8645052,-93.305217
+Insurance,218393,226247,UNITEDHEALTH GROUP INC ,32107,3e+05,UnitedHealth Group Center 9900 Bren Road East Minnetonka Minnesota MN 55343 United States,44.8973859,-93.4032532
+Household Products,58400,14668,ECOLAB INC,10036,49000,1 Ecolab Place Saint Paul  Minnesota MN 55102 United States,44.946551,-93.0977331
+Diversified Industrials,93709,32765,3M CO ,20777,93516,3M Center Saint Paul  Minnesota MN 55144-1000 United States,44.9581946,-93.0024097
+General Retailers,55878,75356,TARGET CORP ,29978,360000,1000 Nicollet Mall Minneapolis  Minnesota MN 55403 United States,44.973783,-93.275917
+Banks,87522,25775,US BANCORP,31946,73333,800 Nicollet Mall Minneapolis  Minnesota MN 55402 United States,44.9755792,-93.2738797
+Speciality & Other Finance,1003,801,PIPER JAFFRAY COMPANIES,24515,1262,800 Nicollet Mall Suite 1000 Mail Stop J09SSH Minnesota MN 55402 United States,44.9755792,-93.2738797
+Food Producers & Processors,32901,16865,GENERAL MILLS INC,13034,40000,Number One General Mills Boulevard Minneapolis  Minnesota MN 55426 United States,44.9788759,-93.3947841
+Electricity,30695,11537,XCEL ENERGY INC,33830,11092,414 Nicollet Mall Minneapolis  Minnesota MN 55401 United States,44.9795593,-93.2705093
+Clothing & Personal Products,107163,39117,NIKE INC,22209,76700,One Bowerman Drive SC5 Beaverton  Oregon OR 97005-6453 United States,45.5077764,-122.8281466
+Electricity,5153,1991,PORTLAND GENERAL ELECTRIC COMPANY,24789,2967,121 South West Salmon Street 1WTC1301 Portland Oregon OR 97204 United States,45.5162534,-122.674865
+Leisure & Hotels,7954,8264,ALASKA AIR GROUP INC,1273,23376,19300 International Boulevard Seattle  Washington WA 98188 United States,47.4292312,-122.2931934
+General Retailers,112076,141576,COSTCO WHOLESALE CORP ,8022,245000,999 Lake Drive Issaquah  Washington WA 98027 United States,47.5485708,-122.0506521
+Software & Computer Services,69831,43310,T-MOBILE US INC ,888529,52000,12920 South East 38th Street Bellevue  Washington WA 98006-1350 United States,47.5766937,-122.1671315
+Leisure & Hotels,108963,24720,STARBUCKS CORP,29093,291000,2401 Utah Avenue South Suite 800 Seattle Washington WA 98134 United States,47.5810087,-122.3357381
+Forestry & Paper,18376,7476,WEYERHAEUSER CO,33418,9300,220 Occidental Avenue South Seattle  Washington WA 98104-7800 United States,47.6004408,-122.332628
+Transport,22637,23496,PACCAR INC,23563,28000,777 106th Avenue North East Bellevue  Washington WA 98004 United States,47.6166617,-122.1997588
+General Retailers,894229,232887,AMAZON.COM INC,1703,647500,410 Terry Avenue North Seattle  Washington WA 98109-5210 United States,47.6221942,-122.3365534
+Software & Computer Services,1060781,110360,MICROSOFT CORP,20601,131000,One Microsoft Way Redmond  Washington WA 98052-6399 United States,47.6423318,-122.1369302
+Forestry & Paper,2622,975,POTLATCHDELTIC CORP ,24837,1471,601 West First Avenue Suite 1600 Spokane Washington WA 99201 United States,47.6561642,-117.4215296
+Pharmaceuticals and Biotechnology,835,,ALDER BIOPHARMACEUTICALS INC,2066810,202,11804 North Creek Parkway South Bothell  Washington WA 98011 United States,47.7634842,-122.1813697
+Pharmaceuticals and Biotechnology,12314,655,SEATTLE GENETICS INC,27435,1302,21823 30th Drive Southeast Bothell  Washington WA 98021 United States,47.8001502,-122.1927838
+Engineering & Machinery,25565,6453,FORTIVE CORP,2482889,24000,6920 Seaway Boulevard Everett  Washington WA 98203 United States,47.9348825,-122.26492
+Automobiles & Parts,27245,11221,AUTOZONE INC,3154,90000,123 South Front Street Memphis  Tennessee TN 38103 United States,35.1420009,-90.0561333
+Containers & Packaging,26736,11635,BALL CORP,3439,17500,10 Longs Peak Drive Post Office Box 5000 Broomfield Colorado CO 80021-2510 United States,39.9117473,-105.0996988
+Electronic & Electrical Equipment,26494,3059,XILINX INC,33857,4433,2100 Logic Drive San Jose  California CA 95124 United States,37.2529087,-121.9363016
+Leisure & Hotels,26124,18881,CARNIVAL CORP,5867,88000,Carnival Place 3655 North West 87th Avenue Miami Florida FL 33178-2428 United States,25.8072615,-80.3357092
+Health,25912,214319,MCKESSON CORP ,19966,80000,6555 State Highway 161 Irving  Texas TX 75039 United States,32.8976055,-96.9722025
+Chemicals,25565,39004,LYONDELLBASELL INDUSTRIES NV,1667126,19450,1221 McKinney Street Suite 300 Houston Texas TX 77010 United States,29.7561692,-95.362429
+Utilities - Other,25510,8448,EVERSOURCE ENERGY ,22660,7998,300 Cadwell Drive Springfield  Massachusetts MA 01104 United States,42.1526871,-72.547708
+Speciality & Other Finance,24737,2433,FLEETCOR TECHNOLOGIES INC,1677118,7580,5445 Triangle Parkway Suite 400 Peachtree Corners Georgia GA 30092-2575 United States,33.9731121,-84.2242981
+Software & Computer Services,24082,1215,VERISIGN INC,32498,900,12061 Bluemont Way Reston  Virginia VA 20190 United States,38.9567242,-77.3623212
+Food Producers & Processors,23970,40052,TYSON FOODS INC,31563,121000,2200 West Don Tyson Parkway Springdale  Arkansas AR 72762 6999 United States,36.1556481,-94.1545321
+Food Producers & Processors,23277,7791,HERSHEY CO (THE),14714,16420,19 East Chocolate Avenue Hershey  Pennsylvania PA 17033 United States,40.2868944,-76.6488108
+Utilities - Other,23258,14212,DTE ENERGY CO,9693,10600,One Energy Plaza Detroit  Michigan MI 48226-1279 United States,42.3312401,-83.0539923
+Construction & Building Materials,23127,13982,STANLEY BLACK & DECKER INC ,29065,60767,1000 Stanley Drive New Britain  Connecticut CT 06053 United States,41.6936214,-72.8078946
+Electronic & Electrical Equipment,22723,5350,MICROCHIP TECHNOLOGY INC,20566,18286,2355 West Chandler Boulevard Chandler  Arizona AZ 85224-6199 United States,33.3043905,-111.8821676
+Electronic & Electrical Equipment,22582,4037,KLA CORP ,17984,6550,One Technology Drive Milpitas  California CA 95035 United States,37.4207877,-121.924156
+Software & Computer Services,22202,3298,SQUARE INC,2364234,3349,1455 Market Street Suite 600 San Francisco California CA 94103 United States,37.775316,-122.4174374
+Information Technology Hardware,22001,11290,CORNING INC,7915,51500,One Riverfront Plaza Corning  New York NY 14831 United States,42.1453767,-77.0558823
+Food Producers & Processors,21572,,CORTEVA INC,3039776,,974 Centre Road Building 735 Wilmington Delaware DE 19805 United States,39.7554433,-75.6051393
+Utilities - Other,21472,11009,ENTERGY CORP,10750,13688,639 Loyola Avenue New Orleans  Louisiana LA 70113 United States,29.9489612,-90.0768302
+Real Estate,21337,1400,ESSEX PROPERTY TRUST INC ,11060,1826,1100 Park Place Suite 200 San Mateo California CA 94403 United States,37.5451045,-122.2908192
+Oil & Gas,21212,9415,PIONEER NATURAL RESOURCES CO,24506,3177,5205 North O'Connor Boulevard Suite 200 Irving Texas TX 75039 United States,32.8703634,-96.9395894
+Utilities - Other,21184,7785,PPL CORP,24890,12444,Two North Ninth Street Allentown  Pennsylvania PA 18101-1179 United States,40.6108129,-75.4800112
+Software & Computer Services,20810,2273,PALO ALTO NETWORKS INC,1874468,5348,3000 Tannery Way Santa Clara  California CA 95054 United States,37.3836462,-121.9826432
+Leisure & Hotels,20727,11223,EXPEDIA GROUP INC ,770141,24500,333 108th Avenue Northeast Bellevue  Washington WA 98004 United States,47.6133892,-122.1970996
+Software & Computer Services,20369,3121,SYNOPSYS INC,29816,13245,690 East Middlefield Road Mountain View  California CA 94043 United States,37.3944645,-122.0504999
+Real Estate,20238,2717,BOSTON PROPERTIES INC,4863,760,800 Boylston Street Suite 1900 Boston Massachusetts MA 02199 United States,42.3473912,-71.0820284
+Banks,20004,5960,NORTHERN TRUST CORP,22509,18800,50 South La Salle Street Chicago  Illinois IL 60603 United States,41.8815778,-87.6325827
+Banks,19441,7973,FIFTH THIRD BANCORP,324,17437,Fifth Third Center 38 Fountain Square Plaza Cincinnati Ohio OH 45263 United States,39.1022847,-84.5119662
+Telecommunication Services,19263,4263,IAC INTERACTIVECORP ,32019,7800,555 West 18th Street New York  New York NY 10011 United States,40.7455869,-74.0076567
+Electronic & Electrical Equipment,19183,4846,AMETEK INC,2058,18200,1100 Cassatt Road Berwyn  Pennsylvania PA 19312-1177 United States,40.0619112,-75.4635121
+Information Technology Hardware,19148,20647,WESTERN DIGITAL CORP,33382,71600,5601 Great Oaks Parkway San Jose  California CA 95119 United States,37.2455392,-121.7933375
+Electronic & Electrical Equipment,18973,2340,RESMED INC,26113,5940,9001 Spectrum Center Boulevard San Diego  California CA 92123 United States,32.8257199,-117.1335528
+Electronic & Electrical Equipment,18937,6666,ROCKWELL AUTOMATION INC ,26468,23000,1201 South Second Street Milwaukee  Wisconsin WI 53204 United States,43.0185622,-87.9135988
+Information Technology Hardware,18452,30852,HEWLETT PACKARD ENTERPRISE CO,2358912,60000,3000 Hanover Street Palo Alto  California CA 94304-1112 United States,37.4146379,-122.145929
+Food & Drug Retailers,18440,121162,KROGER CO,18195,453000,1014 Vine Street Cincinnati  Ohio OH 45202 United States,39.1067459,-84.5138214
+Oil & Gas,18378,6466,HESS CORP ,1970,1708,1185 Avenue of the Americas   New York NY 10036 United States,40.7579754,-73.9823192
+Household Products,18368,4146,CHURCH & DWIGHT CO INC,6779,4700,500 Charles Ewing Boulevard Ewing  New Jersey NJ 08628 United States,40.2868977,-74.7870701
+Electronic & Electrical Equipment,18140,3878,KEYSIGHT TECHNOLOGIES INC,2163313,12900,1400 Fountaingrove Parkway Santa Rosa  California CA 95403-1738 United States,38.478888,-122.709223
+Information Technology Hardware,18028,2151,ARISTA NETWORKS INC,2073894,2300,5453 Great America Parkway Santa Clara  California CA 95054 United States,37.4118561,-121.9763085
+Pharmaceuticals and Biotechnology,17839,1882,INCYTE CORP ,15783,1367,1801 Augustine Cut-Off Wilmington  Delaware DE 19803 United States,39.7625852,-75.5535578
+Software & Computer Services,17755,1294,ANSYS INC,2257,3400,2600 ANSYS Drive Canonsburg  Pennsylvania PA 15317 United States,40.2718234,-80.166319
+Telecommunication Services,17641,22,LIBERTY BROADBAND CORPORATION,2163871,,12300 Liberty Boulevard Englewood  Colorado CO 80112 United States,39.5531852,-104.8457211
+Pharmaceuticals and Biotechnology,17479,167940,AMERISOURCEBERGEN CORPORATION,2043,21000,1300 Morris Drive Chesterbrook  Pennsylvania PA 19087 5594 United States,40.0686697,-75.4683256
+Speciality & Other Finance,17406,12924,AMERIPRISE FINANCIAL INC,667645,14000,55 Ameriprise Financial Center Minneapolis  Minnesota MN 55474 United States,44.9750925,-93.2689261
+Construction & Building Materials,17378,4965,FASTENAL CO,11608,21644,2001 Theurer Boulevard Winona  Minnesota MN 55987-0978 United States,44.0629544,-91.6877625
+Electronic & Electrical Equipment,17033,2936,METTLER TOLEDO INTERNATIONAL INC,20478,16000,1900 Polaris Parkway Columbus  Ohio OH 43240-4035 United States,40.1439863,-82.9690578
+Aerospace & Defence,17016,1778,HEICO CORP,14568,5400,3000 Taft Street Hollywood  Florida FL 33021 United States,26.0248413,-80.1688478
+Banks,16879,7393,KEYCORP,17862,18180,127 Public Square Cleveland  Ohio OH 44114-1306 United States,41.50144,-81.6941499
+Real Estate,16811,21340,CBRE GROUP INC ,6083,90000,400 South Hope Street 25th Floor Los Angeles California CA 90071 United States,34.0516069,-118.2536324
+Electronic & Electrical Equipment,16666,2448,TELEFLEX INC,30265,15200,550 East Swedesford Road Suite 400 Wayne Pennsylvania PA 19087 United States,40.0771684,-75.4176235
+Software & Computer Services,16622,8974,VMWARE INC,423340,24200,3401 Hillview Avenue Palo Alto  California CA 94304 United States,37.4020858,-122.1446169
+Software & Computer Services,16549,1803,SPLUNK INC,1813585,4400,270 Brannan Street San Francisco  California CA 94107 United States,37.7827679,-122.3913735
+Utilities - Other,16305,6873,CMS ENERGY CORP,7147,8625,One Energy Plaza Jackson  Michigan MI 49201 United States,42.2466617,-84.4022463
+Banks,16263,7354,CITIZENS FINANCIAL GROUP INC,2150201,18100,One Citizens Plaza Providence  Rhode Island RI 02903 United States,41.8274346,-71.4107334
+Telecommunication Services,16210,650,TWILIO INC,2477574,1440,375 Beale Street Suite 300 San Francisco California CA 94105 United States,37.7879235,-122.3915621
+Health,16025,11333,LABORATORY CORP OF AMERICA HLDGS (LABCORP),18319,61000,358 South Main Street Burlington  North Carolina NC 27215 United States,36.0931722,-79.4373797
+Oil & Gas,15944,34055,PLAINS ALL AMERICAN PIPELINE LP,24561,4900,333 Clay Street Suite 1600 Houston Texas TX 77002 United States,29.7573187,-95.3719137
+Electronic & Electrical Equipment,15896,1966,ALIGN TECHNOLOGY INC,1384,11660,2820 Orchard Parkway San Jose  California CA 95134 United States,37.3903189,-121.9354487
+Electricity,15749,4304,CHENIERE ENERGY PARTNERS LP,944253,,700 Milam Street Suite 1900 Houston Texas TX 77002 United States,29.7601109,-95.365608
+Forestry & Paper,15729,23306,INTERNATIONAL PAPER CO,16569,53000,6400 Poplar Avenue Memphis  Tennessee TN 38197 United States,35.1014608,-89.8502899
+Consumer Services,15566,1197,EXTRA SPACE STORAGE INC,600874,3624,2795 East Cottonwood Parkway Suite 300 Salt Lake City Utah UT 84121 United States,40.6335533,-111.8132148
+Banks,15526,3575,FIRST REPUBLIC BANK,1676104,4480,111 Pine Street San Francisco  California CA 94111 United States,37.7921412,-122.3990296
+Electronic & Electrical Equipment,15448,2420,WATERS CORP,33136,7200,34 Maple Street Milford  Massachusetts MA 01757 United States,42.136791,-71.4813247
+Steel & Other Metals,15264,25067,NUCOR CORP,22688,26300,1915 Rexford Road Charlotte  North Carolina NC 28211 United States,35.1587199,-80.8348811
+Mining,15261,4244,MARTIN MARIETTA MATERIALS INC,19739,8714,2710 Wycliff Road Raleigh  North Carolina NC 27607 United States,35.8201608,-78.6901288
+Electronic & Electrical Equipment,15188,11221,WW GRAINGER INC,13725,24600,100 Grainger Parkway Lake Forest  Illinois IL 60045-5201 United States,42.2363993,-87.911161
+Speciality & Other Finance,15155,21744,ICAHN ENTERPRISES LP ,1912,34,767 Fifth Avenue Suite 4700 47th Floor New York NY 10153 United States,40.7635843,-73.9723967
+Media & Entertainment,15133,10553,DISCOVERY INC ,1201609,9000,One Discovery Place Silver Spring  Maryland MD 20910 United States,38.9946766,-77.0279929
+Leisure & Hotels,15116,11763,MGM RESORTS INTERNATIONAL ,20519,72000,3600 Las Vegas Boulevard South Las Vegas  Nevada NV 89109 United States,36.1125269,-115.175947
+Insurance,14958,14237,PRINCIPAL FINANCIAL GROUP INC,25087,16475,711 High Street Des Moines  Iowa IA 50392 United States,41.588566,-93.62759
+Leisure & Hotels,14909,10788,LIVE NATION ENTERTAINMENT INC ,814633,9500,9348 Civic Center Drive Beverly Hills  California CA 90210 United States,34.0742157,-118.3985559
+Pharmaceuticals and Biotechnology,14832,454,EXACT SCIENCES CORP,11340,1977,441 Charmany Drive Madison  Wisconsin WI 53719 United States,43.0591858,-89.4742915
+Electricity,14776,4276,EVERGY INC,2824528,4832,1200 Main Street Kansas City  Missouri MO 64105 United States,39.0996496,-94.5837642
+Insurance,14729,14066,LOEWS CORP,19065,17900,667 Madison Avenue   New York NY 10065-8087 United States,40.7644359,-73.9701995
+Automobiles & Parts,14713,18173,CARMAX INC,107377,25946,12800 Tuckahoe Creek Parkway Richmond  Virginia VA 23238 United States,37.640308,-77.6706647
+Real Estate,14674,1571,MID-AMERICA APARTMENT COMMUNITIES INC,20625,2508,6815 Poplar Avenue Suite 500 Germantown Tennessee TN 38138 United States,35.0976248,-89.83609
+Software & Computer Services,14659,2668,TAKE TWO INTERACTIVE SOFTWARE INC,29924,4894,110 West 44th Street   New York NY 10036 United States,40.7563624,-73.9839997
+Real Estate,14322,886,W P CAREY INC ,32988,206,50 Rockefeller Plaza   New York NY 10020 United States,40.7595931,-73.9782143
+Speciality & Other Finance,14309,6319,FRANKLIN RESOURCES INC,12463,9700,One Franklin Parkway San Mateo  California CA 94403-1906 United States,37.543695,-122.293687
+Software & Computer Services,14295,,LYFT INC,3015455,4791,185 Berry Street Suite 5000 San Francisco California CA 94107 United States,37.7765973,-122.3919488
+General Retailers,14293,6717,ULTA BEAUTY INC ,465379,44000,1000 Remington Boulevard Suite 120 Bolingbrook Illinois IL 60440 United States,41.6800625,-88.1062547
+Banks,14275,6412,REGIONS FINANCIAL CORP,550049,19969,1900 Fifth Avenue North Birmingham  Alabama AL 35203 United States,33.5180597,-86.8089142
+Telecommunication Services,14231,2714,AKAMAI TECHNOLOGIES INC,1221,7519,150 Broadway Cambridge  Massachusetts MA 02142 United States,42.3644243,-71.0890504
+Insurance,14226,20414,WELLCARE HEALTH PLANS INC,602305,12000,8725 Henderson Road Renaissance One Tampa Florida FL 33634 United States,28.0328625,-82.5488318
+Oil & Gas,14127,2827,MAGELLAN MIDSTREAM PARTNERS LP ,257912,1868,Post Office Box 22186 One Williams Center Tulsa Oklahoma OK 74121-2186 United States,36.1549585,-95.9905196
+Business Services,14123,4330,BROADRIDGE FINANCIAL SOLUTIONS INC,934640,10000,5 Dakota Drive Lake Success  New York NY 11042 United States,40.7620332,-73.6906851
+Food Producers & Processors,14103,9538,CONAGRA BRANDS INC ,7619,18000,222 West Merchandise Mart Plaza Suite 1300 Chicago Illinois IL 60654 United States,41.8884096,-87.6354498
+Electronic & Electrical Equipment,14029,2480,MAXIM INTEGRATED PRODUCTS INC,19863,7149,160 Rio Robles San Jose  California CA 95134 United States,37.4054899,-121.9499774
+Food Producers & Processors,13953,8685,CAMPBELL SOUP CO,5620,23000,1 Campbell Place Camden  New Jersey NJ 08103-1799 United States,39.9394842,-75.1079245
+Private Equity,13880,2396,KKR & CO INC ,1652845,1301,9 West 57th Street Suite 4200  New York NY 10019 United States,40.7637696,-73.975023
+Real Estate,13875,1047,UDR INC ,32094,1467,1745 Shea Center Drive Suite 200 Highlands Ranch Colorado CO 80129 United States,39.5548883,-105.0092628
+Software & Computer Services,13813,1801,FORTINET INC,1606380,5845,899 Kifer Road Sunnyvale  California CA 94086 United States,37.375771,-122.0107525
+Software & Computer Services,13670,399,OKTA INC,2644506,1561,100 First Street Suite 600 San Francisco California CA 94105 United States,37.789152,-122.3976135
+Leisure & Hotels,13613,44541,AMERICAN AIRLINES GROUP INC ,2021732,128900,4333 Amon Carter Boulevard Fort Worth  Texas TX 76155 United States,32.8280655,-97.0507139
+General Retailers,13598,6668,BURLINGTON STORES INC,1990085,44000,2006 Route 130 North Burlington  New Jersey NJ 08016 United States,40.0925917,-74.8076866
+Speciality & Other Finance,13558,2769,CBOE GLOBAL MARKETS INC ,1647824,842,400 South Lasalle Street Chicago  Illinois IL 60605 United States,41.8764788,-87.6321341
+Transport,13507,4044,OLD DOMINION FREIGHT LINE INC,23040,21279,500 Old Dominion Way Thomasville  North Carolina NC 27360 United States,35.90898,-80.0587312
+Software & Computer Services,13384,6146,NETAPP INC ,21903,10500,1395 Crossman Avenue Sunnyvale  California CA 94089 United States,37.4149198,-122.0095977
+Utilities - Other,13261,5207,XYLEM INC,1731107,17000,1 International Drive Rye Brook  New York NY 10573 United States,41.0501365,-73.6880785
+Pharmaceuticals and Biotechnology,13214,1491,BIOMARIN PHARMACEUTICAL INC,4354,2849,770 Lindaro Street San Rafael  California CA 94901 United States,37.9702453,-122.5257479
+Health,13168,7531,QUEST DIAGNOSTICS INC,25578,46000,500 Plaza Drive Secaucus  New Jersey NJ 07094 United States,40.7878337,-74.0449298
+Automobiles & Parts,13841,18735,GENUINE PARTS CO,13110,50000,2999 Wildwood Parkway Atlanta  Georgia GA 30339 United States,33.911495,-84.456383
+Insurance,13066,10134,CNA FINANCIAL CORP,7150,6100,151 North Franklin Street Chicago  Illinois IL 60606 United States,41.8845895,-87.6356354
+Health,13032,136809,CARDINAL HEALTH INC,5811,32300,7000 Cardinal Place Dublin  Ohio OH 43017 United States,40.1090076,-83.1210856
+Software & Computer Services,12914,566,PAYCOM SOFTWARE INC,2061294,3050,7501 West Memorial Road Oklahoma City  Oklahoma OK 73142 United States,35.6117324,-97.6486131
+Utilities - Other,12896,3116,ATMOS ENERGY CORP,2963,4628,Three Lincoln Centre Suite 1800 5430 LBJ Freeway Dallas Texas TX 75240 United States,32.922216,-96.8181014
+Insurance,12883,7692,W.R. BERKLEY CORP,4078,7448,475 Steamboat Road Greenwich  Connecticut CT 06830 United States,41.0187265,-73.6222537
+Engineering & Machinery,12708,2484,IDEX CORP,15484,7352,1925 West Field Court Suite 200 Lake Forest Illinois IL 60045 United States,42.244467,-87.8932484
+Business Services,12617,436,MARKETAXESS HOLDINGS INC,551122,454,55 Hudson Yards 15th Floor New York New York NY 10001 United States,40.7554333,-74.0018339
+Telecommunication Services,12603,9567,ALTICE USA INC,2671876,12185,1 Court Square West Long Island City  New York NY 11101 United States,40.7472426,-73.9444418
+Information Technology Hardware,12524,3868,SKYWORKS SOLUTIONS INC ,1573,9400,20 Sylvan Road Woburn  Massachusetts MA 01801 United States,42.4993304,-71.1645583
+Transport,12489,8138,EXPEDITORS INTERNATIONAL OF WASHINGTON INC,11401,17000,1015 Third Avenue 12th Floor Seattle  Washington WA 98104 United States,47.605838,-122.334683
+Construction & Building Materials,12412,7004,NVR INC,22812,5600,11700 Plaza America Drive Suite 500 Reston Virginia VA 20190 United States,38.9526486,-77.3499306
+General Retailers,12395,7911,TRACTOR SUPPLY CO,31088,30500,5401 Virginia Way Brentwood  Tennessee TN 37027 United States,36.0324501,-86.8130118
+Engineering & Machinery,12362,10194,LEIDOS HOLDINGS INC ,660090,32000,11951 Freedom Drive Reston  Virginia VA 20190 United States,38.9590456,-77.3592826
+Real Estate,12336,948,DUKE REALTY CORP,9730,400,600 East 96th Street Suite 100 Indianapolis Indiana IN 46240 United States,39.9288905,-86.1469152
+Electricity,12324,3535,ALLIANT ENERGY CORP,1476,3885,4902 North Biltmore Lane Suite 1000 Madison Wisconsin WI 53718-2148 United States,43.1512115,-89.2958529
+Real Estate,12234,2164,VORNADO REALTY TRUST,32928,3928,888 Seventh Avenue   New York NY 10019 United States,40.7652747,-73.9807922
+Real Estate,12203,5524,HOST HOTELS & RESORTS INC ,15093,184,6903 Rockledge Drive Suite 1500 Bethesda Maryland MD 20817-1109 United States,39.0277524,-77.1403372
+Oil & Gas,12134,1169,PHILLIPS 66 PARTNERS LP,1967181,575,2331 CityWest Boulevard Houston  Texas TX 77042 United States,29.740913,-95.5609075
+Transport,12086,2714,KANSAS CITY SOUTHERN ,17690,7200,427 West 12th Street Kansas City  Missouri MO 64105 United States,39.0996289,-94.589712
+Speciality & Other Finance,11997,9052,ALLY FINANCIAL INC ,13003,8200,Ally Detroit Center 500 Woodward Avenue Floor 10 Detroit Michigan MI 48226 United States,42.3299803,-83.0451883
+Real Estate,11817,1127,SUN COMMUNITIES INC,29508,2784,27777 Franklin Road Suite 200 Southfield Michigan MI 48034 United States,42.4898542,-83.2990083
+Construction & Building Materials,11710,8359,MASCO CORP,19758,26000,17450 College Parkway Livonia  Michigan MI 48152 United States,42.4154172,-83.4255817
+Business Services,11710,3421,SS&C TECHNOLOGIES HOLDINGS INC,1636378,22600,80 Lamberton Road Windsor  Connecticut CT 06095 United States,41.8647955,-72.6644688
+Insurance,11692,7594,FIDELITY NATIONAL FINANCIAL INC ,916730,23436,601 Riverside Avenue Jacksonville  Florida FL 32204 United States,30.3184009,-81.6762696
+Transport,11691,16631,CH ROBINSON WORLDWIDE INC,6438,15262,14701 Charlson Road Eden Prairie  Minnesota MN 55347-5088 United States,44.8208431,-93.4606427
+Construction & Building Materials,11594,14985,JACOBS ENGINEERING GROUP INC,17251,74400,1999 Bryan Street Suite 1200 Dallas Texas TX 75201 United States,32.7847481,-96.7973379
+Software & Computer Services,11592,3975,GARTNER INC ,12862,15173,56 Top Gallant Road Stamford  Connecticut CT 06902 United States,41.0304821,-73.5503025
+Media & Entertainment,11583,743,ROKU INC,2707533,1111,150 Winchester Circle Los Gatos Santa Clara California CA 95032 United States,37.2604013,-121.9621307
+Engineering & Machinery,11526,22877,BAKER HUGHES A GE CO ,3415,66000,17021 Aldine Westfield Road Houston  Texas TX 77073 United States,29.9684685,-95.3650862
+Oil & Gas,11489,4710,CONTINENTAL RESOURCES INC,259357,1221,20 North Broadway Oklahoma City  Oklahoma OK 73102 United States,35.4674639,-97.5141062
+Health,11469,3986,DENTSPLY SIRONA INC ,9023,16400,13320 Ballantyne Corporate Place Charlotte  North Carolina NC 28277 United States,35.0607938,-80.8458228
+Real Estate,11442,987,EQUITY LIFESTYLE PROPERTIES INC,19596,4100,Two North Riverside Plaza Suite 800 Chicago Illinois IL 60606 United States,41.8824427,-87.6394681
+Software & Computer Services,11265,1350,FACTSET RESEARCH SYSTEMS INC,11485,9571,601 Merritt 7 3rd Floor Norwalk Connecticut CT 06851 United States,41.1467171,-73.4270264
+Banks,11221,2715,SVB FINANCIAL GROUP ,27981,2900,3003 Tasman Drive Santa Clara  California CA 95054-1191 United States,37.4042585,-121.982235
+Utilities - Other,11213,5115,NISOURCE INC ,22260,8087,801 East 86th Avenue Merrillville  Indiana IN 46410 United States,41.4614637,-87.3254497
+Chemicals,11095,4728,FMC CORP,12164,7300,2929 Walnut Street Philadelphia  Pennsylvania PA 19104 United States,39.9520852,-75.1839951
+Engineering & Machinery,11057,4218,ZEBRA TECHNOLOGIES CORP,34075,7400,3 Overlook Point Lincolnshire  Illinois IL 60069 United States,42.187545,-87.933509
+Consumer Services,11007,1822,ROLLINS INC,26519,13734,2170 Piedmont Road North East Atlanta  Georgia GA 30324 United States,33.8161635,-84.3671841
+Real Estate,10945,1121,REGENCY CENTERS CORP,25951,446,One Independent Drive Suite 114 Jacksonville Florida FL 32202 United States,30.3258498,-81.6588228
+Business Services,10888,1537,JACK HENRY & ASSOCIATES INC,14668,6307,663 West Highway 60 Post Office Box 807 Monett Missouri MO 65708 United States,36.9117108,-93.943517
+Insurance,10842,6887,ALLEGHANY CORP,1413,9300,1411 Broadway 34th Floor  New York NY 10018 United States,40.7541266,-73.9872574
+Diversified Industrials,10839,14014,ARCONIC INC ,1319,43000,390 Park Avenue   New York NY 10022-4608 United States,40.7597331,-73.9729522
+Media & Entertainment,10754,12943,VIACOM INC,787214,10400,1515 Broadway   New York NY 10036 United States,40.7575262,-73.9861364
+Chemicals,10665,4429,CF INDUSTRIES HLDGS INC,665753,3000,4 Parkway North Suite 400 Deerfield Illinois IL 60015 United States,42.1622763,-87.8805781
+Leisure & Hotels,10661,6055,NORWEGIAN CRUISE LINE HOLDINGS LTD,1925428,33200,7665 Corporate Center Drive Miami  Florida FL 33126 United States,25.7916996,-80.3203532
+Utilities - Other,10656,3691,PINNACLE WEST CAPITAL CORP,24493,6259,400 North Fifth Street Post Box 53999 Phoenix Arizona AZ 85072-3999 United States,33.4524822,-112.0679337
+Transport,10594,8615,HUNT(J.B.)TRANSPORT SERVICES INC,15223,27621,615 JB Hunt Corporate Drive Lowell  Arkansas AR 72745 -0130 United States,36.2455249,-94.1477949
+Beverages,10467,13338,MOLSON COORS BREWING CO,7847,7300,1801 California Street Suite 4600 Denver Colorado CO 80202 United States,39.7475235,-104.9898868
+Speciality & Other Finance,10380,7476,RAYMOND JAMES FINANCIAL INC,25808,13900,880 Carillon Parkway Saint Petersburg  Florida FL 33716 United States,27.8925726,-82.6702701
+General Retailers,10331,4442,TIFFANY & CO,30723,14200,727 Fifth Avenue   New York NY 10022 United States,40.7626931,-73.9739144
+Software & Computer Services,10297,701,DOCUSIGN INC,2811194,3023,221 Main Street Suite 1000 San Francisco California CA 94105 United States,37.7903878,-122.3922586
+Pharmaceuticals and Biotechnology,10257,91,GUARDANT HEALTH INC,2923866,454,505 Penobscot Drive Redwood City  California CA 94063 United States,37.500696,-122.2181572
+Engineering & Machinery,10253,3884,LENNOX INTERNATIONAL INC,18705,11350,2140 Lake Park Boulevard Richardson  Texas TX 75080 United States,32.9817034,-96.7602875
+Software & Computer Services,10235,1843,EPAM SYSTEMS INC,1796199,30156,41 University Drive Suite 202 Newtown Pennsylvania PA 18940 United States,40.2227953,-74.9058054
+Insurance,10214,1692,ERIE INDEMNITY CO,10960,5300,100 Erie Insurance Place Erie  Pennsylvania PA 16530 United States,42.130601,-80.083889
+Software & Computer Services,10206,1032,FAIR ISAAC CORP ,11499,3668,181 Metro Drive Suite 700 San Jose California CA 95110 1346 United States,37.3685081,-121.9186616
+Insurance,10204,16424,LINCOLN NATIONAL CORP,18908,11034,150 North Radnor Chester Road Suite A305 Radnor Pennsylvania PA 19087 United States,40.0430349,-75.3658121
+Electricity,10097,10736,AES CORP,979,,4300 Wilson Boulevard 11th Floor Suite 1100 Arlington Virginia VA 22203 United States,38.879629,-77.1126498
+Pharmaceuticals and Biotechnology,10096,1717,WEST PHARMACEUTICAL SERVICES INC ,33314,7700,530 Herman O West Drive Exton  Pennsylvania PA 19341-0645 United States,40.061479,-75.6805357
+Insurance,10081,2014,BROWN & BROWN INC ,5204,9590,220 South Ridgewood Avenue Daytona Beach  Florida FL 32114 United States,29.2079416,-81.0217059
+Utilities - Other,10044,7651,UGI CORP,31620,13000,460 North Gulph Road King of Prussia  Pennsylvania PA 19406 United States,40.0885655,-75.4070669
+Consumer Services,9943,3067,ELANCO ANIMAL HEALTH INC,2918725,5590,2500 Innovation Way Greenfield  Indiana IN 46140 United States,39.8223751,-85.7729185
+Business Services,9894,935,TYLER TECHNOLOGIES INC,31558,4525,5101 Tennyson Parkway Plano  Texas TX 75024 United States,33.0657811,-96.8022754
+Oil & Gas,9889,10734,DEVON ENERGY CORP,9103,2900,333 West Sheridan Avenue Oklahoma City  Oklahoma OK 73102-5015 United States,35.4669418,-97.5177018
+Pharmaceuticals and Biotechnology,9887,301,SAREPTA THERAPEUTICS INC ,3218,499,215 First Street Suite 415 Cambridge Massachusetts MA 02142 United States,42.364292,-71.0792115
+Automobiles & Parts,9818,9581,ADVANCE AUTO PARTS INC,95856,71000,2635 East Millbrook Road Raleigh  North Carolina NC 27604 United States,35.8489258,-78.5921791
+Real Estate,9767,898,VICI PROPERTIES INC,2771146,140,430 Park Avenue 8th Floor  New York NY 10022 United States,40.7607986,-73.9717622
+Business Services,9728,6704,BOOZ ALLEN HAMILTON HOLDING CORP,1672856,26100,8283 Greensboro Drive McLean  Virginia VA 22102 United States,38.9223346,-77.2323425
+Health,9710,2919,VARIAN MEDICAL SYSTEMS INC,32375,7174,3100 Hansen Way Palo Alto  California CA 94304-1038 United States,37.4170321,-122.1428778
+Speciality & Other Finance,9706,2873,E*TRADE FINANCIAL CORP ,11117,4000,11 Times Square   New York NY 10036 United States,40.7567252,-73.9896231
+Leisure & Hotels,9705,15790,ARAMARK ,2022894,274400,Aramark Tower 1101 Market Street Philadelphia Pennsylvania PA 19107 United States,39.9521671,-75.1584143
+Pharmaceuticals and Biotechnology,9681,,AVANTOR INC,3033152,,Radnor Corporate Center Building One Suite 200 100 Matsonford Road Radnor Pennsylvania PA 19087 United States,40.0480982,-75.3554186
+Banks,9672,3595,COMERICA INC,7401,8051,Comerica Bank Tower 1717 Main Street MC 6404 Dallas Texas TX 75201 United States,32.7815695,-96.7964548
+Pharmaceuticals and Biotechnology,9667,600,IONIS PHARMACEUTICALS INC ,17053,737,2855 Gazelle Court Carlsbad  California CA 92010 United States,33.1418497,-117.2520877
+Software & Computer Services,9564,20753,DXC TECHNOLOGY CO ,7584,130000,1775 Tysons Boulevard Tysons  Virginia VA 22102 United States,38.9235896,-77.2204864
+Health,9537,2289,BIO RAD LABORATORIES INC,4311,8260,1000 Alfred Nobel Drive Hercules  California CA 94547 United States,38.023058,-122.279823
+Electronic & Electrical Equipment,9515,3108,TRIMBLE INC ,31326,11287,935 Stewart Drive Sunnyvale  California CA 94085 United States,37.384933,-122.0055115
+Real Estate,9495,1258,VEREIT INC ,1722356,180,2325 East Camelback Road Suite 1100 Phoenix Arizona AZ 85016 United States,33.5085561,-112.0317082
+Utilities - Other,9493,838,AQUA AMERICA INC ,24338,1570,762 West Lancaster Avenue Bryn Mawr  Pennsylvania PA 19010 - 3489 United States,40.0202242,-75.3163591
+Electronic & Electrical Equipment,9366,2778,PERKINELMER INC ,24183,12500,940 Winter Street Waltham  Massachusetts MA 02451 United States,42.4047616,-71.2742976
+Insurance,9359,4304,GLOBE LIFE INC ,30937,3102,3700 South Stonebridge Drive McKinney  Texas TX 75070 United States,33.1717418,-96.7284935
+Leisure & Hotels,9289,3433,DOMINO'S PIZZA INC,90132,14500,30 Frank Lloyd Wright Drive Ann Arbor  Michigan MI 48105 United States,42.318938,-83.6812822
+Health,9277,13202,HENRY SCHEIN INC,14669,18000,135 Duryea Road Melville  New York NY 11747 United States,40.7677851,-73.4175607
+Electronic & Electrical Equipment,9262,21037,WHIRLPOOL CORP,33437,92000,2000 North M-63 Benton Harbor  Michigan MI 49022-2692 United States,42.1507583,-86.4419435
+Speciality & Other Finance,9254,1114,BLACK KNIGHT INC ,2287416,4700,601 Riverside Avenue Jacksonville  Florida FL 32204 United States,30.3184009,-81.6762696
+Speciality & Other Finance,9177,7134,SANTANDER CONSUMER USA HOLDINGS INC,2037422,4952,1601 Elm Street Suite 800 Dallas Texas TX 75201 United States,32.7819269,-96.798179
+Electronic & Electrical Equipment,9161,247,UNIVERSAL DISPLAY CORP INC (UDC),31857,267,375 Phillips Boulevard Ewing  New Jersey NJ 08618 United States,40.2843133,-74.7959681
+Business Services,9143,8047,UNITED RENTALS INC,32144,18500,100 First Stamford Place Suite 700 Stamford Connecticut CT 06902 United States,41.0443102,-73.5486083
+Consumer Services,9054,1903,BRIGHT HORIZONS FAMILY SOLUTIONS INC,1927870,33350,200 Talcott Avenue South Watertown  Massachusetts MA 02472 United States,42.3623876,-71.1637432
+Electricity,8997,9478,NRG ENERGY INC,22626,4862,804 Carnegie Center Princeton  New Jersey NJ 08540 United States,40.3195041,-74.6554825
+Speciality & Other Finance,8970,1286,CREDIT ACCEPTANCE CORP,8183,2040,25505 West Twelve Mile Road Southfield  Michigan MI 48034-8339 United States,42.4999782,-83.2971696
+Banks,8924,5590,WESTERN UNION CO,840164,12000,7001 East Belleview Avenue Denver  Colorado CO 80237 United States,39.6247213,-104.9045807
+Engineering & Machinery,8896,8176,HUNTINGTON INGALLS INDUSTRIES INC,1694757,40000,4101 Washington Avenue Newport News  Virginia VA 23607 United States,36.9880862,-76.4371019
+Electronic & Electrical Equipment,8888,2101,TERADYNE INC,30437,4900,600 Riverpark Drive North Reading  Massachusetts MA 01864 United States,42.5561214,-71.1350329
+Real Estate,8880,882,OMEGA HEALTHCARE INVESTORS INC,23092,51,303 International Circle Suite 200 Hunt Valley Maryland MD 21030 United States,39.5000623,-76.6659415
+Private Equity,8821,2610,APOLLO GLOBAL MANAGEMENT INC ,1695757,1047,9 West 57th Street 43rd Floor  New York NY 10019 United States,40.7637696,-73.975023
+Chemicals,8722,5565,RPM INTERNATIONAL INC ,26668,14957,Post Office Box 777 2628 Pearl Road Medina Ohio OH 44258 United States,41.1423077,-81.864479
+Food Producers & Processors,8719,,BEYOND MEAT INC,3027499,383,119 Standard Street El Segundo  California CA 90245 United States,33.9169885,-118.4149374
+Real Estate,8680,1949,AGNC INVESTMENT CORP ,1066214,56,2 Bethesda Metro Center 12th Floor Bethesda Maryland MD 20814 United States,38.9844536,-77.0959962
+Software & Computer Services,8595,260,COUPA SOFTWARE INC,2538518,1202,1855 South Grant Street San Mateo  California CA 94402 United States,37.5534897,-122.2995235
+Consumer Services,8573,3190,SERVICE CORPORATION INTERNATIONAL,27663,24000,1929 Allen Parkway Houston  Texas TX 77019 United States,29.7606136,-95.3868592
+Oil & Gas,8560,1495,EQM MIDSTREAM PARTNERS LP ,1828871,,625 Liberty Avenue Suite 2000 Pittsburgh Pennsylvania PA 15222 United States,40.4424701,-80.0009554
+Real Estate,8522,541,STORE CAPITAL CORP,2167675,90,8377 East Hartford Drive Suite 100 Scottsdale Arizona AZ 85255 United States,33.6405583,-111.9016663
+Software & Computer Services,8470,599,ZENDESK INC,2068309,2740,1019 Market Street San Francisco  California CA 94103 United States,37.7814619,-122.4104021
+Household Products,8458,9984,MOHAWK INDUSTRIES INC,20964,42100,160 South Industrial Boulevard Calhoun  Georgia GA 30701 United States,34.4724813,-84.9434654
+Aerospace & Defence,8454,7222,SPIRIT AEROSYSTEMS HOLDINGS INC,892481,17000,3801 South Oliver Wichita  Kansas KS 67210 United States,37.6231566,-97.2848444
+Banks,8382,2537,EURONET WORLDWIDE INC,11239,7100,3500 College Boulevard Leawood  Kansas KS 66211 United States,38.9284078,-94.6268765
+Electronic & Electrical Equipment,8335,3090,QORVO INC,2204149,8100,7628 Thorndike Road Greensboro  North Carolina NC 27409-9421 United States,36.0763408,-79.9651702
+Construction & Building Materials,8247,3741,SNAP-ON INC,28335,12600,2801 80th Street Kenosha  Wisconsin WI 53143-5656 United States,42.556708,-87.843003
+Software & Computer Services,8180,500,ASPEN TECHNOLOGY INC,1649258,1466,20 Crosby Drive Bedford  Massachusetts MA 01730 United States,42.5078187,-71.2456988
+Software & Computer Services,8166,2161,F5 NETWORKS INC,11468,4409,401 Elliot Avenue West Seattle  Washington WA 98119 United States,47.6224109,-122.3638301
+Speciality & Other Finance,8157,1337,ARES CAPITAL CORPORATION,650003,,245 Park Avenue 44th Floor  New York NY 10167 United States,40.7545475,-73.9745088
+Media & Entertainment,8145,9714,INTERPUBLIC GROUP OF COMPANIES INC,16427,54000,909 Third Avenue   New York NY 10022 United States,40.7583293,-73.9679887
+Real Estate,8095,705,LIBERTY PROPERTY TRUST,18819,271,650 East Swedesford Road Suite 400 Wayne Pennsylvania PA 19087 United States,40.0778819,-75.4139416
+Oil & Gas,8057,8453,NATIONAL OILWELL VARCO INC,21553,35063,7909 Parkwood Circle Drive Houston  Texas TX 77036-6565 United States,29.6916115,-95.5545889
+Engineering & Machinery,7992,2255,NORDSON CORP,22404,7536,28601 Clemens Road Westlake  Ohio OH 44145 United States,41.4684974,-81.939519
+Chemicals,7980,8635,WESTLAKE CHEMICAL CORP,488202,8870,2801 Post Oak Boulevard Suite 600 Houston Texas TX 77056 United States,29.7376123,-95.4601709
+Transport,7959,10530,BORGWARNER INC,4839,30000,3850 Hamlin Road Auburn Hills  Michigan MI 48326 United States,42.6458403,-83.2108611
+Oil & Gas,7957,2188,CABOT OIL & GAS CORP,5465,303,Three Memorial City Plaza 840 Gessner Road Suite 1400 Houston Texas TX 77024 United States,29.7776626,-95.5426161
+Real Estate,7928,1165,KIMCO REALTY CORP,17915,533,3333 New Hyde Park Road New Hyde Park  New York NY 11042-0020 United States,40.7357692,-73.6811323
+Engineering & Machinery,7893,2619,TORO CO,30955,6888,8111 Lyndale Avenue South Bloomington  Minnesota MN 55420-1196 United States,44.8572504,-93.2871696
+Software & Computer Services,7892,7791,ALLIANCE DATA SYSTEMS CORP,1451,20000,7500 Dallas Parkway Suite 700 Plano Texas TX 75024 United States,33.0809403,-96.8236276
+Diversified Industrials,7868,4480,CARLISLE COS INC,5852,13000,16430 North Scottsdale Road Suite 400 Scottsdale Arizona AZ 85254 United States,33.6355592,-111.9268181
+Food Producers & Processors,7822,45743,BUNGE LTD,5320,31000,50 Main Street White Plains  New York NY 10606 United States,41.0313991,-73.7735956
+Real Estate,7814,747,KILROY REALTY CORP,17908,276,12200 West Olympic Boulevard Suite 200 Los Angeles California CA 90064 United States,34.0316641,-118.4554446
+Business Services,7809,1900,SERVICEMASTER GLOBAL HOLDINGS INC,2079931,10700,150 Peabody Place Memphis  Tennessee TN 38103 United States,35.1411338,-90.0520541
+Software & Computer Services,7805,661,GUIDEWIRE SOFTWARE INC,1792728,2292,1001 E Hillsdale Boulevard Suite 800 Foster City  California CA 94404 United States,37.5594762,-122.2718526
+Telecommunication Services,7751,1017,UBIQUITI INC ,1729162,843,685 Third Avenue 27th Floor  New York NY 10017 United States,40.751491,-73.9735965
+Real Estate,7596,972,APARTMENT INVESTMENT & MANAGEMENT CO (AIMCO),2310,1050,4582 South Ulster Street Suite 1100 Denver Colorado CO 80237 United States,39.6333956,-104.8984695
+Wholesale Trade,7550,2998,POOL CORP ,27358,4000,109 Northpark Boulevard Covington  Louisiana LA 70433-5001 United States,30.4416472,-90.0873601
+Telecommunication Services,7449,13621,DISH NETWORK CORP ,10024,16000,9601 South Meridian Boulevard Englewood  Colorado CO 80112 United States,39.5457044,-104.8561335
+Insurance,7388,8058,ASSURANT INC,550072,14750,28 Liberty Street 41st Floor  New York NY 10005 United States,40.708227,-74.0090809
+Software & Computer Services,7260,746,CERIDIAN HCM HOLDING INC,2810622,4444,3311 East Old Shakopee Road  Minneapolis Minnesota MN 55425-1640 United States,44.8544651,-93.2246647
+Telecommunication Services,7244,1072,CABLE ONE INC,2300967,2224,210 East Earll Drive Phoenix  Arizona AZ 85012 United States,33.4841866,-112.070226
+Real Estate,7188,1073,AMERICAN HOMES 4 RENT,1969498,1234,30601 Agoura Road Suite 200 Agoura Hills California CA 91301 United States,34.1455631,-118.7877523
+Information Technology Hardware,7141,2567,LOGITECH INTERNATIONAL SA,19084,6100,7700 Gateway Boulevard Newark  California CA 94560 United States,37.5385288,-122.0616084
+Telecommunication Services,7002,821,CYRUSONE INC,1925418,448,2101 Cedar Springs Road Suite 900 Dallas Texas TX 75201 United States,32.7940761,-96.8063384
+General Retailers,6994,1560,FIVE BELOW INC,1874195,13900,701 Market Street Suite 300 Philadelphia Pennsylvania PA 19106 United States,39.9512937,-75.1526227
+Electronic & Electrical Equipment,6948,4482,HUBBELL INC,15173,19700,40 Waterview Drive Shelton  Connecticut CT 06484-1000 United States,41.296005,-73.0808096
+Wholesale Trade,6872,2802,COLUMBIA SPORTSWEAR CO,7358,6511,14375 North West Science Park Drive Portland  Oregon OR 97229 United States,45.5295092,-122.8248278
+Real Estate,6804,1604,AMERICOLD REALTY TRUST,2763957,11000,10GlenlakeParkway Suite600 South Tower Atlanta Georgia GA 30328 United States,33.9360529,-84.3616362
+Software & Computer Services,6769,254,ALTERYX INC,2638015,800,3345 Michelson Drive Suite 400 Irvine California CA 92612 United States,33.67127,-117.8408437
+Leisure & Hotels,6712,1322,DUNKIN BRANDS GROUP INC,1714415,1107,130 Royall Street Canton  Massachusetts MA 02021 United States,42.207401,-71.1300247
+Real Estate,6684,1109,STARWOOD PROPERTY TRUST INC,1586322,290,591 West Putnam Avenue Greenwich  Connecticut CT 06830 United States,41.0178496,-73.647521
+Banks,6621,1732,SIGNATURE BANK,733497,1393,565 Fifth Avenue   New York NY 10017 United States,40.755916,-73.9784785
+Engineering & Machinery,6559,11535,RELIANCE STEEL & ALUMINUM CO,26008,15600,350 South Grand Avenue Suite 5100 Los Angeles California CA 90071 United States,34.0522461,-118.2514474
+Chemicals,6524,4696,AXALTA COATING SYSTEMS LTD,2166082,14000,Two Commerce Square 2001 Market Street Suite 3600 Philadelphia Pennsylvania PA 19103 United States,39.9541627,-75.1737313
+Consumer Services,6483,1783,CHEMED CORP ,6573,15707,255 East Fifth Street Suite 2600 Cincinnati Ohio OH 45202-4726 United States,39.1016183,-84.5083716
+Real Estate,6425,1227,SL GREEN REALTY CORP,28228,1058,420 Lexington Avenue   New York NY 10170 United States,40.7527814,-73.9759322
+Real Estate,6344,881,AMERICAN CAMPUS COMMUNITIES INC,602424,3098,12700 Hill Country Boulevard Suite T-200 Austin Texas TX 78738 United States,30.307522,-97.9363884
+Electronic & Electrical Equipment,6301,3188,SMITH (AO) CORP,28304,16300,11270 West Park Place Suite 170 Post Office Box 245008 Milwaukee Wisconsin WI 53224-9508 United States,43.149703,-88.046171
+Transport,6264,2349,GENESEE & WYOMING INC,13057,8000,20 West Avenue Darien  Connecticut CT 06820 United States,41.0777331,-73.470962
+Food & Drug Retailers,6240,9353,CASEY'S GENERAL STORES INC,5971,36841,One Southeast Convenience Boulevard Post Office Box 3001 Ankeny Iowa IA 50021 United States,41.6951763,-93.5715256
+Leisure & Hotels,6228,573,PLANET FITNESS INC,2317628,1302,4 Liberty Lane West Hampton  New Hampshire NH 03842 United States,42.94973,-70.861348
+Leisure & Hotels,9575,2012,VAIL RESORTS INC,32214,6100,390 Interlocken Crescent Broomfield  Colorado CO 80021 United States,39.9253372,-105.115069
+Real Estate,9524,623,NATIONAL RETAIL PROPERTIES INC ,7422,68,450 South Orange Avenue Suite 900 Orlando Florida FL 32801 United States,28.5370565,-81.379337
+Oil & Gas,9371,6582,MARATHON OIL CORP ,32067,2400,5555 San Felipe Street Houston  Texas TX 77056-2723 United States,29.7493564,-95.4715705
+Health,9351,11405,DAVITA INC ,8783,77700,2000 16th Street Denver  Colorado CO 80202 United States,39.7535072,-105.00415
+Electronic & Electrical Equipment,9271,769,ABIOMED INC,481,1371,22 Cherry Hill Drive Danvers  Massachusetts MA 01923 United States,42.5769634,-70.9169998
+Chemicals,9244,10151,EASTMAN CHEMICAL CO,9940,14500,200 South Wilcox Drive Kingsport  Tennessee TN 37662 United States,36.5354128,-82.5508778
+Insurance,9136,7150,AMERICAN FINANCIAL GROUP INC,1822,6700,301 East Fourth Street Cincinnati  Ohio OH 45202 United States,39.0997439,-84.5072255
+Speciality & Other Finance,9000,1624,SEI INVESTMENTS CO,27515,3852,1 Freedom Valley Drive Oaks  Pennsylvania PA 19456 United States,40.1414246,-75.4473028
+Containers & Packaging,8938,16285,WESTROCK CO,2302775,45100,1000 Abernathy Road North East Suite 125 Atlanta Georgia GA 30328 United States,33.9343834,-84.3544514
+Business Services,8892,1493,WEX INC ,97122,3700,1 Hancock Street Portland  Maine ME 04101 United States,43.6603544,-70.2472189
+Business Services,8822,4226,IRON MOUNTAIN INC,17012,9000,One Federal Street Boston  Massachusetts MA 02110 United States,42.3560074,-71.056796
+Pharmaceuticals and Biotechnology,8748,451,NEUROCRINE BIOSCIENCES INC,21929,585,12780 El Camino Real San Diego  California CA 92130 United States,32.949844,-117.237481
+Pharmaceuticals and Biotechnology,8693,90,SAGE THERAPEUTICS INC,2125688,637,215 First Street Cambridge  Massachusetts MA 02142 United States,42.364292,-71.0792115
+Health,8579,564,INSULET CORPORATION,862492,1169,100 Nagog Park Acton  Massachusetts MA 01720 United States,42.523724,-71.422163
+Food Producers & Processors,8476,24175,US FOODS HOLDING CORP,2463669,25000,9399 West Higgins Road Suite 100 Rosemont Illinois IL 60018 United States,41.988686,-87.8577719
+Electronic & Electrical Equipment,8468,2484,CYPRESS SEMICONDUCTOR CORP,8542,5846,198 Champion Court San Jose  California CA 95134 United States,37.4103081,-121.9505551
+Software & Computer Services,8457,4648,JUNIPER NETWORKS INC,17580,9283,1133 Innovation Way Sunnyvale  California CA 94089 United States,37.4074689,-122.0293159
+Software & Computer Services,8342,513,HUBSPOT INC,2155226,2638,25 First Street Cambridge  Massachusetts MA 02141 United States,42.3697647,-71.0773545
+Oil & Gas,8256,10484,TARGA RESOURCES CORP,1676064,2460,811 Louisiana Street Suite 2100 Houston Texas TX 77002 United States,29.7592922,-95.3663131
+General Retailers,8226,20229,KOHLS CORP,18060,129000,N56 W17000 Ridgewood Drive Menomonee Falls  Wisconsin WI 53051 United States,43.121978,-88.12319
+Health,8167,18890,MOLINA HEALTHCARE INC,423374,11000,200 Oceangate Suite 100 Long Beach California CA 90802 United States,33.7665116,-118.2006675
+Publishing,8158,9024,NEWS CORP,1962516,28000,1211 Avenue of the Americas   New York NY 10036 United States,40.7586113,-73.9822089
+Clothing & Personal Products,8118,5193,UNDER ARMOUR INC,786736,15000,1020 Hull Street Baltimore  Maryland MD 21230 United States,39.275091,-76.5913832
+Health,8061,858,MASIMO CORP,480061,4500,52 Discovery Irvine  California CA 92618 United States,33.662523,-117.7569451
+Software & Computer Services,8006,2604,ZAYO GROUP HOLDINGS INC,2157621,3774,1821 30th Street Unit A Boulder Colorado CO 80301 United States,40.0187049,-105.254867
+Clothing & Personal Products,7983,9398,COTY INC,1958357,20000,350 Fifth Avenue 17th Floor  New York NY 10118 United States,40.7482436,-73.9851073
+Engineering & Machinery,7972,1653,GRACO INC,13715,3700,88-11th Avenue North East Minneapolis  Minnesota MN 55413 United States,44.9970428,-93.2686715
+Software & Computer Services,7940,1334,ZILLOW GROUP INC ,1713327,4336,1301 Second Avenue Floor 31 Seattle Washington WA 98101 United States,47.6074856,-122.3382418
+Banks,7816,3033,ZIONS BANCORPORATION NA ,34139,10201,One South Main Street 11th Floor Salt Lake City Utah UT 84133-1109 United States,40.7343034,-111.8910781
+Chemicals,7782,9587,MOSAIC CO,550358,12900,3033 Campus Drive Suite E490 Plymouth Minnesota MN 55441 United States,45.0154081,-93.4546338
+Software & Computer Services,7729,190,ZSCALER INC,2793558,1050,110 Rose Orchard Way San Jose  California CA 95134 United States,37.4159574,-121.9479801
+Household Products,7585,5485,FORTUNE BRANDS HOME & SECURITY INC ,1726944,25300,520 Lake Cook Road Deerfield  Illinois IL 60015 United States,42.1561165,-87.8426199
+Automobiles & Parts,7577,11877,LKQ CORPORATION INC,463860,51000,500 West Madison Street Suite 2800 Chicago Illinois IL 60661 United States,41.8823062,-87.6403882
+Real Estate,7523,881,DOUGLAS EMMETT INC,917238,670,1299 Ocean Avenue Suite 1000 Santa Monica California CA 90401 United States,34.0160875,-118.4994019
+Engineering & Machinery,7480,806,COGNEX CORP,7251,2124,One Vision Drive Natick  Massachusetts MA 01760-2059 United States,42.293228,-71.3609553
+Software & Computer Services,7453,1242,PTC INC ,23786,6110,121 Seaport Boulevard Boston  Massachusetts MA 02210 United States,42.3510789,-71.0444781
+Pharmaceuticals and Biotechnology,7416,714,BIO-TECHNE CORP ,30123,2250,614 McKinley Place North East Minneapolis  Minnesota MN 55413 United States,44.9958046,-93.2291042
+General Retailers,7340,6779,WAYFAIR INC,2153633,12124,4 Copley Place Boston  Massachusetts MA 02116 United States,42.3471179,-71.0783565
+Food Producers & Processors,7277,6257,POST HOLDINGS INC,1794428,11550,2503 South Hanley Road Saint Louis  Missouri MO 63144 United States,38.616533,-90.3349107
+Food Producers & Processors,7244,10938,PILGRIMS PRIDE CORP,1615625,31100,1770 Promontory Circle Greeley  Colorado CO 80634-9038 United States,40.4118839,-104.8547872
+Electronic & Electrical Equipment,7229,5878,ON SEMICONDUCTOR CORP,23134,35700,5005 East McDowell Road Phoenix  Arizona AZ 85008 United States,33.4625944,-111.972991
+Software & Computer Services,7129,,SLACK TECHNOLOGIES INC,3046780,,500 Howard Street San Francisco  California CA 94105 United States,37.7885306,-122.3967284
+Aerospace & Defence,7128,2189,HEXCEL CORP,14728,6626,Two Stamford Plaza 281 Tresser Boulevard 16th Floor Stamford Connecticut CT 06901-3261 United States,41.0518308,-73.5342297
+Real Estate,7104,16318,JONES LANG LASALLE INC,44349,90000,200 East Randolph Drive Chicago  Illinois IL 60601 United States,41.8852827,-87.6215123
+Software & Computer Services,7058,717,PROOFPOINT INC,1813890,2613,892 Ross Drive Sunnyvale  California CA 94089 United States,37.4006086,-122.0321579
+Automobiles & Parts,6998,3769,AMERCO,1974,30000,5555 Kietzke Lane Suite 100 Reno Nevada NV 89511 United States,39.4633025,-119.7888796
+Life Assurance,6970,8514,VOYA FINANCIAL INC ,1949535,6000,230 Park Avenue   New York NY 10169 United States,40.754455,-73.9760113
+Insurance,6911,6022,OLD REPUBLIC INTERNATIONAL CORP,23052,9000,307 North Michigan Avenue Chicago  Illinois IL 60601 United States,41.8870731,-87.6242091
+Containers & Packaging,6911,4733,SEALED AIR CORP,27418,15500,2415 Cascade Pointe Boulevard Charlotte  North Carolina NC 28208 United States,35.1985704,-80.9186135
+Media & Entertainment,6815,1627,LAMAR ADVERTISING CO,18385,3600,5321 Corporate Boulevard Baton Rouge  Louisiana LA 70808 United States,30.4255441,-91.1347773
+Health,6809,968,HAEMONETICS CORP,14181,3216,400 Wood Road Braintree  Massachusetts MA 02184 United States,42.2152202,-71.0432767
+Transport,6795,1834,GENTEX CORP,13104,5707,600 North Centennial Street Zeeland  Michigan MI 49464 United States,42.8229727,-86.012458
+Engineering & Machinery,6781,3831,WABCO HOLDINGS INC,947073,16135,1220 Pacific Drive Auburn Hills  Michigan MI 48326-1589 United States,42.695394,-83.276982
+Software & Computer Services,6763,3867,SABRE CORP,2061984,8860,3150 Sabre Drive Southlake  Texas TX 76092 United States,32.9826089,-97.1608815
+Chemicals,6725,3375,ALBEMARLE CORPORATION,1287,5900,4350 Congress Street Suite 900 Charlotte North Carolina NC 28209 United States,35.1541329,-80.8378654
+Engineering & Machinery,6716,2326,WOODWARD INC ,33666,8300,1081 Woodward Way Fort Collins Post Box 1519 Colorado CO 80524 United States,40.5867269,-105.0588454
+Health,6705,2872,PRA HEALTH SCIENCES INC,2166779,16400,4130 Parklake Avenue Suite 400 Raleigh North Carolina NC 27612 United States,35.8352738,-78.6883361
+Telecommunication Services,6687,740,GCI LIBERTY INC ,12977,2270,12300 Liberty Boulevard Englewood  Colorado CO 80112 United States,39.5531852,-104.8457211
+Health,6682,2848,HILL-ROM HLDGS INC ,14805,10000,130 East Randolph Street Suite 1000 Chicago Illinois IL 60601 United States,41.8849569,-87.6230524
+Electronic & Electrical Equipment,6637,1460,IPG PHOTONICS CORP,16949,6220,50 Old Webster Road Oxford  Massachusetts MA 01540 United States,42.081183,-71.8811303
+Clothing & Personal Products,6606,9657,PVH CORP ,24356,38000,200 Madison Avenue   New York NY 10016 United States,40.749138,-73.9825933
+Household Products,6585,8631,NEWELL BRANDS INC ,22048,37000,221 River Street Hoboken  New Jersey NJ 07030 United States,40.7386626,-74.0277255
+Business Services,6577,5800,ROBERT HALF INTERNATIONAL INC,26429,90383,2884 Sand Hill Road Menlo Park  California CA 94025 United States,37.4219437,-122.2151303
+Pharmaceuticals and Biotechnology,6535,2266,CHARLES RIVER LABORATORIES INTERNATIONAL INC,6495,14700,251 Ballardvale Street Wilmington  Massachusetts MA 01887 United States,42.611038,-71.1588252
+Renewable Energy,6531,2244,FIRST SOLAR INC,897123,6400,350 West Washington Street Suite 600 Tempe Arizona AZ 85281 United States,33.4377065,-111.9443776
+Real Estate,6498,1664,NEW RESIDENTIAL INVESTMENT CORP ,1953126,,1345 Avenue of the Americas 45th Floor  New York NY 10105 United States,40.7629384,-73.978958
+Software & Computer Services,6493,604,ETSY INC,2236759,874,117 Adams Street Brooklyn  New York NY 11201 United States,40.7005824,-73.9881456
+Pharmaceuticals and Biotechnology,6473,55,BLUEBIRD BIO INC,1959389,764,60 Binney street Cambridge  Massachusetts MA 02142 United States,42.365026,-71.079815
+Real Estate,6432,598,CUBESMART ,646010,2815,5 Old Lancaster Road Malvern  Pennsylvania PA 19355 United States,40.042862,-75.520497
+Banks,6418,1923,PEOPLE'S UNITED FINANCIAL INC,1013530,5920,850 Main Street Bridgeport  Connecticut CT 06604 United States,41.186416,-73.1807764
+Electronic & Electrical Equipment,6389,1896,BRUKER CORP,5218,6870,40 Manning Road Billerica  Massachusetts MA 01821 United States,42.5269413,-71.2659832
+Electronic & Electrical Equipment,6380,1776,FLIR SYSTEMS INC,12112,3649,27700 Southwest Parkway Avenue Wilsonville  Oregon OR 97070 United States,45.3197788,-122.7646278
+Software & Computer Services,6373,272,AVALARA INC,2827524,,255 South King Street Suite 1800 Seattle Washington WA 98104 United States,47.5980919,-122.3309701
+Speciality & Other Finance,6338,3764,JEFFERIES FINANCIAL GROUP INC ,18739,4700,520 Madison Avenue   New York NY 10022 United States,40.7601625,-73.9747832
+Engineering & Machinery,6288,2690,GARDNER DENVER HOLDINGS INC,2656398,6700,222 East Erie Street Suite 500 Milwaukee Wisconsin WI 53202 United States,43.0318903,-87.90865
+Engineering & Machinery,6283,2734,DONALDSON CO INC,9503,14000,1400 West 94th Street Minneapolis  Minnesota MN 55431 United States,44.8341441,-93.2971164
+Electronic & Electrical Equipment,6264,582,MONOLITHIC POWER SYSTEMS INC,580845,1737,4040 Lake Washington Boulevard North East Suite 201 Kirkland Washington WA 98033 United States,47.6474686,-122.2001704
+Software & Computer Services,6246,241,ANAPLAN INC,2928084,1299,50 Hawthorne Street San Francisco  California CA 94105 United States,37.7850997,-122.3988083
+Insurance,6239,11599,UNUM GROUP ,31898,9600,One Fountain Square Chattanooga  Tennessee TN 37402 United States,35.0504844,-85.3068744
+Engineering & Machinery,6238,2723,MIDDLEBY CORP,20636,9346,1400 Toastmaster Drive Elgin  Illinois IL 60120 United States,42.0643919,-88.2480957
+Banks,6232,1391,COMMERCE BANCSHARES INC,7431,4570,1000 Walnut Kansas City  Missouri MO 64106 United States,39.1021449,-94.5825038
+Banks,6202,1863,EAST WEST BANCORP INC,9926,3200,135 North Los Robles Avenue 7th Floor Pasadena California CA 91101 United States,34.1486799,-118.1416632
+Transport,6196,17279,XPO LOGISTICS INC ,27511,1e+05,Five American Lane Greenwich  Connecticut CT 06831 United States,41.0992549,-73.7197724
+Construction & Building Materials,6190,7057,OWENS CORNING ,23506,20000,One Owens Corning Parkway Toledo  Ohio OH 43659 United States,41.6461679,-83.5342454
+Software & Computer Services,6183,267,MONGODB INC,2715202,466,1633 Broadway 38th Floor  New York NY 10019 United States,40.7620853,-73.9846163
+Education,6179,846,GRAND CANYON EDUCATION INC,1261531,3500,2600 West Camelback Road Phoenix  Arizona AZ 85017 United States,33.510617,-112.1154032
+Oil & Gas,6176,8462,DCP MIDSTREAM LP ,824021,,370 17th Street Suite 2500 Denver Colorado CO 80202 United States,39.7434244,-104.9886301
+Pharmaceuticals and Biotechnology,6175,854,EXELIXIS INC,11375,484,1851 Harbor Bay Parkway Alameda  California CA 94502 United States,37.7263128,-122.243675
+Health,6116,4277,ENCOMPASS HEALTH CORP ,14523,30060,9001 Liberty Parkway Birmingham  Alabama AL 35242 United States,33.477506,-86.704251
+Transport,6109,5344,KNIGHT SWIFT TRANSPORTATION HOLDINGS INC ,1677470,22800,20002 North 19th Avenue Phoenix  Arizona AZ 85027 United States,33.6677851,-112.1034337
+Software & Computer Services,6084,869,REALPAGE INC,1657354,6200,2201 Lakeside Boulevard Richardson  Texas TX 75082 United States,32.9798905,-96.7120001
+Business Services,6075,,IAA INC,3049972,,Two Westbrook Corporate Center 10th Floor Westchester Illinois IL 60154 United States,41.8450543,-87.9034975
+Chemicals,6036,2663,SCOTTS MIRACLE-GRO CO ,27355,5150,14111 Scottslawn Road Marysville  Ohio OH 43041 United States,40.2118364,-83.3093051
+Software & Computer Services,6026,,DYNATRACE INC,3064363,1981,1601 Trapelo Road Suite 116 Waltham Massachusetts MA 02451 United States,42.4182896,-71.2586514
+Steel & Other Metals,6019,11822,STEEL DYNAMICS INC,29158,8200,7575 West Jefferson Boulevard Fort Wayne  Indiana IN 46804 United States,41.041105,-85.23743
+Electronic & Electrical Equipment,6017,1550,ENTEGRIS INC,10744,4900,129 Concord Road Billerica  Massachusetts MA 01821 United States,42.5498398,-71.2836742
+Leisure & Hotels,6003,1007,GRUBHUB INC,2059211,2722,111 West Washington Street Suite 2100 Chicago Illinois IL 60602 United States,41.8829364,-87.6314575
+Clothing & Personal Products,5983,5880,TAPESTRY INC ,7173,20800,10 Hudson Yards   New York NY 10001 United States,40.7536874,-74.0019162
+General Retailers,5975,16580,GAP INC,12818,135000,Two Folsom Street San Francisco  California CA 94105 United States,37.7855505,-122.3967177
+Containers & Packaging,5960,5391,SONOCO PRODUCTS CO,28581,23000,1 North Second Street Hartsville  South Carolina SC 29550 United States,34.3814307,-80.0666708
+Engineering & Machinery,5958,3833,FLOWSERVE CORP,12153,17000,5215 North O'Connor Boulevard Suite 2300 Irving Texas TX 75039 United States,32.8712244,-96.9387775
+Pharmaceuticals and Biotechnology,5939,,ADAPTIVE BIOTECHNOLOGIES CORP,3049405,346,1551 Eastlake Avenue East Suite 200 Seattle Washington WA 98102 United States,47.6334836,-122.3262804
+Containers & Packaging,5934,7869,BERRY GLOBAL GROUP INC ,1893368,24000,101 Oakley Street Evansville  Indiana IN 47710 United States,37.9789909,-87.5726435
+Electronic & Electrical Equipment,5803,29677,ARROW ELECTRONICS INC,2621,20100,9201 East Dry Creek Road Centennial  Colorado CO 80112 United States,39.5814924,-104.8822226
+Real Estate,5784,1065,HOWARD HUGHES CORPORATION (THE),1671577,1400,One Galleria Tower 13355 Noel Road 22nd Floor Dallas Texas TX 75240 United States,32.9293881,-96.8186378
+Banks,5781,925,TCF FINANCIAL CORP ,6579,3100,333 West Fort Street Suite 1800 Detroit Michigan MI 48226 United States,42.3291043,-83.0502304
+Real Estate,5761,701,EPR PROPERTIES ,10771,64,909 Walnut Street Suite 200 Kansas City Missouri MO 64106 United States,39.1028866,-94.5816237
+Software & Computer Services,5752,378,PAYLOCITY HOLDING CORP,2055400,2600,1400 American Lane Schaumburg  Illinois IL 60173 United States,42.0454065,-88.043568
+Software & Computer Services,5730,2273,CDK GLOBAL INC,2154420,8500,1950 Hassell Road Hoffman Estates  Illinois IL 60169-6308 United States,42.0631218,-88.1280711
+Engineering & Machinery,5716,1800,BWX TECHNOLOGIES INC ,1652246,6250,800 Main Street 4th Floor Lynchburg Virginia VA 24504 United States,37.4156834,-79.1425943
+Leisure & Hotels,5711,7658,JETBLUE AIRWAYS CORP,82239,20892,27-01 Queens Plaza North Long Island City  New York NY 11101 United States,40.7508189,-73.9387435
+Health,5711,636,MEDIDATA SOLUTIONS INC,750085,1998,350 Hudson Street 9th Floor  New York NY 10014 United States,40.7276647,-74.0067845
+Health,5641,4390,SYNEOS HEALTH INC ,2164733,24000,1030 Sync Street Morrisville  North Carolina NC 27560-5468 United States,35.8626593,-78.8284115
+Software & Computer Services,5638,892,PEGASYSTEMS INC,24040,4650,One Rogers Street Cambridge  Massachusetts MA 02142-1209 United States,42.3658806,-71.0780218
+Real Estate,5632,1234,BRIXMOR PROPERTY GROUP INC,2004281,458,450 Lexington Avenue 13th Floor  New York NY 10017 United States,40.7532886,-73.9754271
+Transport,5615,6079,POLARIS INC ,24706,12000,2100 Highway 55 Medina  Minnesota MN 55340 United States,45.057507,-93.5765367
+Banks,5554,1624,SYNOVUS FINANCIAL CORP,29817,4651,1111 Bay Avenue Suite 500 Columbus Georgia GA 31901 United States,32.4668758,-84.9956294
+Software & Computer Services,5529,907,ZYNGA INC,1743287,1777,699 Eighth Street San Francisco  California CA 94103 United States,37.7704781,-122.4040528
+Banks,5497,1845,BOK FINANCIAL CORP,4753,5313,Bank of Oklahoma Tower Boston Avenue at Second Street Tulsa Oklahoma OK 74172 United States,36.1532731,-95.9899502
+Leisure & Hotels,5425,1615,TRIPADVISOR INC,1744572,3366,400 1st Avenue Needham  Massachusetts MA 02494 United States,42.2978722,-71.2194469
+Information Technology Hardware,5417,1359,NATIONAL INSTRUMENTS CORP,21606,7263,11500 North Mopac Expressway Austin  Texas TX 78759 United States,30.4083821,-97.7262444
+Speciality & Other Finance,5413,4232,ONEMAIN HOLDINGS INC ,1995402,10200,601 North West Second Street Evansville  Indiana IN 47708 United States,37.9762522,-87.5787414
+Utilities - Other,5395,16759,PG&E CORP,24303,24000,77 Beale Street Post Office Box 770000 San Francisco California CA 94177 United States,37.7916858,-122.3956663
+Real Estate,5385,696,HEALTHCARE TRUST OF AMERICA INC,1823948,282,16435 North Scottsdale Road Suite 320 Scottsdale Arizona AZ 85254 United States,33.636376,-111.9242098
+Business Services,5376,20156,AECOM ,114467,87000,1999 Avenue of the Stars Suite 2600 Los Angeles California CA 90067 United States,34.0588788,-118.4171318
+Aerospace & Defence,5374,4468,CACI INTERNATIONAL INC,5472,18800,1100 North Glebe Road Arlington  Virginia VA 22201 United States,38.883444,-77.118044
+Health,5368,1472,INTEGRA LIFESCIENCES HLDGS CORP,16204,4500,311 Enterprise Drive Plainsboro  New Jersey NJ 08536 United States,40.3280772,-74.5849552
+Consumer Services,5358,321,CHEGG INC,2009158,1087,3990 Freedom Circle Santa Clara  California CA 95054 United States,37.3884542,-121.972382
+Banks,5355,1402,CULLEN FROST BANKERS INC,8414,4370,100 West Houston Street San Antonio  Texas TX 78205 United States,29.4262536,-98.494108
+Banks,5347,1781,NEW YORK COMMUNITY BANCORP INC ,22029,2913,615 Merrick Avenue Westbury  New York NY 11590 United States,40.7389103,-73.584533
+Automobiles & Parts,5329,5717,HARLEY DAVIDSON INC,14337,5300,3700 West Juneau Avenue Milwaukee  Wisconsin WI 53208 United States,43.0460968,-87.9599862
+Real Estate,5324,132,TEXAS PACIFIC LAND TRUST,30511,32,1700 Pacific Avenue Suite 2770 Dallas Texas TX 75201 United States,32.782268,-96.7967576
+Business Services,5309,559,MANHATTAN ASSOCIATES INC,19569,3000,2300 Windy Ridge Parkway 10th Floor Atlanta Georgia GA 30339 United States,33.9059932,-84.4601722
+Oil & Gas,5293,3431,ENABLE MIDSTREAM PARTNERS LP,2060731,1705,One Leadership Square 211 North Robinson Avenue Suite 150 Oklahoma OK 73102 United States,35.4692984,-97.5170754
+Engineering & Machinery,5275,2713,ALLISON TRANSMISSION HOLDINGS INC,1806302,2900,One Allison Way Indianapolis  Indiana IN 46222 United States,39.7801759,-86.236951
+Aerospace & Defence,5263,2412,CURTISS-WRIGHT CORP,8446,9000,130 Harbour Place Drive Suite 300 Davidson North Carolina NC 28036 United States,35.5031582,-80.863162
+Pharmaceuticals and Biotechnology,5262,135,MODERNA INC,2959246,760,200 Technology Square Cambridge  Massachusetts MA 02139 United States,42.3633316,-71.090694
+Clothing & Personal Products,5260,6804,HANESBRANDS INC,882407,68000,1000 East Hanes Mill Road Winston-Salem  North Carolina NC 27105 United States,36.1888431,-80.2641032
+Engineering & Machinery,5255,3029,LINCOLN ELECTRIC HLDGS INC,18901,11000,22801 Saint Clair Avenue Cleveland  Ohio OH 44117 United States,41.5884253,-81.5195262
+Real Estate,5237,644,JBG SMITH PROPERTIES INC,2682267,914,4445 Willard Avenue Suite 400 Chevy Chase Maryland MD 20815 United States,38.9620431,-77.0874821
+Utilities - Other,5233,4532,MDU RESOURCES GROUP INC,20003,11797,1200 West Century Avenue Post Office Box 5650 Bismarck North Dakota ND 58506-5650 United States,46.8358387,-100.8126265
+Insurance,5232,3725,KEMPER CORP ,31835,8100,200 East Randolph Street Suite 3300 Chicago Illinois IL 60601 United States,41.8852827,-87.6215123
+Engineering & Machinery,5181,9352,AGCO CORP,1044,21200,4205 River Green Parkway Duluth  Georgia GA 30096 United States,34.0173639,-84.164369
+Oil & Gas,5179,2449,HELMERICH & PAYNE INC,14617,8780,1437 South Boulder Avenue Suite 1400 Tulsa Oklahoma OK 74119 United States,36.1412399,-95.9878774
+Speciality & Other Finance,5177,475,COUSINS PROPERTIES INC,8062,257,3344 Peachtree Road Northeast Suite 1800 Atlanta Georgia GA 30326-4802 United States,33.847189,-84.3685999
+Real Estate,5173,728,HUDSON PACIFIC PROPERTIES INC,1649501,311,11601 Wilshire Boulevard Ninth Floor Los Angeles California CA 90025 United States,34.050936,-118.460026
+Utilities - Other,5172,1371,IDACORP INC,15470,1981,1221 West Idaho Street Boise  Idaho ID 83702-5627 United States,43.6187705,-116.2082
+Food Producers & Processors,5167,6289,INGREDION INC ,7905,11000,5 Westbrook Corporate Center Westchester  Illinois IL 60154 United States,41.8453955,-87.9052856
+Insurance,5152,4494,HANOVER INSURANCE GROUP INC ,1520,4200,440 Lincoln Street Worcester  Massachusetts MA 01653-0002 United States,42.2926471,-71.7830993
+Health,5138,445,PENUMBRA INC,2338712,2200,One Penumbra Place 1321 Harbor Bay Parkway Alameda California CA 94502 United States,37.7280495,-122.2357861
+Automobiles & Parts,5129,7706,OSHKOSH CORP ,23438,15000,2307 Oregon Street Oshkosh  Wisconsin WI 54903-2566 United States,43.992517,-88.5441454
+Construction & Building Materials,5101,7143,TOLL BROTHERS INC,30867,4900,250 Gibraltar Road Horsham  Pennsylvania PA 19044 United States,40.1746577,-75.1358396
+Business Services,5096,3503,TRINET GROUP INC,2057483,3100,One Park Place Suite 600 Dublin California CA 94568 United States,37.7070212,-121.889969
+Leisure & Hotels,5072,1559,MADISON SQUARE GARDEN CO ,2345468,11700,Two Pennsylvania Plaza New York  New York NY 10121-0091 United States,40.7505045,-73.9934387
+Software & Computer Services,5042,,PINTEREST INC,3022454,1797,505 Brannan Street San Francisco  California CA 94107 United States,37.7777551,-122.3969054
+Publishing,5032,1749,NEW YORK TIMES COMPANY (THE),22034,4320,620 Eighth Avenue   New York NY 10018 United States,40.756105,-73.9901921
+General Retailers,5019,5672,WILLIAMS-SONOMA INC,33516,28200,3250 Van Ness Avenue San Francisco  California CA 94109 United States,37.8058741,-122.4250473
+Leisure & Hotels,4997,1041,CHOICE HOTELS INTERNATIONAL INC,6738,1882,1 Choice Hotels Circle Suite 400 Rockville Maryland MD 20850 United States,39.0857316,-77.1489833
+Household Products,4996,4270,LEGGETT & PLATT INC,18648,22000,No 1 Leggett Road Carthage  Missouri MO 64836 United States,37.1774372,-94.3843215
+Food & Drug Retailers,4989,17620,PERFORMANCE FOOD GROUP CO,2347403,15000,12500 West Creek Parkway Richmond  Virginia VA 23238 United States,37.6047262,-77.6439937
+Software & Computer Services,4980,2052,NUANCE COMMUNICATIONS INC ,27190,10400,1 Wayside Road Burlington  Massachusetts MA 01803 United States,42.4839887,-71.193183
+Speciality & Other Finance,4954,465,TFS FINANCIAL CORP,1051317,,7007 Broadway Avenue Cleveland  Ohio OH 44105 United States,41.4594491,-81.6397256
+Construction & Building Materials,4951,3346,CRANE CO,8113,12000,100 First Stamford Place Stamford  Connecticut CT 06902 United States,41.0443102,-73.5486083
+Software & Computer Services,4950,,MEDALLIA INC,3059013,1258,575 Market Street Suite 1850 San Francisco California CA 94105 United States,37.7895508,-122.4003129
+General Retailers,4930,13237,L BRANDS INC ,18892,88900,Three Limited Parkway Columbus  Ohio OH 43230 United States,40.0512775,-82.8974814
+Household Products,4928,3680,ACUITY BRANDS INC,733,13000,1170 Peachtree Street North East Suite 2300 Atlanta Georgia GA 30309-7676 United States,33.7864313,-84.3837324
+Utilities - Other,4913,2880,SOUTHWEST GAS HOLDINGS INC ,28702,2312,5241 Spring Mountain Road Post Office Box 98510 Las Vegas Nevada NV 89193-8510 United States,36.12542,-115.2136515
+Food Producers & Processors,4905,3952,FLOWERS FOODS INC,12151,9200,1919 Flowers Circle Thomasville  Georgia GA 31757 United States,30.8110524,-83.9369204
+Construction & Building Materials,4905,11171,QUANTA SERVICES INC,25544,39200,2800 Post Oak Boulevard Suite 2600 Houston Texas TX 77056 United States,29.7370769,-95.4622183
+Business Services,4905,20054,SYNNEX CORP,464094,229000,44201 Nobel Drive Fremont  California CA 94538 United States,37.4970796,-121.9799896
+Leisure & Hotels,4900,2737,PARK HOTELS & RESORTS INC,2593891,517,1775 Tysons Boulevard 7th Floor Tysons Virginia VA 22102 United States,38.9235896,-77.2204864
+Telecommunication Services,4880,14070,QURATE RETAIL INC ,18817,27140,12300 Liberty Boulevard Englewood  Colorado CO 80112 United States,39.5531852,-104.8457211
+Real Estate,4867,404,FIRST INDUSTRIAL REALTY TRUST INC,130,145,One North Wacker Drive Suite 4200 Chicago Illinois IL 60606 United States,41.8838139,-87.6368092
+Business Services,4866,21991,MANPOWERGROUP INC ,19589,30000,100 Manpower Place Milwaukee  Wisconsin WI 53212 United States,43.0492373,-87.9131006
+Business Services,4861,2392,MAXIMUS INC,19869,18600,1891 Metro Center Drive Reston  Virginia VA 20190 United States,38.9492634,-77.3407942
+Engineering & Machinery,4860,2745,ITT INC ,17153,10000,1133 Westchester Avenue White Plains  New York NY 10604 United States,41.0339862,-73.7629097
+Information Technology Hardware,4859,2068,VIASAT INC,32601,5600,6155 El Camino Real Carlsbad  California CA 92009 United States,33.126769,-117.2669894
+Consumer Services,4852,3095,H & R BLOCK INC,4621,3100,One H&R Block Way Kansas City  Missouri MO 64105 United States,39.0977292,-94.5823411
+General Retailers,4832,15860,NORDSTROM INC,22406,71000,1617 Sixth Avenue Seattle  Washington WA 98101 United States,47.6124423,-122.3364045
+Oil & Gas,4813,1634,ONE GAS INC,2040088,3500,First Place Tower 15 East Fifth Street Tulsa Oklahoma OK 74103 United States,36.152135,-95.9893886
+Real Estate,4811,414,PS BUSINESS PARKS INC,25339,156,701 Western Avenue Glendale  California CA 91201-2349 United States,34.1664274,-118.2955073
+Leisure & Hotels,4810,1009,CHURCHILL DOWNS INC (CDI),6783,4100,600 North Hurstbourne Parkway Suite 400 Louisville Kentucky KY 40222 United States,38.2549205,-85.5807462
+Chemicals,4787,2290,NEWMARKET CORP ,550009,2089,330 South Fourth Street Richmond  Virginia VA 23219-4350 United States,37.5379107,-77.4443828
+Household Products,4776,975,ARMSTRONG WORLD INDUSTRIES INC,2597,4000,2500 Columbia Avenue Post Office Box 3001 Lancaster Pennsylvania PA 17603 United States,40.0368051,-76.3719967
+Engineering & Machinery,4769,4659,SCIENCE APPLICATIONS INTERNATIONAL CORP,1989314,23000,12010 Sunset Hills Road Reston  Virginia VA 20190 United States,38.9560074,-77.3563771
+Leisure & Hotels,4768,1868,WYNDHAM HOTELS & RESORTS INC,2822267,16200,22 Sylvan Way Parsippany  New Jersey NJ 07054 United States,40.84593,-74.4387317
+Electronic & Electrical Equipment,4767,655,MERCURY SYSTEMS INC ,20291,1661,50 Minuteman Road Andover  Massachusetts MA 01810 United States,42.6876327,-71.2168443
+Construction & Building Materials,4763,684,TREX COMPANY INC,31267,1214,160 Exeter Drive Winchester  Virginia VA 22603-8605 United States,39.2114891,-78.1766608
+Electricity,4758,2861,HAWAIIAN ELECTRIC INDUSTRIES INC,14433,3898,1001 Bishop Street Suite 2900 Honolulu Hawaii HI 96813 United States,21.3081985,-157.8608441
+Utilities - Other,4724,1754,BLACK HILLS CORP,4560,2863,7001 Mount Rushmore Road Rapid City  South Dakota SD 57702 United States,44.0178247,-103.2535426
+Construction & Building Materials,4721,8131,EMCOR GROUP INC,10503,33000,301 Merritt Seven Norwalk  Connecticut CT 06851-1092 United States,41.1494149,-73.426899
+Oil & Gas,4720,470,SHELL MIDSTREAM PARTNERS LP,2161030,,150 North Dairy Ashford Road Houston  Texas TX 77079 United States,29.7872635,-95.6045377
+Electronic & Electrical Equipment,4710,868,SILICON LABORATORIES INC,27977,1505,400 West Cesar Chavez Austin  Texas TX 78701 United States,30.2648128,-97.7484564
+Chemicals,4701,9379,HUNTSMAN CORP,551056,10000,10003 Woodloch Forest Drive The Woodlands  Texas TX 77380 United States,30.1596297,-95.4564633
+Real Estate,4693,538,BLACKSTONE MORTGAGE TRUST INC ,5749,,345 Park Avenue 42nd Floor  New York NY 10154 United States,40.7579332,-73.9722189
+Speciality & Other Finance,4663,1702,EATON VANCE CORP,9963,1764,Two International Place Boston  Massachusetts MA 02110 United States,42.3564429,-71.0517885
+General Retailers,4659,24971,MACY'S INC ,11658,130000,7 West Seventh Street Cincinnati  Ohio OH 45202 United States,39.1033122,-84.5141082
+Media & Entertainment,4656,2767,NEXSTAR MEDIA GROUP INC ,626612,8959,545 East John Carpenter Freeway Suite 700 Irving Texas TX 75062 United States,32.8592804,-96.9328782
+Life Assurance,4639,1900,PRIMERICA INC,1636678,2166,1 Primerica Parkway Duluth  Georgia GA 30099 United States,33.9858166,-84.09776
+Leisure & Hotels,4630,3222,CINEMARK HOLDINGS INC,946174,20000,3900 Dallas Parkway Suite 500 Plano Texas TX 75093 United States,33.051307,-96.8278143
+Chemicals,4628,3743,ASHLAND GLOBAL HOLDINGS INC ,2727,6000,500 Hercules Road Building 8145 Wilmington Delaware DE 19808 United States,39.7559562,-75.6423114
+Real Estate,4621,551,LIFE STORAGE INC ,28713,1953,6467 Main Street Williamsville  New York NY 14221 United States,42.9648461,-78.7125163
+Oil & Gas,4608,1826,PARSLEY ENERGY INC,2070824,527,303 Colorado Street Suite 3000 Austin Texas TX 78701 United States,30.2658296,-97.744641
+Clothing & Personal Products,4606,4642,SKECHERS USA INC,28188,12600,228 Manhattan Beach Boulevard Manhattan Beach  California CA 90266 United States,33.8847376,-118.4099502
+Food Producers & Processors,4602,1590,WENDY'S CO ,31287,12500,One Dave Thomas Boulevard Dublin  Ohio OH 43017 United States,40.1005222,-83.1043402
+Banks,4597,1077,WESTERN ALLIANCE BANCORP,126122,1787,One East Washington Street Suite 1400 Phoenix Arizona AZ 85004 United States,33.4480512,-112.0731196
+Household Products,4575,2023,GENERAC HOLDINGS INC,1626065,5664,S45 W29290 Highway 59 Waukesha  Wisconsin WI 53189 United States,42.9620386,-88.3319019
+Insurance,4553,1273,RADIAN GROUP INC,25658,1942,1500 Market Street Philadelphia  Pennsylvania PA 19102 United States,39.9523167,-75.1664857
+Software & Computer Services,4551,739,PURE STORAGE INC,2355566,2800,650 Castro Street Suite 400 Mountain View California CA 94041 United States,37.3879124,-122.0831253
+Real Estate,4544,720,HIGHWOODS PROPERTIES INC,14793,442,3100 Smoketree Court Suite 600 Raleigh North Carolina NC 27604 United States,35.818927,-78.6069251
+Health,4509,418,TELADOC HEALTH INC ,2301052,2000,2 Manhattanville Road Suite 203 Purchase New York NY 10577 United States,41.0260336,-73.7196625
+Banks,4499,843,PROSPERITY BANCSHARES INC,25277,3036,Prosperity Bank Plaza 4295 San Felipe Houston Texas TX 77027 United States,29.7463228,-95.4514073
+Chemicals,4493,1932,WR GRACE & CO,13714,3900,7500 Grace Drive Columbia  Maryland MD 21044-4098 United States,39.1903151,-76.903156
+Transport,4430,2971,KIRBY CORP,17965,3050,55 Waugh Drive Suite 1000 Houston Texas TX 77007 United States,29.767155,-95.397692
+Food Producers & Processors,4423,6583,SEABOARD CORP,27400,12600,9000 West 67th Street Shawnee Mission Merriam Kansas KS 66202 United States,39.0081864,-94.6908213
+Construction & Building Materials,4421,6909,MASTEC INC,19778,19000,800 South Douglas Road 12th Floor Coral Gables Florida FL 33134 United States,25.7638876,-80.2567011
+Banks,4397,1646,FIRST CITIZENS BANCSHARES INC (NC),59,6683,4300 Six Forks Road Raleigh  North Carolina NC 27609 United States,35.8391729,-78.6410706
+Clothing & Personal Products,4395,6313,RALPH LAUREN CORP ,24726,24300,650 Madison Avenue New York  New York NY 10022 United States,40.7639879,-73.9713457
+Electronic & Electrical Equipment,4394,22095,JABIL INC ,17238,199000,10560 Dr Martin Luther King Jr Street North St Petersburg Florida FL 33716 United States,27.8687571,-82.6484117
+Utilities - Other,4389,1499,ALLETE INC,1431,1889,30 West Superior Street Duluth  Minnesota MN 55802-2093 United States,46.7860464,-92.098798
+Insurance,4386,1124,MGIC INVESTMENT CORP,20517,793,MGIC Plaza 250 East Kilbourn Avenue Milwaukee Wisconsin WI 53202 United States,43.043124,-87.90918
+Real Estate,4377,960,MACERICH CO,19369,718,401 Wilshire Boulevard Suite 700 Santa Monica California CA 90401 United States,34.0198125,-118.4985762
+Software & Computer Services,4374,1392,DROPBOX INC,2797305,2323,333 Brannan Street San Francisco  California CA 94107 United States,37.7809636,-122.3927224
+Business Services,4371,3829,INSPERITY INC ,803,3200,19001 Crescent Springs Drive Kingwood Houston Texas TX 77339-3802 United States,30.0497309,-95.2499557
+Oil & Gas,4347,2310,WPX ENERGY INC,1741489,600,3500 One Williams Center Tulsa  Oklahoma OK 74172-0172 United States,36.1549585,-95.9905196
+Speciality & Other Finance,4342,241,Q2 HOLDINGS INC,2055815,1190,13785 Research Boulevard Suite 150 Austin Texas TX 78750 United States,30.4632616,-97.7930389
+Health,4337,1663,AMEDISYS INC,1742,21000,3854 American Way Suite A Baton Rouge Louisiana LA 70816 United States,30.4157875,-91.0549326
+Transport,4335,1680,AIR LEASE CORP,1698818,97,2000 Avenue of the Stars Suite 1000N Los Angeles California CA 90067 United States,34.0581895,-118.4146216
+General Retailers,4333,7939,FOOT LOCKER INC,12240,49331,330 West 34th Street   New York NY 10001 United States,40.7526019,-73.9951169
+Automobiles & Parts,4328,21413,AUTONATION INC,3143,26000,200 South West 1st Avenue Suite 1600 Fort Lauderdale Florida FL 33301 United States,26.1200646,-80.1441231
+Electronic & Electrical Equipment,4319,1248,LUMENTUM HOLDINGS INC,2314855,2930,400 North McCarthy Boulevard Milpitas  California CA 95035 United States,37.4338871,-121.9215775
+General Retailers,4312,1781,FIRSTCASH INC ,50,19000,1600 West 7th Street Fort Worth  Texas TX 76102 United States,32.7513958,-97.3445636
+Telecommunication Services,4312,1207,J2 GLOBAL INC ,17230,2587,6922 Hollywood Boulevard Suite 500 Los Angeles California CA 90028 United States,34.1010528,-118.3409535
+Leisure & Hotels,4301,1464,SIX FLAGS ENTERTAINMENT CORP,1648593,2400,924 Avenue J East Grand Prairie  Texas TX 75050 United States,32.7653114,-97.0511046
+Oil & Gas,4292,2339,CIMAREX ENERGY CO,86176,955,1700 Lincoln Street Suite 3700 Denver Colorado CO 80203 United States,39.743642,-104.9854807
+Real Estate,4287,450,HEALTHCARE REALTY TRUST INC,14507,277,3310 West End Avenue Suite 700 Nashville Tennessee TN 37203 United States,36.140848,-86.8187433
+Electronic & Electrical Equipment,4282,19037,AVNET INC,3248,15400,2211 South 47th Street Phoenix  Arizona AZ 85034 United States,33.4274752,-111.9800088
+Consumer Services,4281,3829,AARONS INC ,398,11800,400 Galleria Parkway South East Suite 300 Atlanta Georgia GA 30339-3194 United States,33.8865976,-84.4612813
+Pharmaceuticals and Biotechnology,4281,45,BLUEPRINT MEDICINES CORP,2241578,217,45 Sidney Street Cambridge  Massachusetts MA 02139 United States,42.3622015,-71.1014325
+Food Producers & Processors,4280,1223,LANCASTER COLONY CORP,18410,2900,380 Polaris Parkway Suite 400 Westerville Ohio OH 43082 United States,40.1469452,-82.9418371
+Pharmaceuticals and Biotechnology,4249,,ALLAKOS INC,2885437,62,975 Island Driv Suite 201 Redwood City California CA 94065 United States,37.535189,-122.2572798
+Business Services,4247,3300,CLEAN HARBORS INC,7045,14200,42 Longwater Drive Norwell  Massachusetts MA 02061-9149 United States,42.1603973,-70.8839929
+Banks,4245,393,FIRST FINANCIAL BANKSHARES INC,113,1350,400 Pine Street Abilene  Texas TX 79601 United States,32.4528753,-99.7331525
+Software & Computer Services,4245,849,BLACKBAUD INC,466388,3353,65 Fairchild Street Charleston  South Carolina SC 29492 United States,32.8653127,-79.9093486
+General Retailers,4237,1710,FLOOR & DECOR HOLDINGS INC,2651424,6566,2233 Lake Park Drive Smyrna  Georgia GA 30080 United States,33.8947569,-84.4846567
+Transport,4236,4615,LANDSTAR SYSTEM INC,18435,1306,13410 Sutton Park Drive South Jacksonville  Florida FL 32224 United States,30.255065,-81.4628323
+Software & Computer Services,4235,765,LENDINGTREE INC ,1103859,909,11115 Rushmore Drive Charlotte  North Carolina NC 28277 United States,35.0601617,-80.8600057
+Speciality & Other Finance,4227,287,HEALTHEQUITY INC,2129703,1141,15 West Scenic Pointe Drive Suite 100 Draper Utah UT 84020 United States,40.4806513,-111.8916329
+Utilities - Other,4220,3486,STERICYCLE INC,29200,22500,28161 North Keith Drive Lake Forest  Illinois IL 60045 United States,42.2716848,-87.9023784
+Business Services,4216,1258,FRONTDOOR INC,2922730,2200,150 Peabody Place Suite 300 Memphis Tennessee TN 38103 United States,35.1411338,-90.0520541
+Oil & Gas,4212,143,ANTERO MIDSTREAM CORP ,2653398,,1615 Wynkoop Street  Denver Colorado CO 80202 United States,39.752448,-105.0011122
+Business Services,4209,3489,BRINKS CO,245286,62400,1801 Bayberry Court Post Box 18100 Richmond Virginia VA 23226-8100 United States,37.6077619,-77.531933
+Software & Computer Services,4208,1155,NUTANIX INC,2534587,4000,1740 Technology Drive Suite 150 San Jose California CA 95110 United States,37.367648,-121.9181103
+Banks,4193,1148,PINNACLE FINANCIAL PARTNERS INC,24487,2297,150 Third Avenue South Suite 900 Nashville Tennessee TN 37201 United States,36.160032,-86.7743931
+Business Services,4190,2964,TETRA TECH INC,30482,17000,3475 East Foothill Boulevard Pasadena  California CA 91107-6024 United States,34.1506329,-118.0781576
+Real Estate,4179,445,SPIRIT REALTY CAPITAL INC,1889928,89,2727 North Harwood Street Suite 300 Dallas Texas TX 75201 United States,32.7931508,-96.8080553
+Insurance,4177,818,RLI CORP,26342,912,9025 North Lindbergh Drive Peoria  Illinois IL 61615 United States,40.7974496,-89.6114058
+Utilities - Other,4176,1965,SPIRE INC ,18343,3366,700 Market Street 6th Floor Saint Louis Missouri MO 63101 United States,38.6256588,-90.1929457
+Electronic & Electrical Equipment,4173,2075,MKS INSTRUMENTS INC,20887,4851,2 Tech Drive Suite 201 Andover Massachusetts MA 01810 United States,42.6888361,-71.2114348
+Utilities - Other,4164,2915,NEW JERSEY RESOURCES CORP,21989,1068,1415 Wyckoff Road Post Office Box 1468 Wall New Jersey NJ 07719 United States,40.2098327,-74.1282168
+Leisure & Hotels,4154,3931,WYNDHAM DESTINATIONS INC ,858089,24500,6277 Sea Harbor Drive Orlando  Florida FL 32821 United States,28.4160293,-81.4633968
+Pharmaceuticals and Biotechnology,4143,224,ACADIA PHARMACEUTICALS INC,105052,430,3611 Valley Centre Drive Suite 300 San Diego California CA 92130 United States,32.9361294,-117.2350009
+Banks,4128,1310,PACWEST BANCORP,73,1833,9701 Wilshire Boulevard Suite 700 Beverly Hills California CA 90212 United States,34.0674823,-118.406589
+Speciality & Other Finance,4122,3273,CIT GROUP INC,6910,3678,11 West 42nd Street   New York NY 10036 United States,40.7543961,-73.9817833
+Media & Entertainment,4122,2010,TRIBUNE MEDIA CO,2175210,5800,515 North State Street Suite 2400 Chicago Illinois IL 60654 United States,41.8914211,-87.6273487
+Utilities - Other,4116,1593,NATIONAL FUEL GAS CO,21593,2105,6363 Main Street Williamsville  New York NY 14221 United States,42.9625847,-78.7145406
+Chemicals,4086,2285,VALVOLINE INC,2610397,6700,100 Valvoline Way Lexington  Kentucky KY 40509 United States,38.0155587,-84.4182103
+Leisure & Hotels,4085,3030,CRACKER BARREL OLD COUNTRY STORE INC ,6097,73000,305 Hartmann Drive Lebanon  Tennessee TN 37087 United States,36.226892,-86.3156897
+Real Estate,4072,197,EQUITY COMMONWEALTH ,15148,41,Two North Riverside Plaza Suite 2100 Chicago Illinois IL 60606 United States,41.8851781,-87.6390591
+Real Estate,4071,2295,HOSPITALITY PROPERTIES TRUST,15086,,Two Newton Place 255 Washington Street Suite 300 Newton Massachusetts MA 02458-1634 United States,42.3578929,-71.1842589
+Household Products,4069,2703,TEMPUR SEALY INTERNATIONAL INC ,421366,6200,1000 Tempur Way Lexington  Kentucky KY 40511 United States,38.0982867,-84.4941134
+Oil & Gas,4064,7124,CVR ENERGY INC,1025142,1450,2277 Plaza Drive Suite 500 Sugar Land Texas TX 77479 United States,29.5960534,-95.6215642
+Real Estate,4044,623,SABRA HEALTH CARE REIT INC,1672643,31,18500 Von Karman Avenue Suite 550 Irvine California CA 92612 United States,33.6763347,-117.8517021
+Media & Entertainment,4042,1606,OUTFRONT MEDIA INC ,2057821,2305,405 Lexington Avenue 17th Floor  New York NY 10174 United States,40.7518684,-73.9755536
+Banks,4021,1312,STERLING BANCORP ,25310,1907,400 Rella Boulevard Montebello  New York NY 10901 United States,41.1158261,-74.1054599
+Electronic & Electrical Equipment,4005,1358,MSA SAFETY INC ,20749,4800,1000 Cranberry Woods Drive Cranberry Township  Pennsylvania PA 16066 United States,40.6761653,-80.088267
+Leisure Goods,4003,4511,MATTEL INC,19820,27000,333 Continental Boulevard El Segundo  California CA 90245-5012 United States,33.920575,-118.3914183
+Business Services,3983,2028,FTI CONSULTING INC,12593,4768,555 12th Street Nortth West Suite 700 Washington District Of Columbia DC 20005 United States,38.8968172,-77.0274317
+General Retailers,3981,1241,OLLIE'S BARGAIN OUTLET HOLDINGS INC,2307483,7700,6295 Allentown Boulevard Suite 1 Harrisburg Pennsylvania PA 17112 United States,40.323533,-76.78213
+Aerospace & Defence,3979,4030,PERSPECTA INC,2822268,14300,15052 Conference Center Drive Chantilly  Virginia VA 20151 United States,38.883978,-77.458285
+Engineering & Machinery,3950,5159,BRUNSWICK CORP,5227,16038,26125 N Riverwoods Boulevard Suite 500 Mettawa Illinois IL 60045-3420 United States,42.2421982,-87.9039804
+Engineering & Machinery,3946,703,RBC BEARINGS INC,640918,3764,One Tribology Centre 102 Willenbrock Road Oxford Connecticut CT 06478 United States,41.466321,-73.1496222
+Chemicals,3911,1134,INGEVITY CORP,2457210,1750,5255 Virginia Avenue North Charleston  South Carolina SC 29406 United States,32.8960433,-79.9737355
+Speciality & Other Finance,3907,1470,OAKTREE CAPITAL GROUP LLC,1812353,930,333 South Grand Avenue 28th Floor Los Angeles California CA 90071 United States,34.0529315,-118.2518765
+Automobiles & Parts,3907,1955,CARVANA CO,2651922,3879,1930 West Rio Salado Parkway Tempe  Arizona AZ 85281 United States,33.4334183,-111.9672748
+Insurance,3891,8965,BRIGHTHOUSE FINANCIAL INC,2689260,1260,Gragg Building 11225 North Community House Road Charlotte North Carolina NC 28277 United States,35.0551122,-80.8361354
+Speciality & Other Finance,3873,2378,AFFILIATED MANAGERS GROUP INC (AMG),1002,4450,777 South Flagler Drive West Palm Beach  Florida FL 33401 United States,26.7066139,-80.0501742
+Speciality & Other Finance,3873,1935,SLM CORP (SALLIE MAE),28243,1700,300 Continental Drive Newark  Delaware DE 19713 United States,39.6839241,-75.6610839
+Leisure & Hotels,3859,2457,TEXAS ROADHOUSE INC,603315,64900,6040 Dutchmans Lane Suite 400 Louisville Kentucky KY 40205 United States,38.2270419,-85.6405367
+Business Services,3850,4582,ADT INC,2763913,19000,1501 Yamato Road Boca Raton  Florida FL 33431 United States,26.395193,-80.1180325
+Health,3848,713,GLOBUS MEDICAL INC,1877439,1800,2560 General Armistead Avenue Audubon  Pennsylvania PA 19403 United States,40.1200255,-75.3980305
+Speciality & Other Finance,3847,2366,INTERACTIVE BROKERS GROUP INC,1051740,1413,One Pickwick Plaza Greenwich  Connecticut CT 06830 United States,41.0311536,-73.6262083
+Health,3843,872,CANTEL MEDICAL CORP ,5676,2693,150 Clove Road 9th Floor Little Falls New Jersey NJ 07424-2139 United States,40.8713065,-74.1954627
+Steel & Other Metals,3835,13403,ALCOA CORP,2539638,14000,201 Isabella Street Suite 500 Pittsburgh Pennsylvania PA 15212-5858 United States,40.4477654,-80.0011301
+Banks,3829,1374,IBERIABANK CORPORATION,15383,3441,200 West Congress Street Lafayette  Louisiana LA 70501 United States,30.2265088,-92.018978
+Real Estate,3818,544,CORESITE REALTY CORP,1663616,454,1001 17th Street Suite 500 Denver Colorado CO 80202 United States,39.7488698,-104.993925
+Speciality & Other Finance,3812,3195,STIFEL FINANCIAL CORP,29263,7500,One Financial Plaza 501 North Broadway St Louis Missouri MO 63102-2102 United States,38.6296755,-90.1888688
+Education,3788,634,STRATEGIC EDUCATION INC ,29376,3017,2303 Dulles Station Boulevard Herndon  Virginia VA 20171 United States,38.9592437,-77.4147025
+Pharmaceuticals and Biotechnology,3779,,ALLOGENE THERAPEUTICS INC,2927408,122,210 East Grand Avenue South San Francisco  California CA 94080 United States,37.6533984,-122.3990296
+Electronic & Electrical Equipment,3765,1172,DOLBY LABORATORIES INC,465654,2151,1275 Market Street San Francisco  California CA 94103-1410 United States,37.7775216,-122.4157118
+Utilities - Other,3761,1437,PNM RESOURCES INC,25377,1692,414 Silver Avenue South West Albuquerque  New Mexico NM 87102-3289 United States,35.082494,-106.6528481
+Pharmaceuticals and Biotechnology,3748,65,SPARK THERAPEUTICS INC,2212398,368,3737 Market Street Suite 1300 Philadelphia Pennsylvania PA 19104 United States,39.9569826,-75.1974906
+Leisure & Hotels,3728,2968,MARRIOTT VACATIONS WORLDWIDE CORP,1732905,23000,6649 Westwood Boulevard Orlando  Florida FL 32821 United States,28.4167563,-81.4727225
+Automobiles & Parts,3719,22785,PENSKE AUTOMOTIVE GROUP INC ,32076,27000,2555 Telegraph Road Bloomfield Hills  Michigan MI 48302-0954 United States,42.6025664,-83.2879437
+Health,3716,414,NEOGEN CORP,21756,1682,620 Lesher Place Lansing  Michigan MI 48912 United States,42.7400148,-84.5390101
+Information Technology Hardware,3705,37239,TECH DATA CORP,30106,14000,5350 Tech Data Drive Clearwater  Florida FL 33760 United States,27.917127,-82.707835
+Oil & Gas,3705,34055,PLAINS GP HOLDINGS LP,1995392,4900,333 Clay Street Suite 1600 Houston Texas TX 77002 United States,29.7573187,-95.3719137
+Health,3704,1810,LHC GROUP INC,745486,30985,901 Hugh Wallis Road South Lafayette  Louisiana LA 70508 United States,30.194421,-92.002244
+Real Estate,3702,870,TWO HARBORS INVESTMENT CORP,1590568,,575 Lexington Avenue Suite 2930  New York NY 10022 United States,40.7573686,-73.9714981
+Renewable Energy,3698,316,ENPHASE ENERGY INC,1810090,427,47281 Bayside Parkway Fremont  California CA 94538 United States,37.4729388,-121.9352305
+Renewable Energy,3694,719,ORMAT TECHNOLOGIES INC,551199,1346,6140 Plumas Street Reno  Nevada NV 89519-6075 United States,39.4702926,-119.8096261
+Information Technology Hardware,3687,6405,NCR CORP,21710,34000,864 Spring Street Northwest Atlanta  Georgia GA 30308-1007 United States,33.7792561,-84.3895212
+Banks,3686,1056,BANK OZK ,4527,2400,17901 Chenal Parkway Little Rock  Arkansas AR 72223 United States,34.7701306,-92.4599341
+Banks,3676,846,UNITED BANKSHARES INC,32080,2230,300 United Center 500 Virginia Street East Charleston West Virginia WV 25301 United States,38.3518438,-81.6366438
+Banks,3666,1446,FNB CORPORATION,12170,4420,12 Federal Street One North Shore Center Pittsburgh Pennsylvania PA 15212 United States,40.4473917,-80.003534
+General Retailers,3666,13007,BJ'S WHOLESALE CLUB HOLDINGS INC,2833928,26383,25 Research Drive Westborough  Massachusetts MA 01581 United States,42.2872382,-71.5770683
+Construction & Building Materials,3658,1393,EAGLE MATERIALS INC ,606143,2300,5960 Berkshire Lane Suite 900 Dallas Texas TX 75225 United States,32.8642196,-96.8101891
+Banks,3639,1527,WINTRUST FINANCIAL CORPORATION,33592,4727,9700 West Higgins Road Suite 800 Rosemont Illinois IL 60018 United States,41.9947978,-87.8695046
+Software & Computer Services,3625,,SMARTSHEET INC,2811205,,10500 NE 8th Street Suite 1300 Bellevue Washington WA 98004-4357 United States,47.6175814,-122.2001491
+Oil & Gas,3612,5740,ENLINK MIDSTREAM LLC,2052587,1494,1722 Routh Street Suite 1300 Dallas Texas TX 75201 United States,32.7919671,-96.7951263
+Real Estate,3607,1273,CHIMERA INVESTMENT CORPORATION,1042442,38,520 Madison Avenue 32nd Floor  New York NY 10022 United States,40.7601625,-73.9747832
+Health,3604,184,TANDEM DIABETES CARE INC,2009665,653,11075 Roselle Street San Diego  California CA 92121 United States,32.9056896,-117.23004
+Real Estate,3602,531,WEINGARTEN REALTY INVESTORS,33240,254,2600 Citadel Plaza Drive Suite 125 Houston Texas TX 77008 United States,29.8100423,-95.4357711
+Pharmaceuticals and Biotechnology,3597,213,FIBROGEN INC,2166858,461,409 Illinois Street San Francisco  California CA 94158 United States,37.7665832,-122.3877002
+Real Estate,3582,295,NATIONAL HEALTH INVESTORS INC,21599,16,222 Robert Rose Drive Murfreesboro  Tennessee TN 37129 United States,35.8511449,-86.4235946
+Utilities - Other,3568,1192,NORTHWESTERN CORP,22537,1528,3010 West 69th Street Sioux Falls  South Dakota SD 57108 United States,43.490267,-96.7584338
+Beverages,3564,1057,BOSTON BEER CO INC,4855,1543,One Design Center Place Suite 850 Boston Massachusetts MA 02210 United States,42.3442688,-71.0305676
+Construction & Building Materials,3552,4913,KBR INC,660699,25000,601 Jefferson Street Suite 3400 Houston Texas TX 77002 United States,29.7532925,-95.3723074
+Renewable Energy,3552,767,TERRAFORM POWER INC,2125675,177,200 Liberty Street 14th Floor Bethesda New York NY 10281 United States,40.7106592,-74.0155582
+Construction & Building Materials,3544,420,AXON ENTERPRISE INC ,30004,1155,17800 North 85th Street Scottsdale  Arizona AZ 85255 United States,33.6482983,-111.8984991
+Banks,3541,1347,UMPQUA HOLDINGS CORP,31677,3928,One South West Columbia Street Suite 1200 Portland Oregon OR 97258 United States,45.5134826,-122.6755607
+Media & Entertainment,3538,930,WORLD WRESTLING ENTERTAINMENT INC ,33722,915,1241 East Main Street Stamford  Connecticut CT 06902 United States,41.0592289,-73.5097026
+Oil & Gas,3532,793,TALLGRASS ENERGY LP ,2243495,750,4200 West115th Street Suite 350 Leawood Kansas KS 66211 United States,38.9206372,-94.6339778
+Investment Companies,3492,120,DNP SELECT INCOME FUND INC ,9722,,200 South Wacker Drive Suite 500 Chicago Illinois IL 60606 United States,41.8789096,-87.63722
+Engineering & Machinery,3487,380,EXPONENT INC,11410,1122,149 Commonwealth Drive Menlo Park  California CA 94025 United States,37.4812387,-122.1738067
+Pharmaceuticals and Biotechnology,3465,1628,UNITED THERAPEUTICS CORP,32166,860,1040 Spring Street Silver Spring  Maryland MD 20910 United States,38.9992599,-77.0275926
+Health,3447,1102,NUVASIVE INC,466212,2600,7475 Lusk Boulevard San Diego  California CA 92121 United States,32.9006994,-117.2174531
+Containers & Packaging,3432,4449,SILGAN HOLDINGS INC,27970,13100,4 Landmark Square Suite 400 Stamford Connecticut CT 06901-2596 United States,41.0547226,-73.5380168
+Banks,3430,825,FIRST HAWAIIAN INC,2503084,2200,999 Bishop Street 29th Floor Honolulu Hawaii HI 96813 United States,21.3078606,-157.8615893
+Food Producers & Processors,3424,1138,J & J SNACK FOODS CORP,17216,4500,6000 Central Highway Pennsauken  New Jersey NJ 08109 United States,39.9314107,-75.0696929
+Banks,3374,1510,ASSOCIATED BANC-CORP,2817,4655,433 Main Street Green Bay  Wisconsin WI 54301 United States,44.517726,-88.009331
+Speciality & Other Finance,3345,2903,LEGG MASON INC,18646,3246,100 International Drive Baltimore  Maryland MD 21202 United States,39.2825875,-76.6016034
+Banks,3337,588,GLACIER BANCORP INC,13309,2723,49 Commons Loop Kalispell  Montana MT 59901 United States,48.2199615,-114.3283108
+Electronic & Electrical Equipment,3324,1896,GRAFTECH INTERNATIONAL LTD,2807644,1387,982 Keynote Circle Brooklyn Heights  Ohio OH 44131 United States,41.4113643,-81.6621505
+Information Technology Hardware,3317,590,CABOT MICROELECTRONICS CORP,5464,1219,870 North Commons Drive Aurora  Illinois IL 60504 United States,41.7732806,-88.2239869
+Software & Computer Services,3312,479,NEW RELIC INC,2176902,1774,188 Spear Street Suite 1200 San Francisco California CA 94105 United States,37.7913249,-122.3929712
+Telecommunication Services,3299,523,IRIDIUM COMMUNICATIONS INC ,1057035,475,1750 Tysons Boulevard Suite 1400 McLean Virginia VA 22102 United States,38.9239566,-77.2228268
+Electronic & Electrical Equipment,3276,1903,COHERENT INC,7262,5418,5100 Patrick Henry Drive Santa Clara  California CA 95054 United States,37.404801,-121.9851671
+Automobiles & Parts,3266,15475,GOODYEAR TIRE & RUBBER CO,13610,64000,200 Innovation Way Akron  Ohio OH 44316-0001 United States,41.0592172,-81.4769863
+Pharmaceuticals and Biotechnology,3258,1193,NEKTAR THERAPEUTICS ,16049,618,455 Mission Bay Boulevard South San Francisco  California CA 94158 United States,37.7704274,-122.3887624
+Banks,3215,1134,UMB FINANCIAL CORP,31671,3573,1010 Grand Boulevard  Kansas City Missouri MO 64106 United States,39.1014321,-94.5812889
+Engineering & Machinery,3199,3204,MSC INDUSTRIAL DIRECT CO INC,21232,6657,75 Maxess Road Melville  New York NY 11747 United States,40.7770931,-73.4112069
+Banks,3167,587,COMMUNITY BANK SYSTEMS INC,7483,2933,5790 Widewaters Parkway DeWitt  New York NY 13214 United States,43.0485289,-76.059044
+Household Products,3159,2506,RH ,1901845,5200,15 Koch Road Suite k Corte Madera California CA 94925 United States,37.9181511,-122.5100465
+Real Estate,3139,1159,SUNSTONE HOTEL INVESTORS INC,574649,48,200 Spectrum Center Drive 21st Floor Irvine California CA 92618 United States,33.6527125,-117.7478745
+Engineering & Machinery,3130,1920,JOHN BEAN TECHNOLOGIES CORP,1100196,5800,70 West Madison Street Suite 4400 Chicago Illinois IL 60602 United States,41.8822474,-87.6301719
+Banks,3111,788,HOME BANCSHARES INC,646224,1815,719 Harkrider Street Suite 100 Conway Arkansas AR 72032 United States,35.0896305,-92.4373564
+Publishing,3067,2696,GRAHAM HOLDINGS CO ,33103,11100,1300 North 17th Street Arlington  Virginia VA 22209 United States,38.8936051,-77.0725457
+Software & Computer Services,3055,1135,VERINT SYSTEMS INC,1652268,5200,175 Broadhollow Road Suite 100 Melville New York NY 11747 United States,40.7869402,-73.4147982
+Food Producers & Processors,3040,1387,SENSIENT TECHNOLOGIES CORP,27609,4113,777 East Wisconsin Avenue Milwaukee  Wisconsin WI 53202-5304 United States,43.0382719,-87.901871
+Speciality & Other Finance,3025,394,FS KKR CAPITAL CORP ,2062760,,201 Rouse Boulevard Philadelphia  Pennsylvania PA 19112 United States,39.8949345,-75.1710457
+Construction & Building Materials,3003,2757,VALMONT INDUSTRIES INC,32263,10328,One Valmont Plaza Omaha  Nebraska NE 68154-5215 United States,41.2651094,-96.130981
+Chemicals,2988,868,QUAKER CHEMICAL CORP,25523,2160,One Quaker Park 901 East Hector Street Conshohocken Pennsylvania PA 19428-2380 United States,40.0743164,-75.2891343
+Utilities - Other,2960,437,AMERICAN STATES WATER CO,1938,817,630 East Foothill Boulevard San Dimas  California CA 91773-1212 United States,34.1221117,-117.79581
+Leisure & Hotels,2942,153,WINGSTOP INC,2295501,661,5501 LBJ Freeway 5th Floor Dallas Texas TX 75240 United States,32.9282246,-96.8151682
+Telecommunication Services,2909,5109,TELEPHONE & DATA SYSTEMS INC,30302,9900,30 North LaSalle Street Suite 4000 Chicago Illinois IL 60602 United States,41.8828891,-87.6327897
+Telecommunication Services,2899,3055,SINCLAIR BROADCAST GROUP INC,28065,9000,10706 Beaver Dam Road Hunt Valley  Maryland MD 21030 United States,39.4768819,-76.6538952
+Real Estate,2883,774,KENNEDY-WILSON HOLDINGS INC,1022681,375,151 South El Camino Drive Beverly Hills  California CA 90212 United States,34.0654525,-118.4004998
+General Retailers,2857,4036,AMERICAN EAGLE OUTFITTERS INC,1802,45000,77 Hot Metal Street Pittsburgh  Pennsylvania PA 15203-2329 United States,40.4268963,-79.9634109
+Leisure & Hotels,2829,667,ESH HOSPITALITY INC ,2009179,8100,11525 North Community House Road Suite 100 Charlotte North Carolina NC 28277 United States,35.0585503,-80.8387303
+Banks,2805,827,OLD NATIONAL BANCORP (INDIANA),23049,2892,One Main Street Evansville  Indiana IN 47708 United States,37.9712577,-87.5717238
+Pharmaceuticals and Biotechnology,2783,,IOVANCE BIOTHERAPEUTICS INC ,2221568,67,999 Skyway Road Suite 150 San Carlos California CA 94070 United States,37.5073305,-122.2470875
+Software & Computer Services,2756,201,RAPID7 INC,2308160,1079,100 Summer Street 13th Floor Boston Massachusetts MA 021102115 United States,42.3538104,-71.057391
+Pharmaceuticals and Biotechnology,2739,16,ARROWHEAD PHARMACEUTICALS INC ,16285,116,225 South Lake Avenue Suite 1050 Pasadena California CA 91101 United States,34.1418984,-118.1335263
+Private Equity,2727,2427,CARLYLE GROUP LP,1816703,1650,1001 Pennsylvania Avenue NorthWest Washington  District Of Columbia DC 20004-2505 United States,38.895654,-77.0264904
+Speciality & Other Finance,2686,233,MAIN STREET CAPITAL CORP,1284119,66,1300 Post Oak Boulevard 8th Floor Houston Texas TX 77056 United States,29.7532406,-95.4603284
+Pharmaceuticals and Biotechnology,2659,91,AMICUS THERAPEUTICS INC,640267,508,1 Cedar Brook Drive Cranbury  New Jersey NJ 08512 United States,40.3329415,-74.5035722
+Electronic & Electrical Equipment,2648,879,ROGERS CORP,26497,3700,2225 West Chandler Boulevard Chandler  Arizona AZ 85224-6155 United States,33.303611,-111.8798599
+Software & Computer Services,2608,608,BOX INC,2210362,1980,900 Jefferson Avenue Redwood City  California CA 94063 United States,37.48487,-122.229315
+Construction & Building Materials,2594,1565,WATTS WATER TECHNOLOGIES INC ,33148,4800,815 Chestnut Street North Andover  Massachusetts MA 01845-6098 United States,42.65649,-71.1049921
+Real Estate,2558,482,RETAIL PROPERTIES OF AMERICA INC,1811446,211,2021 Spring Road Suite 200 Oak Brook Illinois IL 60523 United States,41.8494815,-87.9473423
+Household Products,2541,1798,ENERGIZER HOLDINGS INC,2300928,4000,533 Maryville University Drive Saint Louis  Missouri MO 63141 United States,38.6428059,-90.5080772
+Oil & Gas,2523,1217,APERGY CORP,2815129,3300,2445 Technology Forest Boulevard Building 4 12th Floor The Woodlands Texas TX 77381 United States,30.1730445,-95.4737399
+Real Estate,2495,1058,XENIA HOTELS & RESORTS INC,2215597,51,200 South Orange Avenue Suite 2700 Orlando Florida FL 32801 United States,28.5399696,-81.3794377
+Life Assurance,2473,4314,CNO FINANCIAL GROUP INC ,7727,3300,11825 North Pennsylvania Street Carmel  Indiana IN 46032 United States,39.962594,-86.1511695
+Health,2465,1537,NATIONAL VISION HOLDINGS INC,2718727,10668,2435 Commerce Avenue Building 2200 Duluth Georgia GA 30096 United States,33.9657961,-84.1198123
+Speciality & Other Finance,2443,381,COHEN & STEERS INC,7259,328,280 Park Avenue 10th Floor  New York NY 10017 United States,40.7567429,-73.9755649
+Engineering & Machinery,2423,434,AAON INC,391,2221,2425 South Yukon Avenue Tulsa  Oklahoma OK 74107 United States,36.1308841,-96.0148915
+Telecommunication Services,2381,4569,COMMSCOPE HOLDING COMPANY INC,2000816,20000,1100 CommScope Place South East Hickory  North Carolina NC 28602 United States,35.7151844,-81.3175065
+Pharmaceuticals and Biotechnology,2343,40,PORTOLA PHARMACEUTICALS INC,1953651,324,270 East Grand Avenue South San Francisco  California CA 94080 United States,37.6523469,-122.3955917
+Education,2330,1231,ADTALEM GLOBAL EDUCATION INC ,9109,12318,500 West Monroe Street Chicago  Illinois IL 60661 United States,41.8808419,-87.6407695
+Engineering & Machinery,2311,2368,KENNAMETAL INC,17800,10500,600 Grant Street Suite 5100 Pittsburgh Pennsylvania PA 15219-2706 United States,40.4414139,-79.9947082
+Leisure & Hotels,2274,870,JACK IN THE BOX INC,17241,5200,9330 Balboa Avenue San Diego  California CA 92123-1516 United States,32.8228135,-117.1289306
+Leisure & Hotels,2260,1999,HILTON GRAND VACATIONS INC,2593899,8600,6355 MetroWest Boulevard Suite 180 Orlando Florida FL 32835 United States,28.5164625,-81.4679778
+Banks,2221,631,INTERNATIONAL BANCSHARES CORP,16495,3390,1200 San Bernardo Avenue Laredo  Texas TX 78042-1359 United States,27.5101027,-99.5041755
+Education,2204,3350,LAUREATE EDUCATION INC,2607689,60000,650 South Exeter Street Baltimore  Maryland MD 21202 United States,39.2836509,-76.6005015
+Construction & Building Materials,2170,1385,ADVANCED DRAINAGE SYSTEMS INC,2128031,4400,4640 Trueman Boulevard Hilliard  Ohio OH 43026 United States,40.0483909,-83.1230968
+Pharmaceuticals and Biotechnology,2153,258,NATERA INC,2301548,975,201 Industrial Road Suite 410 San Carlos California CA 94070 United States,37.519288,-122.2640562
+Business Services,2114,2331,GEO GROUP INC ,33006,22000,4955 Technology Way  Boca Raton Florida FL 33431 United States,26.3917788,-80.1031818
+Utilities - Other,2084,599,CASELLA WASTE SYSTEMS INC,5970,2000,25 Greens Hill Lane Rutland  Vermont VT 05701 United States,43.604256,-72.993027
+Leisure & Hotels,2069,9504,HERTZ GLOBAL HOLDINGS INC ,2482066,38000,8501 Williams Road Estero  Florida FL 33928 United States,26.4193399,-81.8096164
+Investment Companies,2039,25,KAYNE ANDERSON MLP/MIDSTREAM INVESTMENT CO ,625556,,811 Main Street 14th Floor Houston Texas TX 77002 United States,29.7579771,-95.363451
+Real Estate,2012,296,RETAIL OPPORTUNITY INVESTMENTS CORP (ROIC),1020658,71,11250 El Camino Real Suite 200 San Diego California CA 92130 United States,32.9235704,-117.2331123
+Banks,1966,607,CADENCE BANCORP,2646745,1170,2800 Post Oak Boulevard Suite 3800 Houston Texas TX 77056 United States,29.7370769,-95.4622183
+Software & Computer Services,1924,397,PROGRESS SOFTWARE CORP,25195,1412,14 Oak Park Drive Bedford  Massachusetts MA 01730 United States,42.5134122,-71.2512267
+Banks,1882,449,TOWNEBANK (VA),606267,2313,5716 High Street Portsmouth  Virginia VA 23703 United States,36.8610201,-76.3925086
+Real Estate,1850,144,FOUR CORNERS PROPERTY TRUST INC (FCPT),2360887,361,591 Redwood Highway Suite 1150 Mill Valley California CA 94941 United States,39.4061241,-123.3521274
+Leisure & Hotels,1811,2332,CHEESECAKE FACTORY INC,6559,38700,26901 Malibu Hills Road Calabasas Hills  California CA 91301 United States,34.1370393,-118.7113329
+Health,1764,3647,MEDNAX INC ,24025,7625,1301 Concord Terrace Sunrise  Florida FL 33323 United States,26.1339066,-80.3423209
+Pharmaceuticals and Biotechnology,1732,217,CARDIOVASCULAR SYSTEMS INC ,469033,652,1225 Old Highway 8 Northwest Saint Paul Minnesota MN 55112-6416 United States,45.0682408,-93.191775
+Clothing & Personal Products,1711,,KONTOOR BRANDS INC,3036188,,400 North Elm Street Greensboro  North Carolina NC 27401 United States,36.077477,-79.789425
+Construction & Building Materials,1678,1336,INSTALLED BUILDING PRODUCTS (IBP) INC,2044148,7700,495 South High Street Suite 50 Columbus Ohio OH 43215 United States,39.9523897,-82.9992899
+Leisure & Hotels,1641,1573,PAPA JOHNS INTERNATIONAL INC,23746,18000,2002 Papa Johns Boulevard Louisville  Kentucky KY 40299-2367 United States,38.2125113,-85.5317798
+Oil & Gas,1623,24017,NGL ENERGY PARTNERS LP,1701962,1300,6120 South Yale Avenue Suite 805 Tulsa Oklahoma OK 74136 United States,36.0722588,-95.9255754
+Banks,1574,419,PROVIDENT FINANCIAL SERVICES INC,440376,1044,239 Washington Street Jersey City  New Jersey NJ 07302 United States,40.7158143,-74.037846
+Speciality & Other Finance,1524,1345,CARDTRONICS PLC ,421212,2104,2050 West Sam Houston Parkway South Suite 1300 Houston Texas TX 77042 United States,29.7453249,-95.5589387
+Aerospace & Defence,1491,2052,AAR CORP,394,5650,One AAR Place 1100 North Wood Dale Road Wood Dale Illinois IL 60191 United States,41.987092,-87.981278
+Software & Computer Services,1469,210,INSTRUCTURE INC,2362070,1219,6330 South 3000 East Suite 700 Salt Lake City Utah UT 84121 United States,40.6353159,-111.8075896
+Pharmaceuticals and Biotechnology,1441,,GOSSAMER BIO INC,2991420,105,3013 Science Park Road Suite 200 San Diego California CA 92121 United States,32.901097,-117.240021
+Speciality & Other Finance,1412,376,FIRST BUSEY CORP,40,1270,100 West University Avenue Champaign  Illinois IL 61820 United States,40.1165425,-88.2447112
+Real Estate,1375,2048,NEWMARK GROUP INC,2745423,4800,125 Park Avenue New York  New York NY 10017 United States,40.751727,-73.9774507
+Software & Computer Services,1352,396,ALTAIR ENGINEERING INC,2721877,2850,1820 East Big Beaver Road Troy  Michigan MI 48083 United States,42.5619858,-83.1117827
+Transport,1315,255,PBF LOGISTICS LP,2066820,39,One Sylvan Way Second Floor Parsippany  New Jersey NJ 07054 United States,40.8474943,-74.4546895
+Real Estate,1282,354,KITE REALTY GROUP TRUST,607215,144,30 South Meridian Street Suite 1100 Indianapolis Indiana IN 46204 United States,39.76629,-86.158305
+Mining,1251,626,COEUR MINING INC ,7223,2075,104 South Michigan Avenue Suite 900 Chicago Illinois IL 60603 United States,41.8806338,-87.6249238
+Transport,1227,1038,GENTHERM INC ,2029,13755,21680 Haggerty Road Suite 101 Northville Michigan MI 48167 United States,42.4480598,-83.4330564
+Diversified Industrials,1191,1258,MILACRON HOLDINGS CORP,2300031,5797,10200 Alliance Road Suite 200 Cincinnati Ohio OH 45242 United States,39.2464388,-84.379367
+Investment Companies,1161,80,NUVEEN INSURED NEW YORK AMT-FREE MUNICIPAL FUND ,1023651,,333 West Wacker Drive Chicago  Illinois IL 60606 United States,41.886053,-87.6359543
+Banks,1133,270,SOUTHSIDE BANCSHARES INC,28690,820,1201 South Beckham Avenue Post Box 1079 Tyler Texas TX 75701 United States,32.336145,-95.2920788
+Publishing,1111,1654,SCHOLASTIC CORP,27255,8900,557 Broadway   New York NY 10012 United States,40.7240463,-73.9983888
+Software & Computer Services,1077,150,UPLAND SOFTWARE INC,2164646,667,401 Congress Avenue Suite 1850 Austin Texas TX 78701 United States,30.266699,-97.7428161
+Real Estate,1030,147,NEXPOINT RESIDENTIAL TRUST INC,2284792,2,300 Crescent Court Suite 700 Dallas Texas TX 75201 United States,32.7935314,-96.8041306
+Utilities - Other,964,138,MIDDLESEX WATER CO,20638,330,485C Route 1 South Suite 400 Iselin New Jersey NJ 08830 United States,40.5571432,-74.3161904
+Health,923,77,CAREDX INC,2125312,231,3260 Bayshore Boulevard Brisbane  California CA 94005 United States,37.6936787,-122.4063201
+Real Estate,894,37,CBRE CLARION GLOBAL REAL ESTATE INCOME FUND ,863198,,201 King of Prussia Road Suite 600 Radnor Pennsylvania PA 19087 United States,40.0437927,-75.3570679
+Business Services,868,155,MODEL N INC,1941399,782,777 Mariners Island Boulevard Suite 300 San Mateo California CA 94404 United States,37.562112,-122.2860348
+Leisure & Hotels,844,,ONESPAWORLD HOLDINGS LTD ,2720261,3,650 Fifth Avenue Floor 10  New York NY 10019 United States,40.7597394,-73.9768133
+Leisure & Hotels,819,707,MARCUS CORP,19630,8000,100 East Wisconsin Avenue Suite 1900 Milwaukee Wisconsin WI 53202-4125 United States,43.0389547,-87.9094954
+Aerospace & Defence,796,496,STURM RUGER & CO INC,29416,1830,One Lacey Place Southport  Connecticut CT 06890 United States,41.1400979,-73.2761493
+Mining,777,567,HECLA MINING CO,14555,1714,6500 North Mineral Drive Suite 200 Coeur D'Alene Idaho ID 83815-9408 United States,47.7317602,-116.7943349
+Blank Check / Shell Companies,755,,NATIONAL ENERGY SERVICES REUNITED CORP,2657415,,777 Post Oak Boulevard Suite 730 Houston Texas TX 77056 United States,29.7534289,-95.4572227
+Pharmaceuticals and Biotechnology,720,,ATARA BIOTHERAPEUTICS INC,2157602,311,611 Gateway Boulevard Suite 900 South San Francisco California CA 94080 United States,37.6586897,-122.4001359
+Media & Entertainment,694,367,GLU MOBILE INC,876888,659,875 Howard Street Suite 100 San Francisco California CA 94103 United States,37.7818225,-122.4039748
+Business Services,668,381,EMERALD EXPOSITIONS EVENTS INC,2652039,488,31910 Del Obispo Street Suite 200 San Juan Capistrano California CA 92675 United States,33.4974454,-117.6650922
+Banks,646,208,PEOPLES BANCORP INC (OHIO),636373,871,138 Putnam Street Post Office Box 738 Marietta Ohio OH 45750-0738 United States,39.4149756,-81.4546346
+Leisure & Hotels,615,452,RUTHS HOSPITALITY GROUP INC ,462965,5408,1030 West Canton Avenue Suite 100 Winter Park Florida FL 32789 United States,28.5995342,-81.3633973
+Software & Computer Services,589,212,ONESPAN INC ,32389,732,121 West Wacker Drive Suite 2050 Chicago Illinois IL 60601 United States,41.8866708,-87.632017
+Telecommunication Services,562,251,BOINGO WIRELESS INC,1700873,463,10960 Wilshire Boulevard 23rd Floor Los Angeles California CA 90024 United States,34.0578191,-118.4460183
+Electronic & Electrical Equipment,537,1097,ULTRA CLEAN HOLDINGS INC,488272,4280,26462 Corporate Avenue Hayward  California CA 94545 United States,37.6274542,-122.1109042
+Engineering & Machinery,513,1247,TEAM INC,30087,7200,13131 Dairy Ashford Suite 600 Sugar Land Texas TX 77478 United States,29.6257451,-95.6021413
+Media & Entertainment,493,104,DIGITAL TURBINE INC ,1958074,161,111 Nueces Street Austin  Texas TX 78701 United States,30.2647394,-97.7493579
+Speciality & Other Finance,473,146,DIAMOND HILL INVESTMENT GROUP INC,9168,125,325 John H McConnell Boulevard Suite 200 Columbus Ohio OH 43215 United States,39.9679291,-83.0080211
+Health,452,58,ORTHOPEDIATRICS CORP,2714649,80,2850 Frontier Drive Warsaw  Indiana IN 46582 United States,41.2826676,-85.8539817
+Chemicals,433,208,INTREPID POTASH INC,1066401,429,1001 17th Street Suite 1050 Denver Colorado CO 80202 United States,39.7488698,-104.993925
+Business Services,408,50,NEWTEK BUSINESS SERVICES CORP ,22092,175,1981 Marcus Avenue Suite 130 Lake Success New York NY 11042 United States,40.7579012,-73.6950604
+Consumer Services,390,268,CARRIAGE SERVICES INC,5892,2617,3040 Post Oak Boulevard Suite 300 Houston Texas TX 77056 United States,29.7349785,-95.4627916
+Transport,368,2216,ROADRUNNER TRANSPORTATION SYSTEMS INC,1642856,4600,1431 Opus Place Suite 530 Downers Grove Illinois IL 60515 United States,41.8281441,-88.0230859
+Banks,352,93,WEST BANCORPORATION INC,33300,163,1601 22nd Street West Des Moines  Iowa IA 50266 United States,41.5964854,-93.7352776
+Consumer Services,333,192,CARE.COM INC,2037919,678,77 Fourth Avenue Fifth Floor Waltham Massachusetts MA 02451 United States,42.3924099,-71.2596723
+Transport,315,842,RADIANT LOGISTICS INC,1749783,728,405 114th Avenue South East Third Floor Bellevue Washington WA 98004 United States,47.605916,-122.1876508
+Pharmaceuticals and Biotechnology,299,2,KINDRED BIOSCIENCES INC,2022947,146,1555 Bayshore Highway Suite 200 Burlingame California CA 94010 United States,37.5985342,-122.3672731
+Automobiles & Parts,279,68,XPEL INC ,1247066,,618 West Sunset Road San Antonio  Texas TX 78216 United States,29.5074457,-98.4802594
+Clothing & Personal Products,266,568,DULUTH HOLDINGS INC (Duluth Trading Company),2365268,2794,201 East Front Street Mount Horeb  Wisconsin WI 53572 United States,43.0077637,-89.7373723
+Blank Check / Shell Companies,249,,CRESCENT ACQUISITION CORP,3007863,6,11100 Santa Monica Boulevard Suite 2000 Los Angeles California CA 90025 United States,34.0465294,-118.4443917
+Oil & Gas,236,209,AMPLIFY ENERGY CORP ,2584810,85,321 South Boston Avenue Suite 1000 Tulsa Oklahoma OK 74103 United States,36.1532977,-95.9891953
+Telecommunication Services,224,,CAMBIUM NETWORKS CORP,3049289,,3800 Golf Road Suite 360 Rolling Meadows Illinois IL 60008 United States,42.052912,-88.0255978
+Investment Companies,212,2,ASA GOLD AND PRECIOUS METALS LTD ,550880,,400 South El Camino Real Suite 710 San Mateo California CA 94402 United States,37.5618274,-122.3253
+Pharmaceuticals and Biotechnology,198,38,SUTRO BIOPHARMA INC,2921814,158,310 Utah Avenue Suite 150 South San Francisco California CA 94080 United States,37.6466336,-122.393365
+Leisure & Hotels,183,,KURA SUSHI USA INC,3064300,,17932 Sky Park Circle Suite H Irvine California CA 92614 United States,33.6904566,-117.859852
+General Retailers,169,705,LIFETIME BRANDS INC ,18861,1500,1000 Stewart Avenue Garden City  New York NY 11530 United States,40.7356104,-73.5915257
+Food & Drug Retailers,154,1114,VITAMIN SHOPPE INC,1590329,5136,300 Harmon Meadow Boulevard Secaucus  New Jersey NJ 07094 United States,40.789417,-74.0461222
+Pharmaceuticals and Biotechnology,142,471,ACORDA THERAPEUTICS INC,247122,474,420 Saw Mill River Road Ardsley  New York NY 10502 United States,40.9967941,-73.8572059
+Media & Entertainment,115,129,LEAF GROUP LTD ,1684312,286,1655 26th Street Santa Monica  California CA 90404 United States,34.0297235,-118.4695163
+Media & Entertainment,104,270,EROS INTERNATIONAL PLC,867711,396,550 County Avenue Secaucus  New Jersey NJ 07094 United States,40.7840283,-74.0562204
+Pharmaceuticals and Biotechnology,94,,ALLENA PHARMACEUTICALS INC,2724089,49,One Newton Executive Park Suite 202 Newton Massachusetts MA 02462 United States,42.327982,-71.2546148
+Investment Companies,83,,UNITED STATES BRENT OIL FUND LP,1645856,,1850 Mount Diablo Boulevard Suite 640 Walnut Creek California CA 94596 United States,37.8978421,-122.0653235
+Banks,72,61,AMERISERV FINANCIAL INC ,2039,321,430 Main & Franklin Street Johnstown  Pennsylvania PA 15907-0430 United States,40.3253036,-78.9189675
+Software & Computer Services,64,181,WAYSIDE TECHNOLOGY GROUP INC ,25191,153,4 Industrial Way West 3rd Floor Suite 300 Eatontown New Jersey NJ 07724 United States,40.2779348,-74.0469952
+Food & Drug Retailers,56,1322,AMCON DISTRIBUTING CO,1734,919,7405 Irvington Road Omaha  Nebraska NE 68122 United States,41.3262535,-96.0594864
