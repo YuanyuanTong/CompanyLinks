@@ -120,9 +120,6 @@ class Table {
                 //Display company info
                 that.map.infoBox.company = d;
                 that.map.infoBox.updateInfo();
-                // d3.select('#company-name').text(d.company);
-                // d3.select('#market-cap').text('Market Cap (millions): ' + d.market_cap);
-                // d3.select('#employees').text('Number of employees: ' + d.n_employee)
                 return true;
             })
         }            
@@ -207,29 +204,6 @@ class Map {
         //Draw infoBox to display company information
         this.infoBox = new companyInfoBox;
         this.infoBox.drawInfoBox();
-
-        // // Create svg for company info to get drawn on
-        // let info = d3.select('#text-elements')
-        //     .append('svg')
-        //     .attr('width', '300')
-        //     .attr('height', '100');
-        // info.append('rect')
-        //     .attr('width', '300')
-        //     .attr('height', '100')
-        //     .attr('style', 'fill: none; stroke: black; stroke-width: 5px;')
-        // // Initialize company info text
-        // info.append('text')
-        //     .attr('id', 'company-name')
-        //     .attr('x', '10')
-        //     .attr('y', '40');
-        // info.append('text')
-        //     .attr('id', 'market-cap')
-        //     .attr('x', '10')
-        //     .attr('y', '60');
-        // info.append('text')
-        //     .attr('id', 'employees')
-        //     .attr('x', '10')
-        //     .attr('y', '80');
 
         // Give university and company toggle buttons functionality
         d3.select('#univ-button').on('click', () => this.drawNodes(this.univData));
@@ -330,13 +304,6 @@ class Map {
     stateInfo(state) {
         d3.select('#company-in-state').text(state ? state.state : 'United States');
     }
-
-    // // Display info about a company
-    // companyInfo(company) {
-    //     d3.select('#company-name').text(company.company);
-    //     d3.select('#market-cap').text('Market Cap (millions): ' + company.market_cap);
-    //     d3.select('#employees').text('Number of employees: ' + company.n_employee)
-    // }
 
     // Resize map objects on zoom 
     zoomResize(mapObject) {
