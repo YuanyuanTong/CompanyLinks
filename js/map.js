@@ -81,6 +81,7 @@ class Table {
         if (this.table === '#sectors') {
             let stateName = d3.select('#company-in-state').text();
             let abbr;
+            //Fetch the abbreviation of the current state that is selected
             for (let state of this.map.stateData) {
                 if (state.state === stateName){
                     abbr = state.abreviation;
@@ -88,10 +89,13 @@ class Table {
                 }
             }
 
-            //Highlight companies when state/sector selected
-            d3.select('#comp-dropdown').selectAll('tr').filter(d => d.sector === hoveredName).classed('bold', true);
+            //Highlight companies located in both selected state and sector
+            d3.select('#comp-dropdown')
+                .selectAll('tr')
+                .filter(d => d.sector === hoveredName)
+                .classed('bold', true);
 
-            //Highlight all companies in US
+            //Highlight all US companies in selected sector
             if (stateName === 'United States') {
                 d3.selectAll('circle').filter(d => d.sector === hoveredName)
                 .classed('selected', function() {
