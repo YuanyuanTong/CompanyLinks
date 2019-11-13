@@ -1,4 +1,3 @@
-
 // Class for building links
 class Links {
     constructor() {
@@ -11,29 +10,30 @@ class companyInfoBox {
     constructor() {
         this.company;
     }
+
     drawInfoBox() {
-    // Create svg for company info to get drawn on
-    let info = d3.select('#text-elements')
-        .append('svg')
-        .attr('width', '300')
-        .attr('height', '100');
-    info.append('rect')
-        .attr('width', '300')
-        .attr('height', '100')
-        .attr('style', 'fill: none; stroke: black; stroke-width: 5px;')
-    // Initialize company info text
-    info.append('text')
-        .attr('id', 'company-name')
-        .attr('x', '10')
-        .attr('y', '40');
-    info.append('text')
-        .attr('id', 'market-cap')
-        .attr('x', '10')
-        .attr('y', '60');
-    info.append('text')
-        .attr('id', 'employees')
-        .attr('x', '10')
-        .attr('y', '80');
+        // Create svg for company info to get drawn on
+        let info = d3.select('#text-elements')
+            .append('svg')
+            .attr('width', '300')
+            .attr('height', '100');
+        info.append('rect')
+            .attr('width', '300')
+            .attr('height', '100')
+            .attr('style', 'fill: none; stroke: black; stroke-width: 5px;')
+        // Initialize company info text
+        info.append('text')
+            .attr('id', 'company-name')
+            .attr('x', '10')
+            .attr('y', '40');
+        info.append('text')
+            .attr('id', 'market-cap')
+            .attr('x', '10')
+            .attr('y', '60');
+        info.append('text')
+            .attr('id', 'employees')
+            .attr('x', '10')
+            .attr('y', '80');
     }
 
     // Display info about a company
@@ -51,6 +51,7 @@ class Table {
         this.table = table;
         this.map = map;
     }
+
     // Populate table with elements
     makeTable() {
         let that = this;
@@ -61,12 +62,12 @@ class Table {
             .append('text');
         table = d3.select(this.table).selectAll('tr');
         table.text(d => this.table === '#sectors' ? d : d.company)
-            .on('mouseover', function(d) {
+            .on('mouseover', function (d) {
                 d3.select(this).classed('bold', true);
                 if (that.table === '#sectors') that.highlightItem(d)
                 else that.highlightItem(d.company)
             })
-            .on('mouseout', function() {
+            .on('mouseout', function () {
                 d3.select('#comp-dropdown').selectAll('tr').classed('bold', false);
                 d3.select(this).classed('bold', false);
                 d3.selectAll('circle').classed('selected', false);
@@ -83,7 +84,7 @@ class Table {
             let abbr;
             //Fetch the abbreviation of the current state that is selected
             for (let state of this.map.stateData) {
-                if (state.state === stateName){
+                if (state.state === stateName) {
                     abbr = state.abreviation;
                     break;
                 }
@@ -98,41 +99,41 @@ class Table {
             //Highlight all US companies in selected sector
             if (stateName === 'United States') {
                 d3.selectAll('circle').filter(d => d.sector === hoveredName)
-                .classed('selected', function() {
-                    //Bring highlighted items to front (DOM reorder)
-                    this.parentElement.appendChild(this);
-                    return true;
-                })
+                    .classed('selected', function () {
+                        //Bring highlighted items to front (DOM reorder)
+                        this.parentElement.appendChild(this);
+                        return true;
+                    })
             }
             //Highlight only companies in selected state
             else {
                 d3.selectAll('circle').filter(d => d.sector === hoveredName)
-                .filter(d => d.headoffice_address.includes(abbr))
-                .classed('selected', function() {
-                    //Bring highlighted items to front (DOM reorder)
-                    this.parentElement.appendChild(this);
-                    return true;
-                })
+                    .filter(d => d.headoffice_address.includes(abbr))
+                    .classed('selected', function () {
+                        //Bring highlighted items to front (DOM reorder)
+                        this.parentElement.appendChild(this);
+                        return true;
+                    })
             }
         }
         //If company is highlighted...
         else {
             d3.selectAll('circle').filter(d => d.company === hoveredName)
-            .classed('selected', function(d) {
-                //Bring highlighted items to front (DOM reorder)
-                this.parentElement.appendChild(this);
-                //Display company info
-                that.map.infoBox.company = d;
-                that.map.infoBox.updateInfo();
-                return true;
-            })
-        }            
+                .classed('selected', function (d) {
+                    //Bring highlighted items to front (DOM reorder)
+                    this.parentElement.appendChild(this);
+                    //Display company info
+                    that.map.infoBox.company = d;
+                    that.map.infoBox.updateInfo();
+                    return true;
+                })
+        }
     }
 }
 
 // Class for creating map
 class Map {
-    constructor(data, mapData) {  
+    constructor(data, mapData) {
         this.companyData = data['company-data'];
         this.stateData = data['state-data'];
         this.univData = data['university-data'];
@@ -149,10 +150,20 @@ class Map {
         let that = this;
         let us = this.mapData;
         let path = d3.geoPath();
-        let map = d3.select("#map-view")
-            .append('svg')
+        let map = d3.select("#map-view");
+        // Bounding rect
+        let map_width = map.node().getBoundingClientRect().width;
+        let map_height = map.node().getBoundingClientRect().height;
+
+        const zoom = d3.zoom()
+            .scaleExtent([1, 40])
+            .translateExtent([[0, 0], [map_width, map_height]])
+            .extent([[0, 0], [map_width, map_height]])
+            .on("zoom", zoomed);
+
+        map = map.append('svg')
             .attr('id', 'map')
-            .on('click', function() {
+            .on('click', function () {
                 //If the map (but not a state) is clicked, clear company table/reset sector table
                 if (!that.stateClicked) {
                     d3.selectAll('path').classed('outline-state', false);
@@ -163,22 +174,27 @@ class Map {
                 }
                 that.stateClicked = false;
             })
+            .call(zoom);
 
         // Remove Alaska and Hawaii
-        us.objects.states.geometries.splice(44,1);
-        us.objects.states.geometries.splice(26,1);
-    
+        us.objects.states.geometries.splice(44, 1);
+        us.objects.states.geometries.splice(26, 1);
+
         let mapGroup = map.append("g")
             .attr("class", "states");
-    
+
+        function zoomed() {
+            mapGroup.attr("transform", d3.event.transform);
+        }
+
         // Draw US map
         mapGroup.selectAll("path")
             .data(topojson.feature(us, us.objects.states).features)
             .enter().append("path")
-            .attr('class', 'country')
+            .attr('class', 'state')
             .attr("d", path)
             //Display state name and companies in that state when clicked
-            .on('click', function (d,i) {
+            .on('click', function (d, i) {
                 d3.selectAll('path').classed('outline-state', false);
                 d3.select(this).classed('outline-state', true);
                 that.stateClicked = true;
@@ -187,24 +203,26 @@ class Map {
                 let companies = that.findCompanies(that.stateData[i].abreviation);
                 that.findSectors(companies);
             });
-    
+
         // Draw all interior state borders
         mapGroup.append("path")
             .attr("class", "state-borders")
-            .attr("d", path(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; })));
-        map.select('g').attr('transform', 'scale(1.3, 1.3)');     
+            .attr("d", path(topojson.mesh(us, us.objects.states, function (a, b) {
+                return a !== b;
+            })));
+        map.select('g').attr('transform', 'scale(1.3, 1.3)');
 
         // Remove universities with lat lng outside of our US bounding box
         let i = this.univData.length;
         while (i--) {
-            if (!this.projection([this.univData[i].lng, this.univData[i].lat])) { 
+            if (!this.projection([this.univData[i].lng, this.univData[i].lat])) {
                 this.univData.splice(i, 1);
-            } 
+            }
         }
 
         // Draw companies on the map
         this.drawNodes(this.companyData)
-        
+
         //Draw infoBox to display company information
         this.infoBox = new companyInfoBox;
         this.infoBox.drawInfoBox();
@@ -219,24 +237,32 @@ class Map {
 
     // Scale companies by market cap
     scaleCompany(d) {
-        let minMcap = d3.min(this.companyData, function(d) { return parseInt(d.market_cap)});
-        let maxMcap= d3.max(this.companyData, function(d) { return parseInt(d.market_cap)});
-        let scale =  d3.scaleLinear()
+        let minMcap = d3.min(this.companyData, function (d) {
+            return parseInt(d.market_cap)
+        });
+        let maxMcap = d3.max(this.companyData, function (d) {
+            return parseInt(d.market_cap)
+        });
+        let scale = d3.scaleLinear()
             .domain([minMcap, maxMcap])
             .range([2, 10]);
-        return scale(d.market_cap); 
+        return scale(d.market_cap);
     }
 
     // Scale universities by number of grads
     scaleUniversity(d) {
-        let minMcap = d3.min(this.univData, function(d) { return parseInt(d.n_grad)});
-        let maxMcap= d3.max(this.univData, function(d) { return parseInt(d.n_grad)});
-        let scale =  d3.scaleLinear()
+        let minMcap = d3.min(this.univData, function (d) {
+            return parseInt(d.n_grad)
+        });
+        let maxMcap = d3.max(this.univData, function (d) {
+            return parseInt(d.n_grad)
+        });
+        let scale = d3.scaleLinear()
             .domain([minMcap, maxMcap])
             .range([2, 10]);
-        return scale(d.n_grad); 
+        return scale(d.n_grad);
     }
-        
+
     // Draw companies or universities on map
     drawNodes(data) {
         let that = this;
@@ -253,7 +279,7 @@ class Map {
             .attr('cx', d => this.projection([d.lng, d.lat])[0].toString())
             .attr('cy', d => this.projection([d.lng, d.lat])[1].toString())
             .attr('class', 'markers')
-            .on('mouseover', function(d) {
+            .on('mouseover', function (d) {
                 if (company) {
                     that.infoBox.company = d;
                     that.infoBox.updateInfo();
@@ -270,12 +296,11 @@ class Map {
                 sectorArray.push(sector);
             }
         }
-        sectorArray.sort();    
+        sectorArray.sort();
         if (!this.sectorTable) {
             this.sectorTable = new Table(sectorArray, "#sectors", this);
             this.sectorTable.makeTable();
-        }
-        else {
+        } else {
             this.sectorTable.elements = sectorArray;
             this.sectorTable.makeTable();
         }
@@ -289,7 +314,7 @@ class Map {
             let address = company.headoffice_address;
             if (address.includes(filterCriteria)) {
                 companyArray.push(company);
-            }            
+            }
         }
         companyArray.sort();
         let selection = d3.select('#comp-dropdown').selectAll('tr').remove();
