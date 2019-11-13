@@ -1,12 +1,12 @@
 
 h1 {
-  /* font-weight: normal;
-  padding-left: 80px;
-  width: 300px; */
+    /* font-weight: normal;
+    padding-left: 80px;
+    width: 300px; */
 }
 
 table {
-  top: 0;
+    top: 0;
 }
 
 #title {
@@ -23,36 +23,36 @@ table {
 }
 
 #map-view {
-  float: left;
-  margin-right: 50px;
-  width: 1240px;
+    float: left;
+    margin-right: 50px;
+    width: 1240px;
 }
 
 #second-view {
-  /* display: inline-block;
-  position: absolute; */
-  float: left;
-  height: 882px;
-  width: 235px;
-  /* background-color: rgba(0, 0, 0, 0.034); */
+    /* display: inline-block;
+    position: absolute; */
+    float: left;
+    height: 882px;
+    width: 235px;
+    /* background-color: rgba(0, 0, 0, 0.034); */
 }
 
 #sectors {
-  background-color: rgba(0, 0, 0, 0.034);
+    background-color: rgba(0, 0, 0, 0.034);
 }
 
 #chord {
-  width: 600px;
-  height: 740px;
-  padding: .2em;
+    width: 600px;
+    height: 740px;
+    padding: .2em;
 }
 
 #chord-frame {
-  width: 500px;
-  height: 700px;
-  fill: none;
-  stroke: black;
-  stroke-width: 10;
+    width: 500px;
+    height: 700px;
+    fill: none;
+    stroke: black;
+    stroke-width: 10;
 }
 
 #state-info {
@@ -61,20 +61,20 @@ table {
 }
 
 #company-name {
-  font-weight: bold;
-  font-size: 20px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 #market-cap {
-  font-size: 15px;
+    font-size: 15px;
 }
 
 #companyDropdown {
-  float: left;
-  width: 300px;
-  height: 450px;
-  overflow: auto;
-  margin-bottom: 20px;
+    float: left;
+    width: 300px;
+    height: 450px;
+    overflow: auto;
+    margin-bottom: 20px;
 }
 
 #comp-dropdown {
@@ -82,46 +82,46 @@ table {
 }
 
 #company-in-state {
-  width: 150px;
-  background-color: rgba(0, 0, 0, 0.096);
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0.096);
 }
 
 #infobox {
-  float: left;
-  width: 300px;
+    float: left;
+    width: 300px;
 }
 
-.country {
-  stroke: black;
+.state {
+    stroke: black;
 }
 
 .outline-state {
-  fill: rgb(49, 20, 20);
+    fill: rgb(49, 20, 20);
 }
 
 .states :hover {
     fill: rgb(31, 31, 31);
-  }
-  
-  .state-borders {
+}
+
+.state-borders {
     fill: none;
     stroke: rgba(255, 255, 255, 0.548);
     stroke-width: 0.2px;
     stroke-linejoin: round;
     stroke-linecap: round;
     pointer-events: none;
-  }
+}
 
-  .markers {
+.markers {
     fill: rgba(128, 128, 128, 0.329);
-  }
+}
 
-  .selected {
+.selected {
     fill: red;
     z-index: 5;
-  }
+}
 
-  .bold {
+.bold {
     font-weight: bold;
     background-color: rgba(158, 49, 49, 0.205);
-  }
+}
