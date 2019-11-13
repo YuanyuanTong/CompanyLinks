@@ -177,14 +177,6 @@ class Map {
             .call(zoom);
 
         // Remove Alaska and Hawaii
-<<<<<<< HEAD
-        us.objects.states.geometries.splice(44,1);
-        us.objects.states.geometries.splice(26,1);
-
-        // Draw US map
-        let mapGroup = map.append("g")
-            .attr("class", "states");
-=======
         us.objects.states.geometries.splice(44, 1);
         us.objects.states.geometries.splice(26, 1);
 
@@ -196,7 +188,6 @@ class Map {
         }
 
         // Draw US map
->>>>>>> 7bf1e7fbae99e4bf7b5640ff2c75a2640276197d
         mapGroup.selectAll("path")
             .data(topojson.feature(us, us.objects.states).features)
             .enter().append("path")
