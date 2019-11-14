@@ -147,6 +147,19 @@ class Map {
 
     // Create map of the US
     drawMap() {
+
+        // Calculate total market cap of each state 
+        this.stateData.forEach(function (element) {
+            element.marketCap = 0;
+          });    
+        for (let company of this.companyData) {
+            for (let state of this.stateData) {
+                if (company.state.includes(state.abreviation)) {
+                    state.marketCap += parseInt(company.market_cap);
+                }
+            }
+        }
+
         let that = this;
         let us = this.mapData;
         let path = d3.geoPath();
