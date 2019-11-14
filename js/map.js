@@ -341,15 +341,6 @@ class Map {
         return companyArray;
     }
 
-    // Find total market cap of all companies in company array
-    marketCap(comanyArray) {
-        let mCapTotal = 0;
-        for (let company of companyArray) {
-            mCapTotal += company.market_cap;
-        }
-        return mCapTotal;
-    }
-
     // Draw links between places
     drawLink(coords1, coords2) {
 
