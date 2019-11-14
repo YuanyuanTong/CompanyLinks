@@ -194,9 +194,9 @@ class Map {
             })
             .call(zoom);
 
-        // Remove Alaska and Hawaii
-        us.objects.states.geometries.splice(44, 1);
-        us.objects.states.geometries.splice(26, 1);
+        // // Remove Alaska and Hawaii
+        // us.objects.states.geometries.splice(44, 1);
+        // us.objects.states.geometries.splice(26, 1);
 
         let mapGroup = map.append("g")
             .attr("class", "states")
@@ -218,7 +218,7 @@ class Map {
             .data(topojson.feature(us, us.objects.states).features)
             .enter().append("path")
             .attr('class', 'state')
-            //Color states by market cap
+            // //Color states by market cap
             .attr('style', function (d,i) {
                 return 'fill: ' + d3.interpolateYlGn(scaleStateColor(that.stateData[i].marketCap));
             })
