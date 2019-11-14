@@ -143,6 +143,7 @@ class Map {
         this.companyDropdown;
         this.stateClicked;
         this.infoBox;
+        this.totalMarketCap = 0;
     }
 
     // Create map of the US
@@ -158,6 +159,9 @@ class Map {
                     state.marketCap += parseInt(company.market_cap);
                 }
             }
+        }
+        for (let state of this.stateData) {
+            this.totalMarketCap += state.marketCap;
         }
 
         let that = this;
@@ -207,6 +211,10 @@ class Map {
             .data(topojson.feature(us, us.objects.states).features)
             .enter().append("path")
             .attr('class', 'state')
+            //Color states by market cap
+            .attr('style', function (d,i) {
+                return 'fill: ' + d3.interpolateYlGn(that.stateData[i].marketCap / that.totalMarketCap);
+            })
             .attr("d", path)
             //Display state name and companies in that state when clicked
             .on('click', function (d, i) {
