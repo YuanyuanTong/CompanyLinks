@@ -48,12 +48,14 @@ class companyInfoBox {
 class Table {
     constructor(elements, table, map) {
         this.elements = elements;
+        this.splitIndex;
         this.table = table;
         this.map = map;
     }
 
     // Populate table with elements
     makeTable() {
+        console.log(this.splitIndex)
         let that = this;
         let table = d3.select(this.table).selectAll('tr')
             .data(that.elements);
@@ -62,6 +64,13 @@ class Table {
             .append('text');
         table = d3.select(this.table).selectAll('tr');
         table.text(d => this.table === '#sectors' ? d : d.company)
+            .classed('green', function (d,i) {
+                if (i < that.splitIndex) {
+                    console.log('hit');
+                    return true;
+                }
+                return false;
+            })
             .on('mouseover', function (d) {
                 d3.select(this).classed('bold', true);
                 if (that.table === '#sectors') that.highlightItem(d)
@@ -139,6 +148,7 @@ class Map {
         this.univData = data['university-data'];
         this.mapData = mapData;
         this.projection = d3.geoAlbersUsa().scale(1280).translate([480, 300]);
+        this.sectors = [];
         this.sectorTable;
         this.companyDropdown;
         this.stateClicked;
@@ -220,7 +230,7 @@ class Map {
             .attr('class', 'state')
             // //Color states by market cap
             .attr('style', function (d,i) {
-                return 'fill: ' + d3.interpolateYlGn(scaleStateColor(that.stateData[i].marketCap));
+                return 'fill: ' + d3.interpolateGreens(scaleStateColor(that.stateData[i].marketCap));
             })
             .attr("d", path)
             //Display state name and companies in that state when clicked
@@ -321,19 +331,37 @@ class Map {
 
     // Figure out all the sectors, create sector table
     findSectors(companies) {
-        let sectorArray = []
+        let splitIndex = null;
+        let includesSectors = []
+        let excludesSectors = []
         for (let company of companies) {
             let sector = company['sector'];
-            if (!sectorArray.includes(sector)) {
-                sectorArray.push(sector);
+            if (!includesSectors.includes(sector)) {
+                includesSectors.push(sector);
             }
         }
-        sectorArray.sort();
+        includesSectors.sort();
+        //Store an array of all possible sectors
+        if (companies.length === this.companyData.length) {
+            this.sectors = includesSectors;
+        }
+        //Split sectors in state and sectors not in state
+        else {
+            let excludesSectors = this.sectors.filter(function(e) {
+                  return this.indexOf(e) < 0;
+                },
+                includesSectors
+            );
+            splitIndex = includesSectors.length;
+            excludesSectors.sort();
+            includesSectors = includesSectors.concat(excludesSectors);
+        }
         if (!this.sectorTable) {
-            this.sectorTable = new Table(sectorArray, "#sectors", this);
+            this.sectorTable = new Table(includesSectors, "#sectors", this);
             this.sectorTable.makeTable();
         } else {
-            this.sectorTable.elements = sectorArray;
+            this.sectorTable.splitIndex = splitIndex;
+            this.sectorTable.elements = includesSectors;
             this.sectorTable.makeTable();
         }
     }

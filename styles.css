@@ -91,6 +91,9 @@ table {
     width: 300px;
 }
 
+.green {
+    background-color: rgba(0, 128, 0, 0.178);
+}
 .state {
     stroke: black;
 }
