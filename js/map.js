@@ -74,7 +74,9 @@ class Table {
                 if (that.table === '#sectors') that.highlightItem(d)
                 else {
                     that.highlightItem(d.company);
-                    that.map.fetchCompUnivLinks(d);
+                    //Draw university or company links
+                    //that.map.drawCompUnivLinks(d);
+                    that.map.drawCompLinks(d);
                 }
             })
             .on('mouseout', function () {
@@ -148,7 +150,8 @@ class Map {
         this.companyData = data['company-data'];
         this.stateData = data['state-data'];
         this.univData = data['university-data'];
-        this.compUnivLinks = data['company-univ-links']
+        this.compUnivLinks = data['company-univ-links'];
+        this.compLinks = data['company-links'];
         this.mapData = mapData;
         this.projection = d3.geoAlbersUsa().scale(1280).translate([480, 300]);
         this.sectors = [];
@@ -176,6 +179,37 @@ class Map {
         for (let state of this.stateData) {
             this.totalMarketCap += state.marketCap;
         }
+
+        // Filter company links for companies we have
+        let newCompLinks = [];
+        for (let link of this.compLinks) {
+            let fr = link.from_company_id;
+            let to = link.to_company_id;
+            let from_lat = false;
+            let from_lng = false;
+            let to_lat = false;
+            let to_lng = false;
+            for (let company of this.companyData) {
+                if (company.company_id === fr) {
+                    from_lat = company.lat;
+                    from_lng = company.lng;
+                }
+                else if (company.company_id === to) {
+                    to_lat = company.lat;
+                    to_lng = company.lng;
+                }
+            }
+            if (from_lat && to_lat) {
+                link.from_lat = from_lat;
+                link.from_lng = from_lng;
+                link.to_lat = to_lat;
+                link.to_lng = to_lng;
+                newCompLinks.push(link);
+            }
+        }
+        console.log(this.companyData)
+        console.log(newCompLinks)
+        this.compLinks = newCompLinks;
 
         let that = this;
         let us = this.mapData;
@@ -388,7 +422,7 @@ class Map {
     }
 
     // Draw links between places
-    fetchCompUnivLinks(company) {
+    drawCompUnivLinks(company) {
         let that = this;
         let links = [];
         for (let link of this.compUnivLinks) {
@@ -422,6 +456,38 @@ class Map {
             .attr('x2', d =>  that.projection([d.university_lng, d.university_lat])[0].toString())
             .attr('y2', d =>  that.projection([d.university_lng, d.university_lat])[1].toString())
             .attr('style', d => "stroke:" + d3.interpolateRgb('blue', 'red')(scaleNodeWeight(d.n_grad)) + ";stroke-width:" + scaleNodeWeight(d.n_grad));
+    }
+
+    drawCompLinks(company) {
+        let that = this;
+        let links = [];
+        // Find links to company (repeated)
+        for (let link of this.compLinks) {
+            if (link.to_company_id === company.company_id) {
+                links.push(link);
+            }
+        }
+        console.log(links)
+
+        //Scale for link weights (repeated)
+        let minMcap = d3.min(links, (d) => d.n_grad);
+        let maxMcap = d3.max(links, (d) => d.n_grad);
+        let scaleNodeWeight = d3.scaleLinear()
+        .domain([minMcap, maxMcap])
+        .range([.5, 2]);
+
+        // Draw selected company links to universities (repeated)
+        d3.select('#map').select('g')
+            .selectAll('line')
+            .data(links)
+            .enter().append('line')
+            .attr('x1', d =>  that.projection([d.from_lng, d.from_lat])[0].toString())
+            .attr('y1', d =>  that.projection([d.from_lng, d.from_lat])[1].toString())
+            .attr('x2', d =>  that.projection([d.to_lng, d.to_lat])[0].toString())
+            .attr('y2', d =>  that.projection([d.to_lng, d.to_lat])[1].toString())
+            .attr('style', 'stroke:red;stroke-width:1')
+            // .attr('style', d => "stroke:" + d3.interpolateRgb('blue', 'red')(scaleNodeWeight(d.n_grad)) + ";stroke-width:" + scaleNodeWeight(d.n_grad));
+        
     }
 
     // Display info about a state
