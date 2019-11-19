@@ -73,12 +73,16 @@ class Table {
             .on('mouseover', function (d) {
                 d3.select(this).classed('bold', true);
                 if (that.table === '#sectors') that.highlightItem(d)
-                else that.highlightItem(d.company)
+                else {
+                    that.highlightItem(d.company);
+                    that.map.fetchCompUnivLinks(d);
+                }
             })
             .on('mouseout', function () {
                 d3.select('#comp-dropdown').selectAll('tr').classed('bold', false);
                 d3.select(this).classed('bold', false);
                 d3.selectAll('circle').classed('selected', false);
+                d3.select('#map').selectAll('line').remove();
             })
     }
 
@@ -154,6 +158,9 @@ class Map {
         this.stateClicked;
         this.infoBox;
         this.totalMarketCap = 0;
+
+        console.log(this.compUnivLinks)
+        console.log(this.companyData)
     }
 
     // Create map of the US
@@ -385,8 +392,34 @@ class Map {
     }
 
     // Draw links between places
-    drawLink(coords1, coords2) {
+    fetchCompUnivLinks(company) {
+        let that = this;
+        let links = [];
+        for (let link of this.compUnivLinks) {
+            if (link.company_id === company.company_id) {
+                links.push(link);
+            }
+        }
+        console.log(links);
 
+        // Remove universities with lat lng outside of our US bounding box
+        let i = links.length;
+        while (i--) {
+            if (!this.projection([links[i].university_lng, links[i].university_lat])) {
+                links.splice(i, 1);
+            }
+        }
+
+        // Draw selected company links to universities
+        d3.select('#map').select('g')
+            .selectAll('line')
+            .data(links)
+            .enter().append('line')
+            .attr('x1', d =>  that.projection([d.company_lng, d.company_lat])[0].toString())
+            .attr('y1', d =>  that.projection([d.company_lng, d.company_lat])[1].toString())
+            .attr('x2', d =>  that.projection([d.university_lng, d.university_lat])[0].toString())
+            .attr('y2', d =>  that.projection([d.university_lng, d.university_lat])[1].toString())
+            .attr('style', "stroke:rgb(255,0,0);stroke-width:2");
     }
 
     // Display info about a state
