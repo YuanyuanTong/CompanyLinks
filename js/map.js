@@ -233,7 +233,7 @@ class Map {
             .attr('class', 'state')
             // //Color states by market cap
             .attr('style', function (d,i) {
-                return 'fill: ' + d3.interpolateGreens(scaleStateColor(that.stateData[i].marketCap));
+                return 'fill: ' + d3.interpolateRgb('black', 'green')(scaleStateColor(that.stateData[i].marketCap))
             })
             .attr("d", path)
             //Display state name and companies in that state when clicked
@@ -405,6 +405,13 @@ class Map {
             }
         }
 
+        //Scale for link weights
+        let minMcap = d3.min(links, (d) => d.n_grad);
+        let maxMcap = d3.max(links, (d) => d.n_grad);
+        let scaleNodeWeight = d3.scaleLinear()
+        .domain([minMcap, maxMcap])
+        .range([.5, 2]);
+
         // Draw selected company links to universities
         d3.select('#map').select('g')
             .selectAll('line')
@@ -414,7 +421,7 @@ class Map {
             .attr('y1', d =>  that.projection([d.company_lng, d.company_lat])[1].toString())
             .attr('x2', d =>  that.projection([d.university_lng, d.university_lat])[0].toString())
             .attr('y2', d =>  that.projection([d.university_lng, d.university_lat])[1].toString())
-            .attr('style', "stroke:rgb(255,0,0);stroke-width:2");
+            .attr('style', d => "stroke:" + d3.interpolateRgb('blue', 'red')(scaleNodeWeight(d.n_grad)) + ";stroke-width:" + scaleNodeWeight(d.n_grad));
     }
 
     // Display info about a state
