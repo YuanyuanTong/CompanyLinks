@@ -55,7 +55,6 @@ class Table {
 
     // Populate table with elements
     makeTable() {
-        console.log(this.splitIndex)
         let that = this;
         let table = d3.select(this.table).selectAll('tr')
             .data(that.elements);
@@ -146,6 +145,7 @@ class Map {
         this.companyData = data['company-data'];
         this.stateData = data['state-data'];
         this.univData = data['university-data'];
+        this.compUnivLinks = data['company-univ-links']
         this.mapData = mapData;
         this.projection = d3.geoAlbersUsa().scale(1280).translate([480, 300]);
         this.sectors = [];
