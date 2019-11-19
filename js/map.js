@@ -65,7 +65,6 @@ class Table {
         table.text(d => this.table === '#sectors' ? d : d.company)
             .classed('green', function (d,i) {
                 if (i < that.splitIndex) {
-                    console.log('hit');
                     return true;
                 }
                 return false;
@@ -158,9 +157,6 @@ class Map {
         this.stateClicked;
         this.infoBox;
         this.totalMarketCap = 0;
-
-        console.log(this.compUnivLinks)
-        console.log(this.companyData)
     }
 
     // Create map of the US
@@ -400,7 +396,6 @@ class Map {
                 links.push(link);
             }
         }
-        console.log(links);
 
         // Remove universities with lat lng outside of our US bounding box
         let i = links.length;
