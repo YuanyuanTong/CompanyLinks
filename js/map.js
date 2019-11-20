@@ -467,11 +467,10 @@ class Map {
                 links.push(link);
             }
         }
-        console.log(links)
 
-        //Scale for link weights (repeated)
-        let minMcap = d3.min(links, (d) => d.n_grad);
-        let maxMcap = d3.max(links, (d) => d.n_grad);
+        //Scale for link weights
+        let minMcap = d3.min(links, (d) => links.filter((obj) => obj.name_id === d.name_id).length);
+        let maxMcap = d3.max(links, (d) => links.filter((obj) => obj.name_id === d.name_id).length);
         let scaleNodeWeight = d3.scaleLinear()
         .domain([minMcap, maxMcap])
         .range([.5, 2]);
@@ -485,8 +484,10 @@ class Map {
             .attr('y1', d =>  that.projection([d.from_lng, d.from_lat])[1].toString())
             .attr('x2', d =>  that.projection([d.to_lng, d.to_lat])[0].toString())
             .attr('y2', d =>  that.projection([d.to_lng, d.to_lat])[1].toString())
-            .attr('style', 'stroke:red;stroke-width:1')
-            // .attr('style', d => "stroke:" + d3.interpolateRgb('blue', 'red')(scaleNodeWeight(d.n_grad)) + ";stroke-width:" + scaleNodeWeight(d.n_grad));
+            //.attr('style', 'stroke:red;stroke-width:1')
+            .attr('style', d => "stroke:" + d3.interpolateRgb('blue', 'red')
+                (scaleNodeWeight(links.filter((obj) => obj.name_id === d.name_id).length))
+                 + ";stroke-width:" + scaleNodeWeight(links.filter((obj) => obj.name_id === d.name_id).length));
         
     }
 
