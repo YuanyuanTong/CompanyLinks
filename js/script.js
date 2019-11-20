@@ -1,9 +1,8 @@
 loadData().then(data => {
 
-    d3.json("https://d3js.org/us-10m.v1.json").then(function(usData) {
+    d3.json("data/us.json").then(function(usData) {
 
         // if (error) throw error;
-
         let map = new Map(data, usData);
         map.drawMap();
 

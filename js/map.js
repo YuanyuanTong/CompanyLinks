@@ -63,7 +63,7 @@ class Table {
             .append('text');
         table = d3.select(this.table).selectAll('tr');
         table.text(d => this.table === '#sectors' ? d : d.company)
-            .classed('green', function (d,i) {
+            .classed('green', function (d, i) {
                 if (i < that.splitIndex) {
                     return true;
                 }
@@ -168,7 +168,7 @@ class Map {
         // Calculate total market cap of each state 
         this.stateData.forEach(function (element) {
             element.marketCap = 0;
-          });    
+        });
         for (let company of this.companyData) {
             for (let state of this.stateData) {
                 if (company.state.includes(state.abreviation)) {
@@ -193,8 +193,7 @@ class Map {
                 if (company.company_id === fr) {
                     from_lat = company.lat;
                     from_lng = company.lng;
-                }
-                else if (company.company_id === to) {
+                } else if (company.company_id === to) {
                     to_lat = company.lat;
                     to_lng = company.lng;
                 }
@@ -222,43 +221,29 @@ class Map {
         let map_width = map.node().getBoundingClientRect().width;
         let map_height = map.node().getBoundingClientRect().height;
 
-        const zoom = d3.zoom()
-            .scaleExtent([1.3, 40])
-            .translateExtent([[0, 0], [map_width, map_height]])
-            .extent([[0, 0], [map_width, map_height]])
-            .on("zoom", zoomed);
-
         map.on('click', function () {
-                //If the map (but not a state) is clicked, clear company table/reset sector table
-                if (!that.stateClicked) {
-                    d3.selectAll('path').classed('outline-state', false);
-                    that.stateInfo(null);
-                    d3.select('#comp-dropdown').selectAll('tr').remove();
-                    that.findSectors(that.companyData);
-                    that.currentState = null;
-                }
-                that.stateClicked = false;
-            })
-            .call(zoom);
+            //If the map (but not a state) is clicked, clear company table/reset sector table
+            if (!that.stateClicked) {
+                d3.selectAll('path').classed('outline-state', false);
+                that.stateInfo(null);
+                d3.select('#comp-dropdown').selectAll('tr').remove();
+                that.findSectors(that.companyData);
+                that.currentState = null;
+            }
+            that.stateClicked = false;
+        });
 
-        // // Remove Alaska and Hawaii
-        // us.objects.states.geometries.splice(44, 1);
-        // us.objects.states.geometries.splice(26, 1);
 
         let mapGroup = map.append("g")
             .attr("class", "states")
-            .attr('transform', 'scale(1.3, 1.3)');
-
-        function zoomed() {
-            mapGroup.attr("transform", d3.event.transform);
-        }
+            .attr('transform', 'scale(1.0, 1.0) translate(90, 20)');
 
         //Scale for coloring states by market cap
         let minMcap = d3.min(this.stateData, (d) => d.marketCap);
         let maxMcap = d3.max(this.stateData, (d) => d.marketCap);
         let scaleStateColor = d3.scaleLinear()
-        .domain([minMcap, maxMcap])
-        .range([0, 1]);
+            .domain([minMcap, maxMcap])
+            .range([0, 1]);
 
         // Draw US map
         mapGroup.selectAll("path")
@@ -266,7 +251,7 @@ class Map {
             .enter().append("path")
             .attr('class', 'state')
             // //Color states by market cap
-            .attr('style', function (d,i) {
+            .attr('style', function (d, i) {
                 return 'fill: ' + d3.interpolateRgb('black', 'green')(scaleStateColor(that.stateData[i].marketCap))
             })
             .attr("d", path)
@@ -296,8 +281,18 @@ class Map {
             }
         }
 
+        // Make the map view zoomable
+        const zoom = d3.zoom()
+            .scaleExtent([1.0, 40])
+            .translateExtent([[-90, -20], [map_width - 90, map_height - 20]])
+            .extent([[0, 0], [map_width, map_height]])
+            .on("zoom", function () {
+                mapGroup.attr("transform", d3.event.transform);
+            });
+        map.call(zoom);
+
         // Draw companies on the map
-        this.drawNodes(this.companyData)
+        this.drawNodes(this.companyData);
 
         //Draw infoBox to display company information
         this.infoBox = new companyInfoBox;
@@ -361,7 +356,7 @@ class Map {
                     that.infoBox.updateInfo();
                 }
             })
-            .on('click', function(d) {
+            .on('click', function (d) {
                 console.log(d);
             })
     }
@@ -384,8 +379,8 @@ class Map {
         }
         //Split sectors in state and sectors not in state
         else {
-            let excludesSectors = this.sectors.filter(function(e) {
-                  return this.indexOf(e) < 0;
+            let excludesSectors = this.sectors.filter(function (e) {
+                    return this.indexOf(e) < 0;
                 },
                 includesSectors
             );
@@ -443,18 +438,18 @@ class Map {
         let minMcap = d3.min(links, (d) => d.n_grad);
         let maxMcap = d3.max(links, (d) => d.n_grad);
         let scaleNodeWeight = d3.scaleLinear()
-        .domain([minMcap, maxMcap])
-        .range([.5, 2]);
+            .domain([minMcap, maxMcap])
+            .range([.5, 2]);
 
         // Draw selected company links to universities
         d3.select('#map').select('g')
             .selectAll('line')
             .data(links)
             .enter().append('line')
-            .attr('x1', d =>  that.projection([d.company_lng, d.company_lat])[0].toString())
-            .attr('y1', d =>  that.projection([d.company_lng, d.company_lat])[1].toString())
-            .attr('x2', d =>  that.projection([d.university_lng, d.university_lat])[0].toString())
-            .attr('y2', d =>  that.projection([d.university_lng, d.university_lat])[1].toString())
+            .attr('x1', d => that.projection([d.company_lng, d.company_lat])[0].toString())
+            .attr('y1', d => that.projection([d.company_lng, d.company_lat])[1].toString())
+            .attr('x2', d => that.projection([d.university_lng, d.university_lat])[0].toString())
+            .attr('y2', d => that.projection([d.university_lng, d.university_lat])[1].toString())
             .attr('style', d => "stroke:" + d3.interpolateRgb('blue', 'red')(scaleNodeWeight(d.n_grad)) + ";stroke-width:" + scaleNodeWeight(d.n_grad));
     }
 
@@ -473,31 +468,26 @@ class Map {
         let minMcap = d3.min(links, (d) => d.n_grad);
         let maxMcap = d3.max(links, (d) => d.n_grad);
         let scaleNodeWeight = d3.scaleLinear()
-        .domain([minMcap, maxMcap])
-        .range([.5, 2]);
+            .domain([minMcap, maxMcap])
+            .range([.5, 2]);
 
         // Draw selected company links to universities (repeated)
         d3.select('#map').select('g')
             .selectAll('line')
             .data(links)
             .enter().append('line')
-            .attr('x1', d =>  that.projection([d.from_lng, d.from_lat])[0].toString())
-            .attr('y1', d =>  that.projection([d.from_lng, d.from_lat])[1].toString())
-            .attr('x2', d =>  that.projection([d.to_lng, d.to_lat])[0].toString())
-            .attr('y2', d =>  that.projection([d.to_lng, d.to_lat])[1].toString())
+            .attr('x1', d => that.projection([d.from_lng, d.from_lat])[0].toString())
+            .attr('y1', d => that.projection([d.from_lng, d.from_lat])[1].toString())
+            .attr('x2', d => that.projection([d.to_lng, d.to_lat])[0].toString())
+            .attr('y2', d => that.projection([d.to_lng, d.to_lat])[1].toString())
             .attr('style', 'stroke:red;stroke-width:1')
-            // .attr('style', d => "stroke:" + d3.interpolateRgb('blue', 'red')(scaleNodeWeight(d.n_grad)) + ";stroke-width:" + scaleNodeWeight(d.n_grad));
-        
+        // .attr('style', d => "stroke:" + d3.interpolateRgb('blue', 'red')(scaleNodeWeight(d.n_grad)) + ";stroke-width:" + scaleNodeWeight(d.n_grad));
+
     }
 
     // Display info about a state
     stateInfo(state) {
         d3.select('#company-in-state').text(state ? state.state : 'United States');
-    }
-
-    // Resize map objects on zoom 
-    zoomResize(mapObject) {
-
     }
 
     // Display by sector
