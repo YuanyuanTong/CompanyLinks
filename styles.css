@@ -99,6 +99,10 @@ table {
     stroke: black;
 }
 
+.active{
+    fill: orange;
+}
+
 .outline-state {
     fill: rgb(49, 20, 20);
 }

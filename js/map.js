@@ -160,6 +160,8 @@ class Map {
         this.stateClicked;
         this.infoBox;
         this.totalMarketCap = 0;
+
+        this.active = d3.select(null);
     }
 
     // Create map of the US
@@ -236,7 +238,7 @@ class Map {
 
         let mapGroup = map.append("g")
             .attr("class", "states")
-            .attr('transform', 'scale(1.0, 1.0) translate(90, 20)');
+            .attr('transform', 'translate(90, 30)');
 
         //Scale for coloring states by market cap
         let minMcap = d3.min(this.stateData, (d) => d.marketCap);
@@ -264,6 +266,7 @@ class Map {
                 that.stateInfo(that.stateData[i]);
                 let companies = that.findCompanies(that.stateData[i].abreviation);
                 that.findSectors(companies);
+                that.clicked(d, this);
             });
 
         // Draw all interior state borders
@@ -283,8 +286,8 @@ class Map {
 
         // Make the map view zoomable
         const zoom = d3.zoom()
-            .scaleExtent([1.0, 40])
-            .translateExtent([[-90, -20], [map_width - 90, map_height - 20]])
+            .scaleExtent([1, 6])
+            .translateExtent([[-90, -30], [map_width - 90, map_height - 30]])
             .extent([[0, 0], [map_width, map_height]])
             .on("zoom", function () {
                 mapGroup.attr("transform", d3.event.transform);
@@ -409,7 +412,9 @@ class Map {
             }
         }
         companyArray.sort();
-        let selection = d3.select('#comp-dropdown').selectAll('tr').remove();
+
+        /* let selection = */
+        d3.select('#comp-dropdown').selectAll('tr').remove();
         this.companyDropdown = new Table(companyArray, "#comp-dropdown", this);
         this.companyDropdown.makeTable();
 
@@ -498,6 +503,30 @@ class Map {
         d3.select('#company-in-state').text(state ? state.state : 'United States');
     }
 
+    // click function
+    clicked(d, currentNode) {
+        if (this.active.node() === currentNode) return this.resetView();
+        this.active.classed("active", false);
+        this.active = d3.select(currentNode).classed("active", true);
+
+        let path = d3.geoPath();
+        let bounds = path.bounds(d),
+            dx = bounds[1][0] - bounds[0][0],
+            dy = bounds[1][1] - bounds[0][1],
+            x = (bounds[0][0] + bounds[1][0]) / 2,
+            y = (bounds[0][1] + bounds[1][1]) / 2,
+            scale = .8 / Math.max(dx / 1100, dy / 700),
+            translate = [1100 / 2 - scale * x, 700 / 2 - scale * y];
+
+        console.log(translate);
+
+        d3.select(".states")
+            .transition()
+            .duration(500)
+            .attr("transform", "translate(" + translate + ")scale(" + scale + ")");
+    }
+
+
     // Display by sector
     displaySector() {
 
@@ -506,6 +535,16 @@ class Map {
     // Collapse sectors
     collapseSector() {
 
+    }
+
+    // Reset the map view to the whole US
+    resetView(){
+        this.active.classed("active", false);
+        this.active = d3.select(null);
+
+        d3.select(".states").transition()
+            .duration(500)
+            .attr("transform", "translate(90, 30)");
     }
 
 }
