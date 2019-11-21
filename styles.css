@@ -43,8 +43,9 @@ table {
 }
 
 #chord {
-    width: 600px;
-    height: 740px;
+    /* width: 600px;
+    height: 740px; */
+    float: left;
     padding: .2em;
 }
 
