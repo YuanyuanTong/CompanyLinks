@@ -9,9 +9,9 @@ class Chord {
         let chord = d3.select('#chord-diagram')
             .append('svg')
             .attr('width', 440)
-            .attr('hieght', 440)
+            .attr('height', 440)
             .append("g")
-            .attr("transform", "translate(220,0)")
+            .attr("transform", "translate(220,220)")
 
         let ind_link_data = [[56,0,0,0,0,0,54,0,0,0,0,0,0,0,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
         [0,52,0,0,0,0,0,0,0,0,0,0,0,0,74,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -57,6 +57,10 @@ class Chord {
         [0,0,0,0,0,0,0,0,0,0,0,0,0,0,32,49,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,96,0,0],
         [0,0,0,0,0,0,0,0,0,0,0,0,0,174,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,212,0,0,0,0,0,0,0,0,0,0,0,74,0],
         [0,0,0,0,0,12,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]];
+        ind_link_data = ind_link_data.slice(10, 20);
+
+        let ind_names = ["Aerospace & Defence", "Automobiles & Parts", "Banks", "Beverages", "Blank Check / Shell Companies", "Business Services", "Chemicals", "Clothing & Personal Products", "Construction & Building Materials", "Consumer Services", "Containers & Packaging", "Diversified Industrials", "Education", "Electricity", "Electronic & Electrical Equipment", "Engineering & Machinery", "Food & Drug Retailers", "Food Producers & Processors", "Forestry & Paper", "General Retailers", "Health", "Household Products", "Information Technology Hardware", "Insurance", "Investment Companies", "Leisure & Hotels", "Leisure Goods", "Life Assurance", "Media & Entertainment", "Mining", "Oil & Gas", "Pharmaceuticals and Biotechnology", "Private Equity", "Publishing", "Real Estate", "Renewable Energy", "Software & Computer Services", "Speciality & Other Finance", "Steel & Other Metals", "Telecommunication Services", "Tobacco", "Transport", "Utilities - Other", "Wholesale Trade"]
+        ind_names = ind_names.slice(10, 20);
 
         // give this matrix to d3.chord(): it will calculates all the info we need to draw arc and ribbon
         let res = d3.chord()
@@ -65,8 +69,7 @@ class Chord {
             (ind_link_data)
 
         // add the groups on the inner part of the circle
-        chord
-            .datum(res)
+        chord.datum(res)
             .append("g")
             .selectAll("g")
             .data(function(d) { return d.groups; })
@@ -81,8 +84,7 @@ class Chord {
             )
 
         // Add the links between groups
-        chord
-            .datum(res)
+        chord.datum(res)
             .append("g")
             .selectAll("path")
             .data(function(d) { return d; })
@@ -94,6 +96,9 @@ class Chord {
             .style("fill", "#69b3a2")
             .style("stroke", "black");
 
-        
+        // Add text label
+        chord.append("text")
+            .data(ind_names)
+            .text(d=>{return d})
     }
 }
