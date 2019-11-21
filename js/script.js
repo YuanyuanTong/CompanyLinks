@@ -3,7 +3,7 @@ loadData().then(data => {
     d3.json("data/us.json").then(function (usData) {
         // if (error) throw error;
         let map = new Map(data, usData);
-        let chord = new Chord();
+        let chord = new Chord(data['sector-links']);
 
         map.drawMap();
         chord.drawChord();
@@ -55,7 +55,8 @@ async function loadData() {
     let university_data = await loadFile('data/top500_uni.csv');
     let company_univ_links = await loadFile('data/link_firm_uni.csv');
     let company_links = await loadFile('data/f_firm_net_split/f_firm_net_1.csv');
-    // let sector_links = await loadFileArray('data/ind_matrix.csv')
+    let sector_links = await loadFile('data/ind_matrix.csv')
+    console.log(sector_links)
 
 
     return {
@@ -64,6 +65,6 @@ async function loadData() {
         'university-data': university_data,
         'company-univ-links': company_univ_links,
         'company-links': company_links,
-        // 'sector-links': sector_links
+        'sector-links': sector_links
     };
 }
