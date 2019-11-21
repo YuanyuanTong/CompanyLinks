@@ -1,11 +1,26 @@
 
 class Chord {
     constructor(data) {
-        this.ind_matrix=data
+        this.ind_matrix = data
     }
 
     drawChord() {
-        console.log(this.ind_matrix)
+        // Convert object to matrix data
+        let ind_link_data = []
+        for (let item of this.ind_matrix) {
+            for (let i = 0; i < this.ind_matrix.length; i++) {
+                if (ind_link_data[i]) {
+                    ind_link_data[i].push(item[i+1]);
+                }
+                else {
+                    ind_link_data.push([])
+                    ind_link_data[i].push(item[i+1]);
+                }
+            }
+        }
+
+
+        console.log(ind_link_data)
         let chord = d3.select('#chord-diagram')
             .append('svg')
             .attr('width', 440)
@@ -13,7 +28,7 @@ class Chord {
             .append("g")
             .attr("transform", "translate(220,220)")
 
-        let ind_link_data = [[56,0,0,0,0,0,54,0,0,0,0,0,0,0,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        ind_link_data = [[56,0,0,0,0,0,54,0,0,0,0,0,0,0,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
         [0,52,0,0,0,0,0,0,0,0,0,0,0,0,74,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
         [0,0,451,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,158,0,0,0,0,94,0],
         [0,0,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,0,0,0,0,0,0,0,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
