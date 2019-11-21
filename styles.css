@@ -47,6 +47,7 @@ table {
     height: 740px; */
     float: left;
     padding: .2em;
+    color: li
 }
 
 #chord-frame {
@@ -91,6 +92,10 @@ table {
 #infobox {
     float: left;
     width: 300px;
+}
+
+.highlight-chord {
+    fill: red;
 }
 
 .green {
