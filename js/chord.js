@@ -9,9 +9,9 @@ class Chord {
         let chord = d3.select('#chord-diagram')
             .append('svg')
             .attr('width', 440)
-            .attr('hieght', 440)
+            .attr('height', 440)
             .append("g")
-            .attr("transform", "translate(220,0)")
+            .attr("transform", "translate(220,220)")
 
         let ind_link_data = [[56,0,0,0,0,0,54,0,0,0,0,0,0,0,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
         [0,52,0,0,0,0,0,0,0,0,0,0,0,0,74,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
