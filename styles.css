@@ -18,14 +18,15 @@ table {
 }
 
 #map {
-    width: 1230px;
-    height: 780px;
+    width: 1100px;
+    height: 700px;
+    border: 1px solid black;
 }
 
 #map-view {
     float: left;
     margin-right: 50px;
-    width: 1240px;
+    width: 1120px;
 }
 
 #second-view {
@@ -96,6 +97,10 @@ table {
 }
 .state {
     stroke: black;
+}
+
+.active{
+    fill: orange;
 }
 
 .outline-state {

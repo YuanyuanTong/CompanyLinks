@@ -1,14 +1,17 @@
 loadData().then(data => {
 
-    d3.json("https://d3js.org/us-10m.v1.json").then(function(usData) {
-
+    d3.json("data/us.json").then(function (usData) {
         // if (error) throw error;
-
         let map = new Map(data, usData);
         let chord = new Chord();
 
         map.drawMap();
         chord.drawChord();
+
+        // Return to the whole US view when clicking on trivial spaces
+        document.addEventListener("click", function (e) {
+            map.resetView();
+        }, true);
 
     });
 });
