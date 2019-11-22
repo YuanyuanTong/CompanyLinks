@@ -35,11 +35,11 @@ async function loadFile(file) {
 }
 
 async function loadData() {
-    let company_data = await loadFile('data/partial_company_coordinates.csv');
+    let company_data = await loadFile('data/processed_company_data.csv');
     let state_data = await loadFile('data/states.csv');
     let university_data = await loadFile('data/top500_uni.csv');
     let company_univ_links = await loadFile('data/link_firm_uni.csv');
-    let company_links = await loadFile('data/f_firm_net_split/f_firm_net_1.csv');
+    let company_links = await loadFile('data/f_firm_net.csv');
     let sector_links = await loadFile('data/ind_matrix_full.csv');
 
     return {
