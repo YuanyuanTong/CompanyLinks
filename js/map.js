@@ -71,7 +71,10 @@ class Table {
             })
             .on('mouseover', function (d) {
                 d3.select(this).classed('bold', true);
-                if (that.table === '#sectors') that.highlightItem(d)
+                if (that.table === '#sectors') {
+                    that.highlightItem(d);
+                    that.map.chord.highlightChord(d)
+                }
                 else {
                     that.highlightItem(d.company);
                     //Draw university or company links
@@ -160,6 +163,7 @@ class Map {
         this.stateClicked;
         this.infoBox;
         this.totalMarketCap = 0;
+        this.chord;
 
         this.active = d3.select(null);
     }
