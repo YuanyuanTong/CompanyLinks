@@ -1,8 +1,14 @@
+/*import fonts */
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+header {
+    padding: 0.5em;
+    text-align: center;
+    height: 100px;
+}
 
 h1 {
-    /* font-weight: normal;
-    padding-left: 80px;
-    width: 300px; */
+    font-family: 'Merriweather', serif;
 }
 
 table {
@@ -96,12 +102,9 @@ table {
 .green {
     background-color: rgba(0, 128, 0, 0.178);
 }
+
 .state {
     stroke: black;
-}
-
-.active{
-    fill: orange;
 }
 
 .outline-state {
