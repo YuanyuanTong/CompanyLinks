@@ -32,22 +32,6 @@ async function loadFile(file) {
     });
     return data;
 }
-// Data loading function for the chord diagram
-// chord needs the input to be a "matrix" so 
-// I have to implement a new load function
-// Doesn't work for now
-// async function loadFileArray(file) {
-//     let data = await d3.csv(file).then(d => {
-//         let mapped = d.map(g => {
-//             g = d3.csvParseRows(g)
-//             return g;
-//         });
-//         return mapped;
-//     })
-//     return data;
-// }
-
-
 
 async function loadData() {
     let company_data = await loadFile('data/partial_company_coordinates.csv');

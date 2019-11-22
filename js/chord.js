@@ -1,14 +1,20 @@
 
 class Chord {
     constructor(data) {
+        this.width = 1000
+        this.height = 1000
         this.ind_matrix = data
+        this.opacityDefault = 0.8
+        this.innerRadius = this.width * 0.15
+        this.outerRadius = this.innerRadius * 1.1
     }
 
     drawChord() {
+        let that = this
         // Convert object to matrix data
         let ind_link_data = []
-        for (let item of this.ind_matrix) {
-            for (let i = 0; i < this.ind_matrix.length; i++) {
+        for (let item of that.ind_matrix) {
+            for (let i = 0; i < that.ind_matrix.length; i++) {
                 if (ind_link_data[i]) {
                     ind_link_data[i].push(item[i+1]);
                 }
@@ -19,72 +25,62 @@ class Chord {
             }
         }
 
-
-        console.log(ind_link_data)
-        let chord = d3.select('#chord-diagram')
-            .append('svg')
-            .attr('width', 440)
-            .attr('height', 440)
-            .append("g")
-            .attr("transform", "translate(220,220)")
-
-        ind_link_data = [[56,0,0,0,0,0,54,0,0,0,0,0,0,0,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-        [0,52,0,0,0,0,0,0,0,0,0,0,0,0,74,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-        [0,0,451,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,158,0,0,0,0,94,0],
-        [0,0,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,0,0,0,0,0,0,0,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-        [0,0,0,2,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0],
-        [0,0,0,0,0,160,0,0,0,0,0,0,0,0,98,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,132,0,0,0,0,0,0,0],
-        [0,0,0,0,0,0,188,0,0,0,0,0,0,0,68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,130,0,0,0,0,0,0,0,0,0,0,0,0],
-        [0,0,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,0,0,89,0,0,0,0,0,49,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-        [0,0,0,0,0,0,40,0,47,0,0,0,0,0,0,58,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-        [0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0],
-        [0,0,0,0,0,0,14,0,10,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-        [0,0,30,0,0,0,0,0,0,0,0,0,0,0,28,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-        [0,0,6,0,0,10,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-        [0,0,0,0,0,0,0,0,0,0,0,0,0,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,38,0,0,0,0,0,0,0,0,0,0,0,143,0],
-        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,729,0,0,0,0,0,0,0,217,0,0,0,0,0,0,0,0,0,0,0,0,0,267,0,0,0,0,0,0,0],
-        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,175,172,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,106,0,0,0,0,0,0,0],
-        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,12,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-        [0,0,0,0,0,0,44,38,0,0,0,0,0,0,0,0,0,106,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-        [0,0,0,0,0,0,16,0,0,0,0,0,0,0,56,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,441,0,0,0,0,0,92,0,0,0,0,0,0,0,0,0,0,84,0,0,0,0,0,0,0],
-        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,136,0,0,0,0,0,335,0,0,0,0,0,0,0,0,0,0,293,0,0,0,0,0,0,0,0,0,0,0,0],
-        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,0,0,32,0,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,351,0,0,0,0,0,0,0,289,0,0,0,0,0,0,0,0,0,0,0,0,0,385,0,0,0,0,0,0,0],
-        [0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,188,0,0,0,0,0,0,0,0,0,0,0,0,0,68,0,0,0,0,0,0],
-        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11515,0,0,0,0,0,0,0,0,0,50,0,0,123,0,0,0,0,0,0],
-        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,72,0,0,0,0,0,225,0,0,0,0,0,0,0,0,62,0,0,0,0,0,0,0,0,0],
-        [0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0],
-        [0,0,6,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,67,0,0,0,0,0,0,0,46,0,0,0,0,0,0,0],
-        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,0,0,0,0,46,50,0,0,0,0,0,0,0,0,0,0,0,0,0],
-        [0,0,0,0,0,0,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1080,0,0,0,0,0,0,0,0,0,0,0,118,0],
-        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,125,0,0,0,0,0,370,0,0,0,0,0,0,0,0,0,0,1876,0,0,0,0,0,0,0,0,0,0,0,0],
-        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,0,6,42,0,0,0,0,0,0],
-        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,0,44,0,0,0,0,0,0,0,0,0,0],
-        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52,0,0,0,0,0,0,0,0,0,658,0,0,74,0,0,0,0,0,0],
-        [0,0,0,0,0,0,0,0,12,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0],
-        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,259,0,0,0,0,0,0,0,246,0,0,0,0,0,0,0,0,0,0,0,0,0,1046,0,0,0,0,0,0,0],
-        [0,0,145,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,151,0,0,0,0,0,0,0,0,0,0,0,0,307,0,0,0,0,0,0],
-        [0,0,0,0,0,0,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,0,0,0,0,0,0,0,34,0,0,0,0,0],
-        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,109,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,126,0,0,241,0,0,0,0],
-        [0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,32,49,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,96,0,0],
-        [0,0,0,0,0,0,0,0,0,0,0,0,0,174,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,212,0,0,0,0,0,0,0,0,0,0,0,74,0],
-        [0,0,0,0,0,12,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]];
-        ind_link_data = ind_link_data.slice(10, 20);
+        // parepare data
+        ind_link_data = ind_link_data.slice(10,20);
 
         let ind_names = ["Aerospace & Defence", "Automobiles & Parts", "Banks", "Beverages", "Blank Check / Shell Companies", "Business Services", "Chemicals", "Clothing & Personal Products", "Construction & Building Materials", "Consumer Services", "Containers & Packaging", "Diversified Industrials", "Education", "Electricity", "Electronic & Electrical Equipment", "Engineering & Machinery", "Food & Drug Retailers", "Food Producers & Processors", "Forestry & Paper", "General Retailers", "Health", "Household Products", "Information Technology Hardware", "Insurance", "Investment Companies", "Leisure & Hotels", "Leisure Goods", "Life Assurance", "Media & Entertainment", "Mining", "Oil & Gas", "Pharmaceuticals and Biotechnology", "Private Equity", "Publishing", "Real Estate", "Renewable Energy", "Software & Computer Services", "Speciality & Other Finance", "Steel & Other Metals", "Telecommunication Services", "Tobacco", "Transport", "Utilities - Other", "Wholesale Trade"]
-        ind_names = ind_names.slice(10, 20);
+        ind_names = ind_names.slice(10,20);
 
-        // give this matrix to d3.chord(): it will calculates all the info we need to draw arc and ribbon
-        let res = d3.chord()
+        // create svg
+        let svg = d3.select('#chord-diagram')
+        .append('svg')
+        .attr('width', that.width)
+        .attr('height', that.height)
+        .append("g")
+        .attr("transform", "translate("+(that.height/2)+", "+(that.width/2)+")")
+
+        let chord = d3.chord()
             .padAngle(0.05)     // padding between entities (black arc)
             .sortSubgroups(d3.descending)
             (ind_link_data)
 
+        let arc = d3.arc()
+            .innerRadius(that.innerRadius)
+            .outerRadius(that.outerRadius)
+
+        // let path = d3.chord()
+        //     .radius(this.innerRadius);
+
+        // draw outer arcs
+        let outerArcs = svg.selectAll("g.group")
+            .data(chord.groups)
+            .enter().append("g")
+            .attr("class", "group")
+
+        outerArcs.append("path")
+            // .style("fill", function(d) { return colors(d.index); })
+            .attr("d", arc);
+
+
+        // append names
+        //Append the label names on the outside
+        outerArcs.append("text")
+            .each(function(d) { d.angle = (d.startAngle + d.endAngle) / 2; })
+            .attr("dy", ".35em")
+            .attr("class", "titles")
+            .text(function(d,i) { return ind_names[i]; })
+            .attr("text-anchor", function(d) { return d.angle > Math.PI ? "end" : null; })
+            .attr("transform", function(d) {
+                return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")"
+                + "translate(" + (that.outerRadius) + ", " + (0) + ")"
+                + (d.angle > Math.PI ? "rotate(180)" : "");
+            })
+
+
+
+        /*
         // add the groups on the inner part of the circle
-        chord.datum(res)
+        svg.datum(chord)
             .append("g")
             .selectAll("g")
             .data(function(d) { return d.groups; })
@@ -99,7 +95,7 @@ class Chord {
             )
 
         // Add the links between groups
-        chord.datum(res)
+        svg.datum(chord)
             .append("g")
             .selectAll("path")
             .data(function(d) { return d; })
@@ -112,8 +108,11 @@ class Chord {
             .style("stroke", "black");
 
         // Add text label
-        chord.append("text")
+        svg.append("text")
             .data(ind_names)
             .text(d=>{return d})
+            .attr("dy", ".35em")
+        
+        */
     }
 }
