@@ -7,6 +7,7 @@ loadData().then(data => {
 
         map.drawMap();
         chord.drawChord();
+        map.chord = chord;
 
         // Return to the whole US view when clicking on trivial spaces
         document.addEventListener("click", function (e) {

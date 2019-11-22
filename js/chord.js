@@ -7,6 +7,7 @@ class Chord {
         this.opacityDefault = 0.8
         this.innerRadius = this.width * 0.15
         this.outerRadius = this.innerRadius * 1.1
+
     }
 
     drawChord() {
@@ -24,6 +25,7 @@ class Chord {
                 }
             }
         }
+        this.ind_matrix = ind_link_data;
 
         // parepare data
         ind_link_data = ind_link_data.slice(10,20);
@@ -97,6 +99,7 @@ class Chord {
         // Add the links between groups
         svg.datum(chord)
             .append("g")
+            .attr('id', 'chords')
             .selectAll("path")
             .data(function(d) { return d; })
             .enter()
@@ -114,5 +117,16 @@ class Chord {
             .attr("dy", ".35em")
         
         */
+    }
+
+    // Highlight a chord by sector name (or eventually, company name)
+    highlightChord(item) {
+        let that = this;
+        let chord = d3.select('#chord-diagram')
+            .select('svg')
+            
+        chord.select('text')
+            .text(item);
+
     }
 }
