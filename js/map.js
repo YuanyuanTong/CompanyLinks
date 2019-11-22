@@ -56,6 +56,20 @@ class Table {
     // Populate table with elements
     makeTable() {
         let that = this;
+
+        // Sort the default companies by name
+        if(that.table!== '#sectors'){
+            that.elements.sort(function (a, b) {
+                let x = a.company.toLowerCase();
+                let y = b.company.toLowerCase();
+                if (x < y)
+                    return -1;
+                if (x > y)
+                    return 1;
+                return 0;
+            });
+        }
+
         let table = d3.select(this.table).select("tbody").selectAll('tr')
             .data(that.elements).join('tr');
 
