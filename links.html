@@ -12,16 +12,9 @@
 </head>
 
 <body>
-    <div class="container">
+<div class="container">
     <header id="title">
         <h1>Company Links</h1>
-        <div>Region: </div>
-        <div id="company-in-state">United States</div>
-        <div style="display: inline; position: absolute; left: 1300px;">
-            <span style="margin-right: 174px;">Sectors</span>
-            <span>Companies</span>
-        </div>
-
     </header>
 
     <div id="map-view">
@@ -31,10 +24,20 @@
         </div>
     </div>
     <div id="second-view">
-        <table id="sectors"></table>
+        <table id="sectors">
+            <thead>
+            <th>Industry Sectors</th>
+            </thead>
+            <tbody></tbody>
+        </table>
     </div>
     <div id="companyDropdown">
-        <table id="comp-dropdown"></table>
+        <table id="comp-dropdown">
+            <thead>
+            <th>Companies</th>
+            </thead>
+            <tbody></tbody>
+        </table>
     </div>
     <!-- <div id="infobox">
         <div id="text-elements"></div>
@@ -46,6 +49,6 @@
     <script type="application/javascript" src="js/map.js"></script>
     <script type="application/javascript" src="js/chord.js"></script>
     <script type="application/javascript" src="js/script.js"></script>
-    </div>
+</div>
 </body>
 </html>

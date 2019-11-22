@@ -7,7 +7,7 @@ loadData().then(data => {
 
         map.drawMap();
         chord.drawChord();
-        map.chord = chord;
+        // map.chord = chord;
 
         // Return to the whole US view when clicking on trivial spaces
         document.addEventListener("click", function (e) {
@@ -40,7 +40,7 @@ async function loadData() {
     let university_data = await loadFile('data/top500_uni.csv');
     let company_univ_links = await loadFile('data/link_firm_uni.csv');
     let company_links = await loadFile('data/f_firm_net_split/f_firm_net_1.csv');
-    let sector_links = await loadFile('data/ind_matrix.csv');
+    let sector_links = await loadFile('data/ind_matrix_full.csv');
 
     return {
         'company-data': company_data,

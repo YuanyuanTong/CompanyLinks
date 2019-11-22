@@ -1,5 +1,6 @@
 /*import fonts */
 @import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 header {
     padding: 0.5em;
@@ -36,8 +37,6 @@ table {
 }
 
 #second-view {
-    /* display: inline-block;
-    position: absolute; */
     float: left;
     height: 882px;
     width: 235px;
@@ -53,7 +52,7 @@ table {
     height: 740px; */
     float: left;
     padding: .2em;
-    color: li
+    color: lightgreen;
 }
 
 #chord-frame {
@@ -86,13 +85,11 @@ table {
     margin-bottom: 20px;
 }
 
-#comp-dropdown {
-
-}
-
 #company-in-state {
-    width: 150px;
-    background-color: rgba(0, 0, 0, 0.096);
+    fill: #418a6a;
+    text-shadow: 2px 2px 2px #c4ce19;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
 }
 
 #infobox {

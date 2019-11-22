@@ -56,12 +56,9 @@ class Table {
     // Populate table with elements
     makeTable() {
         let that = this;
-        let table = d3.select(this.table).selectAll('tr')
-            .data(that.elements);
-        table.exit().remove();
-        table.enter().append('tr')
-            .append('text');
-        table = d3.select(this.table).selectAll('tr');
+        let table = d3.select(this.table).select("tbody").selectAll('tr')
+            .data(that.elements).join('tr');
+
         table.text(d => this.table === '#sectors' ? d : d.company)
             .classed('green', function (d, i) {
                 if (i < that.splitIndex) {
@@ -73,9 +70,8 @@ class Table {
                 d3.select(this).classed('bold', true);
                 if (that.table === '#sectors') {
                     that.highlightItem(d);
-                    that.map.chord.highlightChord(d)
-                }
-                else {
+                    //that.map.chord.highlightChord(d)
+                } else {
                     that.highlightItem(d.company);
                     //Draw university or company links
                     //that.map.drawCompUnivLinks(d);
@@ -101,13 +97,13 @@ class Table {
             //Fetch the abbreviation of the current state that is selected
             for (let state of this.map.stateData) {
                 if (state.state === stateName) {
-                    abbr = state.abreviation;
+                    abbr = state.abbreviation;
                     break;
                 }
             }
 
             //Highlight companies when state/sector selected
-            d3.select('#comp-dropdown')
+            d3.select('#comp-dropdown').select('tbody')
                 .selectAll('tr')
                 .filter(d => d.sector === hoveredName)
                 .classed('bold', true);
@@ -163,21 +159,20 @@ class Map {
         this.stateClicked;
         this.infoBox;
         this.totalMarketCap = 0;
-        this.chord;
+        //this.chord;
 
         this.active = d3.select(null);
     }
 
     // Create map of the US
     drawMap() {
-
         // Calculate total market cap of each state 
         this.stateData.forEach(function (element) {
             element.marketCap = 0;
         });
         for (let company of this.companyData) {
             for (let state of this.stateData) {
-                if (company.state.includes(state.abreviation)) {
+                if (company.state.includes(state.abbreviation)) {
                     state.marketCap += parseInt(company.market_cap);
                 }
             }
@@ -212,8 +207,8 @@ class Map {
                 newCompLinks.push(link);
             }
         }
-        console.log(this.companyData)
-        console.log(newCompLinks)
+        // console.log(this.companyData);
+        // console.log(newCompLinks);
         this.compLinks = newCompLinks;
 
         let that = this;
@@ -224,15 +219,15 @@ class Map {
             .attr('id', 'map');
 
         // Bounding rect
-        let map_width = map.node().getBoundingClientRect().width;
-        let map_height = map.node().getBoundingClientRect().height;
+        let map_width = map.node().getBoundingClientRect().width; //1100
+        let map_height = map.node().getBoundingClientRect().height; // 700
 
         map.on('click', function () {
             //If the map (but not a state) is clicked, clear company table/reset sector table
             if (!that.stateClicked) {
                 d3.selectAll('path').classed('outline-state', false);
                 that.stateInfo(null);
-                d3.select('#comp-dropdown').selectAll('tr').remove();
+                d3.select('#comp-dropdown').select('tbody').selectAll('tr').remove();
                 that.findSectors(that.companyData);
                 that.currentState = null;
             }
@@ -258,7 +253,7 @@ class Map {
             .attr('class', 'state')
             // //Color states by market cap
             .attr('style', function (d, i) {
-                return 'fill: ' + d3.interpolateRgb('black', 'green')(scaleStateColor(that.stateData[i].marketCap))
+                return 'fill: ' + d3.interpolateRgb('white', 'green')(scaleStateColor(that.stateData[i].marketCap))
             })
             .attr("d", path)
             //Display state name and companies in that state when clicked
@@ -268,7 +263,7 @@ class Map {
                 that.stateClicked = true;
                 that.currentState = that.stateData[i];
                 that.stateInfo(that.stateData[i]);
-                let companies = that.findCompanies(that.stateData[i].abreviation);
+                let companies = that.findCompanies(that.stateData[i].abbreviation);
                 that.findSectors(companies);
                 that.clicked(d, this);
             });
@@ -301,16 +296,9 @@ class Map {
         // Draw companies on the map
         this.drawNodes(this.companyData);
 
-
-
-
         // //Draw infoBox to display company information
         // this.infoBox = new companyInfoBox;
         // this.infoBox.drawInfoBox();
-
-
-
-
 
         // Give university and company toggle buttons functionality
         d3.select('#univ-button').on('click', () => this.drawNodes(this.univData));
@@ -322,6 +310,11 @@ class Map {
         // Create company table
         this.companyDropdown = new Table(this.companyData, "#comp-dropdown", this);
         this.companyDropdown.makeTable();
+
+        map.append("text").attr('id', "company-in-state")
+            .attr("x", 50).attr("y", 80)
+            .text('United States');
+
     }
 
     // Scale companies by market cap
@@ -426,12 +419,20 @@ class Map {
                 companyArray.push(company);
             }
         }
-        companyArray.sort();
 
-        console.log(companyArray)
+        // Sort the company table by name
+        companyArray.sort(function (a, b) {
+            let x = a.company.toLowerCase();
+            let y = b.company.toLowerCase();
+            if (x < y)
+                return -1;
+            if (x > y)
+                return 1;
+            return 0;
+        });
 
         /* let selection = */
-        d3.select('#comp-dropdown').selectAll('tr').remove();
+        d3.select('#comp-dropdown').select('tbody').selectAll('tr').remove();
         this.companyDropdown = new Table(companyArray, "#comp-dropdown", this);
         this.companyDropdown.makeTable();
 
@@ -503,16 +504,16 @@ class Map {
             .attr('x2', d => that.projection([d.to_lng, d.to_lat])[0].toString())
             .attr('y2', d => that.projection([d.to_lng, d.to_lat])[1].toString())
             .attr('style', 'stroke:red;stroke-width:1')
-        // .attr('style', d => "stroke:" + d3.interpolateRgb('blue', 'red')(scaleNodeWeight(d.n_grad)) + ";stroke-width:" + scaleNodeWeight(d.n_grad));
+            // .attr('style', d => "stroke:" + d3.interpolateRgb('blue', 'red')(scaleNodeWeight(d.n_grad)) + ";stroke-width:" + scaleNodeWeight(d.n_grad));
 
-            .attr('x1', d =>  that.projection([d.from_lng, d.from_lat])[0].toString())
-            .attr('y1', d =>  that.projection([d.from_lng, d.from_lat])[1].toString())
-            .attr('x2', d =>  that.projection([d.to_lng, d.to_lat])[0].toString())
-            .attr('y2', d =>  that.projection([d.to_lng, d.to_lat])[1].toString())
+            .attr('x1', d => that.projection([d.from_lng, d.from_lat])[0].toString())
+            .attr('y1', d => that.projection([d.from_lng, d.from_lat])[1].toString())
+            .attr('x2', d => that.projection([d.to_lng, d.to_lat])[0].toString())
+            .attr('y2', d => that.projection([d.to_lng, d.to_lat])[1].toString())
             //.attr('style', 'stroke:red;stroke-width:1')
             .attr('style', d => "stroke:" + d3.interpolateRgb('blue', 'red')
                 (scaleNodeWeight(links.filter((obj) => obj.name_id === d.name_id).length))
-                 + ";stroke-width:" + scaleNodeWeight(links.filter((obj) => obj.name_id === d.name_id).length));
+                + ";stroke-width:" + scaleNodeWeight(links.filter((obj) => obj.name_id === d.name_id).length));
     }
 
     // Display info about a state
@@ -522,7 +523,9 @@ class Map {
 
     // click function
     clicked(d, currentNode) {
-        if (this.active.node() === currentNode) return this.resetView();
+        if (this.active.node() === currentNode) {
+            return this.resetView();
+        }
         this.active.classed("active", false);
         this.active = d3.select(currentNode).classed("active", true);
 
@@ -534,8 +537,6 @@ class Map {
             y = (bounds[0][1] + bounds[1][1]) / 2,
             scale = .8 / Math.max(dx / 1100, dy / 700),
             translate = [1100 / 2 - scale * x, 700 / 2 - scale * y];
-
-        console.log(translate);
 
         d3.select(".states")
             .transition()
@@ -555,10 +556,11 @@ class Map {
     }
 
     // Reset the map view to the whole US
-    resetView(){
+    resetView() {
         this.active.classed("active", false);
         this.active = d3.select(null);
 
+        this.stateInfo();
         d3.select(".states").transition()
             .duration(500)
             .attr("transform", "translate(90, 30)");
