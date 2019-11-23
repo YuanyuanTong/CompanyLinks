@@ -253,6 +253,8 @@ class Map {
                 that.findSectors(that.companyData);
                 that.currentState = null;
                 that.resetView();
+                that.companyDropdown.elements = that.companyData;
+                that.companyDropdown.makeTable();
             }
             that.stateClicked = false;
         });
