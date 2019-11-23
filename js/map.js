@@ -252,6 +252,7 @@ class Map {
                 d3.select('#comp-dropdown').select('tbody').selectAll('tr').remove();
                 that.findSectors(that.companyData);
                 that.currentState = null;
+                that.resetView();
             }
             that.stateClicked = false;
         });
@@ -569,7 +570,7 @@ class Map {
     // click function
     clicked(d, currentNode) {
         if (this.active.node() === currentNode) {
-            return this.resetView();
+            return this.resetView(false);
         }
         this.active.classed("active", false);
         this.active = d3.select(currentNode).classed("active", true);
@@ -601,11 +602,13 @@ class Map {
     }
 
     // Reset the map view to the whole US
-    resetView() {
+    resetView(resetLabel=true) {
         this.active.classed("active", false);
         this.active = d3.select(null);
 
-        this.stateInfo(null);
+        if (resetLabel) {
+            this.stateInfo(null);
+        }
         d3.select(".states").transition()
             .duration(500)
             .attr("transform", "translate(90, 30)");
