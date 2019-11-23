@@ -9,10 +9,10 @@ loadData().then(data => {
         chord.drawChord();
         // map.chord = chord;
 
-        // Return to the whole US view when clicking on trivial spaces
-        document.addEventListener("click", function (e) {
-            map.resetView();
-        }, true);
+        // // Return to the whole US view when clicking on trivial spaces
+        // document.addEventListener("click", function (e) {
+        //     map.resetView();
+        // }, true);
 
     });
 });

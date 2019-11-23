@@ -51,6 +51,7 @@ class Table {
         this.splitIndex;
         this.table = table;
         this.map = map;
+        this.companyData = this.elements.slice();
     }
 
     // Populate table with elements
@@ -97,6 +98,13 @@ class Table {
                 d3.select(this).classed('bold', false);
                 d3.selectAll('circle').classed('selected', false);
                 d3.select('#map').selectAll('line').remove();
+            })
+            .on('click', function() {
+                if (that.table === '#sectors') {
+                    console.log(this.textContent)
+                    let companies = that.map.findCompanies(this.textContent, "Sector");
+                    //that.map.findSectors(companies);
+                }
             })
     }
 
@@ -277,7 +285,7 @@ class Map {
                 that.stateClicked = true;
                 that.currentState = that.stateData[i];
                 that.stateInfo(that.stateData[i]);
-                let companies = that.findCompanies(that.stateData[i].abbreviation);
+                let companies = that.findCompanies(that.stateData[i].abbreviation, "Address");
                 that.findSectors(companies);
                 that.clicked(d, this);
             });
@@ -424,15 +432,36 @@ class Map {
     }
 
     // Find companies based on filter criteria
-    findCompanies(filterCriteria) {
+    findCompanies(filterCriteria, filterType) {
         let companyArray = []
         let datArray = this.companyData;
-        for (let company of datArray) {
-            let address = company.headoffice_address;
-            if (address.includes(filterCriteria)) {
-                companyArray.push(company);
+        let currentStateCompanies = this.companyDropdown.companyData.slice();
+        let elements = this.companyDropdown.elements.slice();
+        if (filterType === 'Address'){
+            for (let company of datArray) {
+                let address = company.headoffice_address;
+                if (address.includes(filterCriteria)) {
+                    companyArray.push(company);
+                }
             }
+            this.companyDropdown.elements = companyArray;
+            this.companyDropdown.companyData = companyArray;
         }
+        else {  // This is when filterType === "Sector"
+            let flag = true; 
+            for (let company of currentStateCompanies) {
+                if (flag) {
+                    flag = false;
+                    continue;
+                }
+                if (company.sector === filterCriteria) {
+                    companyArray.push(company);
+                }
+            }
+            this.companyDropdown.elements = companyArray;
+            // this.companyDropdown.makeTable();
+        }
+
 
         // Sort the company table by name
         companyArray.sort(function (a, b) {
@@ -447,8 +476,10 @@ class Map {
 
         /* let selection = */
         d3.select('#comp-dropdown').select('tbody').selectAll('tr').remove();
-        this.companyDropdown = new Table(companyArray, "#comp-dropdown", this);
+        // this.companyDropdown = new Table(companyArray, "#comp-dropdown", this);
+        
         this.companyDropdown.makeTable();
+        this.companyDropdown.elements = elements;
 
         return companyArray;
     }
@@ -574,7 +605,7 @@ class Map {
         this.active.classed("active", false);
         this.active = d3.select(null);
 
-        this.stateInfo();
+        this.stateInfo(null);
         d3.select(".states").transition()
             .duration(500)
             .attr("transform", "translate(90, 30)");
