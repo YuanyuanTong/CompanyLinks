@@ -572,7 +572,7 @@ class Map {
     // click function
     clicked(d, currentNode) {
         if (this.active.node() === currentNode) {
-            return this.resetView(false);
+            return this.resetView(true);
         }
         this.active.classed("active", false);
         this.active = d3.select(currentNode).classed("active", true);
