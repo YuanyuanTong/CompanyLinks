@@ -188,8 +188,8 @@ class Table {
                     //Bring highlighted items to front (DOM reorder)
                     this.parentElement.appendChild(this);
                     // //Display company info
-                    // that.map.infoBox.company = d;
-                    // that.map.infoBox.updateInfo();
+                    that.map.infoBox.company = d;
+                    that.map.infoBox.updateInfo();
                     return true;
                 })
         }
@@ -352,9 +352,9 @@ class Map {
         // Draw companies on the map
         this.drawNodes(this.companyData);
 
-        // //Draw infoBox to display company information
-        // this.infoBox = new companyInfoBox;
-        // this.infoBox.drawInfoBox();
+        //Draw infoBox to display company information
+        this.infoBox = new companyInfoBox;
+        this.infoBox.drawInfoBox();
 
         // Give university and company toggle buttons functionality
         d3.select('#univ-button').on('click', () => this.drawNodes(this.univData));
@@ -421,8 +421,8 @@ class Map {
             .attr('class', 'markers')
             .on('mouseover', function (d) {
                 if (company) {
-                    // that.infoBox.company = d;
-                    // that.infoBox.updateInfo();
+                    that.infoBox.company = d;
+                    that.infoBox.updateInfo();
                     d3.select(this)
                         .classed("markers", false)
                         .classed("selected", true);
@@ -619,7 +619,7 @@ class Map {
     // click function
     clicked(d, currentNode) {
         if (this.active.node() === currentNode) {
-            return this.resetView(true);
+            return this.resetView(false);
         }
         this.active.classed("active", false);
         this.active = d3.select(currentNode).classed("active", true);
