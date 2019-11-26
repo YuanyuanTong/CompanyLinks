@@ -2,17 +2,13 @@ loadData().then(data => {
 
     d3.json("data/us.json").then(function (usData) {
         // if (error) throw error;
-        let map = new Map(data, usData);
+        let map = new Map(data['company'], usData);
         let chord = new Chord(data['sector-links']);
+        console.log(data['individual']);
 
         map.drawMap();
         chord.drawChord();
         // map.chord = chord;
-
-        // // Return to the whole US view when clicking on trivial spaces
-        // document.addEventListener("click", function (e) {
-        //     map.resetView();
-        // }, true);
 
     });
 });
@@ -41,13 +37,23 @@ async function loadData() {
     let company_univ_links = await loadFile('data/link_firm_uni.csv');
     let company_links = await loadFile('data/f_firm_net.csv');
     let sector_links = await loadFile('data/ind_matrix_full.csv');
+    let employment_data = await loadFile('data/f_ind_emp_new.csv');
+    let education_data = await loadFile('data/f_ind_edu_new.csv');
+    let individual_data = await loadFile('data/f_ind_prof.csv');
 
     return {
-        'company-data': company_data,
-        'state-data': state_data,
-        'university-data': university_data,
-        'company-univ-links': company_univ_links,
-        'company-links': company_links,
-        'sector-links': sector_links
+        'company':{
+            'company-data': company_data,
+            'state-data': state_data,
+            'university-data': university_data,
+            'company-univ-links': company_univ_links,
+            'company-links': company_links
+        },
+        'sector-links': sector_links,
+        'individual':{
+            'employment': employment_data,
+            'education': education_data,
+            'profile': individual_data
+        }
     };
 }
