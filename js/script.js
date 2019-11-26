@@ -45,9 +45,9 @@ async function loadData() {
     let company_univ_links = await loadFile('data/link_firm_uni.csv');
     let company_links = await loadFile('data/f_firm_net.csv');
     let sector_links = await loadFile('data/ind_matrix_full.csv');
-    let employment_data = await loadFile('data/f_ind_emp_new.csv');
-    let education_data = await loadFile('data/f_ind_edu_new.csv');
-    let individual_data = await loadFile('data/f_ind_prof.csv');
+    // let employment_data = await loadFile('data/f_ind_emp_new.csv');
+    // let education_data = await loadFile('data/f_ind_edu_new.csv');
+    // let individual_data = await loadFile('data/f_ind_prof.csv');
 
     return {
         'company':{
@@ -58,10 +58,10 @@ async function loadData() {
             'company-links': company_links
         },
         'sector-links': sector_links,
-        'individual':{
-            'employment': employment_data,
-            'education': education_data,
-            'profile': individual_data
-        }
+        // 'individual':{
+        //     'employment': employment_data,
+        //     'education': education_data,
+        //     'profile': individual_data
+        // }
     };
 }

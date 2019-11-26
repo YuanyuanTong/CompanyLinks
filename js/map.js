@@ -51,7 +51,9 @@ class Table {
         this.splitIndex;
         this.table = table;
         this.map = map;
-        this.companyData = this.elements.slice();
+        this.stateData;
+        this.countryData;
+        this.clicked = false;
     }
 
     // Populate table with elements
@@ -70,7 +72,6 @@ class Table {
                 return 0;
             });
         }
-
         let table = d3.select(this.table).select("tbody").selectAll('tr')
             .data(that.elements).join('tr');
 
@@ -82,28 +83,58 @@ class Table {
                 return false;
             })
             .on('mouseover', function (d) {
-                d3.select(this).classed('bold', true);
                 if (that.table === '#sectors') {
-                    that.highlightItem(d);
-                    //that.map.chord.highlightChord(d)
+                    if (!that.map.companyDropdown.clicked) {
+                        d3.select(this).classed('bold', true);
+                        that.highlightItem(d);
+                        //that.map.chord.highlightChord(d)
+                    }
                 } else {
-                    that.highlightItem(d.company);
-                    //Draw university or company links
-                    //that.map.drawCompUnivLinks(d);
-                    that.map.drawCompLinks(d);
+                    if (!that.clicked) {
+                        d3.select(this).classed('bold', true);
+                        that.highlightItem(d.company);
+                        //Draw university or company links
+                        //that.map.drawCompUnivLinks(d);
+                        that.map.drawCompLinks(d);
+                    };
                 }
             })
             .on('mouseout', function () {
-                d3.select('#comp-dropdown').selectAll('tr').classed('bold', false);
-                d3.select(this).classed('bold', false);
-                d3.selectAll('circle').classed('selected', false);
-                d3.select('#map').selectAll('line').remove();
-            })
-            .on('click', function () {
                 if (that.table === '#sectors') {
-                    console.log(this.textContent)
+                    if (!that.map.companyDropdown.clicked) {
+                        d3.select('#comp-dropdown').selectAll('tr').classed('bold', false);
+                        d3.select(this).classed('bold', false);
+                    }
+                }
+                else {
+                    if (!that.clicked) {
+                        d3.select('#comp-dropdown').selectAll('tr').classed('bold', false);
+                        d3.select(this).classed('bold', false);
+                        d3.select('#map').selectAll('line').remove();
+                    }
+                }
+
+                d3.selectAll('circle').classed('selected', false);
+                
+            })
+            // Click a company to 'lock in' its links, clicked a sector to cancel this
+            .on('click', function (d) {
+                if (that.table === '#sectors') {
+
+                    that.map.companyDropdown.clicked = false;
+
                     let companies = that.map.findCompanies(this.textContent, "Sector");
                     //that.map.findSectors(companies);
+                }
+                else {
+                    if (that.clicked) {
+                        d3.select('#map').selectAll('line').remove();
+                    }
+                    that.clicked = true;
+                    d3.select('#comp-dropdown').selectAll('tr').classed('bold', false);
+                    d3.select(this).classed('bold', true);
+                    that.highlightItem(d);  
+                    that.map.drawCompLinks(d);
                 }
             })
     }
@@ -228,8 +259,6 @@ class Map {
                 newCompLinks.push(link);
             }
         }
-        // console.log(this.companyData);
-        // console.log(newCompLinks);
         this.compLinks = newCompLinks;
 
         let that = this;
@@ -249,11 +278,14 @@ class Map {
                 d3.selectAll('path').classed('outline-state', false);
                 that.stateInfo(null);
                 d3.select('#comp-dropdown').select('tbody').selectAll('tr').remove();
+                d3.select('#map').selectAll('line').remove();
                 that.findSectors(that.companyData);
                 that.currentState = null;
                 that.resetView();
-                that.companyDropdown.elements = that.companyData;
+                that.companyDropdown.elements = that.companyDropdown.countryData;
+                that.companyDropdown.stateData = that.companyDropdown.countryData;
                 that.companyDropdown.makeTable();
+                that.companyDropdown.clicked = false;
             }
             that.stateClicked = false;
         });
@@ -333,6 +365,8 @@ class Map {
 
         // Create company table
         this.companyDropdown = new Table(this.companyData, "#comp-dropdown", this);
+        this.companyDropdown.countryData = this.companyData;
+        this.companyDropdown.stateData = this.companyData;
         this.companyDropdown.makeTable();
 
         map.append("text").attr('id', "company-in-state")
@@ -392,7 +426,6 @@ class Map {
                     d3.select(this)
                         .classed("markers", false)
                         .classed("selected", true);
-                    console.log(this);
                     d3.select("#map-view").select(".tooltip")
                         .html(that.tooltipRender(d.company))
                         .style("opacity", 1)
@@ -453,7 +486,7 @@ class Map {
     findCompanies(filterCriteria, filterType) {
         let companyArray = []
         let datArray = this.companyData;
-        let currentStateCompanies = this.companyDropdown.companyData.slice();
+        let currentStateCompanies = this.companyDropdown.stateData;
         let elements = this.companyDropdown.elements.slice();
         if (filterType === 'Address') {
             for (let company of datArray) {
@@ -463,7 +496,7 @@ class Map {
                 }
             }
             this.companyDropdown.elements = companyArray;
-            this.companyDropdown.companyData = companyArray;
+            this.companyDropdown.stateData = companyArray;
         } else {  // This is when filterType === "Sector"
             let flag = true;
             for (let company of currentStateCompanies) {
