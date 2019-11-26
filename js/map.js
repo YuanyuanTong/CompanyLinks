@@ -59,7 +59,7 @@ class Table {
         let that = this;
 
         // Sort the default companies by name
-        if(that.table!== '#sectors'){
+        if (that.table !== '#sectors') {
             that.elements.sort(function (a, b) {
                 let x = a.company.toLowerCase();
                 let y = b.company.toLowerCase();
@@ -99,7 +99,7 @@ class Table {
                 d3.selectAll('circle').classed('selected', false);
                 d3.select('#map').selectAll('line').remove();
             })
-            .on('click', function() {
+            .on('click', function () {
                 if (that.table === '#sectors') {
                     console.log(this.textContent)
                     let companies = that.map.findCompanies(this.textContent, "Sector");
@@ -181,7 +181,6 @@ class Map {
         this.stateClicked;
         this.infoBox;
         this.totalMarketCap = 0;
-        //this.chord;
 
         this.active = d3.select(null);
     }
@@ -390,7 +389,23 @@ class Map {
                 if (company) {
                     // that.infoBox.company = d;
                     // that.infoBox.updateInfo();
+                    d3.select(this)
+                        .classed("markers", false)
+                        .classed("selected", true);
+                    console.log(this);
+                    d3.select("#map-view").select(".tooltip")
+                        .html(that.tooltipRender(d.company))
+                        .style("opacity", 1)
+                        .style("left", (d3.event.pageX + 10) + "px")
+                        .style("top", (d3.event.pageY - 10) + "px");
                 }
+            })
+            .on('mouseout', function (d) {
+                d3.select(this)
+                    .classed("markers", true)
+                    .classed("selected", false);
+                d3.select("#map-view").select(".tooltip")
+                    .style("opacity", 0);
             })
             .on('click', function (d) {
                 console.log(d);
@@ -440,7 +455,7 @@ class Map {
         let datArray = this.companyData;
         let currentStateCompanies = this.companyDropdown.companyData.slice();
         let elements = this.companyDropdown.elements.slice();
-        if (filterType === 'Address'){
+        if (filterType === 'Address') {
             for (let company of datArray) {
                 let address = company.headoffice_address;
                 if (address.includes(filterCriteria)) {
@@ -449,9 +464,8 @@ class Map {
             }
             this.companyDropdown.elements = companyArray;
             this.companyDropdown.companyData = companyArray;
-        }
-        else {  // This is when filterType === "Sector"
-            let flag = true; 
+        } else {  // This is when filterType === "Sector"
+            let flag = true;
             for (let company of currentStateCompanies) {
                 if (flag) {
                     flag = false;
@@ -480,7 +494,7 @@ class Map {
         /* let selection = */
         d3.select('#comp-dropdown').select('tbody').selectAll('tr').remove();
         // this.companyDropdown = new Table(companyArray, "#comp-dropdown", this);
-        
+
         this.companyDropdown.makeTable();
         this.companyDropdown.elements = elements;
 
@@ -603,8 +617,14 @@ class Map {
 
     }
 
+    // render the tooltip
+    tooltipRender(datum) {
+        let text = datum;
+        return text;
+    }
+
     // Reset the map view to the whole US
-    resetView(resetLabel=true) {
+    resetView(resetLabel = true) {
         this.active.classed("active", false);
         this.active = d3.select(null);
 

@@ -113,10 +113,6 @@ table {
     fill: rgb(49, 20, 20);
 }
 
-.states :hover {
-    fill: rgb(31, 31, 31);
-}
-
 .state-borders {
     fill: none;
     stroke: rgba(255, 255, 255, 0.548);
@@ -131,11 +127,24 @@ table {
 }
 
 .selected {
-    fill: red;
-    z-index: 5;
+    fill: darkorange;
+    z-index: 100;
 }
 
 .bold {
     font-weight: bold;
     background-color: rgba(158, 49, 49, 0.205);
+}
+
+/*styling for the tooltips*/
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    min-width: 60px;
+    min-height: 20px;
+    padding: 2px;
+    background: white;
+    stroke: gray;
+    border-radius: 8px;
+    pointer-events: none;
 }

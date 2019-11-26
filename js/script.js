@@ -1,16 +1,24 @@
 loadData().then(data => {
 
+    // Map view
     d3.json("data/us.json").then(function (usData) {
         // if (error) throw error;
         let map = new Map(data['company'], usData);
-        let chord = new Chord(data['sector-links']);
-        console.log(data['individual']);
-
         map.drawMap();
-        chord.drawChord();
-        // map.chord = chord;
-
     });
+
+    // Chord view
+    let chord = new Chord(data['sector-links']);
+    chord.drawChord();
+
+    // Default tooltips (invisible)
+    d3.select("#map-view").append('div')
+        .classed("tooltip", true)
+        .style("opacity", 0);
+    d3.select("#chord").append('div')
+        .classed("tooltip", true)
+        .style("opacity", 0);
+
 });
 
 // Data loading functions
