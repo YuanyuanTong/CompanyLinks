@@ -302,6 +302,16 @@ class Map {
             .domain([minMcap, maxMcap])
             .range([0, 1]);
 
+        let scaleLegend = d3.scaleLinear()
+            .domain([minMcap, maxMcap])
+            .range([0, 100]);
+
+        let xAxis = d3.axisBottom(scaleLegend)
+            // .tickSize(16)
+            // .tickValues(xTicks);
+
+        map.append()
+
         // Draw US map
         mapGroup.selectAll("path")
             .data(topojson.feature(us, us.objects.states).features)
@@ -309,7 +319,7 @@ class Map {
             .attr('class', 'state')
             // //Color states by market cap
             .attr('style', function (d, i) {
-                return 'fill: ' + d3.interpolateRgb('white', 'green')(scaleStateColor(that.stateData[i].marketCap))
+                return 'fill: ' + d3.interpolateRgb('#EEEFEE', 'gray')(scaleStateColor(that.stateData[i].marketCap))
             })
             .attr("d", path)
             //Display state name and companies in that state when clicked

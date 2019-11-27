@@ -86,8 +86,8 @@ table {
 }
 
 #company-in-state {
-    fill: #418a6a;
-    text-shadow: 2px 2px 2px #c4ce19;
+    fill: #000000;
+    text-shadow: 2px 2px 2px hsl(0, 0%, 51%);
     font-size: 50px;
     font-family: 'Oswald', sans-serif;
 }
@@ -106,11 +106,17 @@ table {
 }
 
 .state {
-    stroke: black;
+    stroke: rgb(66, 66, 66);
+    stroke-width: 0.2px;
+}
+
+.states :hover{
+    stroke: black !important;
+    stroke-width: 1px !important;
 }
 
 .outline-state {
-    fill: rgb(49, 20, 20);
+    fill: rgb(49, 20, 20) !important;
 }
 
 .state-borders {
@@ -122,12 +128,19 @@ table {
     pointer-events: none;
 }
 
+.active {
+    stroke: black !important;
+    fill: rgb(49, 20, 20) !important;
+}
+
 .markers {
-    fill: rgba(128, 128, 128, 0.329);
+    /* fill: rgba(114, 0, 0, 0.315); */
+    fill: rgba(255, 208, 208, 0.315);
 }
 
 .selected {
-    fill: darkorange;
+    fill: rgb(255, 0, 0);
+    stroke: rgb(0, 0, 0);
     z-index: 100;
 }
 
