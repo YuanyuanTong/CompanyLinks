@@ -114,6 +114,7 @@ class Table {
                     if (!that.map.companyDropdown.clicked) {
                         d3.select('#comp-dropdown').selectAll('tr').classed('bold', false);
                         d3.select(this).classed('bold', false);
+                        d3.selectAll('circle').classed('selected', false);
                     }
                 }
                 else {
