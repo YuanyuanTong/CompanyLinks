@@ -631,7 +631,7 @@ class Map {
 
         // Zoom out of a state if it's zoomed in
         if (this.active.node() === currentNode) {
-            return this.resetView(true);
+            return this.resetView(false);
         }
 
         this.active.classed("active", false);
@@ -671,7 +671,6 @@ class Map {
 
     // Reset the map view to the whole US
     resetView(resetLabel = true) {
-        console.log(this.active.node());
         this.active.classed("active", false);
         this.active = d3.select(null);
 
