@@ -3,10 +3,11 @@ class Chord {
     constructor(data) {
         this.ind_matrix = data;
         this.ind_names;
-        this.sector;
     }
 
     drawChord() {
+
+        let that = this;
         // Convert object to matrix data
         let ind_link_data = [];
         for (let item of this.ind_matrix) {
@@ -62,33 +63,60 @@ class Chord {
             .attr("transform", d => `rotate(${(d.angle * 180 / Math.PI - 90)})
             translate(320) ${d.angle > Math.PI ? "rotate(180)" : ""}`)
             .attr("text-anchor", d => d.angle > Math.PI ? "end" : null)
-            .text((d,i)=>this.ind_names[i]);
+            .text((d, i) => this.ind_names[i]);
+
+        //Container for the gradients
+        let defs = d3.select('#chord-diagram').select("svg").append("defs");
+
+        //Filter for the outside glow
+        var filter = defs.append("filter")
+            .attr("id","glow");
+
+        filter.append("feGaussianBlur")
+            .attr("class", "blur")
+            .attr("stdDeviation","4.5") //!!!
+            .attr("result","coloredBlur");
+
+        var feMerge = filter.append("feMerge");
+        feMerge.append("feMergeNode")
+            .attr("in","coloredBlur");
+        feMerge.append("feMergeNode")
+            .attr("in","SourceGraphic");
 
         // Add the links between groups
         chord.datum(res)
             .append("g")
             .attr('id', 'chords')
             .selectAll("path")
-            .data(function (d) {
-                return d;
-            })
+            .data(d => d)
             .enter()
             .append("path")
             .attr("d", d3.ribbon().radius(290))
-            .style("fill", "#69b3a2");
-        //
-        // // Add text label
-        // chord.append("text")
-        //     .data(this.ind_names)
-        //     .text(d=>{return d})
+            .style("fill", "#69b3a2")
+            .on("mouseover", function (d) {
+                d3.select(this)
+                    .style("filter","url(#glow)");
+                d3.select("#chord").select(".tooltip")
+                    .html(that.tooltipRender(d))
+                    .style("opacity", 1)
+                    .style("left", (d3.event.pageX + 10) + "px")
+                    .style("top", (d3.event.pageY - 10) + "px");
+            })
+            .on("mouseout", function () {
+                d3.select(this)
+                    .style("filter","none");
+                d3.select("#chord").select(".tooltip")
+                    .style("opacity", 0);
+            });
+
     }
 
-    // Highlight a chord by sector name (or eventually, company name)
-    highlightChord(item) {
-        let that = this;
-        let chord = d3.select('#chord-diagram')
-            .select('svg');
-        chord.select('text')
-            .text(item);
+    // render the tooltip
+    tooltipRender(datum) {
+        let result = "<div> From " + this.ind_names[datum.source.index]
+            + " to " + this.ind_names[datum.target.index] + "</div>";
+        result = result + "<div>" + this.ind_matrix[datum.source.index][datum.target.index]+"</div>";
+        return result;
     }
+
 }

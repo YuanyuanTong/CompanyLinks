@@ -40,7 +40,6 @@ table {
     float: left;
     height: 882px;
     width: 235px;
-    /* background-color: rgba(0, 0, 0, 0.034); */
 }
 
 #sectors {
@@ -52,7 +51,6 @@ table {
     height: 740px; */
     float: left;
     padding: .2em;
-    color: lightgreen;
 }
 
 #chord-frame {
@@ -86,8 +84,8 @@ table {
 }
 
 #company-in-state {
-    fill: #418a6a;
-    text-shadow: 2px 2px 2px #c4ce19;
+    fill: #000000;
+    text-shadow: 2px 2px 2px hsl(0, 0%, 51%);
     font-size: 50px;
     font-family: 'Oswald', sans-serif;
 }
@@ -106,15 +104,18 @@ table {
 }
 
 .state {
+    stroke: rgb(66, 66, 66);
+    stroke-width: 0.2px;
+}
+
+.states :hover{
     stroke: black;
+    stroke-width: 1px;
 }
 
 .outline-state {
-    fill: rgb(49, 20, 20);
-}
-
-.states :hover {
-    fill: rgb(31, 31, 31);
+    stroke: black !important;
+    stroke-width: 1px !important;
 }
 
 .state-borders {
@@ -126,13 +127,19 @@ table {
     pointer-events: none;
 }
 
+.active {
+    stroke: black !important;
+}
+
 .markers {
-    fill: rgba(128, 128, 128, 0.329);
+    /* fill: rgba(114, 0, 0, 0.315); */
+    fill: rgba(255, 208, 208, 0.315);
 }
 
 .selected {
-    fill: red;
-    z-index: 5;
+    fill: rgb(255, 0, 0);
+    stroke: rgb(0, 0, 0);
+    z-index: 100;
 }
 
 .bold {
@@ -140,38 +147,16 @@ table {
     background-color: rgba(158, 49, 49, 0.205);
 }
 
-/* Progress Bar */
-.progress-bars {
-   width: 350px;
-   min-height: 100px;
-   margin-bottom: 50px;
-   padding: 25px 0 0 25px;
-   float: left;
-}
-
-.bar {
-   display: block;
-   overflow: hidden;
-   height: 18px;
-   width: 0px;
-   border: 1px solid rgba(0, 0, 0, 0.5);
-   border-radius: 10px;
-   margin-bottom: 5px;
-   margin-left: 10px;
-   box-shadow: 1px 1px 1px #888888;
-}
-
-.pattern {
-   height: 100%;
-   width: 100%;
-   background-image: url(../images/pattern.png);
-   background-color: #FB7457;
-}
-
-.percentage {
-   margin-left: 0px;
-   text-align: center;
-   font-family: "Verdana", sans-serif;
-   font-size: 0.8em;
-   line-height: 18px;
+/*styling for the tooltips*/
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    min-width: 60px;
+    min-height: 20px;
+    padding: 2px;
+    background: white;
+    stroke: gray;
+    border-radius: 8px;
+    pointer-events: none;
+    color: black;
 }
