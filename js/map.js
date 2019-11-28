@@ -467,6 +467,8 @@ class Map {
                                 return true;
                             }
                         });
+
+                    // show the tooltip for companies
                     d3.select("#map-view").select(".tooltip")
                         .html(that.tooltipRender(d.company))
                         .style("opacity", 1)
@@ -495,8 +497,8 @@ class Map {
     // Figure out all the sectors, create sector table
     findSectors(companies) {
         let splitIndex = null;
-        let includesSectors = []
-        let excludesSectors = []
+        let includesSectors = [];
+        let excludesSectors = [];
         for (let company of companies) {
             let sector = company['sector'];
             if (!includesSectors.includes(sector)) {
@@ -668,6 +670,7 @@ class Map {
     // click function
     clicked(d, currentNode) {
 
+        console.log(this.active.node());
         // Zoom out of a state if it's zoomed in
         if (this.active.node() === currentNode) {
             return this.resetView(false);

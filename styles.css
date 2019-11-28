@@ -40,7 +40,6 @@ table {
     float: left;
     height: 882px;
     width: 235px;
-    /* background-color: rgba(0, 0, 0, 0.034); */
 }
 
 #sectors {
@@ -52,7 +51,6 @@ table {
     height: 740px; */
     float: left;
     padding: .2em;
-    color: lightgreen;
 }
 
 #chord-frame {
@@ -111,12 +109,13 @@ table {
 }
 
 .states :hover{
-    stroke: black !important;
-    stroke-width: 1px !important;
+    stroke: black;
+    stroke-width: 1px;
 }
 
 .outline-state {
-    fill: rgb(49, 20, 20) !important;
+    stroke: black !important;
+    stroke-width: 1px !important;
 }
 
 .state-borders {
@@ -130,7 +129,6 @@ table {
 
 .active {
     stroke: black !important;
-    fill: rgb(49, 20, 20) !important;
 }
 
 .markers {
@@ -160,4 +158,5 @@ div.tooltip {
     stroke: gray;
     border-radius: 8px;
     pointer-events: none;
+    color: black;
 }
