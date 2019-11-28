@@ -1,8 +1,9 @@
 // class for the chord diagram
 class Chord {
-    constructor(data) {
+    constructor(data, updateSector) {
         this.ind_matrix = data;
-        this.ind_names;
+        this.ind_names = ["Aerospace & Defence", "Automobiles & Parts", "Banks", "Beverages", "Blank Check / Shell Companies", "Business Services", "Chemicals", "Clothing & Personal Products", "Construction & Building Materials", "Consumer Services", "Containers & Packaging", "Diversified Industrials", "Education", "Electricity", "Electronic & Electrical Equipment", "Engineering & Machinery", "Food & Drug Retailers", "Food Producers & Processors", "Forestry & Paper", "General Retailers", "Health", "Household Products", "Information Technology Hardware", "Insurance", "Investment Companies", "Leisure & Hotels", "Leisure Goods", "Life Assurance", "Media & Entertainment", "Mining", "Oil & Gas", "Pharmaceuticals and Biotechnology", "Private Equity", "Publishing", "Real Estate", "Renewable Energy", "Software & Computer Services", "Speciality & Other Finance", "Steel & Other Metals", "Telecommunication Services", "Tobacco", "Transport", "Utilities - Other", "Wholesale Trade"];
+        this.updateSector = updateSector;
     }
 
     drawChord() {
@@ -30,7 +31,6 @@ class Chord {
             .append("g")
             .attr("transform", "translate(550,550)");
 
-        this.ind_names = ["Aerospace & Defence", "Automobiles & Parts", "Banks", "Beverages", "Blank Check / Shell Companies", "Business Services", "Chemicals", "Clothing & Personal Products", "Construction & Building Materials", "Consumer Services", "Containers & Packaging", "Diversified Industrials", "Education", "Electricity", "Electronic & Electrical Equipment", "Engineering & Machinery", "Food & Drug Retailers", "Food Producers & Processors", "Forestry & Paper", "General Retailers", "Health", "Household Products", "Information Technology Hardware", "Insurance", "Investment Companies", "Leisure & Hotels", "Leisure Goods", "Life Assurance", "Media & Entertainment", "Mining", "Oil & Gas", "Pharmaceuticals and Biotechnology", "Private Equity", "Publishing", "Real Estate", "Renewable Energy", "Software & Computer Services", "Speciality & Other Finance", "Steel & Other Metals", "Telecommunication Services", "Tobacco", "Transport", "Utilities - Other", "Wholesale Trade"]
 
         // give this matrix to d3.chord(): it will calculates all the info we need to draw arc and ribbon
         let res = d3.chord()
@@ -53,6 +53,13 @@ class Chord {
                 .innerRadius(300)
                 .outerRadius(310)
             )
+            .on("mouseover", function (d) {
+                that.updateSector(that.ind_names[d.index]);
+            })
+            .on("mouseout", function(){
+                d3.select('#comp-dropdown').selectAll('tr').classed('bold', false);
+                d3.selectAll('circle').classed('selected', false);
+            });
 
         // Add the labels for each sector
         group.append("text")
@@ -94,6 +101,7 @@ class Chord {
             .attr("d", d3.ribbon().radius(290))
             .style("fill", "#69b3a2")
             .on("mouseover", function (d) {
+                // add a touch of glow to the hovered link
                 d3.select(this)
                     .style("filter","url(#glow)");
                 d3.select("#chord").select(".tooltip")
@@ -111,7 +119,7 @@ class Chord {
 
     }
 
-    // render the tooltip
+    // Render the tooltip
     tooltipRender(datum) {
         let result = "<div> From " + this.ind_names[datum.source.index]
             + " to " + this.ind_names[datum.target.index] + "</div>";
