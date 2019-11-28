@@ -156,7 +156,6 @@ class Table {
     }
 
     highlightItem(hoveredName, links = false) {
-        console.log(hoveredName + links);
         let that = this;
 
         // a sector is highlighted...

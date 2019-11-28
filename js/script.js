@@ -1,3 +1,4 @@
+
 /* Test: progress bar */
 //Data
 var data = [100, 80, 60, 40, 20];
@@ -138,7 +139,6 @@ d3.select("body").selectAll(".pattern")
             return "#7AC191";
         }
     });
-
 
 loadData().then(data => {
 
