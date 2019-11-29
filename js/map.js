@@ -1,4 +1,5 @@
 // Class for building links
+// Did you use this for constructing the links?
 class Links {
     constructor() {
 
@@ -60,7 +61,7 @@ class Table {
     makeTable() {
         let that = this;
         let links;
-        
+
         // Sort the default companies by name
         if (that.table !== '#sectors') {
             that.elements.sort(function (a, b) {
@@ -106,7 +107,8 @@ class Table {
                                 that.highlightItem(link.from_company_id, true);
                             }
                         }
-                    };
+                    }
+                    ;
                 }
             })
             .on('mouseout', function () {
@@ -116,24 +118,22 @@ class Table {
                         d3.select(this).classed('bold', false);
                         d3.selectAll('circle').classed('selected', false);
                     }
-                }
-                else {
+                } else {
                     if (!that.clicked) {
                         d3.select('#comp-dropdown').selectAll('tr').classed('bold', false);
                         d3.select(this).classed('bold', false);
                         d3.select('#map').selectAll('line').remove();
                         d3.selectAll('circle').classed('selected', false);
                     }
-                }         
+                }
             })
             // Click a company to 'lock in' its links, clicked a sector to cancel this
             .on('click', function (d) {
                 if (that.table === '#sectors') {
                     that.map.companyDropdown.clicked = false;
-                    let companies = that.map.findCompanies(this.textContent, "Sector");
+                    /*let companies = */that.map.findCompanies(this.textContent, "Sector");
                     //that.map.findSectors(companies);
-                }
-                else {
+                } else {
                     if (that.clicked) {
                         d3.select('#map').selectAll('line').remove();
                         d3.selectAll('circle').classed('selected', false);
@@ -141,7 +141,7 @@ class Table {
                     that.clicked = true;
                     d3.select('#comp-dropdown').selectAll('tr').classed('bold', false);
                     d3.select(this).classed('bold', true);
-                    that.highlightItem(d.company);  
+                    that.highlightItem(d.company);
                     that.map.drawCompLinks(d);
                     links = that.map.drawCompLinks(d);
                     let filterLinks = [];
@@ -155,10 +155,10 @@ class Table {
             })
     }
 
-    highlightItem(hoveredName, links=false) {
+    highlightItem(hoveredName, links = false) {
         let that = this;
 
-        //if sector is highlighted...
+        // a sector is highlighted...
         if (this.table === '#sectors') {
             let stateName = d3.select('#company-in-state').text();
             let abbr;
@@ -195,26 +195,26 @@ class Table {
                     })
             }
         }
-        //If company is highlighted...
+        // a company is highlighted...
         else {
             // Highlight single company
             if (!links) {
                 d3.selectAll('circle').filter(d => d.company === hoveredName)
-                .classed('selected', function (d) {
-                    this.parentElement.appendChild(this);
-                    // //Display company info
-                    that.map.infoBox.company = d;
-                    that.map.infoBox.updateInfo();
-                    return true;
-                })
+                    .classed('selected', function (d) {
+                        this.parentElement.appendChild(this);
+                        // //Display company info
+                        that.map.infoBox.company = d;
+                        that.map.infoBox.updateInfo();
+                        return true;
+                    })
             }
             // Highlight linked companyies
             else {
                 d3.selectAll('circle').filter(d => d.company_id === hoveredName)
-                .classed('selected', function (d) {
-                    this.parentElement.appendChild(this);
-                    return true;
-                })
+                    .classed('selected', function (d) {
+                        this.parentElement.appendChild(this);
+                        return true;
+                    })
             }
         }
     }
@@ -236,7 +236,6 @@ class Map {
         this.stateClicked;
         this.infoBox;
         this.totalMarketCap = 0;
-
         this.active = d3.select(null);
     }
 
@@ -484,8 +483,7 @@ class Map {
                         if (selected) {
                             selected = false;
                             return true;
-                        }
-                        else return false;
+                        } else return false;
                     });
                 d3.select("#map-view").select(".tooltip")
                     .style("opacity", 0);
@@ -562,7 +560,6 @@ class Map {
             // this.companyDropdown.makeTable();
         }
 
-
         // Sort the company table by name
         companyArray.sort(function (a, b) {
             let x = a.company.toLowerCase();
@@ -576,7 +573,6 @@ class Map {
 
         /* let selection = */
         d3.select('#comp-dropdown').select('tbody').selectAll('tr').remove();
-        // this.companyDropdown = new Table(companyArray, "#comp-dropdown", this);
 
         this.companyDropdown.makeTable();
         this.companyDropdown.elements = elements;
