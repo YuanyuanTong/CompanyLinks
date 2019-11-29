@@ -290,7 +290,8 @@ class Map {
         let path = d3.geoPath();
         let map = d3.select("#map-view");
         map = map.append('svg')
-            .attr('id', 'map');
+            .attr('id', 'map')
+            .attr('viewBox', '-90 -30 1100 700');
 
         // Bounding rect
         let map_width = map.node().getBoundingClientRect().width; //1100
@@ -318,7 +319,7 @@ class Map {
 
         let mapGroup = map.append("g")
             .attr("class", "states")
-            .attr('transform', 'translate(90, 30)');
+            // .attr('transform', 'translate(-90, 0)');
 
         //Scale for coloring states by market cap
         let minMcap = d3.min(this.stateData, (d) => d.marketCap);
@@ -376,7 +377,7 @@ class Map {
         // Make the map view zoomable
         const zoom = d3.zoom()
             .scaleExtent([1, 6])
-            .translateExtent([[-90, -30], [map_width - 90, map_height - 30]])
+            .translateExtent([[0, 0], [map_width, map_height]])
             .extent([[0, 0], [map_width, map_height]])
             .on("zoom", function () {
                 mapGroup.attr("transform", d3.event.transform);
@@ -721,7 +722,7 @@ class Map {
         }
         d3.select(".states").transition()
             .duration(500)
-            .attr("transform", "translate(90, 30)");
+            .attr("transform", "translate(0, 0)");
     }
 
 }
