@@ -13,38 +13,41 @@
 
 <body>
 <!-- Div in which the bars will be appended -->
-<div class="progress-bars"></div>
+<!-- <div class="progress-bars"></div> -->
 
 <div class="container">
     <header id="title">
         <h1>Company Links</h1>
     </header>
 
-    <div id="map-view">
-        <div>
-            <button type="button" id="univ-button">Show Universities</button>
-            <button type="button" id="comp-button">Show Companies</button>
+    <div id="main-content">
+        <div id="map-view">
+            <div>
+                <button type="button" id="univ-button">Show Universities</button>
+                <button type="button" id="comp-button">Show Companies</button>
+            </div>
+        </div>
+        <div id="second-view">
+            <table id="sectors">
+                <thead>
+                <th>Industry Sectors</th>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div id="companyDropdown">
+            <table id="comp-dropdown">
+                <thead>
+                <th>Companies</th>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div id="infobox">
+            <div id="text-elements"></div>
         </div>
     </div>
-    <div id="second-view">
-        <table id="sectors">
-            <thead>
-            <th>Industry Sectors</th>
-            </thead>
-            <tbody></tbody>
-        </table>
-    </div>
-    <div id="companyDropdown">
-        <table id="comp-dropdown">
-            <thead>
-            <th>Companies</th>
-            </thead>
-            <tbody></tbody>
-        </table>
-    </div>
-    <div id="infobox">
-        <div id="text-elements"></div>
-    </div>
+   
     <div id="chord">
         <div id="chord-diagram"></div>
     </div>
