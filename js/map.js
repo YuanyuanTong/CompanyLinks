@@ -85,14 +85,18 @@ class Table {
             })
             .on('mouseover', function (d) {
                 if (that.table === '#sectors') {
-                    if (!that.map.companyDropdown.clicked) {
-                        d3.select(this).classed('bold', true);
-                        that.highlightItem(d);
-                        d3.select('#help-text').text('Tip: Click sector to view companies in that sector')
-                        //that.map.chord.highlightChord(d)
+                    if (!that.clicked) {
+                        if (!that.map.companyDropdown.clicked) {
+                            d3.select(this).classed('bold', true);
+                            that.highlightItem(d);
+                            d3.select('#help-text').text('Tip: Click sector to view companies in that sector')
+                            //that.map.chord.highlightChord(d)
+                        }
                     }
                 } else {
                     if (!that.clicked) {
+                        let compSelection = d;
+                        d3.select('#sectors').selectAll('tr').filter(d => d == compSelection.sector).classed('bold', true);
                         d3.select(this).classed('bold', true);
                         that.highlightItem(d.company);
                         //Draw university or company links
@@ -114,14 +118,17 @@ class Table {
             })
             .on('mouseout', function () {
                 if (that.table === '#sectors') {
-                    if (!that.map.companyDropdown.clicked) {
-                        d3.select('#comp-dropdown').selectAll('tr').classed('bold', false);
-                        d3.select(this).classed('bold', false);
-                        d3.selectAll('circle').classed('selected', false);
-                        d3.select('#help-text').text('Tip: Click on a state to see companies in that state');
-                    }
+                    if (!that.clicked) {
+                        if (!that.map.companyDropdown.clicked) {
+                            d3.select('#comp-dropdown').selectAll('tr').classed('bold', false);
+                            d3.select(this).classed('bold', false);
+                            d3.selectAll('circle').classed('selected', false);
+                            d3.select('#help-text').text('Tip: Click on a state to see companies in that state');
+                        }
+                    }   
                 } else {
                     if (!that.map.companyDropdown.clicked) {
+                        d3.select('#sectors').selectAll('tr').classed('bold', false);
                         d3.select('#comp-dropdown').selectAll('tr').classed('bold', false);
                         d3.select(this).classed('bold', false);
                         d3.select('#map').selectAll('line').remove();
@@ -136,6 +143,9 @@ class Table {
             // Click a company to 'lock in' its links, clicked a sector to cancel this
             .on('click', function (d) {
                 if (that.table === '#sectors') {
+                    that.clicked = true;
+                    d3.select('#sectors').selectAll('tr').classed('bold', false);
+                    d3.select(this).classed('bold', true);
                     that.map.companyDropdown.clicked = false;
                     that.map.findCompanies(this.textContent, "Sector");
                     //that.map.findSectors(companies);
@@ -323,6 +333,8 @@ class Map {
                 that.companyDropdown.clicked = false;
                 d3.select('#help-text').text('Tip: Click on a state to see companies in that state');
             }
+            that.sectorTable.clicked = false;
+            d3.select('#sectors').selectAll('tr').classed('bold', false);
             that.stateClicked = false;
         });
 
