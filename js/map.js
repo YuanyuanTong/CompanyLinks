@@ -236,6 +236,8 @@ class Map {
         this.infoBox;
         this.totalMarketCap = 0;
         this.active = d3.select(null);
+        //for fast lookup of companies
+        this.company_id_dict = {};
     }
 
     // Create map of the US
@@ -245,6 +247,7 @@ class Map {
             element.marketCap = 0;
         });
         for (let company of this.companyData) {
+            this.company_id_dict[company.company_id] = company.company;
             for (let state of this.stateData) {
                 if (company.state.includes(state.abbreviation)) {
                     state.marketCap += parseInt(company.market_cap);
@@ -402,8 +405,8 @@ class Map {
         this.companyDropdown.stateData = this.companyData;
         this.companyDropdown.makeTable();
 
-        map.append("text").attr('id', "company-in-state")
-            .attr("x", -20).attr("y", -50)
+        d3.select("#map-view").append("div").attr('id', "company-in-state").append("text")
+            // .attr("x", 0).attr("y", 0)
             .text('United States');
 
     }
