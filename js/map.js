@@ -14,27 +14,26 @@ class companyInfoBox {
 
     drawInfoBox() {
         // Create svg for company info to get drawn on
-        let info = d3.select('#text-elements')
-            .append('svg')
-            .attr('width', '300')
-            .attr('height', '100');
-        info.append('rect')
-            .attr('width', '300')
-            .attr('height', '100')
-            .attr('style', 'fill: none; stroke: black; stroke-width: 5px;')
+        // let info = d3.select('#text-elements')
+        //     .append('svg')
+        //     .attr('id', 'info-svg')
+        //     .attr('viewBox', '-90 -30 1100 700');
+            // .attr('width', '300')
+            // .attr('height', '100');
+
         // Initialize company info text
-        info.append('text')
-            .attr('id', 'company-name')
-            .attr('x', '10')
-            .attr('y', '40');
-        info.append('text')
-            .attr('id', 'market-cap')
-            .attr('x', '10')
-            .attr('y', '60');
-        info.append('text')
-            .attr('id', 'employees')
-            .attr('x', '10')
-            .attr('y', '80');
+        // info.append('text')
+        //     .attr('id', 'company-name')
+        //     .attr('x', '10')
+        //     .attr('y', '40');
+        // info.append('text')
+        //     .attr('id', 'market-cap')
+        //     .attr('x', '10')
+        //     .attr('y', '60');
+        // info.append('text')
+        //     .attr('id', 'employees')
+        //     .attr('x', '10')
+        //     .attr('y', '80');
     }
 
     // Display info about a company
