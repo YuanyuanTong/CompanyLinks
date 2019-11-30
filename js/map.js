@@ -88,6 +88,7 @@ class Table {
                     if (!that.map.companyDropdown.clicked) {
                         d3.select(this).classed('bold', true);
                         that.highlightItem(d);
+                        d3.select('#help-text').text('Tip: Click sector to view companies in that sector')
                         //that.map.chord.highlightChord(d)
                     }
                 } else {
@@ -106,6 +107,7 @@ class Table {
                                 that.highlightItem(link.from_company_id, true);
                             }
                         }
+                        d3.select('#help-text').text('Tip: Click on a company to explore links with other companies');
                     }
                     ;
                 }
@@ -116,13 +118,18 @@ class Table {
                         d3.select('#comp-dropdown').selectAll('tr').classed('bold', false);
                         d3.select(this).classed('bold', false);
                         d3.selectAll('circle').classed('selected', false);
+                        d3.select('#help-text').text('Tip: Click on a state to see companies in that state');
                     }
                 } else {
-                    if (!that.clicked) {
+                    if (!that.map.companyDropdown.clicked) {
                         d3.select('#comp-dropdown').selectAll('tr').classed('bold', false);
                         d3.select(this).classed('bold', false);
                         d3.select('#map').selectAll('line').remove();
                         d3.selectAll('circle').classed('selected', false);
+                        d3.select('#help-text').text('Tip: Click on a state to see companies in that state');
+                    }
+                    else {
+                        d3.select('#help-text').text('Tip: Click on the ocean to reset selection');
                     }
                 }
             })
@@ -130,7 +137,7 @@ class Table {
             .on('click', function (d) {
                 if (that.table === '#sectors') {
                     that.map.companyDropdown.clicked = false;
-                    /*let companies = */that.map.findCompanies(this.textContent, "Sector");
+                    that.map.findCompanies(this.textContent, "Sector");
                     //that.map.findSectors(companies);
                 } else {
                     if (that.clicked) {
@@ -150,6 +157,7 @@ class Table {
                             that.highlightItem(link.from_company_id, true);
                         }
                     }
+                    d3.select('#help-text').text('Tip: Click on the ocean to reset selection');
                 }
             })
     }
@@ -313,6 +321,7 @@ class Map {
                 that.companyDropdown.stateData = that.companyDropdown.countryData;
                 that.companyDropdown.makeTable();
                 that.companyDropdown.clicked = false;
+                d3.select('#help-text').text('Tip: Click on a state to see companies in that state');
             }
             that.stateClicked = false;
         });
@@ -358,6 +367,7 @@ class Map {
                 let companies = that.findCompanies(that.stateData[i].abbreviation, "Address");
                 that.findSectors(companies);
                 that.clicked(d, this);
+                d3.select('#help-text').text('Tip: Click on the ocean to reset selection');
             });
 
         // Draw all interior state borders
@@ -392,9 +402,9 @@ class Map {
         this.infoBox = new companyInfoBox;
         this.infoBox.drawInfoBox();
 
-        // Give university and company toggle buttons functionality
-        d3.select('#univ-button').on('click', () => this.drawNodes(this.univData));
-        d3.select('#comp-button').on('click', () => this.drawNodes(this.companyData));
+        // // Give university and company toggle buttons functionality
+        // d3.select('#univ-button').on('click', () => this.drawNodes(this.univData));
+        // d3.select('#comp-button').on('click', () => this.drawNodes(this.companyData));
 
         // Create sector table
         this.findSectors(this.companyData);
@@ -409,6 +419,13 @@ class Map {
             // .attr("x", 0).attr("y", 0)
             .text('United States');
 
+        // Give the user tips about how to explore our visualization
+        let title_height = d3.select('#title').node().getBoundingClientRect().height;
+        d3.select('#map-view').append('div')
+            .attr('id', 'help-text')
+            .attr('style', 'top: ' + (map_height+title_height-20) + 'px; left: 1%; position: absolute;')
+            .append('text')
+            .text('Tip: Click on a state to see companies in that state');
     }
 
     // Scale companies by market cap
