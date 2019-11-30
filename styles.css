@@ -86,14 +86,13 @@ table {
     width: 20%;
     height: 50%;
     table-layout: fixed;
-    /* overflow: auto; */
+    overflow: auto;
     margin-bottom: 5px;
 }
 
 #comp-dropdown tbody {
     display: block;
     height: 400px;
-    overflow-y: scroll;
     font-size: .95em;
 }
 
