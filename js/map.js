@@ -403,7 +403,7 @@ class Map {
         this.companyDropdown.makeTable();
 
         map.append("text").attr('id', "company-in-state")
-            .attr("x", 50).attr("y", 80)
+            .attr("x", -20).attr("y", -50)
             .text('United States');
 
     }
