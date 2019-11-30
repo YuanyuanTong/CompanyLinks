@@ -87,10 +87,10 @@ table {
     height: 50%;
     table-layout: fixed;
     /* overflow: auto; */
-    /* margin-bottom: 20px; */
+    margin-bottom: 5px;
 }
 
-#comp-dropdown {
+#comp-dropdown tbody {
     display: block;
     height: 400px;
     overflow-y: scroll;
@@ -106,7 +106,30 @@ table {
 
 #infobox {
     float: left;
-    width: 300px;
+    width: 19%;
+    height: 400px;
+}
+
+#text-elements {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 49%;
+    border: 1px solid black;
+    margin-bottom: 1%;
+}
+
+#svg-elements {
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+}
+
+#info-svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border:solid 6px;
 }
 
 #main-content {
