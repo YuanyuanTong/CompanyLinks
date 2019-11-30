@@ -438,6 +438,51 @@ class Map {
             .attr('style', 'top: ' + (map_height+title_height-20) + 'px; left: 1%; position: absolute;')
             .append('text')
             .text('Tip: Click on a state to see companies in that state');
+
+        // Add color gradient legend
+        let legendTitle = d3.select('#map-view').append('div')
+            .attr('style', 'top: ' + (map_height+title_height-40) + 'px; left: ' + (map_width-310) + 'px; position: absolute;')
+            .append('text')
+            .classed('legend-text', true)
+            .text('Aggregate market cap in millions');
+
+        let legend = d3.select('#map-view').append('div')
+            .attr('id', 'gradient-legend')
+            .attr('style', 'top: ' + (map_height+title_height-20) + 'px; left: ' + (map_width-350) + 'px; position: absolute;');
+        legend.append('text')
+            .classed('legend-text', true)
+            .text('$' + minMcap);
+
+        let legSVG = legend.append('svg')
+            .attr('width', '200')
+            .attr('height', '10');
+
+        legend.append('text')
+            .classed('legend-text', true)
+            .text('$' + maxMcap);
+        //Append a defs element to the svg
+        let defs = legSVG.append("defs");
+        //Append a linearGradient element
+        let linearGradient = defs.append("linearGradient")
+            .attr("id", "linear-gradient");
+        linearGradient
+            .attr("x1", "0%")
+            .attr("y1", "0%")
+            .attr("x2", "100%")
+            .attr("y2", "0%");
+        //Set the color for the start 
+        linearGradient.append("stop")
+        .attr("offset", "0%")
+        .attr("stop-color", "#EEEEEE"); 
+        //Set the color for the end
+        linearGradient.append("stop")
+        .attr("offset", "100%")
+        .attr("stop-color", () => d3.interpolateRgb('#EEEFEE', 'gray')(scaleStateColor(maxMcap)));
+        //Draw the rectangle and fill with gradient
+        legSVG.append("rect")
+        .attr("width", 200)
+        .attr("height", 10)
+        .style("fill", "url(#linear-gradient)");
     }
 
     // Scale companies by market cap
