@@ -1,18 +1,3 @@
-<head>
-<script>
-    window.onload=timeout;
-    function timeout(){
-    window.setTimeout("redirect()",20000)}
-    
-    function redirect(){
-    window.location="links.html"
-    return}
-    
-</script>
-
-</head>
-
-
 <body onload="timeout()">
 <link rel="stylesheet" href="welcome.css"/>
 
@@ -27,12 +12,17 @@
 </div>
 </div>
 
+<script>
+window.onload=timeout;
+function timeout(){
+window.setTimeout("redirect()",15000)}
 
+function redirect(){
+window.location="links.html"
+return}
 
-<!-- <br>
-<form>
-<input type="button" value="Start" onClick="redirect()">
-</form> -->
+</script>
+
 
 </body>
 

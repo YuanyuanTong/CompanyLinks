@@ -7,12 +7,165 @@ class companyInfoBox {
     // Update info about a company
     updateInfo() {
         d3.select('#company-name').text(this.company.company);
-        d3.select('#market-cap').text('Market cap (millions): ' + (this.company.market_cap? this.company.market_cap: "N.A."));
-        d3.select('#employees').text('Number of employees: ' + (this.company.n_employee? this.company.n_employee: "N.A."));
-        d3.select('#revenue').text('Revenue (millions): ' + (this.company.revenue? this.company.revenue: "N.A."));
-        d3.select('#male').text('Male vs Female: ' + (this.company.male_pct?
-            (this.company.male_pct*100).toFixed(2) + "% vs " + ((1-this.company.male_pct)*100).toFixed(2) + "%": "N.A."));
-        // d3.select('#male')
+        d3.select('#market-cap').text('Market Cap (millions): ' + (this.company.market_cap ? this.company.market_cap : "N.A."));
+        d3.select('#employees').text('Number of Employees: ' + (this.company.n_employee ? this.company.n_employee : "N.A."));
+        d3.select('#revenue').text('Revenue (millions): ' + (this.company.revenue ? this.company.revenue : "N.A."));
+        d3.select('#male').text('Male vs Female (of the board): ' + (this.company.male_pct ?
+            (this.company.male_pct * 100).toFixed(2) + "% vs " + ((1 - this.company.male_pct) * 100).toFixed(2) + "%" : "N.A."));
+        d3.select('#industry-sector').text("Industry Sector: " + this.company.sector);
+
+        // Draw the pie charts for education/age/nationality
+        d3.select("svg#age").attr("width", d3.select("#svg-elements").node().getBoundingClientRect().width).selectAll("*").remove();
+        let width = d3.select("svg#age").node().getBoundingClientRect().width;
+        let height = d3.select("svg#age").node().getBoundingClientRect().height;
+        let radius = Math.min(width, height) * 0.9 / 2;
+        let ageSVG = d3.select("svg#age")
+            .append('g')
+            .attr("transform", "translate(" + 0.4 * width + "," + height / 2 + ")");
+        let degreeSVG = d3.select("svg#degree")
+            .append('g')
+            .attr("transform", "translate(" + 0.4 * width + "," + height / 2 + ")");
+        let nationalitySVG = d3.select("svg#nationality")
+            .append('g')
+            .attr("transform", "translate(" + 0.4 * width + "," + height / 2 + ")");
+
+        let arcGenerator = d3.arc()
+            .innerRadius(0)
+            .outerRadius(radius);
+
+        let ageData = {
+            "<40": this.company.age_below_40,
+            "40-49": this.company.age_40_to_50,
+            "50-59": this.company.age_50_to_60,
+            "60-69": this.company.age_60_to_70,
+            ">=70": this.company.age_above_70,
+            "N.A.": this.company.age_unknown
+        };
+
+        let degreeData = {
+            "Bachelor": this.company.degree_bachelor_pct,
+            "Master": this.company.degree_master_pct,
+            "Ph.D.": this.company.degree_phd_pct,
+            "Others": this.company.degree_others_pct
+        }
+
+        let nationalityData = {
+            "U.S.": this.company.us_pct,
+            "Foreign": this.company.non_us_pct,
+            "N.A.": this.company.na_nationality_pct
+        }
+
+        let ageColorScale = d3.scaleOrdinal().domain(ageData).range(d3.schemeSet2);
+        let degreeColorScale = d3.scaleOrdinal().domain(degreeData).range(["#b35806", "#f1a340", "#fee0b6", "#d8daeb"]);
+        let nationalityColorScale = d3.scaleOrdinal().domain(nationalityData).range(["#22b376", "#53e1c1", "#a3c9b2"]);
+
+        let pie = d3.pie()
+            .value(d => d.value)(d3.entries(ageData));
+        let degreePie = d3.pie()
+            .value(d => d.value)(d3.entries(degreeData));
+        let nationalityPie = d3.pie()
+            .value(d => d.value)(d3.entries(nationalityData));
+
+        // education
+        degreeSVG.selectAll('path')
+            .data(degreePie)
+            .join('path')
+            .attr('d', arcGenerator)
+            .attr('fill', function (d) {
+                return (degreeColorScale(d.data.key));
+            })
+            .attr("stroke", "white");
+        // age
+        ageSVG.selectAll('path')
+            .data(pie)
+            .join('path')
+            .attr('d', arcGenerator)
+            .attr('fill', function (d) {
+                return (ageColorScale(d.data.key));
+            })
+            .attr("stroke", "white");
+        // nationality
+        nationalitySVG.selectAll('path')
+            .data(nationalityPie)
+            .join('path')
+            .attr('d', arcGenerator)
+            .attr('fill', function (d) {
+                return (nationalityColorScale(d.data.key));
+            })
+            .attr("stroke", "white");
+
+
+        // Add the legend for the pie charts
+
+        // education
+        d3.select("svg#degree")
+            .selectAll("circle")
+            .data(degreePie)
+            .join("circle")
+            .attr("cx", 0.45 * width + radius)
+            .attr("cy", function (d, i) {
+                return 0.3 * height + i * 0.1 * height;
+            })
+            .attr("r", 0.02 * height)
+            .style("fill", d => degreeColorScale(d.data.key));
+
+        d3.select("svg#degree").selectAll("text")
+            .data(degreePie)
+            .join("text")
+            .attr("x", 0.47 * width + radius)
+            .attr("y", function (d, i) {
+                return 0.3 * height + i * 0.1 * height;
+            })
+            .text(d => d.data.key)
+            .attr("text-anchor", "left")
+            .style("alignment-baseline", "middle");
+
+        // age
+        d3.select("svg#age")
+            .selectAll("circle")
+            .data(pie)
+            .join("circle")
+            .attr("cx", 0.45 * width + radius)
+            .attr("cy", function (d, i) {
+                return 0.3 * height + i * 0.1 * height;
+            })
+            .attr("r", 0.02 * height)
+            .style("fill", d => ageColorScale(d.data.key));
+
+        d3.select("svg#age").selectAll("text")
+            .data(pie)
+            .join("text")
+            .attr("x", 0.47 * width + radius)
+            .attr("y", function (d, i) {
+                return 0.3 * height + i * 0.1 * height;
+            })
+            .text(d => d.data.key)
+            .attr("text-anchor", "left")
+            .style("alignment-baseline", "middle");
+
+        // nationality
+        d3.select("svg#nationality")
+            .selectAll("circle")
+            .data(nationalityPie)
+            .join("circle")
+            .attr("cx", 0.45 * width + radius)
+            .attr("cy", function (d, i) {
+                return 0.3 * height + i * 0.1 * height;
+            })
+            .attr("r", 0.02 * height)
+            .style("fill", d => nationalityColorScale(d.data.key));
+
+        // nationality
+        d3.select("svg#nationality").selectAll("text")
+            .data(nationalityPie)
+            .join("text")
+            .attr("x", 0.47 * width + radius)
+            .attr("y", function (d, i) {
+                return 0.3 * height + i * 0.1 * height;
+            })
+            .text(d => d.data.key)
+            .attr("text-anchor", "left")
+            .style("alignment-baseline", "middle");
     }
 }
 
@@ -95,7 +248,7 @@ class Table {
                             d3.selectAll('circle').classed('selected', false);
                             d3.select('#help-text').text('Tip: Click on a state to see companies in that state');
                         }
-                    }   
+                    }
                 } else {
                     if (!that.map.companyDropdown.clicked) {
                         d3.select('#sectors').selectAll('tr').classed('bold', false);
@@ -104,8 +257,7 @@ class Table {
                         d3.select('#map').selectAll('line').remove();
                         d3.selectAll('circle').classed('selected', false);
                         d3.select('#help-text').text('Tip: Click on a state to see companies in that state');
-                    }
-                    else {
+                    } else {
                         d3.select('#help-text').text('Tip: Click on the ocean to reset selection');
                     }
                 }
@@ -398,27 +550,27 @@ class Map {
         this.companyDropdown.makeTable();
 
         d3.select("#map-view").append("div").attr('id', "company-in-state").append("text")
-            // .attr("x", 0).attr("y", 0)
+        // .attr("x", 0).attr("y", 0)
             .text('United States');
 
         // Give the user tips about how to explore our visualization
         let title_height = d3.select('#title').node().getBoundingClientRect().height;
         d3.select('#map-view').append('div')
             .attr('id', 'help-text')
-            .attr('style', 'top: ' + (map_height+title_height-20) + 'px; left: 1%; position: absolute;')
+            .attr('style', 'top: ' + (map_height + title_height - 20) + 'px; left: 1%; position: absolute;')
             .append('text')
             .text('Tip: Click on a state to see companies in that state');
 
         // Add color gradient legend
         let legendTitle = d3.select('#map-view').append('div')
-            .attr('style', 'top: ' + (map_height+title_height-40) + 'px; left: ' + (map_width-310) + 'px; position: absolute;')
+            .attr('style', 'top: ' + (map_height + title_height - 40) + 'px; left: ' + (map_width - 310) + 'px; position: absolute;')
             .append('text')
             .classed('legend-text', true)
             .text('Aggregate market cap in millions');
 
         let legend = d3.select('#map-view').append('div')
             .attr('id', 'gradient-legend')
-            .attr('style', 'top: ' + (map_height+title_height-20) + 'px; left: ' + (map_width-350) + 'px; position: absolute;');
+            .attr('style', 'top: ' + (map_height + title_height - 20) + 'px; left: ' + (map_width - 350) + 'px; position: absolute;');
         legend.append('text')
             .classed('legend-text', true)
             .text('$' + minMcap);
@@ -442,17 +594,17 @@ class Map {
             .attr("y2", "0%");
         //Set the color for the start 
         linearGradient.append("stop")
-        .attr("offset", "0%")
-        .attr("stop-color", "#EEEEEE"); 
+            .attr("offset", "0%")
+            .attr("stop-color", "#EEEEEE");
         //Set the color for the end
         linearGradient.append("stop")
-        .attr("offset", "100%")
-        .attr("stop-color", () => d3.interpolateRgb('#EEEFEE', 'gray')(scaleStateColor(maxMcap)));
+            .attr("offset", "100%")
+            .attr("stop-color", () => d3.interpolateRgb('#EEEFEE', 'gray')(scaleStateColor(maxMcap)));
         //Draw the rectangle and fill with gradient
         legSVG.append("rect")
-        .attr("width", 200)
-        .attr("height", 10)
-        .style("fill", "url(#linear-gradient)");
+            .attr("width", 200)
+            .attr("height", 10)
+            .style("fill", "url(#linear-gradient)");
     }
 
     // Scale companies by market cap
