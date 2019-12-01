@@ -14,10 +14,17 @@ class companyInfoBox {
             (this.company.male_pct * 100).toFixed(2) + "% vs " + ((1 - this.company.male_pct) * 100).toFixed(2) + "%" : "N.A."));
         d3.select('#industry-sector').text("Industry Sector: " + this.company.sector);
 
+        d3.select('#mba-pct').text(
+            (this.company.mba_pct * 100).toFixed(2) + "% of the board members hold MBA degrees");
+
         // Draw the pie charts for education/age/nationality
-        d3.select("svg#age").attr("width", d3.select("#svg-elements").node().getBoundingClientRect().width).selectAll("*").remove();
-        let width = d3.select("svg#age").node().getBoundingClientRect().width;
+        let width = d3.select("#svg-elements").node().getBoundingClientRect().width;
         let height = d3.select("svg#age").node().getBoundingClientRect().height;
+
+        d3.select("svg#age").attr("width", width).selectAll("*").remove();
+        d3.select("svg#degree").attr("width", width).selectAll("*").remove();
+        d3.select("svg#nationality").attr("width", width).selectAll("*").remove();
+
         let radius = Math.min(width, height) * 0.9 / 2;
         let ageSVG = d3.select("svg#age")
             .append('g')

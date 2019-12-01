@@ -131,6 +131,10 @@ table {
     /*height: 50%;*/
 }
 
+#info-title{
+    font-weight: bold;
+}
+
 #degree{
     width: 100%;
 }
