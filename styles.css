@@ -85,12 +85,13 @@ table {
 #companyDropdown {
     float: left;
     width: 18%;
-    max-height: 400px;
+    max-height: 200px;
     table-layout: fixed;
     overflow: auto;
     border: 1px solid black;
     margin-bottom: 5px;
     padding-left: 0.5%;
+    padding-right: 0.5%;
 }
 
 #comp-dropdown tbody {
@@ -111,8 +112,8 @@ table {
 #infobox {
     float: left;
     width: 18%;
-    min-height: 400px;
     padding-left: 0.5%;
+    padding-right: 0.5%;
     border: 1px solid black;
 }
 
@@ -120,13 +121,18 @@ table {
     position: relative;
     display: inline-block;
     width: 100%;
-    height: 49%;
+    /*height: 49%;*/
     margin-bottom: 1%;
 }
 
 #svg-elements {
     width: 100%;
-    height: 50%;
+    text-align: center;
+    /*height: 50%;*/
+}
+
+#degree{
+    width: 100%;
 }
 
 #main-content {
@@ -214,10 +220,10 @@ div.tooltip {
     z-index: 2501;
 }
 
-.container {
-    /* width: 100%;
-    height: 100%; */
-}
+/*.container {*/
+/*    !* width: 100%;*/
+/*    height: 100%; *!*/
+/*}*/
 
 .legend-text {
     font-size: .7em;

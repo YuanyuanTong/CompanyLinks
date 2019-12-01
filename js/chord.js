@@ -81,10 +81,10 @@ class Chord {
 
         filter.append("feGaussianBlur")
             .attr("class", "blur")
-            .attr("stdDeviation","4.5") //!!!
+            .attr("stdDeviation","5")
             .attr("result","coloredBlur");
 
-        var feMerge = filter.append("feMerge");
+        let feMerge = filter.append("feMerge");
         feMerge.append("feMergeNode")
             .attr("in","coloredBlur");
         feMerge.append("feMergeNode")
@@ -96,8 +96,7 @@ class Chord {
             .attr('id', 'chords')
             .selectAll("path")
             .data(d => d)
-            .enter()
-            .append("path")
+            .join("path")
             .attr("d", d3.ribbon().radius(290))
             .style("fill", "#69b3a2")
             .on("mouseover", function (d) {
@@ -116,7 +115,6 @@ class Chord {
                 d3.select("#chord").select(".tooltip")
                     .style("opacity", 0);
             });
-
     }
 
     // Render the tooltip
