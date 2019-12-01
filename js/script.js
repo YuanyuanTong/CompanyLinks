@@ -186,7 +186,7 @@ async function loadFile(file) {
 }
 
 async function loadData() {
-    let company_data = await loadFile('data/processed_company_data.csv');
+    let company_data = await loadFile('data/f_firm_prof.csv');
     let state_data = await loadFile('data/states.csv');
     let university_data = await loadFile('data/top500_uni.csv');
     let company_univ_links = await loadFile('data/link_firm_uni.csv');

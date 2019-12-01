@@ -43,7 +43,8 @@ table {
 
 #second-view {
     float: left;
-    height: 100%;
+    /*how to reset?*/
+    height: auto;
     width: 15%;
 }
 
@@ -83,16 +84,17 @@ table {
 
 #companyDropdown {
     float: left;
-    width: 20%;
-    height: 50%;
+    width: 18%;
+    max-height: 400px;
     table-layout: fixed;
     overflow: auto;
+    border: 1px solid black;
     margin-bottom: 5px;
+    padding-left: 0.5%;
 }
 
 #comp-dropdown tbody {
     display: block;
-    height: 400px;
     font-size: .95em;
 }
 
@@ -108,8 +110,10 @@ table {
 
 #infobox {
     float: left;
-    width: 19%;
-    height: 400px;
+    width: 18%;
+    min-height: 400px;
+    padding-left: 0.5%;
+    border: 1px solid black;
 }
 
 #text-elements {
@@ -117,21 +121,12 @@ table {
     display: inline-block;
     width: 100%;
     height: 49%;
-    border: 1px solid black;
     margin-bottom: 1%;
 }
 
 #svg-elements {
     width: 100%;
     height: 50%;
-    border: 1px solid black;
-}
-
-#info-svg {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border:solid 6px;
 }
 
 #main-content {

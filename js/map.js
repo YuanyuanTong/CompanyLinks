@@ -1,46 +1,18 @@
-// Class for building links
-// Did you use this for constructing the links?
-class Links {
-    constructor() {
-
-    }
-}
-
 // Class for company information box
 class companyInfoBox {
     constructor() {
-        this.company;
+        this.company = null;
     }
 
-    drawInfoBox() {
-        // Create svg for company info to get drawn on
-        // let info = d3.select('#text-elements')
-        //     .append('svg')
-        //     .attr('id', 'info-svg')
-        //     .attr('viewBox', '-90 -30 1100 700');
-            // .attr('width', '300')
-            // .attr('height', '100');
-
-        // Initialize company info text
-        // info.append('text')
-        //     .attr('id', 'company-name')
-        //     .attr('x', '10')
-        //     .attr('y', '40');
-        // info.append('text')
-        //     .attr('id', 'market-cap')
-        //     .attr('x', '10')
-        //     .attr('y', '60');
-        // info.append('text')
-        //     .attr('id', 'employees')
-        //     .attr('x', '10')
-        //     .attr('y', '80');
-    }
-
-    // Display info about a company
+    // Update info about a company
     updateInfo() {
         d3.select('#company-name').text(this.company.company);
-        d3.select('#market-cap').text('Market Cap (millions): ' + this.company.market_cap);
-        d3.select('#employees').text('Number of employees: ' + this.company.n_employee)
+        d3.select('#market-cap').text('Market cap (millions): ' + (this.company.market_cap? this.company.market_cap: "N.A."));
+        d3.select('#employees').text('Number of employees: ' + (this.company.n_employee? this.company.n_employee: "N.A."));
+        d3.select('#revenue').text('Revenue (millions): ' + (this.company.revenue? this.company.revenue: "N.A."));
+        d3.select('#male').text('Male vs Female: ' + (this.company.male_pct?
+            (this.company.male_pct*100).toFixed(2) + "% vs " + ((1-this.company.male_pct)*100).toFixed(2) + "%": "N.A."));
+        // d3.select('#male')
     }
 }
 
@@ -99,10 +71,8 @@ class Table {
                         d3.select('#sectors').selectAll('tr').filter(d => d == compSelection.sector).classed('bold', true);
                         d3.select(this).classed('bold', true);
                         that.highlightItem(d.company);
-                        //Draw university or company links
-                        //that.map.drawCompUnivLinks(d);
 
-                        // Highlight nodes that links connect to
+                        // draw the links and also highlighted the connected nodes
                         links = that.map.drawCompLinks(d);
                         let filterLinks = [];
                         for (let link of links) {
@@ -155,11 +125,13 @@ class Table {
                         d3.selectAll('circle').classed('selected', false);
                     }
                     that.clicked = true;
+                    that.map.resetView();
                     d3.select('#comp-dropdown').selectAll('tr').classed('bold', false);
                     d3.select(this).classed('bold', true);
                     that.highlightItem(d.company);
-                    that.map.drawCompLinks(d);
+
                     links = that.map.drawCompLinks(d);
+
                     let filterLinks = [];
                     for (let link of links) {
                         if (!filterLinks.includes(link.from_company_id)) {
@@ -205,7 +177,7 @@ class Table {
             //Highlight only companies in selected state
             else {
                 d3.selectAll('circle').filter(d => d.sector === hoveredName)
-                    .filter(d => d.headoffice_address.includes(abbr))
+                    .filter(d => d.state.includes(abbr))
                     .classed('selected', function () {
                         this.parentElement.appendChild(this);
                         return true;
@@ -225,7 +197,7 @@ class Table {
                         return true;
                     })
             }
-            // Highlight linked companyies
+            // Highlight linked companies
             else {
                 d3.selectAll('circle').filter(d => d.company_id === hoveredName)
                     .classed('selected', function (d) {
@@ -340,8 +312,7 @@ class Map {
 
 
         let mapGroup = map.append("g")
-            .attr("class", "states")
-            // .attr('transform', 'translate(-90, 0)');
+            .attr("class", "states");
 
         //Scale for coloring states by market cap
         let minMcap = d3.min(this.stateData, (d) => d.marketCap);
@@ -412,7 +383,6 @@ class Map {
 
         //Draw infoBox to display company information
         this.infoBox = new companyInfoBox;
-        this.infoBox.drawInfoBox();
 
         // // Give university and company toggle buttons functionality
         // d3.select('#univ-button').on('click', () => this.drawNodes(this.univData));
@@ -608,13 +578,13 @@ class Map {
 
     // Find companies based on filter criteria
     findCompanies(filterCriteria, filterType) {
-        let companyArray = []
+        let companyArray = [];
         let datArray = this.companyData;
         let currentStateCompanies = this.companyDropdown.stateData;
         let elements = this.companyDropdown.elements.slice();
         if (filterType === 'Address') {
             for (let company of datArray) {
-                let address = company.headoffice_address;
+                let address = company.state;
                 if (address.includes(filterCriteria)) {
                     companyArray.push(company);
                 }
@@ -693,9 +663,12 @@ class Map {
             .attr('style', d => "stroke:" + d3.interpolateRgb('blue', 'red')(scaleNodeWeight(d.n_grad)) + ";stroke-width:" + scaleNodeWeight(d.n_grad));
     }
 
+    // If some board member ever came to the current company from a different company
+    // draw a link between the companies
     drawCompLinks(company) {
         let that = this;
         let links = [];
+
         // Find links to company (repeated)
         for (let link of this.compLinks) {
             if (link.to_company_id === company.company_id) {
@@ -703,11 +676,11 @@ class Map {
             }
         }
 
-        //Scale for link weights
-        let minMcap = d3.min(links, (d) => links.filter((obj) => obj.name_id === d.name_id).length);
-        let maxMcap = d3.max(links, (d) => links.filter((obj) => obj.name_id === d.name_id).length);
+        // Scale for link weights
+        let minLink = d3.min(links, (d) => links.filter((obj) => obj.name_id === d.name_id).length);
+        let maxLink = d3.max(links, (d) => links.filter((obj) => obj.name_id === d.name_id).length);
         let scaleNodeWeight = d3.scaleLinear()
-            .domain([minMcap, maxMcap])
+            .domain([minLink, maxLink])
             .range([.5, 2]);
 
         // Draw selected company links to universities (repeated)
@@ -715,19 +688,10 @@ class Map {
             .selectAll('line')
             .data(links)
             .enter().append('line')
-
             .attr('x1', d => that.projection([d.from_lng, d.from_lat])[0].toString())
             .attr('y1', d => that.projection([d.from_lng, d.from_lat])[1].toString())
             .attr('x2', d => that.projection([d.to_lng, d.to_lat])[0].toString())
             .attr('y2', d => that.projection([d.to_lng, d.to_lat])[1].toString())
-            .attr('style', 'stroke:red;stroke-width:1')
-            // .attr('style', d => "stroke:" + d3.interpolateRgb('blue', 'red')(scaleNodeWeight(d.n_grad)) + ";stroke-width:" + scaleNodeWeight(d.n_grad));
-
-            .attr('x1', d => that.projection([d.from_lng, d.from_lat])[0].toString())
-            .attr('y1', d => that.projection([d.from_lng, d.from_lat])[1].toString())
-            .attr('x2', d => that.projection([d.to_lng, d.to_lat])[0].toString())
-            .attr('y2', d => that.projection([d.to_lng, d.to_lat])[1].toString())
-            //.attr('style', 'stroke:red;stroke-width:1')
             .attr('style', d => "stroke:" + d3.interpolateRgb('blue', 'red')
                 (scaleNodeWeight(links.filter((obj) => obj.name_id === d.name_id).length))
                 + ";stroke-width:" + scaleNodeWeight(links.filter((obj) => obj.name_id === d.name_id).length));
@@ -743,7 +707,6 @@ class Map {
     // click function
     clicked(d, currentNode) {
 
-        console.log(this.active.node());
         // Zoom out of a state if it's zoomed in
         if (this.active.node() === currentNode) {
             return this.resetView(false);
@@ -760,6 +723,7 @@ class Map {
             y = (bounds[0][1] + bounds[1][1]) / 2,
             scale = .8 / Math.max(dx / 1100, dy / 700),
             translate = [1100 / 2 - scale * x, 700 / 2 - scale * y];
+        //!!!
 
         d3.select(".states")
             .transition()
@@ -768,23 +732,15 @@ class Map {
     }
 
 
-    // Display by sector
-    displaySector() {
-
-    }
-
-    // Collapse sectors
-    collapseSector() {
-
-    }
-
     // render the tooltip
     tooltipRender(datum) {
         let text = datum;
         return text;
     }
 
-    // Reset the map view to the whole US
+    /** Reset the map view to the whole US
+     * @param resetLabel: whether resetting the state info as United States or keeping the current state
+     */
     resetView(resetLabel = true) {
         this.active.classed("active", false);
         this.active = d3.select(null);
