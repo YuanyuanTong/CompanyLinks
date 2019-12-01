@@ -1,13 +1,32 @@
 <html>
 <head>
-    <meta charset="UTF-8">
-    <script src="https://d3js.org/d3.v5.js"></script>
+<title>Welcome!</title>
+<style type="text/CSS">
+body {background-color: #DCDCDC}
+</style>
+
+<script type="text/javascript">
+window.onload=timeout;
+function timeout(){
+<img src="test.jpg"></img>
+window.setTimeout("refresh()",2000)}
+
+function refresh(){
+window.location="Home.htm"
+return}
+
+</script>
 </head>
-<body>
-<h2>Google Map Address</h2>
-<a href='#' onclick='downloadCSV({ filename: "company-data.csv" });'>Download company coordinates</a>
-<a href='#' onclick='downloadCSV({ filename: "university-data.csv" });'>Download university coordinates</a>
-<script src="http://maps.google.com/maps/api/js?key=AIzaSyDz5RfMKzI99qM8VL2hkmj_0QA_PsmE4xY"></script>
-<script src="js/script1.js"></script>
+
+<body onload="timeout()">
+<h1>How about this one?</h1>
+
+<!-- <br>
+<form>
+<input type="button" value="Home Page" onClick="redirect()">
+</form> -->
+
+<p>Thank You For Visiting!</p>
+
 </body>
 </html>
