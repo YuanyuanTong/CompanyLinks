@@ -123,7 +123,7 @@ class Chord {
     tooltipRender(datum) {
         let result = "<div> From " + this.ind_names[datum.source.index]
             + " to " + this.ind_names[datum.target.index] + "</div>";
-        result = result + "<div>" + this.ind_matrix[datum.source.index][datum.target.index]+"</div>";
+        result = result + "<div> There were " + this.ind_matrix[datum.source.index][datum.target.index]+" board member transfers.</div>";
         return result;
     }
 
