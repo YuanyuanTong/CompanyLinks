@@ -2,24 +2,27 @@
 <link rel="stylesheet" href="welcome.css"/>
 
 <div class="container">
-<div class="scroller">
-<div class="inner">
-<span>How companies distributted in each state?</span>
-<span>How companies connect to each other?</span>
-<span>Do companies share board members?</span>
-<span>We'll show you in the <a class="blue">Company</a> <a class="blueb">Links.</a></span>
-</div>
-</div>
+    <div class="scroller">
+        <div class="inner">
+            <span>How companies distributted in each state?</span>
+            <span>How companies connect to each other?</span>
+            <span>Do companies share board members?</span>
+            <span>We'll show you in the <a class="blue">Company Links.</a></span>
+        </div>
+    </div>
 </div>
 
 <script>
-window.onload=timeout;
-function timeout(){
-window.setTimeout("redirect()",15000)}
+    window.onload = timeout;
 
-function redirect(){
-window.location="links.html"
-return}
+    function timeout() {
+        window.setTimeout("redirect()", 8000)
+    }
+
+    function redirect() {
+        window.location = "links.html";
+        return;
+    }
 
 </script>
 
