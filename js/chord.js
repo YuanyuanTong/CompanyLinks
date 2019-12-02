@@ -3,6 +3,7 @@ class Chord {
     constructor(data, updateSector) {
         this.ind_matrix = data;
         this.ind_names = ["Aerospace & Defence", "Automobiles & Parts", "Banks", "Beverages", "Blank Check / Shell Companies", "Business Services", "Chemicals", "Clothing & Personal Products", "Construction & Building Materials", "Consumer Services", "Containers & Packaging", "Diversified Industrials", "Education", "Electricity", "Electronic & Electrical Equipment", "Engineering & Machinery", "Food & Drug Retailers", "Food Producers & Processors", "Forestry & Paper", "General Retailers", "Health", "Household Products", "Information Technology Hardware", "Insurance", "Investment Companies", "Leisure & Hotels", "Leisure Goods", "Life Assurance", "Media & Entertainment", "Mining", "Oil & Gas", "Pharmaceuticals and Biotechnology", "Private Equity", "Publishing", "Real Estate", "Renewable Energy", "Software & Computer Services", "Speciality & Other Finance", "Steel & Other Metals", "Telecommunication Services", "Tobacco", "Transport", "Utilities - Other", "Wholesale Trade"];
+        this.ind_colors = ['#66c2a5', '#66c2a5', '#66c2a5', '#66c2a5', '#66c2a5', '#66c2a5', '#fc8d62', '#fc8d62', '#fc8d62', '#fc8d62', '#fc8d62', '#fc8d62', '#8da0cb', '#8da0cb', '#8da0cb', '#8da0cb', '#8da0cb', '#8da0cb', '#e78ac3', '#e78ac3', '#e78ac3', '#e78ac3', '#e78ac3', '#e78ac3', '#a6d854', '#a6d854', '#a6d854', '#a6d854', '#a6d854', '#a6d854', '#ffd92f', '#ffd92f', '#ffd92f', '#ffd92f', '#ffd92f', '#ffd92f', '#e5c494', '#e5c494', '#e5c494', '#e5c494', '#e5c494', '#e5c494', '#b3b3b3', '#b3b3b3']
         this.updateSector = updateSector;
     }
 
@@ -23,6 +24,7 @@ class Chord {
         }
 
         this.ind_matrix = ind_link_data;
+
 
         let chord = d3.select('#chord-diagram')
             .append('svg')
@@ -47,8 +49,8 @@ class Chord {
             })
             .join("g");
         group.append("path")
-            .style("fill", "grey")
-            .style("stroke", "black")
+            .style("fill", (d, i) => {return that.ind_colors[i]})
+            // .style("stroke", "black")
             .attr("d", d3.arc()
                 .innerRadius(300)
                 .outerRadius(310)
@@ -98,7 +100,7 @@ class Chord {
             .data(d => d)
             .join("path")
             .attr("d", d3.ribbon().radius(290))
-            .style("fill", "#69b3a2")
+            .style("fill", (d, i) => {return that.ind_colors[d.source.index]})
             .on("mouseover", function (d) {
                 // add a touch of glow to the hovered link
                 d3.select(this)
