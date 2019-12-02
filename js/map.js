@@ -570,14 +570,14 @@ class Map {
 
         // Add color gradient legend
         let legendTitle = d3.select('#map-view').append('div')
-            .attr('style', 'top: ' + (map_height + title_height - 40) + 'px; left: ' + (map_width - 310) + 'px; position: absolute;')
+            .attr('style', 'top: ' + (map_height + title_height - 40) + 'px; left: ' + (map_width - 260) + 'px; position: absolute;')
             .append('text')
             .classed('legend-text', true)
             .text('Aggregate market cap in millions');
 
         let legend = d3.select('#map-view').append('div')
             .attr('id', 'gradient-legend')
-            .attr('style', 'top: ' + (map_height + title_height - 20) + 'px; left: ' + (map_width - 350) + 'px; position: absolute;');
+            .attr('style', 'top: ' + (map_height + title_height - 20) + 'px; left: ' + (map_width - 300) + 'px; position: absolute;');
         legend.append('text')
             .classed('legend-text', true)
             .text('$' + minMcap);
