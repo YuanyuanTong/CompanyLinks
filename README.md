@@ -2,7 +2,7 @@
 This visualization (Company Links) is our project for CS 6630: Visualization for Data Science. 
 
 In **Company Link** we try to achieve four things:
-- Visualize the **largest 2700+ US companies** (in terms of market capitalization) on the **map**, while enable flexible company browsing by sectors/states.
+- Visualize the **largest 2500+ US companies** (in terms of market capitalization) on the **map**, while enable flexible company browsing by sectors/states.
 
 - Show **links between companies**. We establish a link between any two companies if they share board members.
 
@@ -30,9 +30,9 @@ In **Company Link** we try to achieve four things:
 - **Any external libraries?** We didn't use any external libraries except for the `d3`.
 
 # Demo
-- Demo website: For public demo please visit here. 
+- Demo website: [here](https://yuanyuantong.github.io/CompanyLinks)
 
-- Vimeo walk-through video: here![img](https://vimeo.com/376748186) 
+- Vimeo walk-through video: [here](https://vimeo.com/376748186)
 
 
 # Team Members
