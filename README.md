@@ -2,13 +2,13 @@
 This visualization (Company Links) is our project for CS 6630: Visualization for Data Science. For public demo please visit here. We also include a YouTube walkthrough video.
 
 In **Company Link** we try to achieve four things:
-- Visualize the largest 2700+ US companies (in terms of market capitalization) on the map, while enable flexible company browsing by sectors/states.
+- Visualize the **largest 2700+ US companies** (in terms of market capitalization) on the **map**, while enable flexible company browsing by sectors/states.
 
-- Show links between companies. We establish a link between any two companies if they share board members.
+- Show **links between companies**. We establish a link between any two companies if they share board members.
 
-- Show detail company profiles. This inclde market cap, revenue, sector (according to the Financial Times classification), and gender/education/nationality distribution of individual companies.
+- Show **detail company profiles**. This inclde market cap, revenue, sector (according to the Financial Times classification), and gender/education/nationality distribution of individual companies.
 
-- Show links between sectors. We show this in a chord diagram.
+- Show **links between sectors**. We show this in a chord diagram.
 
 ![image](data/view-map.png)
 ![image](data/view-chord.png)
