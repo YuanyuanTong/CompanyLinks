@@ -45,9 +45,9 @@
  }
  
  .scroller .inner {
-    -webkit-animation: scroll 17s 1 ease-out;
-    -moz-animation: scroll 17s 1 ease-out;
-    animation: scroll 17s 1 ease-out;
+    -webkit-animation: scroll 8s 1 ease-out;
+    -moz-animation: scroll 8s 1 ease-out;
+    animation: scroll 8s 1 ease-out;
     -webkit-animation-fill-mode: forwards;
     -moz-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
@@ -59,29 +59,14 @@
     -moz-animation: color 0.25s 1 linear;
     animation: color 0.25s 1 linear;
     
-       -webkit-animation-delay: 8s;
-    -moz-animation-delay: 8s;
-    animation-delay: 8s;
+       -webkit-animation-delay: 4.25s;
+    -moz-animation-delay: 4.25s;
+    animation-delay: 4.25s;
     
        -webkit-animation-fill-mode: forwards;
     -moz-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     
- }
- 
- 
- .blueb {
-    -webkit-animation: color 0.25s 1 linear;
-    -moz-animation: color 0.25s 1 linear;
-    animation: color 0.25s 1 linear;
-    
-          -webkit-animation-delay: 8.25s;
-    -moz-animation-delay: 8.25s;
-    animation-delay: 8.25s;
-    
-       -webkit-animation-fill-mode: forwards;
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
  }
  
  
