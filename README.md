@@ -30,7 +30,7 @@ In **Company Link** we try to achieve four things:
 - **Any external libraries?** We didn't use any external libraries except for the `d3`.
 
 # Demo
-- Demo website: [here](YuanyuanTong.github.io/welcome)
+- Demo website: [here](https://yuanyuantong.github.io/CompanyLinks)
 
 - Vimeo walk-through video: [here](https://vimeo.com/376748186)
 
