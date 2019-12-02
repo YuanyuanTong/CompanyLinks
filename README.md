@@ -28,3 +28,8 @@ In **Company Link** we try to achieve four things:
 - **Vis_Project_Proposal**. The proposal of the project.
 
 - **Any external libraries?** We didn't use any external libraries except for the `d3`.
+
+# Team Members
+- Alec Nelson
+- Yuanyuan Tong
+- Yu Zhu
