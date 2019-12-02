@@ -1,5 +1,5 @@
 # Overview
-This visualization (Company Links) is our project for CS 6630: Visualization for Data Science. For public demo please visit here. We also include a YouTube walkthrough video.
+This visualization (Company Links) is our project for CS 6630: Visualization for Data Science. 
 
 In **Company Link** we try to achieve four things:
 - Visualize the **largest 2700+ US companies** (in terms of market capitalization) on the **map**, while enable flexible company browsing by sectors/states.
@@ -28,6 +28,12 @@ In **Company Link** we try to achieve four things:
 - **Vis_Project_Proposal**. The proposal of the project.
 
 - **Any external libraries?** We didn't use any external libraries except for the `d3`.
+
+# Demo
+- Demo website: For public demo please visit here. 
+
+- Vimeo walk-through video: here![img](https://vimeo.com/376748186) 
+
 
 # Team Members
 - Alec Nelson
