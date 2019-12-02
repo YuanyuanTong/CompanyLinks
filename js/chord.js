@@ -24,6 +24,17 @@ class Chord {
         }
 
         this.ind_matrix = ind_link_data;
+        
+        //fade unselected groups
+        // function fade() {
+        //     return function(d, i) {
+        //         svg.selectAll("path.chord")
+        //         .filter(function(d) {
+        //             return d.source.index != i && d.target.index != i;
+        //         })
+        //         .style("visibility", "hidden");
+        //     };
+        // }
 
 
         let chord = d3.select('#chord-diagram')
@@ -47,7 +58,10 @@ class Chord {
             .data(function (d) {
                 return d.groups;
             })
-            .join("g");
+            .join("g")
+            .attr('class', 'ring')
+
+
         group.append("path")
             .style("fill", (d, i) => {return that.ind_colors[i]})
             // .style("stroke", "black")
@@ -62,6 +76,7 @@ class Chord {
                 d3.select('#comp-dropdown').selectAll('tr').classed('bold', false);
                 d3.selectAll('circle').classed('selected', false);
             });
+        
 
         // Add the labels for each sector
         group.append("text")
@@ -92,6 +107,7 @@ class Chord {
         feMerge.append("feMergeNode")
             .attr("in","SourceGraphic");
 
+
         // Add the links between groups
         chord.datum(res)
             .append("g")
@@ -117,6 +133,23 @@ class Chord {
                 d3.select("#chord").select(".tooltip")
                     .style("opacity", 0);
             });
+
+        d3.selectAll('.ring')
+        .on("mouseover", (d, i) =>{
+            chord.selectAll("#chords")
+            .data(d=>d)
+            .filter(function(data) {
+                console.log(i)
+                console.log(d)
+                return data.source.index == i && data.target.index != i;
+            })
+            .style("visibility", "hidden");
+        })
+        .on("mouseout", (d, i) => {
+            chord.selectAll("#chords")
+            .style("visibility", "visible")
+        })
+
     }
 
     // Render the tooltip
