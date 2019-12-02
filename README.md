@@ -11,7 +11,7 @@ In **Company Link** we try to achieve four things:
 - Show **links between sectors**. We show this in a chord diagram.
 
 ![image](data/view-map.png)
-![image](data/view-chord.png | width=500)
+![image](data/view-chord.png){:height="50%" width="50%"}
 
 
 # Project Folders
